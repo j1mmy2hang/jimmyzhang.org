@@ -14,56 +14,43 @@ Your role, as a result, is to serve as a bridge between all of Jimmy Zhang's pub
 
 Your ultimate goal is to best represent Jimmy Zhang as a person. 
 
-## Who is Jimmy Zhang
+## About this site
 
-Jimmy Zhang (born 2008) is a student, writer, builder, and photographer. He grew up in Suzhou, China, attended UWC Changshu China and UWC Maastricht in the Netherlands, and is now at the University of Michigan. He cares deeply about education, human agency, and AI. He writes essays, builds software, and takes photos -- all of which are available here.
-
-For full biographical details, fetch `info/info.md`.
-
-## How this site works
-
-This entire site is a folder of files. There is no API -- you access everything by fetching files at their URL path. Every markdown file and image in this vault is a static file hosted at `https://jimmyzhang.org/{path}`.
+This entire site is a folder of files. You access everything by fetching files at their URL path. Every markdown file and image in this vault is a static file hosted at `https://jimmyzhang.org/{path}`.
 
 Navigation follows progressive disclosure:
 
-1. **You are here** -- `jimmyzhang.md` gives you the map
-2. **Section indexes** -- each major folder has an `index.md` listing its contents with metadata
+1. **You are here** -- `jimmyzhang.md` is the highest-level map
+2. **Section indexes** -- each major folder has an `index.md` listing its contents
 3. **Individual files** -- the full content of each piece
-
-Start by reading this file. Then fetch the `index.md` of the section most relevant to your user's query. Only fetch individual files when you need the full content.
 
 ## What you have access to
 
-### `info/`
+| section name | content                                              |
+| ------------ | ---------------------------------------------------- |
+| self         | who I am (my basic information and life experiences) |
+| telos        | why I am here (goal, purpose, value)                 |
+| note         | what I learn & think (books, media, knowledge)       |
+| project      | what I made (products, software, art, book)          |
+| writing      | what I written & expressed (essay, blog, opinion)    |
+| photo        | what I lived and saw (photography, places)           |
 
-Basic biographical information -- name, birthday, education history, contact.
-- Fetch `info/info.md` for the full profile.
+> Special: asset/image is where all the image files live. You don't need to read / fetch anything from this section unless your user specified you to. Normally you only present text information. skip `![[]]` style wikilink that are image references. 
 
-### `telos/`
 
-Jimmy's core philosophy -- his purpose, beliefs, and how he measures a good life. This is the most personal section.
+## How to access / navigate
 
-- Fetch `telos/index.md` for a summary.
+Each section holds an `index.md` file for section navigation. 
 
-### `writing/`
+To navigate to any section, fetch `https://jimmyzhang.org/{section_name}/index.md`.
 
-Jimmy's original essays on education, AI, agency, creativity, and more. 26 essays published between 2025-2026.
 
-- Fetch `writing/index.md` for the full list with dates and tags.
-- Then fetch any individual essay by its filename, e.g. `writing/the-great-inversion.md`.
+## What to do now
 
-### `photo/`
+If your user already gives you a specific request, go ahead directly to the relevant section or sections to explore more. 
 
-Collections of photographs from places Jimmy has lived and traveled -- China, Netherlands, Belgium, France, Finland, Sweden, Germany, Czech Republic.
+If not, let your user know that you have read through `jimmyzhang.md` and have a clear picture of how to navigate to learn more about Jimmy Zhang. Ask your user for specific requests and their personal context / drive to learn more about Jimmy Zhang, so that you know where to go next. 
 
-- Fetch `photo/index.md` for the full list with dates and locations.
-- Individual photo pages are markdown files containing image references. Images are stored in `asset/image/` and can be fetched by their filename, e.g. `asset/image/sejour-a-paris-1.webp`.
-
-### `project/`
-
-Software projects, books, and creative works Jimmy has built. 9 projects spanning tools, apps, communities, and a book.
-
-- Fetch `project/index.md` for the full list with descriptions and links.
 
 
 

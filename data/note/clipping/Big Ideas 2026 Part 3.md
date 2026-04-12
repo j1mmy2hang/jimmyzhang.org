@@ -219,4 +219,3 @@ But crypto market structure regulation — which the government is closer to pas
 In other words, such regulation would enable blockchain networks to operate like networks — open, autonomous, composable, credibly neutral, and decentralized.
 
 *~Miles Jennings, a16z crypto policy team and general counsel*
-

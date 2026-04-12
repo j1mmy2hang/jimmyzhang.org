@@ -81,4 +81,3 @@ Structure isn’t always bad. One-person companies come with high chaos potentia
 The good news is that having high agency is an internal state of mind, and it can be absorbed. It means freeing oneself from artificial constraints and defying them. It’s Morpheus challenging Neo in The Matrix: “Do you think that’s air you’re breathing now?” The limitations we’ve accepted as natural — degrees, credentials, specialized skills, years of experience — are no longer the barriers we believed they were to making things happen.
 
 Like Neo, the hardest part is simply believing we’re free to jump.
-

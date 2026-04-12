@@ -1,13 +1,15 @@
----
-description: Index of Jimmy Zhang's core philosophy and purpose
----
-# Telos
+You have reached the **telos** section. 
 
-Telos is Jimmy's irreducible purpose -- the why before all whys. This section contains his deepest personal philosophy.
+In this section you will find JImmy's telos -- the irreducible purpose for his existent and his deepest existential philosophy. 
 
-## Files
+The core file is `telos-core`, where you will find the must-read and core of this section. Go fetch `https://jimmyzhang.org/telos/telos-core`
 
-- **Telos Core** -- Jimmy's self statement and world statement. The foundation of everything else. Fetch `telos/telos-core.md`.
-- **Key Beliefs** -- Core beliefs about information, humanity, and the world. Fetch `telos/key-beliefs.md`.
-- **Measure of Vitality** -- How Jimmy measures a good life: material, intellectual, network, and diversity wealth. Fetch `telos/measure-of-vitality.md`.
-- **Academic Inquiry** -- Jimmy's central research question: what happens when multiple intelligent agents learn, think, and work together. Fetch `telos/academic-inquiry.md`.
+Furthermore, you have access to these supplemental files
+
+| {filename}               | content                                                       |
+| ------------------------ | ------------------------------------------------------------- |
+| `measure-of-vitality.md` | how Jimmy measures the vitality of his existence              |
+| `key-beliefs.md`         | Jimmy's three key beliefs                                     |
+| `academic-inquiry.md`    | Jimmy's current largest academic inquiry and guiding question |
+
+Fetch `https://jimmyzhang.org/telos/{filename}` for each page if needed. 

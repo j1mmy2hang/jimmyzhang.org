@@ -95,4 +95,3 @@ It's clear that reputation is a timeless thing. But would we also teach our kids
 I’m not so sure about this. Then again, I’m probably too old for TikTok. I’ve been digging into brand building and brand history out of curiosity — what did it feel like, creating the brand playbooks that we take for granted today? How much of that experience informs our current moment?
 
 From what I’ve read, I can say only the following with confidence: it is the rare person indeed who can keep a personal brand relevant for longer than a decade. There aren’t many Estées and Madonnas around, after all. And I think it is easy to grok why: personal brand building takes continued effort, whereas reputation is simply the result of our actions over a long period of time.
-

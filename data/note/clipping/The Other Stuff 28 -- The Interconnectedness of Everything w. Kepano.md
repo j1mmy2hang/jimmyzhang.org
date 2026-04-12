@@ -35,4 +35,4 @@ This is a conversation about craftsmanship, pursuing a deep understanding, and w
 02:49:00 Constraint and Patterns  
 02:58:47 Kepiano  
 03:13:00 The Future of AI and Startups  
-03:31:10 Closing  
+03:31:10 Closing

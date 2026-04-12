@@ -14,4 +14,3 @@ rating: 7
 
 
 > "Until then, I'm glad I share the planet with you."
-
