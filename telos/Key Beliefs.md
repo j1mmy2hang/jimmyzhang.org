@@ -1,0 +1,3 @@
+- Information is a key component of the universe, along with matter and energy. Knowledge shapes the world. 
+- The world is made up of people and games made by people. 
+- Humanity wins. 

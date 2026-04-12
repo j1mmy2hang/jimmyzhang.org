@@ -1,0 +1,6 @@
+---
+created: 2025-09-21
+---
+Langston Hughes argues that Black artists should express a unique Black identity through their work, viewing it as the very foundation of "true Negro art." He identifies a significant obstacle, a "mountain," in the "urge within the race toward whiteness," which he interprets as a denial of racial individuality. Hughes expresses disappointment with artists who wish to be "a poet—not a Negro poet," seeing it as a subconscious desire to shed their Blackness.
+
+He champions the "low-down folks" who unapologetically embrace their culture—their jazz, spirituals, and distinctive way of life—as the source of "a wealth of colorful, distinctive material." Hughes asserts it is the "duty of the younger Negro artist" to transform the self-deprecating whisper of "I want to be white" into a proud declaration: "I am a Negro—and beautiful!" He advocates for art that fearlessly depicts "dark faces," celebrates Black "soul-world" expressions, and draws from the rich heritage of rhythm, warmth, and ironic humor. For Hughes, authentic Black art must emerge from an unashamed and joyful embrace of one's racial self, irrespective of white or even Black middle-class approval.
