@@ -1,4 +1,5 @@
 ---
+title: "Campus"
 date: 2025-05-09
 location: Maastricht, Netherlands
 description:
