@@ -1,5 +1,5 @@
 ---
-title: ""Enjoy Your Break""
+title: '"Enjoy Your Break"'
 published: 2026-02-20
 reference:
   - "[[Why I don't like it when people tell me to \"enjoy your break\"]]"

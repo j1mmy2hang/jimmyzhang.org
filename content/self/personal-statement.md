@@ -1,7 +1,6 @@
 ---
 title: "Personal Statement"
 ---
-
 I spent 9 years of my life in the national Chinese curriculum. 
 Spent 1 year in UWC Changshu, a prestigious international school, 
 and 2 years in UWC Maastricht, a boarding public-school in the Netherlands. 

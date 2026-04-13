@@ -1,7 +1,6 @@
 ---
 title: "Self Portrait"
 ---
-
 ## Self-given titles
 
 - agentic learner & thinker

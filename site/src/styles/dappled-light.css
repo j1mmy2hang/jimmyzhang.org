@@ -1,0 +1,57 @@
+.dappled-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+  mix-blend-mode: multiply;
+}
+
+.dappled-toggle {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: var(--tx-3);
+  cursor: pointer;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dappled-toggle:hover {
+  color: var(--tx);
+}
+
+.dappled-toggle:focus-visible {
+  outline: 1px solid var(--tx-2);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.dappled-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+  transition: transform 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dappled-toggle-icon.is-on {
+  transform: rotate(360deg);
+}
+
+.dappled-ray {
+  opacity: 0.35;
+  transition: opacity 1.2s ease;
+}
+
+.dappled-toggle-icon.is-on .dappled-ray {
+  opacity: 1;
+}

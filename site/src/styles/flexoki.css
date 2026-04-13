@@ -1,0 +1,36 @@
+:root {
+  --paper: #FFFCF0;
+  --base-50: #F2F0E5;
+  --base-100: #E6E4D9;
+  --base-150: #DAD8CE;
+  --base-200: #CECDC3;
+  --base-300: #B7B5AC;
+  --base-500: #878580;
+  --base-600: #6F6E69;
+  --base-700: #575653;
+  --base-800: #403E3C;
+  --base-850: #343331;
+  --base-900: #282726;
+  --base-950: #1C1B1A;
+  --black: #100F0F;
+
+  --bg: var(--paper);
+  --bg-2: var(--base-50);
+  --ui: var(--base-100);
+  --ui-2: var(--base-150);
+  --ui-3: var(--base-200);
+  --tx-3: var(--base-300);
+  --tx-2: var(--base-600);
+  --tx: var(--black);
+}
+
+:root[data-theme="dark"] {
+  --bg: var(--black);
+  --bg-2: var(--base-950);
+  --ui: var(--base-900);
+  --ui-2: var(--base-850);
+  --ui-3: var(--base-800);
+  --tx-3: var(--base-700);
+  --tx-2: var(--base-500);
+  --tx: var(--base-200);
+}

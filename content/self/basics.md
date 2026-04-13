@@ -6,10 +6,6 @@ title: "Basics"
 
 name: Jimmy Zhang
 birthday: 2008-05-28
-nationality: Chinese
-
-height: 178 cm / 5'10"
-weight:  56 kg
 
 
 ## Education / Life Trajectory
@@ -21,7 +17,6 @@ weight:  56 kg
 | UWC Maastricht         | Maastricht, Netherlands | 2024-2026      |
 | University of Michigan | Michigan, United States | 2026 - present |
 
-to listen to Jimmy Zhang telling these experiences in his own words, fetch /self/personal-statement
 
 ## Contact
 
