@@ -10,7 +10,7 @@ created: 2025-08-06
 
 [[illusion-of-explanatory-depth-people-feel-they-understand-complex-phenomena-with-far-greater-precision-coherence-and-depth-than-they-really-do]]
 
-similar:: [Knowledge is Ignorance](https://jimmyzhang.org/think/knowledge-is-ignorance)
+similar:: [Knowledge is Ignorance](https://jimmyzhangorg.netlify.app/think/knowledge-is-ignorance)
 
 You never turly "learned" something unless you were able to build it from scratch. 
 

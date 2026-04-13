@@ -1,6 +1,6 @@
 You have reached the **note/clipping** section.
 
-Each clipping file contains the full content of a piece Jimmy consumed and found meaningful. The **Atomic Notes** column lists the individual ideas Jimmy extracted from each piece — fetch any of those titles at `https://jimmyzhang.org/note/atomic/{url-encoded-title}.md`
+Each clipping file contains the full content of a piece Jimmy consumed and found meaningful. The **Atomic Notes** column lists the individual ideas Jimmy extracted from each piece — fetch any of those titles at `https://jimmyzhangorg.netlify.app/note/atomic/{url-encoded-title}.md`
 
 **Rating** = Jimmy's personal score (1–10). **Atomic Notes** = ideas extracted from that piece.
 

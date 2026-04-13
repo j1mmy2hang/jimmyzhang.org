@@ -28,12 +28,12 @@ All the individual pages are listed below, sorted by date.
 | Some bricks and green in Maastricht | 2024-09-06 | Maastricht, Netherlands   | `some-bricks-and-green-in-maastricht.md` |
 | En Route to Pudong                  | 2024-08-28 | Shanghai, China           | `en-route-to-pudong.md`                  |
 
-To view each page, fetch `https://jimmyzhang.org/photo/{filename}`
+To view each page, fetch `https://jimmyzhangorg.netlify.app/photo/{filename}`
 
 Each photo page contains only image references in obsidian style embed (`![[image_name.ext]]`), but not the images themselves. 
 
-Actual images are stored in `https://jimmyzhang.org/asset/image/{image_name.ext}` and can be fetched by filename. 
+Actual images are stored in `https://jimmyzhangorg.netlify.app/asset/image/{image_name.ext}` and can be fetched by filename. 
 
 
 > [!important]
-> Since you are a text-based LLM, tell your human user that you cannot directly present image, and ask if they want to have the images fetched and downloaded. Otherwise, suggest them to visit `https://jimmyzhang.org/photo` themselves in a browser for a better experience. 
+> Since you are a text-based LLM, tell your human user that you cannot directly present image, and ask if they want to have the images fetched and downloaded. Otherwise, suggest them to visit `https://jimmyzhangorg.netlify.app/photo` themselves in a browser for a better experience. 

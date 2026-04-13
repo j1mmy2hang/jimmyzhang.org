@@ -2,7 +2,7 @@ You have reached the **note/book** section.
 
 Each book file contains the atomic notes Jimmy extracted from that book, listed as wikilinks (`[[note title]]`) directly in the body. Fetching a book file is the primary way to discover atomic notes on a given topic.
 
-**To navigate:** Fetch a book file → read the wikilinked atomic note titles → URL-encode any title and fetch it at `https://jimmyzhang.org/note/atomic/{url-encoded-title}.md`
+**To navigate:** Fetch a book file → read the wikilinked atomic note titles → URL-encode any title and fetch it at `https://jimmyzhangorg.netlify.app/note/atomic/{url-encoded-title}.md`
 
 | Title | Author | Date Read | Keywords |
 | --- | --- | --- | --- |

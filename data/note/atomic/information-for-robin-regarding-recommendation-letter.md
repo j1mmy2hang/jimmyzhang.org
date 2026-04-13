@@ -40,7 +40,7 @@ Jimmy Zhang
 
 ## Some Other Links about me
 
-- https://jimmyzhang.org -- my personal homepage where I share my essays, photography, and some projects.
+- https://jimmyzhangorg.netlify.app -- my personal homepage where I share my essays, photography, and some projects.
 - https://jimmyzhang.space -- where I open-soucre my knowledge & learning through sharing my notes, with monthly updates
 
 

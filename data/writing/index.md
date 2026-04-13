@@ -2,7 +2,7 @@ You have reached the **writing** section.
 
 In this section you will find all of Jimmy's essays, mostly on education, AI, and human agency. Sorted by date, newest first.
 
-To read any essay, fetch `https://jimmyzhang.org/writing/{filename}`.
+To read any essay, fetch `https://jimmyzhangorg.netlify.app/writing/{filename}`.
 
 | Title                                                                              | Published  | Tags                                 | {filename}                                                                            |
 | ---------------------------------------------------------------------------------- | ---------- | ------------------------------------ | ------------------------------------------------------------------------------------- |

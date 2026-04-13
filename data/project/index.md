@@ -17,3 +17,4 @@ For this section you don't need to fetch individual page, as everything is alrea
 | Larc Mini                       | Oct 2025 | Obsidian-like note-taking app with AI sidebar                                                                     | https://larcmini.app                                     |
 | The Education I want            | Aug 2025 | My first book on education                                                                                        | https://theeducationiwant.my                             |
 | OpenLearn Community             | May 2025 | A Mastodon online community to empower collective self-directed learning                                          | https://learninginpublic.space                           |
+
