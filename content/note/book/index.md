@@ -1,8 +1,8 @@
 You have reached the **note/book** section.
 
-To navigate the each book file, fetch `https://jimmyzhangorg.netlify.app/book/{filename}`
+To navigate the each book file, fetch `https://jimmyzhang-org.netlify.app/book/{filename}`
 
-To navigate to each atomic note within each book, fetch `https://jimmyzhangorg.netlify.app/note/atomic/{wikilink}.md`
+To navigate to each atomic note within each book, fetch `https://jimmyzhang-org.netlify.app/note/atomic/{wikilink}.md`
 
 | Title                                                                                                            | Author                                                  | Date Read  | Keywords                    | {filename}                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
