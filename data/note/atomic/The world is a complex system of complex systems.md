@@ -1,2 +1,0 @@
-Complexity Science
-System Dynamics

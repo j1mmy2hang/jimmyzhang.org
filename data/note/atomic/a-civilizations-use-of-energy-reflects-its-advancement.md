@@ -1,0 +1,12 @@
+---
+title: "一个文明对能源的利用体现其先进程度"
+
+created: 2024-11-17
+tags:
+  - energy
+---
+Kardashev Scale：
+
+> - <u>A Type I civilization</u> is able to access all the energy available on its ==planet== and store it for consumption. Hypothetically, it should also be able to control natural events such as earthquakes, volcanic eruptions, etc.
+> - <u>A Type II civilization</u> can directly consume a ==star=='s energy, most likely through the use of a Dyson sphere.
+> - <u>A Type III civilization</u> is able to capture all the energy emitted by its ==galaxy==, and every object within it, such as every star, black hole, etc.

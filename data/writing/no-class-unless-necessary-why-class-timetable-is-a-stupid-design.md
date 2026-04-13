@@ -57,5 +57,5 @@ You don't fill in the content of each class just to make sure there is something
 
 假想，如果没有固定的课时安排，而只有一个这个学期要学什么的一个清单，然后学生和老师可以自由安排上课时间、地点、进度，只要保证在学期结束之前把该学的都学完了就行。这样的话学生有一个清晰的预期和目的感，知道自己这学期是要干什么的，并可以按照自己的节奏灵活自主安排学习的进度 -- 自己为自己负责，以目标为导向。
 
-[[The constant interruption by bells and segmented schedules teaches students not to invest deeply in any task, as nothing is ever truly finished]]
+[[the-constant-interruption-by-bells-and-segmented-schedules-teaches-students-not-to-invest-deeply-in-any-task-as-nothing-is-ever-truly-finished]]
 

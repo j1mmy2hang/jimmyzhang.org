@@ -1,0 +1,12 @@
+---
+title: "文字形式与内容的统一"
+
+created: 2025-05-26
+---
+> The sound of writing turns out to be more like the shape of a plane than the color of a car. If it looks good, as Kelly Johnson used to say, it will fly well.
+
+> Writing that sounds good is more likely to be right.
+
+> The two senses of good writing (sound good - actually good) are more like two ends of the same thing
+
+-- Paul Graham [Good Writing](https://www.paulgraham.com/goodwriting.html)

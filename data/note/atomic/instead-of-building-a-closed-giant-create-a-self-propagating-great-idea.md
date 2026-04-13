@@ -1,0 +1,20 @@
+---
+title: "与其建立一家封闭的巨头公司，不如创造一个能自我传播的伟大理念"
+
+created: 2026-01-29 11:25
+reference:
+  - "[[build-unix-not-uber]]"
+---
+公司的成功依赖于两个条件：
+
+1. **稀缺性**：公司卖的东西必须是稀缺的。
+2. **法律保护**：法律必须保证别人不能随意抄袭或偷窃公司的成果。
+
+但是：如果未来万物皆免费，或者创意可以被零成本复制 ([[From scarcity to abundance]]，公司这种组织形式可能会失效。公司可能只是人类历史特定阶段（稳定期、稀缺期）的产物。
+
+人类正从“大公司主导社会”的时代，走向“**独立创意主导社会**”的时代。([[from-organizational-society-to-sovereign-individual-society]])
+
+如果你想创造真正的历史遗产，不要只盯着建立一家庞大的公司（Uber）。  
+你应该去寻找那些能自我传播的伟大思想，并将它们释放到世界上（UNIX）。
+
+[[instead-of-capturing-value-through-scarcity-use-technology-to-eliminate-scarcity-and-create-value]]

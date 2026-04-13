@@ -1,0 +1,7 @@
+---
+title: "我的时代值得投资的领域技能"
+
+created: 2025-10-11
+---
+- Agentic AI -- using AI to tackle real problems; rewriting all software with AI
+- Spatial computation (VisionOS development) -- rewriting MacOS Apps for VisionOS (e.g. Loop for window management)

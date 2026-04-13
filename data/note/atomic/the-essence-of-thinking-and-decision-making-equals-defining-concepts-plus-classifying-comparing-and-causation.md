@@ -1,0 +1,34 @@
+---
+title: "思考决策的本质 = 概念的定义 + 分类｜比较｜因果"
+
+created: 2025-12-03 16:45
+---
+![[Screenshot 20251203 at 164548@2x.jpg]]
+
+## 定义-- 必要 + 准确
+
+![[Screenshot 20251203 at 164628@2x.jpg]]
+
+## 分类 -- MECE
+
+![[Screenshot 20251203 at 164718@2x.jpg]]
+
+![[Screenshot 20251203 at 165014@2x.jpg]]
+
+## 比较
+
+![[Screenshot 20251203 at 165039@2x.jpg]]
+## 因果
+
+A真的是B的原因吗？ 
+如果A是B的原因，那么，A是B的唯一原 因吗？
+如果A不是B的唯一原因，那么还有哪些原因？
+如果A 不是B的最重要原因，那么最重要的原因是什么？
+
+![[Screenshot 20251203 at 164955@2x.jpg]]
+
+![[Screenshot 20251203 at 164738@2x.jpg]]
+
+### 时间的不可忽略性
+
+[[the-core-goal-of-thinking-is-to-predict-the-future]]

@@ -1,0 +1,11 @@
+---
+title: "One may feel lost in one direction"
+
+tags:
+  - meaning
+  - direction
+---
+Wanderers never get lost. -- because they don't have a direction
+lost = a lack of direction
+
+While a lack of direction can make one feel lost, too strong of a direction can also make them feel lost -- if you don't find meaning in that direction

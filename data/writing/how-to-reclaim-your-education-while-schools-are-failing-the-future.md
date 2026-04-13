@@ -83,11 +83,11 @@ And voilà.
 
 ## Backlogs
 
-[[Education, Learning, & School Publication]]
+[[education-learning-and-school-publication]]
 
-- [[A good education makes students feel like they're there to create history]]
-- [[The world need global-competent individuals to tackle global issues]]
-- [[A strong why is crucial for passion in education]]
+- [[a-good-education-makes-students-feel-like-theyre-there-to-create-history]]
+- [[the-world-need-global-competent-individuals-to-tackle-global-issues]]
+- [[a-strong-why-is-crucial-for-passion-in-education]]
 - [[上学是手段，受教育是目的]]
-- [[Most students do not possess an understanding of the meaning of school]]
-- [[Learning is one of the most essential skills for the 21st Century]]
+- [[most-students-do-not-possess-an-understanding-of-the-meaning-of-school]]
+- [[learning-is-one-of-the-most-essential-skills-for-the-21st-century]]

@@ -1,0 +1,15 @@
+---
+title: "适可而止"
+
+created: 2026-02-11 18:57
+reference:
+  - "[[rare-skills]]"
+---
+east:: [[its-better-to-go-too-far-and-then-dial-back-to-test-the-edge]]
+
+## Quit while you’re ahead, or at least before you’ve had too much
+
+> The temptation to exploit every drop of opportunity leads many people to push relentlessly for more, more, more. They only discover the limits of what’s possible when they’ve gone too far, when the momentum of decline is often unstoppable.
+> 
+> It’s such a rare skill. People don’t like leaving opportunities on the table, and it’s counterintuitive to realize that you’ll likely end up *with* more than those whose appetite *for* more is insatiable.
+> -- [[rare-skills]]

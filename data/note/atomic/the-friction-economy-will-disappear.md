@@ -1,0 +1,30 @@
+---
+title: "摩擦经济将消失"
+
+created: 2026-02-23 11:53
+reference:
+  - "[[the-2028-global-intelligence-crisis]]"
+---
+when friction went to zero 摩擦成本归零
+
+## 零售 / 服务业
+
+现代经济中数万亿美元的价值建立在“摩擦”之上（如懒得比价、忘记取消订阅）。AI代理消除了这些摩擦，导致依附于此的庞大产业价值归零。
+
+- 找最便宜的机票酒店
+- 每年重新比价保险
+- 砍掉你忘记取消的订阅
+
+外卖平台、旅游网站、房产中介
+
+from B2C to B2A -- [[selling-to-agents-effectively-quickly-cheaply-reliably]]
+
+## 金融系统
+
+even more -- AI开始绕过信用卡，直接用加密货币支付，省掉2-3%的手续费。Visa和Mastercard的商业模式开始动摇。
+
+金融基础设施的底层替换 (M2M经济)
+Visa/Mastercard收取2-3%手续费，本质是提供“信任”与“清算”的摩擦税。AI代理之间的交易（Machine to Machine）不需要人类的信用体系，**智能合约+加密货币将成为AI的原生法币**，实现秒级、零损耗的价值传输。
+
+
+

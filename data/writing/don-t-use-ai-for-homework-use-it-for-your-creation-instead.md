@@ -2,8 +2,8 @@
 title: "Don't use AI for homework; use it for your creation instead"
 reference:
   - "[[AI 时代，请停止「做作业」，去创造属于你的「作品」]]"
-  - "[[AI challenges education]]"
-  - "[[Stop using AI to do assignment; use it to create your art instead]]"
+  - "[[ai-challenges-education]]"
+  - "[[stop-using-ai-to-do-assignment-use-it-to-create-your-art-instead]]"
 published: 2026-01-01
 image: "[[dont-use-ai-for-your-homework.jpeg]]"
 tags:

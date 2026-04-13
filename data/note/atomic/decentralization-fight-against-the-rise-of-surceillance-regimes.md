@@ -1,0 +1,9 @@
+---
+title: "Decentralization fight against the rise of surceillance regimes"
+
+created: 2025-03-02 14:44
+tags: 
+---
+[[nexus-a-brief-history-of-information-networks-from-the-stone-age-to-ai]]
+
+> A democratic society should never allow all its information to be concentrated in one place, no matter whether that hub is the government or a private corporation. It may be extremely helpful to create a national medical database that collects information on citizens in order to provide them with better health-care services, prevent epidemics, and develop new medicines. But it would be a very dangerous idea to merge this database with the databases of the police, the banks, or the insurance companies. Doing so might make the work of doctors, bankers, insurers, and police officers more efficient, but such hyper-efficiency can easily pave the way for totalitarianism. For the survival of democracy, some inefficiency is a feature, not a bug. To protect the privacy and liberty of individuals, it’s best if neither the police nor the boss knows everything about us. Multiple databases and information channels are also essential for maintaining strong self-correcting mechanisms. These mechanisms require several different institutions that balance each other: government, courts, media, academia, private businesses, NGOs. Each of these is fallible and corruptible, and so should be checked by the others. To keep an eye on each other, these institutions must have independent access to information. If all newspapers get their information from the government, they cannot expose government corruption. If academia relies for research and publication on the database of a single business behemoth, could scholars still criticize the operations of that corporation? A single archive makes censorship easy.

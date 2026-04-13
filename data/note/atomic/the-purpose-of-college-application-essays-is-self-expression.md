@@ -1,0 +1,20 @@
+---
+title: "大学申请文书的目的是为了展示自我"
+
+created: 2024-09-04
+tags:
+  - college
+  - application
+  - showcase
+---
+大学招生写文书的==目的==是让招生官了解你是一个怎么样的人，你经过过哪些活动，你相信哪些理念
+要达到这个目的的一种==途径==（现在使用的）是通过写几篇文书
+
+--> 认清目的和手段！
+
+但是
+因为很少人有日常记录生活的习惯
+所以只能通过传统的临时的文字的形式来呈现自己
+
+[[a-personal-digital-garden-helps-with-college-application]]
+[[a-good-application-is-a-good-story]]

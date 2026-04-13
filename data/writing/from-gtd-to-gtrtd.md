@@ -7,7 +7,7 @@ tags:
   - values
   - priorities
 reference:
-  - "[[GTRTD over GTD]]"
+  - "[[gtrtd-over-gtd]]"
 ---
 For years, productivity culture sold us on _getting things done_. Clear your inbox. Check-off your tasks. The implicit promise: if you could just move faster, execute better, optimize harder, you'd finally feel accomplished. In fact most people do struggle with Getting Things Done (GTD) at school or work -- meeting deadlines, fullfilling requirements, checking boxes. 
 

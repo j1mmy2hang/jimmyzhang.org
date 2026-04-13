@@ -1,0 +1,8 @@
+---
+title: "There is an inherent pleasure in witnessing the world collapse"
+
+tags:
+  - world
+---
+比如一场突如其来的打乱了与那本计划的大雨大雨
+人类的设计在大自然的威力面前是多么渺小多么可笑

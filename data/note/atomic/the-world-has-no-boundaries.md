@@ -1,0 +1,14 @@
+---
+title: "The world has no boundaries"
+
+created: 2024-12-11
+tags: 
+---
+Real systems rarely have real boundaries.
+Everything is connected to everything else. 
+There are no separate systems. 
+The world is a continuum. 
+
+> Everything physical comes from somewhere, everything goes somewhere, everything keeps moving.
+
+[[boundaries-are-artificial]]

@@ -1,0 +1,14 @@
+---
+title: "Big ideas and visions start from building concrete local projects"
+
+created: 2025-01-08
+tags:
+  - vision
+  - local
+  - project
+---
+Apart from those big lofty projects and visions, what projects can I already start doing in my local community?
+
+[[all-changes-starts-local]]
+
+Start building your own trust, your own credibility through small concrete projects that you can already, or business ideas that you can already start building in school.

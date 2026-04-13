@@ -1,0 +1,10 @@
+---
+title: "用坚决的态度面对不确定性"
+
+created: 2024-11-16
+tags:
+  - uncertainty
+---
+I don't know exactly what would happen; but this is what I am demanding life to give me. 
+
+这应该是正确的人生观 -- 承认世界不确定的基础上积极进取

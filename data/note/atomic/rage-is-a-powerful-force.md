@@ -1,0 +1,12 @@
+---
+title: "Rage is a powerful force"
+
+created: 2025-04-13
+---
+inspired-by:: Andrew Watson
+
+[[anger-sparks-moral-courage]]
+
+"an old man shouting at the cloud"
+"angry about a lot of thing"
+

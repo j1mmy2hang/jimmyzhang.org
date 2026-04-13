@@ -1,0 +1,18 @@
+---
+title: "时代需要一个知识经济学的理论"
+
+created: 2024-10-23
+tags:
+  - knowledge
+  - economics
+  - theory
+weight: 4
+---
+一个将知识放在财富创造过程中心的理论
+
+我们还不能对知识进行“量化”分析
+然而，我们如果无法用一个模型来表达经济事件之间的量化关系，就不能形成一套完整的经济理论。没有这样的一个量化模型，我们就无法做出理性选择，而提供理性选择正是经济学的全部目的所在。
+
+[[making-knowledge-productive-is-the-important-task-of-our-time]]
+
+--> this belongs to the first step of <u>identifying the trend</u> in [[how-to-succeed-with-waves]]

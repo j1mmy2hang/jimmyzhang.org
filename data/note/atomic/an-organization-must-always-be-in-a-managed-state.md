@@ -1,0 +1,16 @@
+---
+title: "一个组织必须始终处于被管理的状态"
+
+created: 2024-10-23
+tags:
+  - organization
+  - management
+---
+一定要有人对组织的使命、精神、业绩和成果负责
+- 界定组织的成果是什么
+- 制定和实施战略 --> 确保组织能专注于其使命
+
+组织必须参照其明确的、已知的、客观的宗旨和目标，对自身及表现进行评价和判断。
+
+[[every-organization-must-focus-on-its-own-mission]]
+[[improving-knowledge-or-service-sector-productivity-requires-defining-work-performance]]

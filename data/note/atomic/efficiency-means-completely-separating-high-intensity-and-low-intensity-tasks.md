@@ -1,0 +1,11 @@
+---
+title: "高效意味着把高强度和低强度的事情完全分开"
+
+created: 2024-10-19
+tags:
+  - productivity
+---
+效率要高的时候必须达到最高，在最短的时间内产出最高的结果
+这样才能留出时间给低强度、但需要大量时间的活动（冥想、好好欣赏一部慢电影）
+这样才能给你大脑足够的自由和时间完全放空，[[make-space-to-invite-and-allow-great-ideas-to-come|让好的灵感到来]]
+这样高强度的活动才有更多的燃料 --> a positive feedback loop

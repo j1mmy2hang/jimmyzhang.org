@@ -1,0 +1,14 @@
+---
+title: "历史悲剧不是必然的"
+
+created: 2024-07-20
+tags:
+  - history
+  - tragedy
+---
+很多历史悲剧本可以避免。历史不是死的。
+历史也是由一个个当下决定制造出来的。
+最坏的结果已经发生了。人们只是忘记了本可以不是这样。we had a choice.
+未来还会犯同样的错误吗?
+
+[[history-is-not-set-and-we-have-the-power-to-change]]

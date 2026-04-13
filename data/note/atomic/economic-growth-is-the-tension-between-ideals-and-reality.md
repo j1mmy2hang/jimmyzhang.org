@@ -1,0 +1,30 @@
+---
+title: "经济增长是理想和现实的拉扯"
+
+created: 2025-09-10
+
+---
+Economic dynamics can be reframed as the interaction between two fundamental forces: **Vision** and **Reality**. 
+
+Vision corresponds to **Aggregate Demand (AD)**—the collective willingness and capacity to spend, driven by credit, expectations, and social aspirations. 
+
+Reality corresponds to **Aggregate Supply (AS)**—the actual productive capacity of the economy, constrained by technology, resources, and institutional efficiency. 
+
+**Prices** arise at the interface where Vision meets Reality, serving as *the translator between aspiration and material capacity*.
+
+**Inflation** reflects the *mismatch in growth speed* between Vision (AD) and Reality (AS). When Vision expands faster than Reality can deliver, more purchasing power chases limited output—prices rise. Conversely, if Reality contracts (supply shocks), even stable Vision can outpace available goods, again leading to inflation. 
+
+**Deflation** occurs when Vision lags behind Reality, reducing utilization of productive potential. 
+
+**Interest rates** function as the *tempo control of Vision*. Because Vision depends on borrowing from the future, the cost of money directly governs how quickly collective aspirations convert into present demand.
+
+- **Lower rates** reduce the friction of borrowing, accelerating Vision’s expansion.
+- **Higher rates** raise the cost of time-shifting, moderating Vision’s speed.
+
+Crucially, interest rates affect **AD** but cannot structurally shift **AS**. They calibrate how demand pressures align with supply capacity, but cannot on their own expand real productivity.
+
+---
+
+**Price Mechanism as Balancer**  
+
+The price system continuously balances Vision and Reality. If Vision exceeds Reality, price inflation dampens excessive demand. If Reality overshoots Vision, falling prices discourage unused supply. Inflation rate, in this view, becomes a **visible measure of the misalignment velocity** between aspiration and capacity.

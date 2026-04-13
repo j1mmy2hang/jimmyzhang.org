@@ -1,0 +1,21 @@
+---
+title: "Trying to design an intricate system of agent memory file structure is futile"
+
+created: 2026-03-04 17:21
+---
+east:: [[the-file-system-is-the-new-database-how-i-built-a-personal-os-for-ai-agents]]
+
+> 试图通过设计 context 文件结构以优化 Agent 的记忆，是一个错误的方向。 这些记忆文件如果交给人类管理，它应该是浅显易懂的。换一个方面来讲，如果这些不需要人类管理，你会觉得他们仍旧是我们可理解的文件结构吗？ 所以无论怎么想，各种 memory 文件组织技巧，都是错误的投入。
+
+> 刚在群里吐槽完，忍不住这里也说下。
+> SOUL/RULE，各种完美的文件夹命名和组织，按作用长短期分开的 MEMORY 等文件。
+> 这些都是好东西，不是没价值。
+> 但我怎么都嗅到了一股 Java 那种又臭又长的气息。
+> 对，这些设计，不同生命周期的 MEMORY 啊，基础人格啊，什么的，概念是有价值的。
+> 但当下这个阶段我还是更喜欢一个 AGENTS.md 兜底。
+> 其实这个写好了，能兜住就大差不差了。
+> 剩下的我认为都是锦上添花，有用，但不一定要这样实现。
+> 现在有些实践实在是搞的过于复杂了。
+
+真正的记忆一定不是人为设计一个精妙的系统，必须是 agent 内部自己长出来的
+[[architect-and-gardener]]

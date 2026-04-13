@@ -1,0 +1,17 @@
+---
+title: "The 21s Century is marked by an Information & Technology Revolution"
+
+created: 2024-10-20
+tags:
+  - era
+  - information
+  - tech
+  - revolution
+weight: 4
+---
+[[the-success-mechanism-of-tech-companies]] --> [["Free information through technology" is the foundational philosophy]]
+
+将更多的信息通过科技呈现到你的眼前
+
+e.g. Apple watch "Tides" app; personal health parameters; countdown widget; etc.
+--> why would I need to get to access those information? What's good about them?

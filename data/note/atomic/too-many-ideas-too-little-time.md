@@ -1,0 +1,9 @@
+---
+title: "想法太多时间太少"
+
+tags:
+  - time
+  - thinking
+---
+the amount of thoughts that I generate every day greatly outnumbers the capacity of the number of thoughts that I can handle and dive deep into
+这是幸福还是烦恼

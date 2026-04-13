@@ -1,0 +1,14 @@
+---
+title: "The more clearly defined an organization’s functions and duties are, the more effective it becomes"
+
+created: 2024-10-23
+tags:
+  - organization
+  - mission
+---
+一个组织的功能和任务越细，工作能力越强
+
+“你该干什么的就干什么”
+
+> 组织其实就是一种工具，跟其他工具一样，任务分得越精细，工作能力就越强。
+

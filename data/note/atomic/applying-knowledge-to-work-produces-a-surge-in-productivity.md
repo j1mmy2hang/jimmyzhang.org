@@ -1,0 +1,15 @@
+---
+title: "将知识运用于工作带来生产力激增"
+
+created: 2024-10-23
+tags:
+  - knowledge
+  - tech
+  - productivity
+  - application
+---
+以前工作是奴隶的事情；那些有钱有权和有学问的人才不会重视（知识和技术的分离）
+
+1881: Frederick Winslow Taylor 首次把知识应用于工作研究、工作分析和工作管理上 --> 生产力革命
+
+[[knowledge-makes-technology-effective]]

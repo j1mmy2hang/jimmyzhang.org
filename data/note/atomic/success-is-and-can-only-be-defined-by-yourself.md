@@ -1,0 +1,16 @@
+---
+title: "Success is and can only be defined by yourself"
+
+created: 2024-09-22
+tags:
+  - success
+  - self
+  - define
+---
+Success occurs in the privacy of the soul.
+Success has nothing to do with variables outside yourself. (外在标准)
+
+similar:: [[self-worth-is-exclusively-self-referential]]
+
+> It's grounding to protect your personal understanding of success. 
+> And to make each new work, no matter where you stand on the ladder of public perception, like you have nothing to lose.

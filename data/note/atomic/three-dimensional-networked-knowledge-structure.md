@@ -1,0 +1,13 @@
+---
+title: "立体网状知识结构"
+
+tags:
+  - knowledge
+  - structure
+---
+一个分层级的立体的图谱
+最底下：原子化的卡片
+往上一层：topic / keyword
+再往上：MOC, 神经中枢, etc.
+
+最后 build up 形成一个类似于金字塔的立体化的三维结构

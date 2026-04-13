@@ -1,0 +1,17 @@
+---
+title: "上层理想和下层实践的落差"
+
+created: 2024-09-23
+tags:
+  - gap
+---
+上层的伟大的愿景和理想在下层的实践中变成了苦役与劳作
+
+剥削劳动力？
+
+信息在组织结构的传递过程中 --
+理想成分逐渐减少
+劳作成分逐渐增加
+
+--> 每个 facilitator / organizer 的重要任务：传达信息和理念，get everyone excited and engaged!
+

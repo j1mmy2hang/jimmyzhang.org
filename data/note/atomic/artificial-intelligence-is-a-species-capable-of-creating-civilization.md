@@ -1,0 +1,12 @@
+---
+title: "人工智能是能够创造文明的物种"
+
+created: 2025-04-07
+tags:
+  - AI
+  - civilization
+---
+人工智能是自人类诞生以来唯一可以创造文明的发明
+我们面对的也许不是一个文明的消亡，但一定是另一个文明的崛起
+
+[[by-gaining-command-of-language-ai-is-intruding-our-cultural-sphere]]

@@ -2,8 +2,8 @@
 title: "Author Your Own Narrative -- Why You Need a Personal 2025 Wrapped"
 published: 2026-01-01
 reference:
-  - "[[Measure what you value]]"
-  - "[[We should reclaim our narrative and have a personal yearly wrapped of our own instead of letting platforms measure for us]]"
+  - "[[measure-what-you-value]]"
+  - "[[we-should-reclaim-our-narrative-and-have-a-personal-yearly-wrapped-of-our-own-instead-of-letting-platforms-measure-for-us]]"
 image: "[[why-you-need-a-personal-2025-wrapped.jpeg]]"
 tags:
   - self-reflection

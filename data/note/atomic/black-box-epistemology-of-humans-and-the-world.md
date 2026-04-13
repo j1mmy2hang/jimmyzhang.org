@@ -1,0 +1,33 @@
+---
+title: "人与世界的黑箱认识论"
+
+created: 2025-07-28
+---
+人们的实践活动，从根本上来说都可以表示为主体和客体之间的反馈耦合，都可以用可观察变量和可控制变量来描述。
+
+![[黑箱认识论|500]]
+
+人类对自然界认识的每一个划时代进展都跟开拓一批新的可观察变量和可控制变量有关。
+
+如果客体的可观察变量和可控制变量被限制的某一水平之内，无论人们怎样进行“实践——理论——实践”的反复循环，都不能使认识进一步逼近真理。
+
+[[the-essence-of-learning-is-continuous-interaction-between-the-individual-and-the-world]]
+[[humans-interact-with-reality-through-modeling-and-action-and-feedback]]
+[[theory-of-learning-fitting-to-gain-control]]
+
+## 模型
+
+Model = 根据黑箱外部的输入输出而提出的关于黑箱内部的情况的假定
+
+模型只是一种假设，它不一定表示黑箱内部的实际结构
+人们利用模型来研究黑箱，总结黑箱的变化规律，控制黑箱
+[[all-models-are-simplifications-of-the-real-world]]
+
+## 规律与控制
+
+有规律可循，就是变量联系可能性空间存在着缩小的可能。尽管变量的形式可以各式各样，规律总可以表示或联系可能性空间的缩小（即约束）。发现规律就是确定变量之间的联系。
+
+[[gaining-information-equals-a-change-in-understanding-of-the-possibility-space-of-things]]
+[[control-is-the-reduction-of-possibility-space]]
+
+[[the-essence-of-science-and-technology-is-control]]

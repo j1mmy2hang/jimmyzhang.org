@@ -31,7 +31,7 @@ It leaves us as the architects, not the builders.
 
 It leaves us as desginers and directors, nor executors. A film director doesn’t act, operate the camera, or edit the sound. A director’s job is to have taste, to provide a clear vision, and to orchestrate a vast number of specialists to realize that vision. 
 
-## [[Management as a computer skill]]
+## [[management-as-a-computer-skill]]
 
 > "I’m not just doing tasks anymore, I’m designing the systems that do the tasks."
 
