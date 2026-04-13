@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import DappledLight from '../components/DappledLight';
+
 import '../styles/home.css';
 
 const rows: string[][] = [
@@ -10,7 +10,7 @@ const rows: string[][] = [
 export default function Home() {
   return (
     <main className="home">
-      <DappledLight />
+
       <div className="home-inner">
         <h1 className="home-name">Jimmy Zhang</h1>
         <nav className="home-nav" aria-label="sections">

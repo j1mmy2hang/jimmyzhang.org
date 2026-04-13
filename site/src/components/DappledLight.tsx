@@ -49,26 +49,26 @@ export default function DappledLight() {
       0.5 + Math.sin(now * 0.00006) * 0.04 + Math.sin(now * 0.00015) * 0.02;
 
     let fadeVal = 0;
+    let darkVal = document.documentElement.getAttribute('data-theme') === 'dark' ? 1 : 0;
     let lastTime = 0;
     let raf = 0;
-    let currentBlend: '' | 'multiply' | 'screen' = '';
 
     const draw = (now: number) => {
-      const isDark =
-        document.documentElement.getAttribute('data-theme') === 'dark';
-      const wantBlend = isDark ? 'screen' : 'multiply';
-      if (wantBlend !== currentBlend) {
-        C.style.mixBlendMode = wantBlend;
-        currentBlend = wantBlend;
-      }
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const targetDark = isDark ? 1 : 0;
 
       const fadeTarget = onRef.current ? 1 : 0;
       const dt = lastTime ? (now - lastTime) / 1000 : 0.016;
       lastTime = now;
-      const speed = dt / 1.8;
+      const speed = dt / 2.5; // Slower, more ethereal transition
       if (fadeVal < fadeTarget) fadeVal = Math.min(fadeVal + speed, 1);
       else if (fadeVal > fadeTarget) fadeVal = Math.max(fadeVal - speed, 0);
       const fadeEase = fadeVal * fadeVal * (3 - 2 * fadeVal);
+
+      const themeSpeed = dt / 0.45; // 450ms smooth transition matching global.css
+      if (darkVal < targetDark) darkVal = Math.min(darkVal + themeSpeed, 1);
+      else if (darkVal > targetDark) darkVal = Math.max(darkVal - themeSpeed, 0);
+      const eDark = darkVal * darkVal * (3 - 2 * darkVal);
 
       const w = C.width;
       const h = C.height;
@@ -83,31 +83,19 @@ export default function DappledLight() {
       const open = getAnimOpen(now);
       const n = t / 0.35;
 
-      // Flexoki-aligned palettes.
-      // Light mode: soft warm-neutral shade (multiply darkens paper toward base-150-ish),
-      // with a subtle cream highlight instead of orange sun.
-      // Dark mode: cool moonlight on black (screen brightens), silvery-blue slats.
-      const shadowTargetLight: RGB = lc([222, 216, 200], [230, 224, 208], n);
-      const shadowTargetDark: RGB = lc([14, 16, 22], [18, 20, 26], n);
-      const shadowTarget = isDark ? shadowTargetDark : shadowTargetLight;
-      const stBase: RGB = isDark ? [0, 0, 0] : [255, 255, 255];
-      const st = lc(stBase, shadowTarget, fadeEase);
-
-      const wlTargetLight: RGB = lc([252, 244, 218], [253, 248, 228], n);
-      const wlTargetDark: RGB = lc([168, 188, 218], [188, 204, 228], n);
-      const wlTarget = isDark ? wlTargetDark : wlTargetLight;
-      const wlBase: RGB = isDark ? [20, 24, 32] : [255, 255, 255];
-      const wl = lc(wlBase, wlTarget, fadeEase);
-
       const skewX = lerp(0.34, 0.26, n);
       const skewY = lerp(0.13, 0.09, n);
       const stretch = lerp(1.9, 1.6, n);
-      const warmAlpha =
-        (isDark ? lerp(0.22, 0.16, n) : lerp(0.18, 0.11, n)) * fadeEase;
-      const baseSoft = lerp(12, 7, n);
+      const baseSoft = lerp(24, 16, n); // Increased softness for a more ethereal look
 
       X.clearRect(0, 0, w, h);
-      X.fillStyle = `rgb(${st[0]},${st[1]},${st[2]})`;
+      
+      const baseR = lerp(0, 200, eDark);
+      const baseG = lerp(0, 220, eDark);
+      const baseB = lerp(0, 255, eDark);
+      const baseAlpha = lerp(0.04, 0.012, eDark) * fadeEase;
+      
+      X.fillStyle = `rgba(${Math.round(baseR)}, ${Math.round(baseG)}, ${Math.round(baseB)}, ${baseAlpha})`;
       X.fillRect(0, 0, w, h);
 
       const projW = Math.min(w * 0.58, 420) * stretch;
@@ -233,13 +221,14 @@ export default function DappledLight() {
       OX.fillRect(cordX - cordW - cordSoft, frameT, (cordW + cordSoft) * 2, projH - frameT * 2);
       OX.globalCompositeOperation = 'source-over';
 
-      // Light mode: punch slat-shaped holes so paper shines through the shade.
-      // Dark mode: keep the faint cool wash; slats are added as bright moonlight below.
-      if (!isDark) {
-        X.globalCompositeOperation = 'destination-out';
-        X.drawImage(OC, 0, 0);
-        X.globalCompositeOperation = 'source-over';
-      }
+      // Smoothly interpolate the hole punching.
+      // Light mode (eDark=0): fully punches hole so paper shines through.
+      // Dark mode (eDark=1): does not punch hole, keeping ambient room wash.
+      X.globalCompositeOperation = 'destination-out';
+      X.globalAlpha = 1 - eDark;
+      X.drawImage(OC, 0, 0);
+      X.globalCompositeOperation = 'source-over';
+      X.globalAlpha = 1.0;
 
       const WC = getOff('warm', offW, offH);
       const WX = WC.getContext('2d')!;
@@ -252,12 +241,19 @@ export default function DappledLight() {
         projH * 0.45,
         projW * 0.85
       );
-      const coreMul = isDark ? 1.0 : 0.9;
-      const midMul = isDark ? 0.7 : 0.6;
-      const edgeMul = isDark ? 0.2 : 0.15;
-      wG.addColorStop(0, `rgba(${wl[0]},${wl[1]},${wl[2]},${warmAlpha * coreMul})`);
-      wG.addColorStop(0.5, `rgba(${wl[0]},${wl[1]},${wl[2]},${warmAlpha * midMul})`);
-      wG.addColorStop(1, `rgba(${wl[0]},${wl[1]},${wl[2]},${warmAlpha * edgeMul})`);
+      
+      const wlR = Math.round(lerp(255, 200, eDark));
+      const wlG = Math.round(lerp(250, 220, eDark));
+      const wlB = Math.round(lerp(240, 255, eDark));
+      const warmAlpha = lerp(0.08, 0.025, eDark) * fadeEase;
+      
+      const coreMul = lerp(0.9, 1.0, eDark);
+      const midMul = lerp(0.6, 0.7, eDark);
+      const edgeMul = lerp(0.15, 0.2, eDark);
+      
+      wG.addColorStop(0, `rgba(${wlR},${wlG},${wlB},${warmAlpha * coreMul})`);
+      wG.addColorStop(0.5, `rgba(${wlR},${wlG},${wlB},${warmAlpha * midMul})`);
+      wG.addColorStop(1, `rgba(${wlR},${wlG},${wlB},${warmAlpha * edgeMul})`);
       WX.fillStyle = wG;
       WX.fillRect(0, 0, offW, offH);
       WX.globalCompositeOperation = 'destination-in';
@@ -271,15 +267,18 @@ export default function DappledLight() {
       const glowX = projW * 0.38;
       const glowY = projH * 0.42;
       const gl = GX.createRadialGradient(glowX, glowY, 0, glowX, glowY, projW * 0.7);
-      if (isDark) {
-        gl.addColorStop(0, `rgba(205,220,245,${warmAlpha * 0.55})`);
-        gl.addColorStop(0.5, `rgba(190,210,238,${warmAlpha * 0.25})`);
-        gl.addColorStop(1, 'rgba(180,200,230,0)');
-      } else {
-        gl.addColorStop(0, `rgba(253,246,222,${warmAlpha * 0.3})`);
-        gl.addColorStop(0.5, `rgba(250,242,216,${warmAlpha * 0.13})`);
-        gl.addColorStop(1, 'rgba(248,240,212,0)');
-      }
+      
+      const glR = Math.round(lerp(253, 190, eDark));
+      const glG = Math.round(lerp(246, 210, eDark));
+      const glB = Math.round(lerp(222, 240, eDark));
+      
+      const glCoreA = lerp(0.15, 0.035, eDark) * fadeEase;
+      const glMidA = lerp(0.06, 0.015, eDark) * fadeEase;
+      
+      gl.addColorStop(0, `rgba(${glR},${glG},${glB},${glCoreA})`);
+      gl.addColorStop(0.5, `rgba(${glR},${glG},${glB},${glMidA})`);
+      gl.addColorStop(1, `rgba(${glR},${glG},${glB},0)`);
+      
       GX.fillStyle = gl;
       GX.fillRect(0, 0, offW, offH);
       GX.globalCompositeOperation = 'destination-in';
@@ -315,20 +314,21 @@ export default function DappledLight() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.5"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
             aria-hidden="true"
+            className="dappled-spotlight-svg"
+            style={{ overflow: 'visible' }}
           >
-            <circle cx="12" cy="12" r="4" />
-            <line className="dappled-ray" x1="12" y1="2" x2="12" y2="4.5" />
-            <line className="dappled-ray" x1="12" y1="19.5" x2="12" y2="22" />
-            <line className="dappled-ray" x1="4.93" y1="4.93" x2="6.7" y2="6.7" />
-            <line className="dappled-ray" x1="17.3" y1="17.3" x2="19.07" y2="19.07" />
-            <line className="dappled-ray" x1="2" y1="12" x2="4.5" y2="12" />
-            <line className="dappled-ray" x1="19.5" y1="12" x2="22" y2="12" />
-            <line className="dappled-ray" x1="4.93" y1="19.07" x2="6.7" y2="17.3" />
-            <line className="dappled-ray" x1="17.3" y1="6.7" x2="19.07" y2="4.93" />
+            {/* body of the spotlight lamp */}
+            <path d="M7.61 6.3a3 3 0 0 0-3.92 1.3l-1.38 2.79a3 3 0 0 0 1.3 3.91l6.89 3.597a1 1 0 0 0 1.342-.447l3.106-6.211a1 1 0 0 0-.447-1.341z" />
+            {/* the handle rod */}
+            <path d="M8 9V2" />
+            {/* the three beam rays — animated. Extended 2.5x their original length */}
+            <path className="dappled-beam dappled-beam-1" d="m15.295 19.562 1.762 6.095" />
+            <path className="dappled-beam dappled-beam-2" d="m17 16 9.395 5.245" />
+            <path className="dappled-beam dappled-beam-3" d="m19 12.5 7.565 -1.495" />
           </svg>
         </span>
       </button>

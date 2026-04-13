@@ -7,6 +7,8 @@ import WritingPost from './pages/WritingPost';
 import MarkdownPage from './pages/MarkdownPage';
 import Section from './pages/Section';
 import ThemeToggle from './components/ThemeToggle';
+import DappledLight from './components/DappledLight';
+
 
 const otherSections = ['note', 'project', 'photo'];
 
@@ -44,6 +46,7 @@ export default function App() {
         ))}
       </Routes>
       <ThemeToggle />
+      <DappledLight />
     </>
   );
 }

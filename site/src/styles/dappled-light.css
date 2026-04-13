@@ -5,7 +5,6 @@
   height: 100%;
   pointer-events: none;
   z-index: 5;
-  mix-blend-mode: multiply;
 }
 
 .dappled-toggle {
@@ -35,23 +34,51 @@
   border-radius: 4px;
 }
 
+/* The icon wrapper rotates the whole spotlight */
 .dappled-toggle-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(0deg);
-  transition: transform 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Off: spotlight aimed down-left, dim */
+  transform: rotate(20deg);
+  transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .dappled-toggle-icon.is-on {
-  transform: rotate(360deg);
+  /* On: spotlight aimed forward/up */
+  transform: rotate(-15deg);
 }
 
-.dappled-ray {
-  opacity: 0.35;
-  transition: opacity 1.2s ease;
+/* The SVG itself fades slightly in opacity when off */
+.dappled-spotlight-svg {
+  opacity: 0.55;
+  transition: opacity 0.4s ease;
 }
 
-.dappled-toggle-icon.is-on .dappled-ray {
+.dappled-toggle-icon.is-on .dappled-spotlight-svg {
   opacity: 1;
+}
+
+/* Beam rays: drawn on with stroke-dasharray */
+.dappled-beam {
+  stroke-dasharray: 12;
+  /* Off: hides all but the first ~3.5px of the beam */
+  stroke-dashoffset: 8.5;
+  transition: stroke-dashoffset 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dappled-toggle-icon.is-on .dappled-beam {
+  /* On: draws the full extended beam length */
+  stroke-dashoffset: 0;
+}
+
+/* Stagger the three beams */
+.dappled-toggle-icon.is-on .dappled-beam-1 {
+  transition-delay: 0s, 0s;
+}
+.dappled-toggle-icon.is-on .dappled-beam-2 {
+  transition-delay: 0.07s, 0.07s;
+}
+.dappled-toggle-icon.is-on .dappled-beam-3 {
+  transition-delay: 0.14s, 0.14s;
 }
