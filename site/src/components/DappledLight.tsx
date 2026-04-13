@@ -1,13 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import '../styles/dappled-light.css';
 
-type RGB = [number, number, number];
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
-const lc = (a: RGB, b: RGB, t: number): RGB => [
-  Math.round(lerp(a[0], b[0], t)),
-  Math.round(lerp(a[1], b[1], t)),
-  Math.round(lerp(a[2], b[2], t)),
-];
 
 export default function DappledLight() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
