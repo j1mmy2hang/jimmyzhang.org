@@ -1,35 +1,51 @@
 /* ------------------------------------------------------------------ *
  * Content-page layout.
  *
- * Three top-level blocks on a content page self-center independently:
+ * NO GLOBAL CONTAINER constraining width. Instead, every content block
+ * self-centers independently at whatever width it needs:
  *
  *     <main>
  *       <nav class="breadcrumb"> ...          ← self-centering
- *       <article>                             ← self-centering
- *         <h1 class="page-title">...</h1>
- *         <p class="page-subtitle">...</p>    (writing only)
- *         <div class="prose">...</div>
- *         <ul class="writing-list">...</ul>   (index only)
+ *       <article>                             ← FULL WIDTH, no cap
+ *         <h1 class="page-title">...</h1>     ← self-centering at --wrap-normal
+ *         <p class="page-subtitle">...</p>    ← self-centering at --wrap-normal
+ *         <div class="prose">...</div>        ← self-centering at --wrap-normal
+ *         <ul class="writing-list">...</ul>   ← self-centering at --wrap-normal
  *       </article>
  *       <nav class="page-deeper">...</nav>    ← self-centering
  *     </main>
  *
- * The wrap selector targets ONLY those three elements. They all sit at
- * body font-size, so `37em` resolves consistently across them and
- * every column on the page shares the same physical width. Differently
- * sized text (title, subtitle, breadcrumb labels) lives INSIDE these
- * blocks so its font-size never enters the width math.
+ * Photo pages can then let landscape images break out to --wrap-wide
+ * without being blocked by an ancestor's width.
  * ------------------------------------------------------------------ */
 
 main {
   padding: 6.4rem 0 24rem;
 }
 
+/* --- Breadcrumb + page-deeper: self-center at --wrap-normal ------- */
 main>.breadcrumb,
-main>article,
 main>.page-deeper {
   width: var(--wrap-normal);
-  max-width: var(--wrap-wide);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Article: full width, children self-center -------------------- */
+main>article {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Every direct child of article self-centers at --wrap-normal */
+main>article>.page-header,
+main>article>.prose,
+main>article>.writing-list,
+main>article>.page-status {
+  width: var(--wrap-normal);
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,8 +56,11 @@ main>.page-deeper {
   }
 
   main>.breadcrumb,
-  main>article,
-  main>.page-deeper {
+  main>.page-deeper,
+  main>article>.page-header,
+  main>article>.prose,
+  main>article>.writing-list,
+  main>article>.page-status {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -85,7 +104,7 @@ main>.page-deeper {
   color: var(--tx);
 }
 
-/* --- title + subtitle (lives inside article) ---------------------- */
+/* --- title + subtitle --------------------------------------------- */
 .page-title {
   font-family: 'Bamberg Serial', Georgia, 'Times New Roman', serif;
   font-weight: 700;
@@ -228,6 +247,8 @@ main>.page-deeper {
   height: auto;
   margin: 2.4rem 0;
   border-radius: var(--image-radius);
+  position: relative;
+  z-index: 6;
 }
 
 /* --- deeper links ------------------------------------------------- */

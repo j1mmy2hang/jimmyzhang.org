@@ -4,13 +4,15 @@ import Self from './pages/Self';
 import Telos from './pages/Telos';
 import Writing from './pages/Writing';
 import WritingPost from './pages/WritingPost';
+import Photo from './pages/Photo';
+import PhotoPage from './pages/PhotoPage';
 import MarkdownPage from './pages/MarkdownPage';
 import Section from './pages/Section';
 import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
 
 
-const otherSections = ['note', 'project', 'photo'];
+const otherSections = ['note', 'project'];
 
 export default function App() {
   return (
@@ -41,6 +43,8 @@ export default function App() {
         />
         <Route path="/writing" element={<Writing />} />
         <Route path="/writing/:slug" element={<WritingPost />} />
+        <Route path="/photo" element={<Photo />} />
+        <Route path="/photo/:slug" element={<PhotoPage />} />
         {otherSections.map((s) => (
           <Route key={s} path={`/${s}`} element={<Section name={s} />} />
         ))}

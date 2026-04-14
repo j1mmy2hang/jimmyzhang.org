@@ -23,8 +23,10 @@ export default function MarkdownPage({
     <main>
       <Breadcrumb section={section} />
       <article>
-        {title && <h1 className="page-title">{title}</h1>}
-        {published && <p className="page-subtitle">{formatLongDate(published)}</p>}
+        <header className="page-header">
+          {title && <h1 className="page-title">{title}</h1>}
+          {published && <p className="page-subtitle">{formatLongDate(published)}</p>}
+        </header>
         <div className="prose">
           {loading && <p className="page-status">loading…</p>}
           {error && <p className="page-status">could not load {path}</p>}

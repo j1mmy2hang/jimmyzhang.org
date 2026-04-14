@@ -11,7 +11,9 @@ export default function Telos() {
     <main>
       <Breadcrumb section="telos" />
       <article>
-        <h1 className="page-title">{title}</h1>
+        <header className="page-header">
+          <h1 className="page-title">{title}</h1>
+        </header>
         <div className="prose">
           {loading && <p className="page-status">loading…</p>}
           {error && <p className="page-status">could not load telos-core.md</p>}

@@ -6,7 +6,9 @@ export default function Section({ name }: { name: string }) {
     <main>
       <Breadcrumb section={name} />
       <article>
-        <h1 className="page-title">{name.charAt(0).toUpperCase() + name.slice(1)}</h1>
+        <header className="page-header">
+          <h1 className="page-title">{name.charAt(0).toUpperCase() + name.slice(1)}</h1>
+        </header>
         <div className="prose">
           <p className="page-status">coming soon</p>
         </div>

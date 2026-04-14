@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------------ *
+ * Photo page overrides.
+ *
+ * .photo-prose (which is also .prose) overrides the default
+ * --wrap-normal self-centering width to --wrap-wide, giving landscape
+ * images room to breathe. Individual images then cap themselves:
+ *   - landscape → --wrap-wide  (fills the prose container)
+ *   - portrait  → --wrap-normal (narrower, centered within prose)
+ * ------------------------------------------------------------------ */
+
+/* Widen the prose container on photo pages to --wrap-wide */
+main>article>.photo-prose {
+  width: var(--wrap-wide);
+}
+
+.photo-prose img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 3rem;
+  border-radius: var(--image-radius);
+}
+
+.photo-prose p:last-child img,
+.photo-prose>div>p:last-of-type img {
+  margin-bottom: 0;
+}
+
+/* Landscape images: use the full --wrap-wide width */
+.photo-prose img.is-landscape {
+  max-width: var(--wrap-wide);
+}
+
+/* Portrait images: stay at --wrap-normal, centered */
+.photo-prose img.is-portrait {
+  max-width: var(--wrap-normal);
+}
+
+@media (max-width: 860px) {
+  .photo-prose img {
+    margin-bottom: 3.6rem;
+  }
+}

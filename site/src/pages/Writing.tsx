@@ -47,7 +47,9 @@ export default function Writing() {
     <main>
       <Breadcrumb section="writing" />
       <article>
-        <h1 className="page-title">Writing</h1>
+        <header className="page-header">
+          <h1 className="page-title">Writing</h1>
+        </header>
         <ul className="writing-list">
           {posts.map((p) => (
             <li key={p.slug}>
