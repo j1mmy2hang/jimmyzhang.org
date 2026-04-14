@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import WorldMap, { projectPoint, MAP_WIDTH, MAP_HEIGHT } from '../components/WorldMap';
+import WorldMap from '../components/WorldMap';
 import { geocode } from './photoLocations';
 import '../styles/page.css';
 import '../styles/photo-index.css';
@@ -74,7 +74,7 @@ export default function Photo() {
     []
   );
 
-  const popupPos = useMemo(() => projectPoint(current.lng, current.lat), [current]);
+
 
   const { minTime, span } = useMemo(() => {
     const times = entries.map((e) => new Date(e.date).getTime());
@@ -86,6 +86,30 @@ export default function Photo() {
   const posFor = (dateStr: string): number => {
     const t = new Date(dateStr).getTime();
     return ((t - minTime) / span) * 100;
+  };
+
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const handlePointer = (e: React.PointerEvent) => {
+    if (!timelineRef.current) return;
+    const rect = timelineRef.current.getBoundingClientRect();
+    const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+    const percent = x / rect.width;
+    const time = minTime + percent * span;
+
+    let closestIdx = index;
+    let minDiff = Infinity;
+    entries.forEach((entry, i) => {
+      const t = new Date(entry.date).getTime();
+      const diff = Math.abs(t - time);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIdx = i;
+      }
+    });
+
+    if (closestIdx !== index) {
+      setIndex(closestIdx);
+    }
   };
 
   return (
@@ -103,71 +127,69 @@ export default function Photo() {
               const i = entries.findIndex((e) => e.slug === id);
               if (i >= 0) setIndex(i);
             }}
-          />
-          {popupPos && (
-            <div
-              className="photo-popup"
-              style={{
-                left: `${(popupPos[0] / MAP_WIDTH) * 100}%`,
-                top: `${(popupPos[1] / MAP_HEIGHT) * 100}%`,
-              }}
-            >
-              {current.cover && (
-                <img
-                  className="photo-popup-cover"
-                  src={`/asset/image/${encodeURIComponent(current.cover)}`}
-                  alt=""
-                />
-              )}
-              <div className="photo-popup-body">
-                <div className="photo-popup-title">{current.title}</div>
-                <div className="photo-popup-meta">
-                  {current.location}
-                  {current.date && <> · {formatShortDate(current.date)}</>}
+            renderOverlay={(_, leftPercent, topPercent) => (
+              <div
+                className="photo-popup"
+                style={{
+                  left: `${leftPercent}%`,
+                  top: `${topPercent}%`,
+                }}
+              >
+                {current.cover && (
+                  <img
+                    className="photo-popup-cover"
+                    src={`/asset/image/${encodeURIComponent(current.cover)}`}
+                    alt=""
+                  />
+                )}
+                <div className="photo-popup-body">
+                  <div className="photo-popup-title">{current.title}</div>
+                  <div className="photo-popup-meta">
+                    {current.location}
+                  </div>
+                  <Link className="photo-popup-open" to={`/photo/${current.slug}`}>
+                    Open →
+                  </Link>
                 </div>
-                <Link className="photo-popup-open" to={`/photo/${current.slug}`}>
-                  Open →
-                </Link>
               </div>
-            </div>
-          )}
+            )}
+          />
         </div>
 
-        <div className="photo-timeline" role="group" aria-label="Photo timeline">
+        <div 
+          className="photo-timeline" 
+          role="slider" 
+          aria-label="Photo timeline"
+          aria-valuenow={index}
+          aria-valuemin={0}
+          aria-valuemax={entries.length - 1}
+          ref={timelineRef}
+          onPointerDown={(e) => {
+            e.currentTarget.setPointerCapture(e.pointerId);
+            handlePointer(e);
+          }}
+          onPointerMove={(e) => {
+            if (e.buttons > 0) handlePointer(e);
+          }}
+        >
           <div className="photo-timeline-inner">
             <div className="photo-timeline-line" />
             {entries.map((e, i) => {
               const active = i === index;
               return (
-                <button
+                <div
                   key={e.slug}
-                  type="button"
                   className={active ? 'photo-tl-dot active' : 'photo-tl-dot'}
                   style={{ left: `${posFor(e.date)}%` }}
-                  onClick={() => setIndex(i)}
-                  aria-label={`${e.title} — ${formatShortDate(e.date)}`}
+                  aria-hidden={!active}
                 >
                   {active && (
                     <span className="photo-tl-dot-date">{formatShortDate(e.date)}</span>
                   )}
-                </button>
+                </div>
               );
             })}
           </div>
-          <svg
-            className="photo-timeline-arrow"
-            viewBox="0 0 16 16"
-            aria-hidden="true"
-          >
-            <path
-              d="M 0 8 L 13 8 M 9 4 L 13 8 L 9 12"
-              stroke="currentColor"
-              fill="none"
-              strokeWidth="1.2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
         </div>
       </article>
     </main>
