@@ -44,20 +44,22 @@ const posts: Post[] = Object.entries(modules)
 
 export default function Writing() {
   return (
-    <main className="page">
+    <main>
       <Breadcrumb section="writing" />
-      <h1 className="page-title">Writing</h1>
-      <ul className="writing-list">
-        {posts.map((p) => (
-          <li key={p.slug}>
-            <Link to={`/writing/${p.slug}`} className="writing-row">
-              <span className="writing-row-title">{p.title}</span>
-              <span className="writing-row-dots" aria-hidden="true" />
-              <span className="writing-row-date">{formatDate(p.published)}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <article>
+        <h1 className="page-title">Writing</h1>
+        <ul className="writing-list">
+          {posts.map((p) => (
+            <li key={p.slug}>
+              <Link to={`/writing/${p.slug}`} className="writing-row">
+                <span className="writing-row-title">{p.title}</span>
+                <span className="writing-row-dots" aria-hidden="true" />
+                <span className="writing-row-date">{formatDate(p.published)}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </article>
     </main>
   );
 }

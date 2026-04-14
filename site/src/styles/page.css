@@ -1,19 +1,67 @@
-.page {
-  min-height: 100vh;
-  max-width: 37em;
-  margin: 0 auto;
-  padding: 6.4rem 0rem 12.8rem;
-  font-size: calc(1.5rem + 0.25vw);
-  line-height: 1.5;
+/* ------------------------------------------------------------------ *
+ * Content-page layout.
+ *
+ * Three top-level blocks on a content page self-center independently:
+ *
+ *     <main>
+ *       <nav class="breadcrumb"> ...          ← self-centering
+ *       <article>                             ← self-centering
+ *         <h1 class="page-title">...</h1>
+ *         <p class="page-subtitle">...</p>    (writing only)
+ *         <div class="prose">...</div>
+ *         <ul class="writing-list">...</ul>   (index only)
+ *       </article>
+ *       <nav class="page-deeper">...</nav>    ← self-centering
+ *     </main>
+ *
+ * The wrap selector targets ONLY those three elements. They all sit at
+ * body font-size, so `37em` resolves consistently across them and
+ * every column on the page shares the same physical width. Differently
+ * sized text (title, subtitle, breadcrumb labels) lives INSIDE these
+ * blocks so its font-size never enters the width math.
+ * ------------------------------------------------------------------ */
+
+main {
+  padding: 6.4rem 0 24rem;
 }
 
-/* --- breadcrumb --- */
+main>.breadcrumb,
+main>article,
+main>.page-deeper {
+  width: var(--wrap-normal);
+  max-width: var(--wrap-wide);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 860px) {
+  main {
+    padding: 4rem 0 18rem;
+  }
+
+  main>.breadcrumb,
+  main>article,
+  main>.page-deeper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* --- breadcrumb --------------------------------------------------- *
+ * Nav itself stays at body font-size so its 37em wrap matches article
+ * and page-deeper. The smaller display size lives on its children.
+ * ----------------------------------------------------------------- */
 .breadcrumb {
   display: flex;
   align-items: baseline;
   gap: 0.96rem;
   margin-bottom: 5.6rem;
-  font-size: 1.6rem;
+}
+
+.breadcrumb-home,
+.breadcrumb-sep,
+.breadcrumb-section {
+  font-size: var(--font-small);
 }
 
 .breadcrumb-home {
@@ -37,18 +85,25 @@
   color: var(--tx);
 }
 
-/* --- title (larger, heavier) --- */
+/* --- title + subtitle (lives inside article) ---------------------- */
 .page-title {
   font-family: 'Bamberg Serial', Georgia, 'Times New Roman', serif;
   font-weight: 700;
-  font-size: calc(1.35em + .55vw);
+  font-size: calc(1.35em + 0.55vw);
   line-height: 1.25;
-  margin: 0 0 4rem;
+  letter-spacing: 0em;
   color: var(--tx);
-  letter-spacing: -0.005em;
+  margin: 0 0 1em;
+  /* stephango h1 bottom rhythm */
 }
 
-/* --- prose: body text, all same size, h2 differentiated by weight only --- */
+.page-subtitle {
+  font-size: var(--font-normal);
+  color: var(--tx-3);
+  margin: -1em 0 4rem;
+}
+
+/* --- prose -------------------------------------------------------- */
 .prose {
   color: var(--tx);
 }
@@ -77,6 +132,11 @@
   margin-top: 2em;
 }
 
+.prose h1+h2,
+.prose h2+h3 {
+  margin-top: 1em;
+}
+
 .prose p {
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -101,6 +161,7 @@
 
 .prose a:hover {
   text-decoration-color: var(--tx);
+  color: var(--action);
 }
 
 .prose ul,
@@ -144,6 +205,12 @@
   font-style: italic;
 }
 
+.prose mark {
+  background-color: var(--highlight);
+  color: var(--tx);
+  padding: 0 0.2em;
+}
+
 .prose hr {
   border: none;
   border-top: 1px solid var(--ui);
@@ -160,9 +227,10 @@
   max-width: 100%;
   height: auto;
   margin: 2.4rem 0;
+  border-radius: var(--image-radius);
 }
 
-/* --- deeper links --- */
+/* --- deeper links ------------------------------------------------- */
 .page-deeper {
   margin-top: 8rem;
   padding-top: 3.2rem;

@@ -1,31 +1,50 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     transition: none !important;
   }
 }
 
 html {
-  font-size: 62.5%; /* 1rem = 10px — stephango / flexoki convention */
+  font-size: 62.5%;
+  /* 1rem = 10px — stephango / flexoki convention */
 }
 
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   min-height: 100%;
 }
 
+/* ------------------------------------------------------------------ *
+ * Body owns global typography: fluid font size, line height, family,
+ * color. Per-page layout (widths, top/bottom padding) lives on each
+ * self-centering element below — NOT on a global container.
+ * ------------------------------------------------------------------ */
 body {
   font-family: 'Bamberg Serial', Georgia, 'Times New Roman', serif;
   font-weight: 400;
+  font-size: 1.8rem;
+  /* fallback */
+  font-size: calc(1.5rem + 0.25vw);
+  /* fluid */
+  line-height: var(--line-height);
   background: var(--bg);
   color: var(--tx);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  letter-spacing: 0.01em;
 }
 
 a {
@@ -33,6 +52,14 @@ a {
   text-decoration: none;
 }
 
-body, a, button, svg, path, line, circle, .home-nav-link, .page-nav-link {
+body,
+a,
+button,
+svg,
+path,
+line,
+circle,
+.home-nav-link,
+.page-nav-link {
   transition: background-color 450ms ease, color 450ms ease, border-color 450ms ease, fill 450ms ease, stroke 450ms ease;
 }

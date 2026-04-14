@@ -1,4 +1,29 @@
+/* ------------------------------------------------------------------ *
+ * Flexoki palette + layout tokens.
+ * Two layers:
+ *   1. Raw palette (--paper, --base-*, accents) — never used in rules.
+ *   2. Semantic aliases (--bg, --tx, --ui, --action, …) — the ONLY
+ *      tokens components should read. Theme-switching flips the
+ *      semantic layer, nothing else.
+ * ------------------------------------------------------------------ */
+
 :root {
+  /* --- layout / type tokens (theme-independent) ------------------- *
+   * Wraps are literal em values (stephango convention). They only
+   * resolve consistently if every element carrying `width: var(...)`
+   * is at body font-size. Put differently-sized text (title,
+   * breadcrumb, subtitle) INSIDE those elements, not ON them.
+   * ------------------------------------------------------------- */
+  --wrap-normal: 37em;
+  --wrap-wide: 54em;
+  --line-height: 1.65;
+  --heading-weight: 500;
+  --font-small: 0.875em;
+  --font-smaller: 0.8em;
+  --border-radius: 4px;
+  --image-radius: 6px;
+
+  /* --- raw palette ----------------------------------------------- */
   --paper: #FFFCF0;
   --base-50: #F2F0E5;
   --base-100: #E6E4D9;
@@ -14,6 +39,26 @@
   --base-950: #1C1B1A;
   --black: #100F0F;
 
+  --cyan-50: #EBF5F1;
+  --cyan-100: #DDEAE2;
+  --cyan-400: #5E9EA0;
+  --cyan-600: #24837B;
+  --cyan-950: #122F2C;
+
+  --yellow-100: #FCEEB8;
+  --yellow-900: #4D3A1B;
+}
+
+@media (max-width: 860px) {
+  :root {
+    --wrap-normal: 88vw;
+    --wrap-wide: 100vw;
+    --heading-weight: 600;
+  }
+}
+
+/* --- light theme (default) --------------------------------------- */
+:root {
   --bg: var(--paper);
   --bg-2: var(--base-50);
   --ui: var(--base-100);
@@ -22,8 +67,14 @@
   --tx-3: var(--base-300);
   --tx-2: var(--base-600);
   --tx: var(--black);
+
+  --action: var(--cyan-600);
+  --bg-hover: var(--cyan-50);
+  --highlight: var(--yellow-100);
+  --selection: rgba(187, 220, 206, 0.3);
 }
 
+/* --- dark theme -------------------------------------------------- */
 :root[data-theme="dark"] {
   --bg: var(--black);
   --bg-2: var(--base-950);
@@ -33,4 +84,17 @@
   --tx-3: var(--base-700);
   --tx-2: var(--base-500);
   --tx: var(--base-200);
+
+  --action: var(--cyan-400);
+  --bg-hover: var(--cyan-950);
+  --highlight: var(--yellow-900);
+  --selection: rgba(94, 158, 160, 0.25);
+}
+
+::selection {
+  background: var(--selection);
+}
+
+::-moz-selection {
+  background: var(--selection);
 }

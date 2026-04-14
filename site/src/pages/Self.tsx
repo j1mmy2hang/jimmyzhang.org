@@ -8,14 +8,15 @@ export default function Self() {
   const title = frontmatter.title || 'Basics';
 
   return (
-    <main className="page">
+    <main>
       <Breadcrumb section="self" />
-      <h1 className="page-title">{title}</h1>
-
-      <article className="prose">
-        {loading && <p className="page-status">loading…</p>}
-        {error && <p className="page-status">could not load basics.md</p>}
-        {html && <div dangerouslySetInnerHTML={{ __html: html }} />}
+      <article>
+        <h1 className="page-title">{title}</h1>
+        <div className="prose">
+          {loading && <p className="page-status">loading…</p>}
+          {error && <p className="page-status">could not load basics.md</p>}
+          {html && <div dangerouslySetInnerHTML={{ __html: html }} />}
+        </div>
       </article>
 
       <nav className="page-deeper" aria-label="deeper">
