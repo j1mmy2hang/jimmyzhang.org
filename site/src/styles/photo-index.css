@@ -3,6 +3,12 @@ main>article.photo-index {
   max-width: 92em;
 }
 
+.photo-hint {
+  font-size: var(--font-small);
+  color: var(--tx-3);
+  margin: -1.2rem 0 0;
+}
+
 .photo-map-wrap {
   position: relative;
   width: 100%;
@@ -75,7 +81,7 @@ main>article.photo-index {
   background: var(--bg);
   border: 1px solid var(--ui-2);
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1.25rem;
   width: 20rem;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08);
   pointer-events: auto;
@@ -214,22 +220,98 @@ main>article.photo-index {
   padding-top: 0.4rem;
 }
 
+/* ------------------------------------------------------------------ *
+ * Mobile layout
+ *
+ * Convert the photo-index article into a viewport-height flex column so
+ * the map takes the bulk of the screen and the timeline sits anchored
+ * near the bottom (above the breadcrumb / title block). Timeline dots
+ * are enlarged for touch, and the active date label flips ABOVE the dot
+ * so the user's thumb doesn't cover it while scrubbing.
+ * ------------------------------------------------------------------ */
 @media (max-width: 860px) {
-  .world-map-container {
-    aspect-ratio: 4 / 3;
-    border-radius: 6px;
+  main:has(article.photo-index) {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  main>article.photo-index {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 10rem);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .photo-index>.page-header {
+    flex: 0 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .photo-index .photo-hint {
+    font-size: var(--font-small);
+    margin-top: 0.8rem;
+  }
+
+  .photo-index>.photo-map-wrap {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 4rem;
+  }
+
+  .photo-index .world-map-container {
+    aspect-ratio: auto;
+    flex: 1 1 auto;
+    min-height: 45vh;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 
   .photo-popup {
-    width: 17rem;
-    padding: 0.6rem;
+    width: 16rem;
+    padding: 0.8rem;
   }
 
   .photo-popup-cover {
     height: 8rem;
   }
 
-  .photo-timeline {
-    padding: 0 1rem;
+  /* ---- timeline docked to bottom, touch-friendly ---- */
+  /* Timeline lifted ~14vh above the viewport floor so it clears the
+     fixed theme / dappled-light toggles in the bottom corners. */
+  .photo-index>.photo-timeline {
+    flex: 0 0 auto;
+    margin: auto 0 14vh;
+    padding: 0 2rem;
+    height: 8rem;
+  }
+
+  .photo-index .photo-timeline-line {
+    height: 2px;
+  }
+
+  /* Smaller, more elegant dots. Active dot is roughly the size of the
+     previous inactive dot; inactive dots shrink further. */
+  .photo-index .photo-tl-dot {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .photo-index .photo-tl-dot.active {
+    transform: translate(-50%, -50%) scale(1.55);
+  }
+
+  /* Flip the active date label ABOVE the dot on touch devices so a
+     scrubbing thumb doesn't occlude it. */
+  .photo-index .photo-tl-dot-date {
+    top: auto;
+    bottom: 1.2rem;
+    padding-top: 0;
+    padding-bottom: 0.4rem;
+    transform-origin: bottom center;
+    transform: translate(-50%, 0) scale(calc(1 / 1.55));
   }
 }

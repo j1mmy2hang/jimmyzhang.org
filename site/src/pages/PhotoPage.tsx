@@ -26,6 +26,7 @@ export default function PhotoPage() {
   const title = frontmatter.title || '';
   const date = frontmatter.date || '';
   const location = frontmatter.location || '';
+  const description = (frontmatter.description || '').trim();
   const finalHtml = rewriteEmbeds(html);
 
   // Classify each image as landscape / portrait once it loads, so CSS can
@@ -61,6 +62,9 @@ export default function PhotoPage() {
           )}
         </header>
         <div className="prose photo-prose" ref={proseRef}>
+          {description && (
+            <blockquote className="photo-description">{description}</blockquote>
+          )}
           {loading && <p className="page-status">loading…</p>}
           {error && <p className="page-status">could not load /photo/{slug}.md</p>}
           {!loading && !error && <div dangerouslySetInnerHTML={{ __html: finalHtml }} />}

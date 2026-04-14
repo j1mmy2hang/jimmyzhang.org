@@ -48,15 +48,54 @@ export const MAP_HEIGHT = CANVAS_H;
 export type Pin = { id: string; lat: number; lng: number };
 
 /* ------------------------------------------------------------------ *
+ * Cluster offsets
+ *
+ * Multiple photos at the same city share a lat/lng, so their projected
+ * screen positions collide. Group by rounded projected coords, then fan
+ * overlapping members out in a small ring so each pin is individually
+ * clickable and visible at the overview zoom.
+ * ------------------------------------------------------------------ */
+function computePinGeom(pins: Pin[]): Map<string, [number, number]> {
+  const geom = new Map<string, [number, number]>();
+  const raw = new Map<string, [number, number]>();
+  const groups = new Map<string, string[]>();
+
+  for (const pin of pins) {
+    const p = projection([pin.lng, pin.lat]);
+    if (!p) continue;
+    raw.set(pin.id, [p[0], p[1]]);
+    const key = `${Math.round(p[0])}_${Math.round(p[1])}`;
+    const bucket = groups.get(key);
+    if (bucket) bucket.push(pin.id);
+    else groups.set(key, [pin.id]);
+  }
+
+  for (const ids of groups.values()) {
+    if (ids.length === 1) {
+      geom.set(ids[0], raw.get(ids[0])!);
+      continue;
+    }
+    const [baseX, baseY] = raw.get(ids[0])!;
+    const n = ids.length;
+    // Small fixed radius — just enough to show there are multiple pins,
+    // without visually migrating them off the real location.
+    const radius = 4.5;
+    ids.forEach((id, i) => {
+      const angle = (i / n) * Math.PI * 2 - Math.PI / 2;
+      geom.set(id, [baseX + radius * Math.cos(angle), baseY + radius * Math.sin(angle)]);
+    });
+  }
+
+  return geom;
+}
+
+/* ------------------------------------------------------------------ *
  * Viewport calculations mapped to programmatic zooms
  * ------------------------------------------------------------------ */
 type ViewBox = { x: number; y: number; w: number; h: number };
 
-function overviewBox(pins: Pin[], aspect: number): ViewBox {
-  const coords = pins
-    .map((p) => projection([p.lng, p.lat]))
-    .filter((c): c is [number, number] => c !== null);
-
+function overviewBox(pinGeom: Map<string, [number, number]>, aspect: number): ViewBox {
+  const coords = Array.from(pinGeom.values());
   if (coords.length === 0) return { x: 0, y: 0, w: CANVAS_W, h: CANVAS_H };
 
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
@@ -89,20 +128,23 @@ function overviewBox(pins: Pin[], aspect: number): ViewBox {
   return { x, y, w, h };
 }
 
-function focusBox(pin: Pin, aspect: number): ViewBox {
-  const p = projection([pin.lng, pin.lat]);
+function focusBox(
+  pinGeom: Map<string, [number, number]>,
+  id: string,
+  aspect: number
+): ViewBox {
+  const p = pinGeom.get(id);
   if (!p) return { x: 0, y: 0, w: CANVAS_W, h: CANVAS_H };
 
   const w = 120;
   const h = w / aspect;
-  
+
   const x = p[0] - w / 2;
-  const y = p[1] - h * 0.6; // lower center so popup fits above naturally
+  const y = p[1] - h * 0.6;
 
   return { x, y, w, h };
 }
 
-// Convert absolute coordinates mapping into a D3 internal transform matrix directly
 function viewBoxToTransform(vb: ViewBox): d3Zoom.ZoomTransform {
   const k = CANVAS_W / vb.w;
   const tx = -vb.x * k;
@@ -117,11 +159,13 @@ export default function WorldMap({
   pins,
   activeId,
   onPinClick,
+  onBackgroundClick,
   renderOverlay,
 }: {
   pins: Pin[];
   activeId: string | null;
   onPinClick: (id: string) => void;
+  onBackgroundClick?: () => void;
   renderOverlay?: (pin: Pin, leftPercent: number, topPercent: number) => React.ReactNode;
 }) {
   const countryPaths = useMemo(
@@ -132,14 +176,16 @@ export default function WorldMap({
     []
   );
 
+  const pinGeom = useMemo(() => computePinGeom(pins), [pins]);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const mapGroupRef = useRef<SVGGElement>(null);
   const zoomRef = useRef<d3Zoom.ZoomBehavior<Element, unknown> | null>(null);
 
-  /* ---- View / Zoom states ---- */
+  /* ---- Aspect ratio tracks container ---- */
   const [aspect, setAspect] = useState(CANVAS_W / CANVAS_H);
-  
+
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
@@ -151,39 +197,99 @@ export default function WorldMap({
     return () => ro.disconnect();
   }, []);
 
-  const [isAnimating, setIsAnimating] = useState(false);
+  /* ---- Camera & popup state ---- *
+   *
+   * finalTransform → last resting transform, used to project the active pin
+   *   to screen coordinates for the HTML overlay.
+   * popupId → the pin id the popup is currently anchored to. Overlay only
+   *   renders when popupId === activeId. Any mismatch (stale popupId from a
+   *   previous pin, or null during interaction) keeps the popup hidden, so
+   *   it never flashes at the wrong place.
+   *
+   * Intention detection:
+   *   - Direct/programmatic camera move (clicking a timeline dot or a pin):
+   *     d3 fires zoom events with no sourceEvent → on 'end' we surface the
+   *     popup immediately.
+   *   - User drag / wheel: d3 events carry a sourceEvent → hide popup on
+   *     'start', wait 140ms after 'end' to make sure they've stopped, then
+   *     restore.
+   * ---------------------------------------------------------------- */
   const [finalTransform, setFinalTransform] = useState<d3Zoom.ZoomTransform>(d3Zoom.zoomIdentity);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const [popupId, setPopupId] = useState<string | null>(null);
+  const popupTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const userActiveRef = useRef(false);
+  // Tracks whether the pointer moved between pointerdown and the click
+  // event. d3-zoom's 'zoom' fires per-frame during a drag, so we latch
+  // this ref on any zoom event with a sourceEvent, and clear it when the
+  // click handler has seen-and-ignored the trailing click.
+  const draggedRef = useRef(false);
+  const activeIdRef = useRef<string | null>(activeId);
+
+  useEffect(() => {
+    activeIdRef.current = activeId;
+  });
+
+  const clearPopupTimeout = () => {
+    if (popupTimeoutRef.current) {
+      clearTimeout(popupTimeoutRef.current);
+      popupTimeoutRef.current = null;
+    }
+  };
 
   /* ---- Initialize D3 Zoom ---- */
   useEffect(() => {
     if (!svgRef.current || !mapGroupRef.current) return;
     const svg = d3Selection.select(svgRef.current);
     const mapGroup = d3Selection.select(mapGroupRef.current);
-    
-    // Bind native hardware-accelerated D3 zooming logic directly mapping pointer mechanics
+
     const zoom = d3Zoom.zoom()
       .scaleExtent([0.5, 80])
-      .on('start', () => {
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        setIsAnimating(true);
+      .on('start', (event) => {
+        clearPopupTimeout();
+        if (event.sourceEvent) userActiveRef.current = true;
+        setPopupId(null);
       })
       .on('zoom', (event) => {
         const t = event.transform;
         mapGroup.attr('transform', t.toString());
-        
-        // Scale elements natively bypassing React for absolute fluid 60FPS dragging!
+
+        // A 'zoom' event with a sourceEvent means the user actually moved
+        // the map — latch so the trailing click is suppressed.
+        if (event.sourceEvent) draggedRef.current = true;
+
+        // Counter-scale pins so they stay visible at any zoom level. Handled
+        // outside React for 60fps interaction.
         const invK = 1 / t.k;
-        mapGroup.selectAll('.world-map-pin').attr('r', 6.5 * invK).style('stroke-width', 1.6 * invK);
-        mapGroup.selectAll('.world-map-pin-active').attr('r', 9 * invK).style('stroke-width', 2 * invK);
-        mapGroup.selectAll('.world-map-pin-halo').attr('r', 20 * invK);
+        mapGroup
+          .selectAll('.world-map-pin:not(.world-map-pin-active)')
+          .attr('r', 6.5 * invK)
+          .style('stroke-width', 1.6 * invK);
+        mapGroup
+          .selectAll('.world-map-pin-active')
+          .attr('r', 9 * invK)
+          .style('stroke-width', 2 * invK);
+        mapGroup
+          .selectAll('.world-map-pin-halo')
+          .attr('r', 20 * invK);
       })
       .on('end', (event) => {
-        // Extended delay to buffer scrolling/resting inputs gracefully
-        timeoutRef.current = setTimeout(() => {
-          setIsAnimating(false);
-          setFinalTransform(event.transform);
-        }, 800); 
+        setFinalTransform(event.transform);
+        clearPopupTimeout();
+
+        if (event.sourceEvent) {
+          // User interaction ended — hold the popup hidden for a
+          // generous grace window so rapid sequential drags don't cause
+          // the popup to pop in between each.
+          userActiveRef.current = false;
+          popupTimeoutRef.current = setTimeout(() => {
+            if (!userActiveRef.current && activeIdRef.current) {
+              setPopupId(activeIdRef.current);
+            }
+          }, 600);
+        } else if (activeIdRef.current) {
+          // Programmatic camera move — surface the popup immediately.
+          setPopupId(activeIdRef.current);
+        }
       });
 
     svg.call(zoom as any);
@@ -191,46 +297,35 @@ export default function WorldMap({
 
     return () => {
       svg.on('.zoom', null);
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      clearPopupTimeout();
     };
   }, []);
 
-  /* ---- Drive programmatic view logic ---- */
-  const prevActiveRef = useRef<string | null>(null);
-  
+  /* ---- Programmatic camera driven by activeId / aspect ---- */
+  const hasInitializedRef = useRef(false);
+
   useEffect(() => {
     if (!zoomRef.current || !svgRef.current) return;
 
-    if (activeId === prevActiveRef.current) return;
-    const initialLoad = prevActiveRef.current === null;
-    prevActiveRef.current = activeId;
+    const initialLoad = !hasInitializedRef.current;
+    hasInitializedRef.current = true;
 
     let targetVB: ViewBox;
     if (!activeId) {
-      targetVB = overviewBox(pins, aspect);
+      targetVB = overviewBox(pinGeom, aspect);
     } else {
-      const pin = pins.find((p) => p.id === activeId);
-      if (!pin) return;
-      targetVB = focusBox(pin, aspect);
+      if (!pinGeom.has(activeId)) return;
+      targetVB = focusBox(pinGeom, activeId, aspect);
     }
 
     const t = viewBoxToTransform(targetVB);
-    
-    // Orchestrate camera translation via native interpolators
+
     d3Selection.select(svgRef.current)
       .transition()
-      .duration(initialLoad ? 0 : 1000)
+      .duration(initialLoad ? 0 : 900)
       .call(zoomRef.current.transform as any, t);
-      
-  }, [activeId, pins, aspect]);
+  }, [activeId, pinGeom, aspect]);
 
-  const zoomFactor = 1 / finalTransform.k;
-  const pinR = 6.5 * zoomFactor;
-  const pinActiveR = 9 * zoomFactor;
-  const haloR = 20 * zoomFactor;
-  const strokeW = 1.6 * zoomFactor;
-
-  const isIdStable = activeId === prevActiveRef.current;
   const aspectHeight = CANVAS_W / aspect;
 
   return (
@@ -242,7 +337,15 @@ export default function WorldMap({
         xmlns="http://www.w3.org/2000/svg"
         aria-label="World map of photo locations"
         preserveAspectRatio="xMidYMid meet"
-        style={{ touchAction: 'none' }} // Surpass native browser scrolling mechanisms smoothly
+        style={{ touchAction: 'none' }}
+        onClick={() => {
+          // A trailing click after a pan/zoom should not exit focus mode.
+          if (draggedRef.current) {
+            draggedRef.current = false;
+            return;
+          }
+          onBackgroundClick?.();
+        }}
       >
         <g ref={mapGroupRef}>
           <g className="world-map-countries">
@@ -252,25 +355,22 @@ export default function WorldMap({
           </g>
           <g className="world-map-pins">
             {pins.map((p) => {
-              const proj = projection([p.lng, p.lat]);
-              if (!proj) return null;
-              const [x, y] = proj;
+              const pos = pinGeom.get(p.id);
+              if (!pos) return null;
+              const [x, y] = pos;
               const active = p.id === activeId;
-              
+              const invK = 1 / finalTransform.k;
               return (
                 <g key={p.id} transform={`translate(${x}, ${y})`}>
-                  {active && (
-                    <circle r={haloR} className="world-map-pin-halo" />
-                  )}
+                  {active && <circle r={20 * invK} className="world-map-pin-halo" />}
                   <circle
-                    r={active ? pinActiveR : pinR}
-                    strokeWidth={active ? strokeW * 1.25 : strokeW}
+                    r={(active ? 9 : 6.5) * invK}
+                    strokeWidth={(active ? 2 : 1.6) * invK}
                     className={
                       active
                         ? 'world-map-pin world-map-pin-active'
                         : 'world-map-pin'
                     }
-                    data-id={p.id} // Retained data-binding safely
                     onClick={(e) => {
                       e.stopPropagation();
                       onPinClick(p.id);
@@ -282,20 +382,29 @@ export default function WorldMap({
           </g>
         </g>
       </svg>
-      {(!isAnimating && isIdStable && activeId && renderOverlay) && (() => {
+      {popupId && popupId === activeId && renderOverlay && (() => {
         const pin = pins.find((p) => p.id === activeId);
         if (!pin) return null;
-        const proj = projection([pin.lng, pin.lat]);
-        if (!proj) return null;
-        
-        // Calculate true dynamic viewport positional mapping directly bridging matrix states natively 
+        const pos = pinGeom.get(pin.id);
+        if (!pos) return null;
+
         const t = finalTransform;
-        const screenX = proj[0] * t.k + t.x;
-        const screenY = proj[1] * t.k + t.y;
-        
+        const screenX = pos[0] * t.k + t.x;
+        const screenY = pos[1] * t.k + t.y;
+
+        // Hide if the anchor has been panned outside the visible map box.
+        if (
+          screenX < 0 ||
+          screenX > CANVAS_W ||
+          screenY < 0 ||
+          screenY > aspectHeight
+        ) {
+          return null;
+        }
+
         const leftPercent = (screenX / CANVAS_W) * 100;
         const topPercent = (screenY / aspectHeight) * 100;
-        
+
         return renderOverlay(pin, leftPercent, topPercent);
       })()}
     </div>

@@ -66,8 +66,8 @@ const entries: PhotoEntry[] = Object.entries(modules)
   .sort((a, b) => a.date.localeCompare(b.date));
 
 export default function Photo() {
-  const [index, setIndex] = useState(entries.length - 1);
-  const current = entries[index];
+  const [index, setIndex] = useState<number | null>(null);
+  const current = index !== null ? entries[index] : null;
 
   const pins = useMemo(
     () => entries.map((e) => ({ id: e.slug, lat: e.lat, lng: e.lng })),
@@ -96,7 +96,7 @@ export default function Photo() {
     const percent = x / rect.width;
     const time = minTime + percent * span;
 
-    let closestIdx = index;
+    let closestIdx = 0;
     let minDiff = Infinity;
     entries.forEach((entry, i) => {
       const t = new Date(entry.date).getTime();
@@ -118,49 +118,54 @@ export default function Photo() {
       <article className="photo-index">
         <header className="page-header">
           <h1 className="page-title">Photo</h1>
+          <p className="photo-hint">
+            Drag on the timeline or navigate the map to view photos
+          </p>
         </header>
         <div className="photo-map-wrap">
           <WorldMap
             pins={pins}
-            activeId={current.slug}
+            activeId={current?.slug ?? null}
             onPinClick={(id) => {
               const i = entries.findIndex((e) => e.slug === id);
               if (i >= 0) setIndex(i);
             }}
-            renderOverlay={(_, leftPercent, topPercent) => (
-              <div
-                className="photo-popup"
-                style={{
-                  left: `${leftPercent}%`,
-                  top: `${topPercent}%`,
-                }}
-              >
-                {current.cover && (
-                  <img
-                    className="photo-popup-cover"
-                    src={`/asset/image/${encodeURIComponent(current.cover)}`}
-                    alt=""
-                  />
-                )}
-                <div className="photo-popup-body">
-                  <div className="photo-popup-title">{current.title}</div>
-                  <div className="photo-popup-meta">
-                    {current.location}
+            onBackgroundClick={() => setIndex(null)}
+            renderOverlay={(_, leftPercent, topPercent) => {
+              if (!current) return null;
+              return (
+                <div
+                  className="photo-popup"
+                  style={{
+                    left: `${leftPercent}%`,
+                    top: `${topPercent}%`,
+                  }}
+                >
+                  {current.cover && (
+                    <img
+                      className="photo-popup-cover"
+                      src={`/asset/image/${encodeURIComponent(current.cover)}`}
+                      alt=""
+                    />
+                  )}
+                  <div className="photo-popup-body">
+                    <div className="photo-popup-title">{current.title}</div>
+                    <div className="photo-popup-meta">{current.location}</div>
+                    <Link className="photo-popup-open" to={`/photo/${current.slug}`}>
+                      Open →
+                    </Link>
                   </div>
-                  <Link className="photo-popup-open" to={`/photo/${current.slug}`}>
-                    Open →
-                  </Link>
                 </div>
-              </div>
-            )}
+              );
+            }}
           />
         </div>
 
-        <div 
-          className="photo-timeline" 
-          role="slider" 
+        <div
+          className="photo-timeline"
+          role="slider"
           aria-label="Photo timeline"
-          aria-valuenow={index}
+          aria-valuenow={index ?? -1}
           aria-valuemin={0}
           aria-valuemax={entries.length - 1}
           ref={timelineRef}
