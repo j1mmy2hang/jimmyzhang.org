@@ -84,23 +84,6 @@ Reference aesthetic: **stephango.com**. Palette: **Flexoki**.
   `*` transition on `background-color` / `color` (450ms) so theme flips feel
   like a dimmer, not a flashlight. Respects `prefers-reduced-motion`.
 
-### Typographic rules
-
-- **Page width**: `max-width: 90rem` (= 900px) site-wide. Writing index width
-  is the canonical one.
-- **Body**: `font-size: calc(1.5rem + 0.25vw)`, `line-height: 1.65`.
-- **Title**: larger and heavier. Bamberg Serial, `700`,
-  `clamp(2.8rem, 3vw, 3.6rem)`. **Never lowercase** — render as-is.
-- **Headings in prose (h1–h6)**: same size as body (`font-size: inherit`),
-  differentiated by `font-weight: 700`. Margins use `1lh` above/below — "as
-  if the I-beam moved up one line". **h2 gets extra `margin-top: 2em`**.
-- **Bold inline** (`**foo**`): `font-weight: inherit` + underline
-  (1px thick, 3px offset). Rationale: regular bold competes with h2, which
-  *is* bold. Underline preserves emphasis without weight collision.
-- **Blockquotes**: `margin: 2em 0`, left border `2px solid var(--ui-2)`,
-  `var(--tx-2)` color, italic.
-- **Paragraphs**: `margin-block: 1em`.
-
 ## Architecture
 
 `site/src/`:
@@ -146,21 +129,6 @@ Reference aesthetic: **stephango.com**. Palette: **Flexoki**.
   If that base ever changes, rescale every rem value.
 - Netlify `_redirects`: keep it as a single SPA fallback line. Real `.md`
   files are served before the fallback, so agents still win.
-
-## Status
-
-**Built**: `/`, `/self` (+ 2 deeper), `/telos` (+ 3 deeper), `/writing`
-(index + dynamic post), theme system, breadcrumb, type scale, Flexoki.
-
-**Pending**:
-- `/note` — build-time JSON manifest (atomic has ~2000 files).
-- `/project` — index table from `project/index.md` + per-project pages.
-- `/photo` — list similar to writing; posts embed wikilink images.
-- Wikilink (`[[foo]]`) + image-embed (`![[foo.png]]`) resolver in the marked
-  pipeline. Not yet implemented; must preserve Obsidian-style syntax.
-- Point Netlify publish dir at `site/dist`, verify build.
-- Actually open the site in a browser and sanity-check — so far all
-  iterations have been code-only.
 
 ## License
 

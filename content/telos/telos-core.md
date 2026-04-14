@@ -9,7 +9,7 @@ My Telos consists of two statement -- of myself and of the world.
 
 ## 1. Self Statement
 
-> I hope to deeply connect with myself and my environment achieve a state of agentic being. 
+> I hope to deeply connect with myself and my environment to  achieve a state of agentic being. 
 
 **Connection** -- Meaning arises from connection. 
 
