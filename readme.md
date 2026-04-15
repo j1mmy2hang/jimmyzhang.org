@@ -5,7 +5,7 @@ system. All writing, notes, projects, and thinking live as plain markdown in
 a folder tree whose shape *is* the URL tree. Humans browse a minimalist React
 site; AI agents `curl` the raw `.md` files at the same URLs.
 
-Live at **https://jimmyzhang-org.netlify.app**.
+Live at **https://jimmyzhang.org**.
 
 ## The idea
 
