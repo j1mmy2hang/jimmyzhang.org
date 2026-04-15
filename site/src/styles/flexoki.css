@@ -47,6 +47,12 @@
   --cyan-600: #24837B;
   --cyan-950: #122F2C;
 
+  --blue-50: #E1EAFA;
+  --blue-100: #C3D5F5;
+  --blue-400: #4385BE;
+  --blue-600: #205EA6;
+  --blue-950: #163054;
+
   --yellow-100: #FCEEB8;
   --yellow-900: #4D3A1B;
 }
@@ -70,10 +76,10 @@
   --tx-2: var(--base-600);
   --tx: var(--black);
 
-  --action: var(--cyan-600);
-  --bg-hover: var(--cyan-50);
+  --action: var(--blue-600);
+  --bg-hover: var(--blue-50);
   --highlight: var(--yellow-100);
-  --selection: rgba(187, 220, 206, 0.3);
+  --selection: rgba(195, 213, 245, 0.3);
 }
 
 /* --- dark theme -------------------------------------------------- */
@@ -87,10 +93,10 @@
   --tx-2: var(--base-500);
   --tx: var(--base-200);
 
-  --action: var(--cyan-400);
-  --bg-hover: var(--cyan-950);
+  --action: var(--blue-400);
+  --bg-hover: var(--blue-950);
   --highlight: var(--yellow-900);
-  --selection: rgba(94, 158, 160, 0.25);
+  --selection: rgba(67, 133, 190, 0.25);
 }
 
 ::selection {

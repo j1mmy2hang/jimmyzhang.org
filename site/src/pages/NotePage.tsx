@@ -50,13 +50,13 @@ function ConnectionBox({ connections }: { connections: Connection[] }) {
     <aside className="backlink-box">
       {sources.length > 0 && (
         <div className="backlink-section">
-          <div className="backlink-header">source</div>
+          <div className="backlink-header">Source</div>
           <LinkList list={sources} />
         </div>
       )}
       {backlinks.length > 0 && (
         <div className="backlink-section">
-          <div className="backlink-header">backlinks</div>
+          <div className="backlink-header">Backlinks</div>
           <LinkList list={backlinks} />
         </div>
       )}

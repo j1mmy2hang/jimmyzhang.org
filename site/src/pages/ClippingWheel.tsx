@@ -20,10 +20,12 @@ function mod(a: number, n: number): number {
 export default function ClippingWheel() {
   const [items, setItems] = useState<Entry[] | null>(null);
   const [focus, setFocus] = useState(0);
+  const [spinning, setSpinning] = useState(false);
   const wheelRef = useRef<HTMLDivElement | null>(null);
   const focusRef = useRef(0);
   const draggingRef = useRef(false);
   const snapTimer = useRef<number | null>(null);
+  const spinRaf = useRef<number | null>(null);
 
   useEffect(() => {
     focusRef.current = focus;
@@ -41,11 +43,51 @@ export default function ClippingWheel() {
           return b.date.localeCompare(a.date);
         });
       setItems(list);
+      if (list.length > 0) {
+        setFocus(Math.floor(Math.random() * list.length));
+      }
     });
     return () => {
       cancelled = true;
     };
   }, []);
+
+  useEffect(() => () => {
+    if (spinRaf.current != null) cancelAnimationFrame(spinRaf.current);
+  }, []);
+
+  const spin = () => {
+    if (!items || items.length === 0 || spinning) return;
+    if (snapTimer.current != null) window.clearTimeout(snapTimer.current);
+
+    const from = focusRef.current;
+    const currentInt = Math.round(from);
+    const n = items.length;
+    const targetIdx = Math.floor(Math.random() * n);
+    const revolutions = 1 + Math.floor(Math.random() * 2);
+    // Always spin forward so the motion reads clearly.
+    const delta = revolutions * n + mod(targetIdx - currentInt, n);
+    const to = currentInt + delta;
+    const duration = 1000 + delta * 7;
+    const start = performance.now();
+    setSpinning(true);
+
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - start) / duration);
+      // Ease-out quintic — hard start, long glide-out.
+      const eased = 1 - Math.pow(1 - t, 5);
+      const f = from + (to - from) * eased;
+      setFocus(f);
+      if (t < 1) {
+        spinRaf.current = requestAnimationFrame(tick);
+      } else {
+        spinRaf.current = null;
+        setFocus(to);
+        setSpinning(false);
+      }
+    };
+    spinRaf.current = requestAnimationFrame(tick);
+  };
 
   const scheduleSnap = () => {
     if (snapTimer.current != null) window.clearTimeout(snapTimer.current);
@@ -171,11 +213,11 @@ export default function ClippingWheel() {
         <header className="page-header">
           <h1 className="page-title">Clipping</h1>
           <p className="page-subtitle">
-            Scroll, drag, or use arrow keys. {items.length} clippings.
+            Scroll, drag, or use arrow keys to navigate {items.length} clippings.<br></br>Or simply try your luck.
           </p>
         </header>
         <div
-          className="clipping-wheel"
+          className={`clipping-wheel${spinning ? ' is-spinning' : ''}`}
           ref={wheelRef}
           tabIndex={0}
           role="listbox"
@@ -206,6 +248,16 @@ export default function ClippingWheel() {
               );
             })}
           </div>
+        </div>
+        <div className="wheel-actions">
+          <button
+            type="button"
+            className="lucky-button"
+            onClick={spin}
+            disabled={spinning}
+          >
+            I'm feeling lucky
+          </button>
         </div>
       </article>
     </main>

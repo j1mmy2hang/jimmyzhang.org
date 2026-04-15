@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
-import { marked } from 'marked';
-
-marked.setOptions({ gfm: true, breaks: true });
+import { marked, stripObsidianDecorations } from '../markdown';
 
 export type Frontmatter = Record<string, string>;
 
@@ -42,7 +40,7 @@ export function useMarkdown(path: string): State {
       .then((text) => {
         if (cancelled) return;
         const { frontmatter, body } = parseFrontmatter(text);
-        const html = marked.parse(body, { async: false }) as string;
+        const html = marked.parse(stripObsidianDecorations(body), { async: false }) as string;
         setState({ loading: false, error: null, html, frontmatter });
       })
       .catch((e) => {

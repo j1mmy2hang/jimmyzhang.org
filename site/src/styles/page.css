@@ -117,7 +117,7 @@ main>article>.page-status {
 }
 
 .page-subtitle {
-  font-size: var(--font-normal);
+  font-size: var(--font-small);
   color: var(--tx-3);
   margin: -1em 0 4rem;
 }

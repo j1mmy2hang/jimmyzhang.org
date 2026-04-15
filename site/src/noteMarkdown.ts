@@ -1,7 +1,5 @@
-import { marked } from 'marked';
+import { marked, stripObsidianDecorations } from './markdown';
 import type { NoteIndex } from './noteIndex';
-
-marked.setOptions({ gfm: true, breaks: true });
 
 function escapeHtml(s: string): string {
   return s.replace(/[&<>"']/g, (c) =>
@@ -30,6 +28,8 @@ function ytEmbed(id: string): string {
 // rest of `marked` can consume. Unresolved links fall back to a dim inline
 // span so the reader can still see the intended target.
 export function preprocessNoteBody(body: string, index: NoteIndex): string {
+  body = stripObsidianDecorations(body);
+
   // YouTube — replace `![](url)` and bare-line URL forms with an iframe embed.
   body = body.replace(
     /^!\[[^\]]*\]\((https?:\/\/[^\s)]+)\)[ \t]*$/gm,
