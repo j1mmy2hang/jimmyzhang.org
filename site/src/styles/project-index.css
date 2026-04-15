@@ -150,8 +150,8 @@
 @media (max-width: 860px) {
   .project-section {
     grid-template-columns: 1fr;
-    gap: 0.9rem;
-    padding: 1.5rem 0;
+    gap: 2rem;
+    margin: 0rem 2rem;
   }
 
   .project-section-label {
