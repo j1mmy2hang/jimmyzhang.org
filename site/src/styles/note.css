@@ -1,0 +1,374 @@
+/* ================================================================== *
+ * Note section styles.
+ * Layout follows the project convention: no global container, each
+ * child of <article> self-centers at --wrap-normal (or wider variants).
+ * ================================================================== */
+
+main>article.shelf-page,
+main>article.wheel-page {
+  width: 100%;
+}
+
+main>article.shelf-page>.page-header,
+main>article.wheel-page>.page-header,
+main>article>.note-entries,
+main>article>.book-shelf,
+main>article>.clipping-wheel {
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main>article>.book-shelf {
+  width: var(--wrap-wide, var(--wrap-normal));
+}
+
+@media (max-width: 860px) {
+
+  main>article>.note-entries,
+  main>article>.book-shelf,
+  main>article>.clipping-wheel {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* --- /note entry tiles ------------------------------------------- */
+.note-entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+  margin-top: 4.8rem;
+}
+
+@media (max-width: 720px) {
+  .note-entries {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+}
+
+.note-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 4rem 3.2rem;
+  border: 1px solid var(--ui);
+  border-radius: var(--image-radius, 4px);
+  color: var(--tx);
+  transition: background-color 220ms ease, border-color 220ms ease,
+    transform 220ms ease;
+  text-decoration: none;
+}
+
+.note-entry:hover {
+  background: var(--bg-2);
+  border-color: var(--ui-2);
+  transform: translateY(-2px);
+}
+
+.note-entry-icon {
+  font-size: 5.6rem;
+  color: var(--tx-2);
+  line-height: 1;
+}
+
+.note-entry:hover .note-entry-icon {
+  color: var(--action, var(--tx));
+}
+
+.note-entry-name {
+  font-family: 'Bamberg Serial', Georgia, serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: var(--tx);
+}
+
+.note-entry-desc {
+  font-size: var(--font-small);
+  color: var(--tx-2);
+  line-height: 1.5;
+}
+
+/* --- backlink box ------------------------------------------------ */
+main>article>.backlink-box {
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.5rem;
+  padding: 1.6rem 2rem;
+  border-left: 2px solid var(--ui-2);
+  background: var(--bg-2);
+  border-radius: 2px;
+}
+
+@media (max-width: 860px) {
+  main>article>.backlink-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    width: auto;
+  }
+}
+
+.backlink-header {
+  font-size: var(--font-small);
+  color: var(--tx-3);
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  margin-bottom: 0.8rem;
+}
+
+.backlink-section+.backlink-section {
+  margin-top: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px dashed var(--ui);
+}
+
+.backlink-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.backlink-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  color: var(--tx-2);
+  font-size: var(--font-small);
+  padding: 0.2rem 0;
+}
+
+.backlink-item:hover {
+  color: var(--action, var(--tx));
+}
+
+.backlink-type {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tx-3);
+  min-width: 5.6rem;
+}
+
+.backlink-type-book {
+  color: var(--or, var(--tx-3));
+}
+
+.backlink-type-clipping {
+  color: var(--cy, var(--tx-3));
+}
+
+.backlink-type-atomic {
+  color: var(--tx-3);
+}
+
+.backlink-title {
+  flex: 1;
+}
+
+/* --- note meta row ----------------------------------------------- */
+.note-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  align-items: baseline;
+  font-size: var(--font-small);
+  color: var(--tx-3);
+  margin: -0.8rem 0 4rem;
+}
+
+.note-meta .note-rating {
+  color: var(--ye, var(--tx-2));
+  letter-spacing: 0.1em;
+}
+
+.note-source-link {
+  color: var(--tx-2);
+  text-decoration: underline;
+  text-decoration-color: var(--tx-3);
+  text-underline-offset: 3px;
+}
+
+.note-source-link:hover {
+  color: var(--action, var(--tx));
+}
+
+/* --- unresolved wikilinks --------------------------------------- */
+.prose .wikilink-missing {
+  color: var(--tx-3);
+  border-bottom: 1px dashed var(--ui-2);
+}
+
+/* --- book shelf --------------------------------------------------- */
+.book-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 4rem 3.2rem;
+  margin-top: 4rem;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  color: var(--tx);
+  text-decoration: none;
+}
+
+.book-cover-wrap {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  background: var(--bg-2);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 6px 18px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  overflow: hidden;
+  transform: translateY(0) rotate(0deg);
+  transition: transform 260ms ease, box-shadow 260ms ease;
+}
+
+.book-card:hover .book-cover-wrap {
+  transform: translateY(-6px) rotate(-0.6deg);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 16px 32px rgba(0, 0, 0, 0.22);
+}
+
+.book-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.book-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0 0.2rem;
+}
+
+.book-card-title {
+  font-size: var(--font-small);
+  color: var(--tx);
+  line-height: 1.35;
+}
+
+.book-card-author {
+  font-size: 1.3rem;
+  color: var(--tx-3);
+}
+
+/* --- clipping wheel ---------------------------------------------- */
+.clipping-wheel {
+  position: relative;
+  height: 54rem;
+  margin: 4rem auto;
+  outline: none;
+  user-select: none;
+  touch-action: none;
+  cursor: grab;
+  mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 22%,
+      black 78%,
+      transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 22%,
+      black 78%,
+      transparent 100%);
+}
+
+.clipping-wheel:active {
+  cursor: grabbing;
+}
+
+.clipping-wheel-inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wheel-item {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 88px;
+  margin-top: -44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  text-align: center;
+  padding: 0 2rem;
+  will-change: transform, opacity;
+  transition:
+    transform 260ms cubic-bezier(0.22, 0.9, 0.28, 1),
+    opacity 260ms ease;
+}
+
+.clipping-wheel-guides {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 44px);
+  height: 88px;
+  border-top: 1px solid var(--ui);
+  border-bottom: 1px solid var(--ui);
+  pointer-events: none;
+}
+
+.wheel-item-title {
+  font-family: 'Bamberg Serial', Georgia, serif;
+  font-size: 2rem;
+  line-height: 1.3;
+  color: var(--tx-2);
+  text-decoration: none;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wheel-item-focus .wheel-item-title {
+  color: var(--tx);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.wheel-item-title:hover {
+  color: var(--action, var(--tx));
+}
+
+/* --- youtube embed ---------------------------------------------- */
+.prose .yt-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 2.4rem 0;
+  border-radius: var(--image-radius, 4px);
+  overflow: hidden;
+  background: var(--bg-2);
+}
+
+.prose .yt-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

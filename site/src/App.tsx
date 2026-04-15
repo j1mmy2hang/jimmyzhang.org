@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Self from './pages/Self';
 import Telos from './pages/Telos';
@@ -8,12 +8,12 @@ import Photo from './pages/Photo';
 import PhotoPage from './pages/PhotoPage';
 import MarkdownPage from './pages/MarkdownPage';
 import Project from './pages/Project';
-import Section from './pages/Section';
+import NoteIndex from './pages/NoteIndex';
+import BookShelf from './pages/BookShelf';
+import ClippingWheel from './pages/ClippingWheel';
+import NotePage from './pages/NotePage';
 import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
-
-
-const otherSections = ['note'];
 
 export default function App() {
   return (
@@ -47,9 +47,13 @@ export default function App() {
         <Route path="/photo" element={<Photo />} />
         <Route path="/photo/:slug" element={<PhotoPage />} />
         <Route path="/project" element={<Project />} />
-        {otherSections.map((s) => (
-          <Route key={s} path={`/${s}`} element={<Section name={s} />} />
-        ))}
+        <Route path="/note" element={<NoteIndex />} />
+        <Route path="/note/book" element={<BookShelf />} />
+        <Route path="/note/book/:slug" element={<NotePage type="book" />} />
+        <Route path="/note/clipping" element={<ClippingWheel />} />
+        <Route path="/note/clipping/:slug" element={<NotePage type="clipping" />} />
+        <Route path="/note/atomic" element={<Navigate to="/note" replace />} />
+        <Route path="/note/atomic/:slug" element={<NotePage type="atomic" />} />
       </Routes>
       <ThemeToggle />
       <DappledLight />
