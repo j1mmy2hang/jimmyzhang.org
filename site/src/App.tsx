@@ -7,12 +7,13 @@ import WritingPost from './pages/WritingPost';
 import Photo from './pages/Photo';
 import PhotoPage from './pages/PhotoPage';
 import MarkdownPage from './pages/MarkdownPage';
+import Project from './pages/Project';
 import Section from './pages/Section';
 import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
 
 
-const otherSections = ['note', 'project'];
+const otherSections = ['note'];
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
         <Route path="/writing/:slug" element={<WritingPost />} />
         <Route path="/photo" element={<Photo />} />
         <Route path="/photo/:slug" element={<PhotoPage />} />
+        <Route path="/project" element={<Project />} />
         {otherSections.map((s) => (
           <Route key={s} path={`/${s}`} element={<Section name={s} />} />
         ))}

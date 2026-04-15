@@ -32,7 +32,7 @@ Sometimes, only scanned pdf is available. In this case, either book is extremely
 
 ## How does it work to read a book with LLM?
 
-[[How I read a book with LLM]]
+[[how-i-read-book-with-llm]]
 
 ---
 ## What to read with AI, and what to read by myself
