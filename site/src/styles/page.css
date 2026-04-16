@@ -51,7 +51,7 @@ main>article>.page-status {
 
 @media (max-width: 860px) {
   main {
-    padding: 4rem 0 18rem;
+    padding: 4rem 0rem 18rem;
   }
 
   main>.breadcrumb,
@@ -59,8 +59,8 @@ main>article>.page-status {
   main>article>.prose,
   main>article>.writing-list,
   main>article>.page-status {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   main>.page-deeper {

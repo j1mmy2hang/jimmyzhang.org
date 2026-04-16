@@ -15,7 +15,7 @@
    * breadcrumb, subtitle) INSIDE those elements, not ON them.
    * ------------------------------------------------------------- */
   --wrap-normal: 37em;
-  --wrap-wide: 78rem;
+  --wrap-wide: 54em;
   --line-height: 1.65;
   --heading-weight: 500;
   --font-normal: 1.25em;

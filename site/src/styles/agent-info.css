@@ -1,11 +1,9 @@
 .agent-info {
-  padding: 2rem;
-  background: var(--bg-2);
-  border-radius: 12px;
-  border: 1px solid var(--ui-2);
+  background: var(--bg-1);
+  border-radius: var(--border-radius);
   font-size: 1.4rem;
   line-height: 1.6;
-  color: var(--tx-2);
+  color: var(--tx-1);
   max-width: var(--wrap-wide);
   width: 100%;
   animation: fadeInDown 0.8s cubic-bezier(0.16, 1, 0.3, 1);
@@ -47,7 +45,7 @@
   background: var(--bg);
   padding: 1.6rem;
   padding-right: 4rem;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   border: 1px solid var(--ui-3);
   overflow: hidden;
   display: flex;
@@ -57,7 +55,7 @@
 .agent-info-code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1.3rem;
-  color: var(--tx);
+  color: var(--tx-2);
   white-space: pre-wrap;
   word-break: break-all;
   display: block;
@@ -117,10 +115,4 @@
 
 .agent-info-copy-btn.copied {
   opacity: 1;
-}
-
-@media (max-width: 560px) {
-  .agent-info {
-    padding: 1.6rem;
-  }
 }

@@ -23,7 +23,7 @@
 
 .subscribe-label {
   font-size: var(--font-small);
-  color: var(--tx-3);
+  color: var(--tx-1);
   margin: 0 0 1.2rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .subscribe-input::placeholder {
-  color: var(--tx-3);
+  color: var(--tx-2);
 }
 
 .subscribe-button {
@@ -91,7 +91,7 @@
 
 @media (max-width: 450px) {
   .subscribe--page {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
