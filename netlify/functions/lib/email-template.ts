@@ -1,6 +1,6 @@
 /**
  * Wraps newsletter HTML content in an email template
- * matching the jimmyzhang.org Flexoki aesthetic.
+ * matching the jimmyzhang.org aesthetic.
  */
 
 import { markdownToHtml, parseFrontmatter } from './markdown';
@@ -19,14 +19,21 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
   const contentHtml = markdownToHtml(body);
 
   const html = `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
   <title>${title}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400&display=swap" rel="stylesheet">
   <!--[if mso]>
   <style>body{font-family:Georgia,'Times New Roman',serif;}</style>
   <![endif]-->
+  <style>
+    :root { color-scheme: light only; }
+    [data-ogsc] body, [data-ogsb] body { background-color: #FFFCF0 !important; color: #100F0F !important; }
+  </style>
 </head>
 <body style="margin:0;padding:0;background-color:#FFFCF0;color:#100F0F;font-family:Georgia,'Times New Roman',serif;font-size:18px;line-height:1.65;-webkit-font-smoothing:antialiased;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FFFCF0;">
@@ -34,17 +41,19 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
       <td align="center" style="padding:48px 20px;">
         <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
 
-          <!-- Header -->
+          <!-- Breadcrumb -->
           <tr>
-            <td style="padding-bottom:32px;border-bottom:1px solid #E6E4D9;">
-              <a href="https://jimmyzhang.org" style="color:#B7B5AC;text-decoration:none;font-size:14px;">Jimmy Zhang</a>
+            <td style="padding-bottom:40px;font-size:14px;">
+              <a href="https://jimmyzhang.org" style="font-family:'Libre Bodoni',Georgia,'Times New Roman',serif;color:#B7B5AC;text-decoration:none;">Jimmy Zhang</a>
+              <span style="color:#B7B5AC;"> / </span>
+              <a href="https://jimmyzhang.org/newsletter" style="color:#B7B5AC;text-decoration:none;">newsletter</a>
             </td>
           </tr>
 
           <!-- Title -->
           <tr>
-            <td style="padding:40px 0 8px;">
-              <h1 style="margin:0;font-size:28px;font-weight:700;line-height:1.25;color:#100F0F;letter-spacing:0;">${title}</h1>
+            <td style="padding-bottom:8px;">
+              <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:700;line-height:1.25;color:#100F0F;letter-spacing:0;">${title}</h1>
             </td>
           </tr>
 
@@ -63,19 +72,16 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
             </td>
           </tr>
 
-          <!-- Read online -->
-          <tr>
-            <td style="padding:24px 0;border-top:1px solid #E6E4D9;">
-              <a href="${options.webUrl}" style="color:#205EA6;text-decoration:none;font-size:15px;">Read online</a>
-            </td>
-          </tr>
-
           <!-- Footer -->
           <tr>
             <td style="padding:24px 0;border-top:1px solid #E6E4D9;">
+              <p style="margin:0 0 8px;font-size:14px;line-height:1.5;">
+                <a href="${options.webUrl}" style="color:#B7B5AC;text-decoration:none;">Read online</a>
+                <span style="color:#DAD8CE;"> · </span>
+                <a href="${options.unsubscribeUrl}" style="color:#B7B5AC;text-decoration:none;">Unsubscribe</a>
+              </p>
               <p style="margin:0;font-size:13px;color:#B7B5AC;line-height:1.5;">
-                You're receiving this because you subscribed at jimmyzhang.org.<br>
-                <a href="${options.unsubscribeUrl}" style="color:#B7B5AC;text-decoration:underline;">Unsubscribe</a>
+                You're receiving this because you subscribed at jimmyzhang.org.
               </p>
             </td>
           </tr>

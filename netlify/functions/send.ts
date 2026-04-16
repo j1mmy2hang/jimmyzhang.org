@@ -83,6 +83,7 @@ export default async function handler(req: Request, _context: Context) {
             to: sub.email,
             subject,
             html,
+            reply_to: 'contact@jimmyzhang.org',
             headers: {
               'List-Unsubscribe': `<${unsubscribeUrl}>`,
             },

@@ -1,6 +1,7 @@
 .home {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 3.2rem;
@@ -11,6 +12,15 @@
 .home-inner {
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 6.4rem);
+  width: min-content;
+}
+
+.home-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 4rem;
 }
 
