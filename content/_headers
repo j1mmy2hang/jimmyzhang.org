@@ -4,3 +4,7 @@
 
 /*.md
   Content-Type: text/plain; charset=utf-8
+
+/jimmyzhang.md
+  X-Robots-Tag: all
+  Link: </jimmyzhang.md>; rel="canonical"

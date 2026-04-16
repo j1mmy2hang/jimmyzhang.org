@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Agent entry point — start here for a full map of the site
+Sitemap: https://jimmyzhang.org/jimmyzhang.md
