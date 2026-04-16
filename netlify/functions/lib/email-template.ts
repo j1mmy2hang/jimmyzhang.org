@@ -3,7 +3,7 @@
  * matching the jimmyzhang.org Flexoki aesthetic.
  */
 
-import { markdownToHtml, parseFrontmatter } from './markdown.ts';
+import { markdownToHtml, parseFrontmatter } from './markdown';
 
 interface EmailOptions {
   markdown: string;

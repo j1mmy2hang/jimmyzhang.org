@@ -1,6 +1,6 @@
 import type { Context } from '@netlify/functions';
-import { removeSubscriber } from '../lib/subscribers.ts';
-import { verifyToken } from '../lib/tokens.ts';
+import { removeSubscriber } from './lib/subscribers';
+import { verifyToken } from './lib/tokens';
 
 export default async function handler(req: Request, _context: Context) {
   const url = new URL(req.url);

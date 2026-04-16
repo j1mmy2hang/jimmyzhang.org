@@ -1,5 +1,5 @@
 import type { Context } from '@netlify/functions';
-import { addSubscriber } from '../lib/subscribers.ts';
+import { addSubscriber } from './lib/subscribers';
 
 const NOTIFY_EMAIL = 'jz9542063@gmail.com';
 

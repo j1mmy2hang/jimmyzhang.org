@@ -3,6 +3,7 @@
 .obsidian/
 .env
 newsletter/.env
+node_modules/
 
 # Local Netlify folder
 .netlify

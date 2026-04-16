@@ -9,7 +9,7 @@
  */
 
 import type { Context } from '@netlify/functions';
-import { getSubscribers, addSubscriber, removeSubscriber } from '../lib/subscribers.ts';
+import { getSubscribers, addSubscriber, removeSubscriber } from './lib/subscribers';
 
 export default async function handler(req: Request, _context: Context) {
   const adminKey = process.env.ADMIN_KEY || '';

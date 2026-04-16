@@ -21,18 +21,25 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: email.trim() }),
       });
-      const data = await res.json();
-      if (res.ok) {
-        setStatus('success');
-        setMessage(data.message || 'Subscribed!');
-        setEmail('');
-      } else {
-        setStatus('error');
-        setMessage(data.error || 'Something went wrong.');
+      if (!res.ok) {
+        const text = await res.text();
+        try {
+          const data = JSON.parse(text);
+          setStatus('error');
+          setMessage(data.error || `Error ${res.status}`);
+        } catch {
+          setStatus('error');
+          setMessage(`Error ${res.status}: ${text.slice(0, 100)}`);
+        }
+        return;
       }
-    } catch {
+      const data = await res.json();
+      setStatus('success');
+      setMessage(data.message || 'Subscribed!');
+      setEmail('');
+    } catch (err) {
       setStatus('error');
-      setMessage('Could not connect. Try again.');
+      setMessage(`Could not connect: ${err}`);
     }
   }
 

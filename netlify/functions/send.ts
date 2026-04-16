@@ -8,9 +8,9 @@
  */
 
 import type { Context } from '@netlify/functions';
-import { getSubscribers } from '../lib/subscribers.ts';
-import { buildEmailHtml } from '../lib/email-template.ts';
-import { createToken } from '../lib/tokens.ts';
+import { getSubscribers } from './lib/subscribers';
+import { buildEmailHtml } from './lib/email-template';
+import { createToken } from './lib/tokens';
 
 const SITE_URL = 'https://jimmyzhang.org';
 

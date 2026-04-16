@@ -6,7 +6,7 @@
  */
 
 import type { Context } from '@netlify/functions';
-import { buildEmailHtml } from '../lib/email-template.ts';
+import { buildEmailHtml } from './lib/email-template';
 
 const SITE_URL = 'https://jimmyzhang.org';
 
