@@ -15,7 +15,7 @@
    * breadcrumb, subtitle) INSIDE those elements, not ON them.
    * ------------------------------------------------------------- */
   --wrap-normal: 37em;
-  --wrap-wide: 54em;
+  --wrap-wide: 78rem;
   --line-height: 1.65;
   --heading-weight: 500;
   --font-normal: 1.25em;
@@ -55,14 +55,6 @@
 
   --yellow-100: #FCEEB8;
   --yellow-900: #4D3A1B;
-}
-
-@media (max-width: 860px) {
-  :root {
-    --wrap-normal: 88vw;
-    --wrap-wide: 100vw;
-    --heading-weight: 600;
-  }
 }
 
 /* --- light theme (default) --------------------------------------- */

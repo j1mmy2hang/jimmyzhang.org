@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SubscribeForm from '../components/SubscribeForm';
+import AgentInfo from '../components/AgentInfo';
 
 import '../styles/home.css';
 
@@ -11,7 +12,6 @@ const rows: string[][] = [
 export default function Home() {
   return (
     <main className="home">
-
       <div className="home-inner">
         <div className="home-main">
           <h1 className="home-name">Jimmy Zhang</h1>
@@ -27,7 +27,10 @@ export default function Home() {
             ))}
           </nav>
         </div>
+      </div>
+      <div className="home-secondary">
         <SubscribeForm variant="home" />
+        <AgentInfo />
       </div>
     </main>
   );
