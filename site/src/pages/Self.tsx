@@ -22,11 +22,14 @@ export default function Self() {
       </article>
 
       <nav className="page-deeper" aria-label="deeper">
-        <Link to="/self/personal-statement" className="page-deeper-link">
-          /self/personal-statement
+        <Link to="/self/skills" className="page-deeper-link">
+          /self/skills
         </Link>
         <Link to="/self/self-portrait" className="page-deeper-link">
           /self/self-portrait
+        </Link>
+        <Link to="/self/personal-statement" className="page-deeper-link">
+          /self/personal-statement
         </Link>
       </nav>
     </main>

@@ -29,6 +29,10 @@ export default function App() {
           path="/self/self-portrait"
           element={<MarkdownPage path="/self/self-portrait.md" section="self" />}
         />
+        <Route
+          path="/self/skills"
+          element={<MarkdownPage path="/self/skills.md" section="self" />}
+        />
         <Route path="/telos" element={<Telos />} />
         <Route
           path="/telos/key-beliefs"

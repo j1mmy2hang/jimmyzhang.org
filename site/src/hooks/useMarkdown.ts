@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
-import { marked, stripObsidianDecorations } from '../markdown';
+import { marked } from '../markdown';
+import { loadNoteIndex } from '../noteIndex';
+import { preprocessNoteBody } from '../noteMarkdown';
 
 export type Frontmatter = Record<string, string>;
 
@@ -37,12 +39,14 @@ export function useMarkdown(path: string): State {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       })
-      .then((text) => {
-        if (cancelled) return;
-        const { frontmatter, body } = parseFrontmatter(text);
-        const html = marked.parse(stripObsidianDecorations(body), { async: false }) as string;
-        setState({ loading: false, error: null, html, frontmatter });
-      })
+      .then((text) =>
+        loadNoteIndex().then((index) => {
+          if (cancelled) return;
+          const { frontmatter, body } = parseFrontmatter(text);
+          const html = marked.parse(preprocessNoteBody(body, index), { async: false }) as string;
+          setState({ loading: false, error: null, html, frontmatter });
+        })
+      )
       .catch((e) => {
         if (cancelled) return;
         setState({ loading: false, error: String(e), html: '', frontmatter: {} });
