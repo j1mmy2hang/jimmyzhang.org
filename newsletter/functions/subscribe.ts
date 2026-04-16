@@ -1,6 +1,8 @@
 import type { Context } from '@netlify/functions';
 import { addSubscriber } from '../lib/subscribers.ts';
 
+const NOTIFY_EMAIL = 'jz9542063@gmail.com';
+
 export default async function handler(req: Request, _context: Context) {
   if (req.method !== 'POST') {
     return new Response('Method not allowed', { status: 405 });
@@ -22,6 +24,24 @@ export default async function handler(req: Request, _context: Context) {
 
     if (!added) {
       return Response.json({ message: 'Already subscribed' }, { status: 200 });
+    }
+
+    // Notify you of new subscriber
+    const resendKey = process.env.RESEND_API_KEY || '';
+    if (resendKey) {
+      fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${resendKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          from: 'Newsletter <newsletter@jimmyzhang.org>',
+          to: NOTIFY_EMAIL,
+          subject: `New subscriber: ${email}`,
+          html: `<p>${email} just subscribed to your newsletter.</p>`,
+        }),
+      }).catch(() => {});
     }
 
     return Response.json({ message: 'Subscribed successfully' }, { status: 200 });

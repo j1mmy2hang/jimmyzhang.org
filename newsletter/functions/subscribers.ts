@@ -12,7 +12,7 @@ import type { Context } from '@netlify/functions';
 import { getSubscribers, addSubscriber, removeSubscriber } from '../lib/subscribers.ts';
 
 export default async function handler(req: Request, _context: Context) {
-  const adminKey = Deno.env.get('ADMIN_KEY') || '';
+  const adminKey = process.env.ADMIN_KEY || '';
   const providedKey = req.headers.get('x-admin-key') || '';
   if (!adminKey || providedKey !== adminKey) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 });

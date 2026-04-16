@@ -13,7 +13,7 @@ export default async function handler(req: Request, _context: Context) {
     });
   }
 
-  const secret = Deno.env.get('NEWSLETTER_SECRET') || '';
+  const secret = process.env.NEWSLETTER_SECRET || '';
   const payload = await verifyToken(secret, token);
 
   if (!payload || payload.action !== 'unsubscribe') {

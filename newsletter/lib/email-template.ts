@@ -8,16 +8,14 @@ import { markdownToHtml, parseFrontmatter } from './markdown.ts';
 interface EmailOptions {
   markdown: string;
   slug: string;
-  likeUrl: string;
   unsubscribeUrl: string;
-  replyTo: string;
   webUrl: string;
 }
 
 export function buildEmailHtml(options: EmailOptions): { html: string; subject: string } {
   const { frontmatter, body } = parseFrontmatter(options.markdown);
   const title = frontmatter.title || 'Newsletter';
-  const published = frontmatter.created || '';
+  const created = frontmatter.created || '';
   const contentHtml = markdownToHtml(body);
 
   const html = `<!DOCTYPE html>
@@ -50,11 +48,11 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
             </td>
           </tr>
 
-          ${published ? `
+          ${created ? `
           <!-- Date -->
           <tr>
             <td style="padding-bottom:32px;">
-              <span style="font-size:14px;color:#B7B5AC;">${formatDate(published)}</span>
+              <span style="font-size:14px;color:#B7B5AC;">${formatDate(created)}</span>
             </td>
           </tr>` : ''}
 
@@ -65,22 +63,10 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
             </td>
           </tr>
 
-          <!-- Action buttons -->
+          <!-- Read online -->
           <tr>
             <td style="padding:24px 0;border-top:1px solid #E6E4D9;">
-              <table role="presentation" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td style="padding-right:24px;">
-                    <a href="${options.likeUrl}" style="color:#205EA6;text-decoration:none;font-size:15px;">&#9829; Like this issue</a>
-                  </td>
-                  <td style="padding-right:24px;">
-                    <a href="mailto:${options.replyTo}?subject=Re: ${encodeURIComponent(title)}" style="color:#205EA6;text-decoration:none;font-size:15px;">&#8617; Reply</a>
-                  </td>
-                  <td>
-                    <a href="${options.webUrl}" style="color:#205EA6;text-decoration:none;font-size:15px;">Read online</a>
-                  </td>
-                </tr>
-              </table>
+              <a href="${options.webUrl}" style="color:#205EA6;text-decoration:none;font-size:15px;">Read online</a>
             </td>
           </tr>
 

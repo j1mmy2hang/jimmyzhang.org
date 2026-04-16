@@ -2,12 +2,9 @@
  * POST /api/send
  *
  * Protected endpoint to send a newsletter to all subscribers.
- * Requires ADMIN_KEY header for authorization.
+ * Requires x-admin-key header for authorization.
  *
- * Body: { slug: "2026-04" }
- *
- * The function reads the markdown from content/newsletter/{slug}.md,
- * converts it to a styled HTML email, and sends to all subscribers via Resend.
+ * Body: { slug: "2026-03" }
  */
 
 import type { Context } from '@netlify/functions';
@@ -16,26 +13,24 @@ import { buildEmailHtml } from '../lib/email-template.ts';
 import { createToken } from '../lib/tokens.ts';
 
 const SITE_URL = 'https://jimmyzhang.org';
-const REPLY_EMAIL = 'jz9542063@gmail.com';
 
 export default async function handler(req: Request, _context: Context) {
   if (req.method !== 'POST') {
     return new Response('Method not allowed', { status: 405 });
   }
 
-  // Auth check
-  const adminKey = Deno.env.get('ADMIN_KEY') || '';
+  const adminKey = process.env.ADMIN_KEY || '';
   const providedKey = req.headers.get('x-admin-key') || '';
   if (!adminKey || providedKey !== adminKey) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const resendKey = Deno.env.get('RESEND_API_KEY') || '';
+  const resendKey = process.env.RESEND_API_KEY || '';
   if (!resendKey) {
     return Response.json({ error: 'RESEND_API_KEY not configured' }, { status: 500 });
   }
 
-  const secret = Deno.env.get('NEWSLETTER_SECRET') || '';
+  const secret = process.env.NEWSLETTER_SECRET || '';
   if (!secret) {
     return Response.json({ error: 'NEWSLETTER_SECRET not configured' }, { status: 500 });
   }
@@ -46,7 +41,6 @@ export default async function handler(req: Request, _context: Context) {
       return Response.json({ error: 'slug is required' }, { status: 400 });
     }
 
-    // Fetch the newsletter markdown from the deployed site
     const mdUrl = `${SITE_URL}/newsletter/${slug}.md`;
     const mdRes = await fetch(mdUrl);
     if (!mdRes.ok) {
@@ -66,22 +60,14 @@ export default async function handler(req: Request, _context: Context) {
         email: sub.email,
         action: 'unsubscribe',
       });
-      const likeToken = await createToken(secret, {
-        email: sub.email,
-        action: 'like',
-        slug,
-      });
 
       const unsubscribeUrl = `${SITE_URL}/.netlify/functions/unsubscribe?token=${unsubscribeToken}`;
-      const likeUrl = `${SITE_URL}/.netlify/functions/like?token=${likeToken}`;
       const webUrl = `${SITE_URL}/newsletter/${slug}`;
 
       const { html, subject } = buildEmailHtml({
         markdown,
         slug,
-        likeUrl,
         unsubscribeUrl,
-        replyTo: REPLY_EMAIL,
         webUrl,
       });
 
@@ -97,7 +83,6 @@ export default async function handler(req: Request, _context: Context) {
             to: sub.email,
             subject,
             html,
-            reply_to: REPLY_EMAIL,
             headers: {
               'List-Unsubscribe': `<${unsubscribeUrl}>`,
             },
