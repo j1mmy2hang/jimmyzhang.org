@@ -34,6 +34,21 @@ main>article>.book-shelf {
   }
 }
 
+@media (max-width: 450px) {
+
+  main>article>.note-entries,
+  main>article>.book-shelf {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .note-entry-name {
+    font-size: 2.4rem !important;
+  }
+
+}
+
+
 /* --- /note entry tiles ------------------------------------------- */
 .note-entries {
   display: grid;
@@ -270,7 +285,7 @@ main>article>.backlink-box {
 /* --- clipping wheel ---------------------------------------------- */
 .clipping-wheel {
   position: relative;
-  height: 54rem;
+  height: min(54rem, 70svh);
   margin: 4rem auto;
   outline: none;
   user-select: none;
@@ -286,6 +301,13 @@ main>article>.backlink-box {
       black 22%,
       black 78%,
       transparent 100%);
+}
+
+@media (max-width: 600px) {
+  .clipping-wheel {
+    height: min(44rem, 65svh);
+    margin: 2.4rem auto;
+  }
 }
 
 .clipping-wheel:active {
@@ -393,6 +415,21 @@ main>article>.backlink-box {
 
 .wheel-item-title:hover {
   color: var(--action, var(--tx));
+}
+
+@media (max-width: 600px) {
+  .wheel-item-title {
+    font-size: 1.7rem;
+  }
+
+  .wheel-item-focus .wheel-item-title {
+    font-size: 2rem;
+    white-space: normal;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
 }
 
 /* --- youtube embed ---------------------------------------------- */
