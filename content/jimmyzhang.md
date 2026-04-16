@@ -26,14 +26,14 @@ Navigation follows progressive disclosure:
 
 ## What you have access to
 
-| section name | content                                              |
-| ------------ | ---------------------------------------------------- |
-| self         | who I am (my basic information and life experiences) |
-| telos        | why I am here (goal, purpose, value)                 |
-| note         | what I learn & think (books, media, knowledge)       |
-| project      | what I made (products, software, art, book)          |
-| writing      | what I written & expressed (essay, blog, opinion)    |
-| photo        | what I lived and saw (photography, places)           |
+| section name | content                                                                  |
+| ------------ | ------------------------------------------------------------------------ |
+| self         | who I am (my basic information, life experiences, self-portrait, skills) |
+| telos        | why I am here (goal, purpose, value)                                     |
+| note         | what I learn & think (books, media, knowledge)                           |
+| project      | what I made (products, software, art, book)                              |
+| writing      | what I written & expressed (essay, blog, opinion)                        |
+| photo        | what I lived and saw (photography, places)                               |
 
 > Special: asset/image is where all the image files live. You don't need to read / fetch anything from this section unless your user specified you to. Normally you only present text information. skip `![[]]` style wikilink that are image references. 
 

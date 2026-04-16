@@ -23,10 +23,12 @@ export default async (req: Request, ctx: Context) => {
   const url = new URL(req.url);
   const p = url.pathname;
 
-  // Already has a file extension — try to serve; if 404, check note/atomic
+  // .md request — try to serve; if it fell through to the SPA fallback
+  // (returns text/html instead of text/plain), redirect to note/atomic
   if (/\.md$/i.test(p)) {
     const res = await ctx.next();
-    if (res.status === 404) {
+    const ct = res.headers.get("content-type") || "";
+    if (res.status === 404 || ct.includes("text/html")) {
       const slug = p.split("/").pop();
       return Response.redirect(new URL(`/note/atomic/${slug}`, url), 308);
     }
