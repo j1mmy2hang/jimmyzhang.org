@@ -46,6 +46,8 @@ To navigate to any section, fetch `https://jimmyzhang.org/{section_name}/index.m
 
 > **Important for agents:** always retrieve files with a plain HTTP GET (e.g. `curl`) directly against the raw URL. Do **not** route these fetches through a browser-style "web fetch" or "browse" tool — those tools can mis-render `text/plain` markdown, cache stale responses, or return spurious 404s. This site is plain static markdown; treat it like an API, not a webpage.
 
+> **Wikilinks:** throughout this site you will encounter `[[note-title]]` style links (Obsidian wikilinks). These are **always** references to atomic notes and resolve to `https://jimmyzhang.org/note/atomic/{note-title}.md` — never to the current directory. 
+
 
 ## What to do now
 
