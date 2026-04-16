@@ -10,17 +10,13 @@
   align-items: center;
   gap: 0.4rem;
   cursor: pointer;
-  list-style: none;
   color: var(--tx-3);
+  font: inherit;
+  font-size: 1.4rem;
+  padding: 0;
+  border: none;
+  background: none;
   transition: color 200ms ease;
-}
-
-.agent-info-summary::-webkit-details-marker {
-  display: none;
-}
-
-.agent-info-summary::marker {
-  content: '';
 }
 
 .agent-info-summary:hover {
@@ -28,14 +24,32 @@
 }
 
 .agent-info-chevron {
-  transition: transform 250ms ease;
+  transition: transform 300ms ease;
 }
 
-.agent-info[open] .agent-info-chevron {
+.agent-info.open .agent-info-chevron {
   transform: rotate(180deg);
 }
 
+/* --- smooth drawer via grid-template-rows --- */
+
+.agent-info-drawer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 400ms ease;
+}
+
+.agent-info.open .agent-info-drawer {
+  grid-template-rows: 1fr;
+}
+
 .agent-info-body {
+  overflow: hidden;
+  padding-top: 0;
+  transition: padding-top 400ms ease;
+}
+
+.agent-info.open .agent-info-body {
   padding-top: 1.2rem;
 }
 

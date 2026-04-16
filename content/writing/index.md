@@ -6,6 +6,7 @@ To read any essay, fetch `https://jimmyzhang.org/writing/{filename}`.
 
 | Title                                                                              | Published  | Tags                                 | {filename}                                                                            |
 | ---------------------------------------------------------------------------------- | ---------- | ------------------------------------ | ------------------------------------------------------------------------------------- |
+| AI 成功根本原因                                                                          | 2026-04-16 | AI, tech, human                      | `reason-for-ai-success-as-product.md`                                                 |
 | Easy answers to common questions                                                   | 2026-03-04 | education, assumptions, identity     | `easy-answers-to-common-questions.md`                                                 |
 | "Enjoy Your Break"                                                                 | 2026-02-20 | autonomy, time, institutions         | `enjoy-your-break.md`                                                                 |
 | Author Your Own Narrative -- Why You Need a Personal 2025 Wrapped                  | 2026-01-01 | self-reflection, autonomy, metrics   | `author-your-own-narrative-why-you-need-a-personal-2025-wrapped.md`                   |
@@ -32,5 +33,6 @@ To read any essay, fetch `https://jimmyzhang.org/writing/{filename}`.
 | Why Kahoot can't save education                                                    | 2025-05-30 | education, gamification, engagement  | `why-kahoot-can-t-save-education.md`                                                  |
 | Is There Any Good in Talking More About Education                                  | 2025-05-08 | education, humanity, purpose         | `is-there-any-good-in-talking-more-about-education.md`                                |
 | How to Reclaim Your Education While Schools Are Failing the Future                 | 2025-03-19 | education, self-directed, future     | `how-to-reclaim-your-education-while-schools-are-failing-the-future.md`               |
+
 
 
