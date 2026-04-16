@@ -27,6 +27,19 @@
   margin: 0 0 1.2rem;
 }
 
+.subscribe-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--ui-3);
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.subscribe-link:hover {
+  text-decoration-color: var(--tx-2);
+  color: var(--tx);
+}
+
 .subscribe-form {
   display: flex;
   gap: 0.8rem;

@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/subscribe.css';
 
 interface Props {
@@ -51,7 +52,9 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
         <p className="subscribe-message">{message}</p>
       ) : (
         <>
-          <p className="subscribe-label">Subscribe to my monthly newsletter</p>
+          <p className="subscribe-label">
+            Subscribe to my <Link to="/newsletter" className="subscribe-link">monthly newsletter</Link>
+          </p>
           <form className="subscribe-form" onSubmit={handleSubmit}>
             <input
               type="email"
