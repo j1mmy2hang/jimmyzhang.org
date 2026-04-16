@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SubscribeForm from '../components/SubscribeForm';
 
 import '../styles/home.css';
 
@@ -24,6 +25,7 @@ export default function Home() {
             </div>
           ))}
         </nav>
+        <SubscribeForm variant="home" />
       </div>
     </main>
   );

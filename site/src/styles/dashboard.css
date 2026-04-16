@@ -1,0 +1,146 @@
+.dash {
+  padding: 4rem 2rem 12rem;
+  min-height: 100vh;
+}
+
+.dash-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.dash-title {
+  font-family: 'Bamberg Serial', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 1.6em;
+  margin: 0 0 3.2rem;
+  color: var(--tx);
+}
+
+.dash-h2 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 1.6rem;
+  color: var(--tx);
+}
+
+.dash-h3 {
+  font-size: var(--font-small);
+  font-weight: 400;
+  color: var(--tx-3);
+  margin: 1.6rem 0 0.8rem;
+}
+
+.dash-section {
+  margin-bottom: 4rem;
+  padding-bottom: 3.2rem;
+  border-bottom: 1px solid var(--ui);
+}
+
+.dash-row {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.dash-login {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.dash-input,
+.dash-select {
+  flex: 1;
+  font-family: inherit;
+  font-size: var(--font-small);
+  padding: 0.6em 0.8em;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  color: var(--tx);
+  outline: none;
+  min-width: 0;
+}
+
+.dash-input:focus,
+.dash-select:focus {
+  border-color: var(--tx-3);
+}
+
+.dash-btn {
+  font-family: inherit;
+  font-size: var(--font-small);
+  padding: 0.6em 1.2em;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  color: var(--tx-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dash-btn:hover:not(:disabled) {
+  color: var(--tx);
+  border-color: var(--tx-3);
+}
+
+.dash-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.dash-btn--danger {
+  color: var(--tx-3);
+  font-size: var(--font-even-smaller);
+}
+
+.dash-btn--danger:hover:not(:disabled) {
+  color: #AF3029;
+  border-color: #AF3029;
+}
+
+.dash-status {
+  font-size: var(--font-small);
+  color: var(--tx-2);
+  margin: 0.8rem 0 0;
+}
+
+.dash-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+}
+
+.dash-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--ui);
+  font-size: var(--font-small);
+}
+
+.dash-email {
+  flex: 1;
+  color: var(--tx);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dash-date {
+  color: var(--tx-3);
+  font-size: var(--font-even-smaller);
+  white-space: nowrap;
+}
+
+.dash-preview {
+  margin-top: 1.2rem;
+}
+
+.dash-iframe {
+  width: 100%;
+  height: 600px;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: #fff;
+}

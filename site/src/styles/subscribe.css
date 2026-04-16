@@ -1,0 +1,100 @@
+/* ------------------------------------------------------------------ *
+ * Subscribe form — minimalist, matches site aesthetic.
+ * ------------------------------------------------------------------ */
+
+.subscribe {
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe--home {
+  margin-top: 4rem;
+}
+
+.subscribe--page {
+  margin-top: 8rem;
+  padding-top: 3.2rem;
+  border-top: 1px solid var(--ui);
+}
+
+.subscribe-label {
+  font-size: var(--font-small);
+  color: var(--tx-3);
+  margin: 0 0 1.2rem;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 0.8rem;
+  align-items: stretch;
+}
+
+.subscribe-input {
+  flex: 1;
+  font-family: inherit;
+  font-size: var(--font-small);
+  padding: 0.6em 0.8em;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  color: var(--tx);
+  outline: none;
+  min-width: 0;
+}
+
+.subscribe-input:focus {
+  border-color: var(--tx-3);
+}
+
+.subscribe-input::placeholder {
+  color: var(--tx-3);
+}
+
+.subscribe-button {
+  font-family: inherit;
+  font-size: var(--font-small);
+  padding: 0.6em 1.4em;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  color: var(--tx-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.subscribe-button:hover {
+  color: var(--tx);
+  border-color: var(--tx-3);
+}
+
+.subscribe-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.subscribe-message {
+  font-size: var(--font-small);
+  color: var(--tx-2);
+  margin: 0;
+}
+
+.subscribe-error {
+  font-size: var(--font-small);
+  color: var(--tx-2);
+  margin: 0.8rem 0 0;
+}
+
+@media (max-width: 860px) {
+  .subscribe {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .subscribe-form {
+    flex-direction: column;
+  }
+}

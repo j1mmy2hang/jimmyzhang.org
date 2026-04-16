@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------------ *
+ * Newsletter post — like button + actions bar.
+ * ------------------------------------------------------------------ */
+
+.newsletter-actions {
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--ui);
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.newsletter-like {
+  font-family: inherit;
+  font-size: var(--font-small);
+  padding: 0.4em 1em;
+  border: 1px solid var(--ui-2);
+  border-radius: var(--border-radius);
+  background: var(--bg);
+  color: var(--tx-2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.newsletter-like:hover:not(:disabled) {
+  color: var(--tx);
+  border-color: var(--tx-3);
+}
+
+.newsletter-like--liked {
+  color: var(--action);
+  border-color: var(--action);
+  cursor: default;
+}
+
+@media (max-width: 860px) {
+  .newsletter-actions {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

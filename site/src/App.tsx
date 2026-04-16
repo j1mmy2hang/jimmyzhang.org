@@ -12,6 +12,9 @@ import NoteIndex from './pages/NoteIndex';
 import BookShelf from './pages/BookShelf';
 import ClippingWheel from './pages/ClippingWheel';
 import NotePage from './pages/NotePage';
+import Newsletter from './pages/Newsletter';
+import NewsletterPost from './pages/NewsletterPost';
+import NewsletterDashboard from './pages/NewsletterDashboard';
 import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
 
@@ -58,6 +61,9 @@ export default function App() {
         <Route path="/note/clipping/:slug" element={<NotePage type="clipping" />} />
         <Route path="/note/atomic" element={<Navigate to="/note" replace />} />
         <Route path="/note/atomic/:slug" element={<NotePage type="atomic" />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/newsletter/dashboard" element={<NewsletterDashboard />} />
+        <Route path="/newsletter/:slug" element={<NewsletterPost />} />
       </Routes>
       <ThemeToggle />
       <DappledLight />

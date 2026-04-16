@@ -4,13 +4,13 @@ import SubscribeForm from '../components/SubscribeForm';
 import '../styles/page.css';
 import '../styles/writing-index.css';
 
-const modules = import.meta.glob('../../../content/writing/*.md', {
+const modules = import.meta.glob('../../../content/newsletter/*.md', {
   query: '?raw',
   import: 'default',
   eager: true,
 }) as Record<string, string>;
 
-type Post = { slug: string; title: string; published: string };
+type Issue = { slug: string; title: string; created: string };
 
 function parseFrontmatter(raw: string): Record<string, string> {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -30,38 +30,43 @@ function formatDate(s: string): string {
   return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
-const posts: Post[] = Object.entries(modules)
+const issues: Issue[] = Object.entries(modules)
   .map(([path, raw]) => {
     const slug = path.split('/').pop()!.replace(/\.md$/, '');
     const fm = parseFrontmatter(raw);
-    return { slug, title: fm.title || slug, published: fm.published || '' };
+    return { slug, title: fm.title || slug, created: fm.created || '' };
   })
-  .filter((p) => p.slug !== 'index')
   .sort((a, b) => {
-    if (!a.published) return 1;
-    if (!b.published) return -1;
-    return b.published.localeCompare(a.published);
+    if (!a.created) return 1;
+    if (!b.created) return -1;
+    return b.created.localeCompare(a.created);
   });
 
-export default function Writing() {
+export default function Newsletter() {
   return (
     <main>
-      <Breadcrumb section="writing" />
+      <Breadcrumb section="newsletter" />
       <article>
         <header className="page-header">
-          <h1 className="page-title">Writing</h1>
+          <h1 className="page-title">Newsletter</h1>
         </header>
-        <ul className="writing-list">
-          {posts.map((p) => (
-            <li key={p.slug}>
-              <Link to={`/writing/${p.slug}`} className="writing-row">
-                <span className="writing-row-title">{p.title}</span>
-                <span className="writing-row-dots" aria-hidden="true" />
-                <span className="writing-row-date">{formatDate(p.published)}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {issues.length > 0 ? (
+          <ul className="writing-list">
+            {issues.map((issue) => (
+              <li key={issue.slug}>
+                <Link to={`/newsletter/${issue.slug}`} className="writing-row">
+                  <span className="writing-row-title">{issue.title}</span>
+                  <span className="writing-row-dots" aria-hidden="true" />
+                  <span className="writing-row-date">{formatDate(issue.created)}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="prose">
+            <p>The first issue is coming soon.</p>
+          </div>
+        )}
       </article>
       <SubscribeForm />
     </main>

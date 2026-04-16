@@ -1,4 +1,5 @@
 import Breadcrumb from '../components/Breadcrumb';
+import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
 import '../styles/page.css';
 
@@ -33,6 +34,7 @@ export default function MarkdownPage({
           {html && <div dangerouslySetInnerHTML={{ __html: html }} />}
         </div>
       </article>
+      <SubscribeForm />
     </main>
   );
 }
