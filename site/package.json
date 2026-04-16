@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "optimize-images:apply": "node scripts/optimize-images.mjs --apply"
   },
   "dependencies": {
     "@types/d3-geo": "^3.1.0",

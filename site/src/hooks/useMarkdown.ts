@@ -36,20 +36,27 @@ export function useMarkdown(path: string): State {
   useEffect(() => {
     let cancelled = false;
     setState({ loading: true, error: null, html: '', frontmatter: {} });
+    const isNote = NOTE_PATH.test(path);
     fetch(path)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       })
-      .then((text) =>
-        loadNoteIndex().then((index) => {
+      .then((text) => {
+        if (cancelled) return;
+        const { frontmatter, body } = parseFrontmatter(text);
+        if (!isNote) {
+          const html = marked.parse(body, { async: false }) as string;
+          setState({ loading: false, error: null, html, frontmatter });
+          return;
+        }
+        return loadNoteIndex().then((index) => {
           if (cancelled) return;
-          const { frontmatter, body } = parseFrontmatter(text);
-          const processed = NOTE_PATH.test(path) ? preprocessNoteBody(body, index) : body;
+          const processed = preprocessNoteBody(body, index);
           const html = marked.parse(processed, { async: false }) as string;
           setState({ loading: false, error: null, html, frontmatter });
-        })
-      )
+        });
+      })
       .catch((e) => {
         if (cancelled) return;
         setState({ loading: false, error: String(e), html: '', frontmatter: {} });

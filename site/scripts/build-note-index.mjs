@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT = join(__dirname, '../../content/note');
 const OUT = join(__dirname, '../src/generated/note-index.json');
+const OUT_META = join(__dirname, '../src/generated/note-meta.json');
 
 const TYPES = ['atomic', 'book', 'clipping'];
 const RANK = { atomic: 0, book: 1, clipping: 2 };
@@ -165,6 +166,10 @@ async function main() {
   const out = { atomic, book, clipping, connections, resolve };
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, JSON.stringify(out));
+  // Slim index: just metadata, no connections or resolve map.
+  // Used by list/wheel pages that don't need wikilink resolution.
+  const slim = { atomic, book, clipping };
+  await writeFile(OUT_META, JSON.stringify(slim));
   console.log(
     `[note-index] atomic=${Object.keys(atomic).length} book=${Object.keys(book).length} clipping=${Object.keys(clipping).length}`
   );

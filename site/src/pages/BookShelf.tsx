@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import { loadNoteIndex, type BookMeta } from '../noteIndex';
+import { loadNoteMetaIndex, type BookMeta } from '../noteIndex';
 import '../styles/page.css';
 import '../styles/note.css';
 
@@ -12,7 +12,7 @@ export default function BookShelf() {
 
   useEffect(() => {
     let cancelled = false;
-    loadNoteIndex().then((idx) => {
+    loadNoteMetaIndex().then((idx) => {
       if (cancelled) return;
       const list = Object.entries(idx.book)
         .map(([slug, meta]) => ({ slug, ...meta }))

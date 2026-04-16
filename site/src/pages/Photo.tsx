@@ -146,6 +146,7 @@ export default function Photo() {
                       className="photo-popup-cover"
                       src={`/asset/image/${encodeURIComponent(current.cover)}`}
                       alt=""
+                      loading="lazy"
                     />
                   )}
                   <div className="photo-popup-body">

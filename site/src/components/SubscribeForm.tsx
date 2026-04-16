@@ -52,10 +52,15 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
         <p className="subscribe-message">{message}</p>
       ) : (
         <>
-          <p className="subscribe-label">
-            Subscribe to my <Link to="/newsletter" className="subscribe-link">monthly newsletter</Link>
-          </p>
+          {!isHome && (
+            <p className="subscribe-label">
+              Subscribe to my <Link to="/newsletter" className="subscribe-link">monthly newsletter</Link>
+            </p>
+          )}
           <form className="subscribe-form" onSubmit={handleSubmit}>
+            {isHome && (
+              <Link to="/newsletter" className="subscribe-inline-label">Newsletter</Link>
+            )}
             <input
               type="email"
               className="subscribe-input"
@@ -69,8 +74,9 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
               type="submit"
               className="subscribe-button"
               disabled={status === 'loading'}
+              aria-label="Subscribe"
             >
-              {status === 'loading' ? '...' : 'Subscribe'}
+              {status === 'loading' ? '...' : isHome ? '→' : 'Subscribe'}
             </button>
           </form>
           {status === 'error' && (

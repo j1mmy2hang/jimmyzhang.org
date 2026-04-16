@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import { loadNoteIndex, type ClippingMeta } from '../noteIndex';
+import { loadNoteMetaIndex, type ClippingMeta } from '../noteIndex';
 import '../styles/page.css';
 import '../styles/note.css';
 
@@ -33,7 +33,7 @@ export default function ClippingWheel() {
 
   useEffect(() => {
     let cancelled = false;
-    loadNoteIndex().then((idx) => {
+    loadNoteMetaIndex().then((idx) => {
       if (cancelled) return;
       const list = Object.entries(idx.clipping)
         .map(([slug, meta]) => ({ slug, ...meta }))

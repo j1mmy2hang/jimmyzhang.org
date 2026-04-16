@@ -21,7 +21,10 @@ export type NoteIndex = {
   resolve: Record<string, Resolved>;
 };
 
+export type NoteMetaIndex = Pick<NoteIndex, 'atomic' | 'book' | 'clipping'>;
+
 let cached: Promise<NoteIndex> | null = null;
+let cachedMeta: Promise<NoteMetaIndex> | null = null;
 
 export function loadNoteIndex(): Promise<NoteIndex> {
   if (!cached) {
@@ -30,4 +33,15 @@ export function loadNoteIndex(): Promise<NoteIndex> {
     );
   }
   return cached;
+}
+
+/** Loads only atomic/book/clipping metadata (~290 KB vs ~2 MB full index).
+ *  Use this for list and wheel pages that don't do wikilink resolution. */
+export function loadNoteMetaIndex(): Promise<NoteMetaIndex> {
+  if (!cachedMeta) {
+    cachedMeta = import('./generated/note-meta.json').then(
+      (m) => (m.default || m) as unknown as NoteMetaIndex
+    );
+  }
+  return cachedMeta;
 }
