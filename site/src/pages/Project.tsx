@@ -1,4 +1,5 @@
 import Breadcrumb from '../components/Breadcrumb';
+import SubscribeForm from '../components/SubscribeForm';
 import '../styles/page.css';
 import '../styles/project-index.css';
 
@@ -171,6 +172,7 @@ export default function Project() {
           })}
         </div>
       </article>
+      <SubscribeForm />
     </main>
   );
 }

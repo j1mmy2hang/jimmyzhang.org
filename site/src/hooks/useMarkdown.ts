@@ -23,6 +23,8 @@ function parseFrontmatter(raw: string): { frontmatter: Frontmatter; body: string
   return { frontmatter: fm, body: match[2] };
 }
 
+const NOTE_PATH = /^\/note\//;
+
 export function useMarkdown(path: string): State {
   const [state, setState] = useState<State>({
     loading: true,
@@ -43,7 +45,8 @@ export function useMarkdown(path: string): State {
         loadNoteIndex().then((index) => {
           if (cancelled) return;
           const { frontmatter, body } = parseFrontmatter(text);
-          const html = marked.parse(preprocessNoteBody(body, index), { async: false }) as string;
+          const processed = NOTE_PATH.test(path) ? preprocessNoteBody(body, index) : body;
+          const html = marked.parse(processed, { async: false }) as string;
           setState({ loading: false, error: null, html, frontmatter });
         })
       )

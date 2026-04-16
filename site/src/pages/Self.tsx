@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
+import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
 import '../styles/page.css';
 
@@ -32,6 +33,7 @@ export default function Self() {
           /self/personal-statement
         </Link>
       </nav>
+      <SubscribeForm />
     </main>
   );
 }

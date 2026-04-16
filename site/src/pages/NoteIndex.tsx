@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
+import SubscribeForm from '../components/SubscribeForm';
 import '../styles/page.css';
 import '../styles/note.css';
 
@@ -52,6 +53,7 @@ export default function NoteIndex() {
           </Link>
         </div>
       </article>
+      <SubscribeForm />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
+import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
 import '../styles/page.css';
 import '../styles/photo-page.css';
@@ -70,6 +71,7 @@ export default function PhotoPage() {
           {!loading && !error && <div dangerouslySetInnerHTML={{ __html: finalHtml }} />}
         </div>
       </article>
+      <SubscribeForm />
     </main>
   );
 }
