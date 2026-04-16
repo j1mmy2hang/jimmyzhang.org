@@ -24,15 +24,25 @@ export default async (req: Request, ctx: Context) => {
   const p = url.pathname;
 
   // .md request — try to serve; if it fell through to the SPA fallback
-  // (returns text/html instead of text/plain), redirect to note/atomic
+  // (returns index.html instead of real markdown), redirect to note/atomic.
+  // The _headers rule forces text/plain on /*.md even for the SPA fallback,
+  // so we sniff the first bytes of the body instead.
   if (/\.md$/i.test(p)) {
     const res = await ctx.next();
-    const ct = res.headers.get("content-type") || "";
-    if (res.status === 404 || ct.includes("text/html")) {
+    if (res.status === 404) {
       const slug = p.split("/").pop();
       return Response.redirect(new URL(`/note/atomic/${slug}`, url), 308);
     }
-    return res;
+    const body = await res.text();
+    if (body.trimStart().startsWith("<!DOCTYPE") || body.trimStart().startsWith("<html")) {
+      const slug = p.split("/").pop();
+      return Response.redirect(new URL(`/note/atomic/${slug}`, url), 308);
+    }
+    // Real .md file — reconstruct the response with the original body
+    return new Response(body, {
+      status: res.status,
+      headers: res.headers,
+    });
   }
   if (/\.[a-z0-9]+$/i.test(p)) return;
 
