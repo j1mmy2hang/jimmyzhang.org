@@ -116,3 +116,11 @@
 .agent-info-copy-btn.copied {
   opacity: 1;
 }
+
+@media (max-width: 450px) {
+  .agent-info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: auto;
+  }
+}
