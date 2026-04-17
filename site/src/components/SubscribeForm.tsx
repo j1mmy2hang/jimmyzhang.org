@@ -83,7 +83,7 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
   return (
     <div className={`subscribe subscribe--home${open ? ' open' : ''}`}>
       <button className="subscribe-toggle" onClick={() => setOpen(!open)}>
-        Subscribe to my <Link to="/newsletter" className="subscribe-link" onClick={(e) => e.stopPropagation()}>monthly newsletter</Link>
+        Stay updated through my <Link to="/newsletter" className="subscribe-link" onClick={(e) => e.stopPropagation()}>monthly newsletter</Link>
         <svg className="subscribe-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <polyline points="4 5 6 7 8 5" />
         </svg>

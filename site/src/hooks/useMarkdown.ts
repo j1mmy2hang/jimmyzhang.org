@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { marked } from '../markdown';
 import { loadNoteIndex } from '../noteIndex';
-import { preprocessNoteBody } from '../noteMarkdown';
+import { preprocessNoteBody, preprocessPageBody } from '../noteMarkdown';
 
 export type Frontmatter = Record<string, string>;
 
@@ -45,14 +45,11 @@ export function useMarkdown(path: string): State {
       .then((text) => {
         if (cancelled) return;
         const { frontmatter, body } = parseFrontmatter(text);
-        if (!isNote) {
-          const html = marked.parse(body, { async: false }) as string;
-          setState({ loading: false, error: null, html, frontmatter });
-          return;
-        }
         return loadNoteIndex().then((index) => {
           if (cancelled) return;
-          const processed = preprocessNoteBody(body, index);
+          const processed = isNote
+            ? preprocessNoteBody(body, index)
+            : preprocessPageBody(body, index);
           const html = marked.parse(processed, { async: false }) as string;
           setState({ loading: false, error: null, html, frontmatter });
         });

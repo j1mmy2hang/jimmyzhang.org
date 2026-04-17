@@ -5,11 +5,14 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT = join(__dirname, '../../content/note');
+const CONTENT_ROOT = join(__dirname, '../../content');
 const OUT = join(__dirname, '../src/generated/note-index.json');
 const OUT_META = join(__dirname, '../src/generated/note-meta.json');
 
 const TYPES = ['atomic', 'book', 'clipping'];
 const RANK = { atomic: 0, book: 1, clipping: 2 };
+// Site content types outside /note — included in resolve table only.
+const SITE_TYPES = ['writing', 'project'];
 
 function unquote(s) {
   return s.replace(/^["']|["']$/g, '').trim();
@@ -84,6 +87,25 @@ function collectOutbound(body) {
   return out;
 }
 
+async function readSiteContent(type) {
+  const dir = join(CONTENT_ROOT, type);
+  let files;
+  try {
+    files = await readdir(dir);
+  } catch {
+    return [];
+  }
+  const out = [];
+  for (const f of files) {
+    if (!f.endsWith('.md') || f === 'index.md') continue;
+    const slug = f.replace(/\.md$/, '');
+    const raw = await readFile(join(dir, f), 'utf8');
+    const { fm } = parseFrontmatter(raw);
+    out.push({ type, slug, fm });
+  }
+  return out;
+}
+
 async function main() {
   let all = [];
   for (const t of TYPES) all.push(...(await readNotes(t)));
@@ -107,6 +129,14 @@ async function main() {
     const entry = { type: n.type, slug: n.slug, title: n.fm.title || n.slug };
     put(n.slug, entry);
     if (n.fm.title) put(n.fm.title, entry);
+  }
+  // Add writing and project slugs — lower priority than notes on collision.
+  for (const t of SITE_TYPES) {
+    for (const n of await readSiteContent(t)) {
+      const entry = { type: t, slug: n.slug, title: n.fm.title || n.slug };
+      put(n.slug, entry);
+      if (n.fm.title) put(n.fm.title, entry);
+    }
   }
 
   const atomic = {};

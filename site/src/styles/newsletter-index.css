@@ -1,0 +1,81 @@
+/* ------------------------------------------------------------------ *
+ * Newsletter index — hero + archive
+ * ------------------------------------------------------------------ */
+
+.nl-hero {
+  display: block;
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin: 0 auto 5.6rem;
+  text-decoration: none;
+  color: var(--tx);
+}
+
+.nl-hero-img-wrap {
+  width: 100%;
+  border-radius: var(--image-radius);
+  margin-bottom: 1.4rem;
+  overflow: hidden;
+}
+
+.nl-hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Divider between hero and archive */
+.nl-divider {
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin: 0 auto 2.4rem;
+  border: none;
+  border-top: 1px solid var(--ui);
+}
+
+/* Archive two-column grid */
+.nl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: var(--wrap-normal);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nl-list li {
+  margin: 0;
+}
+
+.nl-row {
+  display: block;
+  padding: 0.72rem 1.2rem;
+  margin: 0 -1.2rem;
+  border-radius: 4px;
+  color: var(--tx-2);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nl-row:hover {
+  background: var(--bg-2);
+  color: var(--tx);
+}
+
+/* Mobile — single column */
+@media (max-width: 860px) {
+  .nl-hero,
+  .nl-divider,
+  .nl-list {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .nl-list {
+    grid-template-columns: 1fr;
+  }
+}

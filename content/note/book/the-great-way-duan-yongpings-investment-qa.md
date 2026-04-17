@@ -1,8 +1,6 @@
 ---
-title: "大道 -- 段永平投资问答录"
-
+title: 大道 -- 段永平投资问答录
 created: 2025-06-25
-type: "[[Book]]"
 cover: "[[the-great-way-duan-yongping-investment-qa.png]]"
 ---
 ![[the-great-way-duan-yongping-investment-qa.png|350]]

@@ -3,7 +3,7 @@ title: "Xbox-Mac controller"
 
 created: 2026-01-13 15:53
 ---
-![[Xbox-Mac Controller.png]]
+![[xbox-mac.png]]
 
 ## Single
 

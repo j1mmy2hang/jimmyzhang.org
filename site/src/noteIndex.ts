@@ -1,6 +1,13 @@
 export type NoteType = 'atomic' | 'book' | 'clipping';
+export type SiteContentType = NoteType | 'writing' | 'project';
 
-export type Resolved = { type: NoteType; slug: string; title: string };
+export type Resolved = { type: SiteContentType; slug: string; title: string };
+
+export function resolvedUrl(r: Resolved): string {
+  if (r.type === 'writing') return `/writing/${r.slug}`;
+  if (r.type === 'project') return `/project/${r.slug}`;
+  return `/note/${r.type}/${r.slug}`;
+}
 
 export type AtomicMeta = { title: string; date: string };
 export type BookMeta = { title: string; date: string; author: string; cover: string };

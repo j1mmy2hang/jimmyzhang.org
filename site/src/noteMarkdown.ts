@@ -1,4 +1,5 @@
 import { marked, stripObsidianDecorations } from './markdown';
+import { resolvedUrl } from './noteIndex';
 import type { NoteIndex } from './noteIndex';
 
 function escapeHtml(s: string): string {
@@ -64,7 +65,7 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
       const label = alias || r.title;
       // Escape square brackets in label so marked doesn't re-parse it.
       const safe = label.replace(/[\[\]]/g, '');
-      return `[${safe}](/note/${r.type}/${r.slug})`;
+      return `[${safe}](${resolvedUrl(r)})`;
     }
   );
 
@@ -73,4 +74,39 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
 
 export function renderNoteMarkdown(body: string, index: NoteIndex): string {
   return marked.parse(preprocessNoteBody(body, index), { async: false }) as string;
+}
+
+// Preprocess wikilinks in non-note pages (writing, project, self, telos):
+//   ![[filename|size]] → rendered image from /asset/image/
+//   [[target|alias]]   → resolved link via note index (falls back to plain text)
+export function preprocessPageBody(body: string, index: NoteIndex): string {
+  body = stripObsidianDecorations(body);
+
+  // ![[filename|optional-size]] → markdown image with correct asset path.
+  // Angle-bracket URL syntax handles filenames that contain spaces.
+  body = body.replace(
+    /^!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\][ \t]*\r?\n?/gm,
+    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)\n`
+  );
+  body = body.replace(
+    /!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\]/g,
+    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)`
+  );
+
+  // [[target|alias]] → note link or plain text if unresolved.
+  body = body.replace(
+    /\[\[([^\]\n]+?)\]\]/g,
+    (_m, inner: string) => {
+      const [rawTarget, rawAlias] = inner.split('|');
+      const target = rawTarget.split('#')[0].trim();
+      const alias = rawAlias?.trim();
+      const r = index.resolve[target.toLowerCase()];
+      if (!r) return escapeHtml(alias || target);
+      const label = alias || r.title;
+      const safe = label.replace(/[\[\]]/g, '');
+      return `[${safe}](${resolvedUrl(r)})`;
+    }
+  );
+
+  return body;
 }

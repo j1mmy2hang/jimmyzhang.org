@@ -14,9 +14,9 @@ The system supports comprehensive controls including cursor movement, scrolling,
 Only issue: currently, Typeless still cannot entirely replace the keyboard, as fine-grained text adjustments—such as inserting spaces or selecting between similar characters (e.g., 他 vs. 她)—still require manual intervention.
 
 
-![[Screenshot 20260116 at 085823@2x.jpg]]
+![[xbox-mac-controller.jpg]]
 
-![[Xbox-Mac Controller.png]]
+![[xbox-mac.png]]
 
 ## Modularized Computer
 
