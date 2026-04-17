@@ -1,7 +1,6 @@
 ---
 title: "Basics"
 ---
-
 ## Demographics
 
 name: Jimmy Zhang
