@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import SubscribeForm from '../components/SubscribeForm';
 import AgentInfo from '../components/AgentInfo';
+import Credits from '../components/Credits';
 
 import '../styles/home.css';
 
@@ -46,6 +47,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-secondary">
+          <Credits />
           <SubscribeForm variant="home" />
           <AgentInfo />
         </div>

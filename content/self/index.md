@@ -10,5 +10,4 @@ In this section, you can learn about Jimmy's basic information, life story, and 
 | `personal-statement.md` | A long piece of Jimmy's writing in which he reflects upon his educational and life experiences, filled with the deepest reflections |
 | `skills.md`             | Jimmy Zhang's skills                                                                                                                |
 
-
 fetch `https://jimmyzhang.org/self/{filename}`

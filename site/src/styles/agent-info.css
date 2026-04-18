@@ -133,3 +133,16 @@
 .agent-info-copy-btn.copied {
   opacity: 1;
 }
+
+.credits-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--ui-3);
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.credits-link:hover {
+  text-decoration-color: var(--tx-2);
+  color: var(--tx);
+}
