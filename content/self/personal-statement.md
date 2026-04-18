@@ -1,7 +1,7 @@
 ---
 title: "Personal Statement"
 ---
-> I spent 9 years of my life in the national Chinese curriculum, 
+> I spent 9 years of my life in the Chinese national curriculum, 
 > 1 year in UWC Changshu, a prestigious international school, 
 > and 2 years in UWC Maastricht, a boarding public-school in the Netherlands. 
 > This year, I will go to University of Michigan, Ann Arbor for the next chapter. 
@@ -24,13 +24,11 @@ It was that confusing state of not wanting to continue school in the original sy
 
 ---
 
-The pain softened during the 1 year in UWC Changshu, as it indeed opened up a completely new land for me. There are so many new things to learn about and explore, new people to meet, new life options to explore. It indeed feel like leaving a prison after 9 years. 
-
-The world opened—new people, new ideas, new lives to imagine. It felt like release after years of enclosure.
+The pain softened during the 1 year in UWC Changshu, as it indeed opened up a completely new world for me — new people, new ideas, new lives to imagine. It felt like release after years of enclosure.
 
 However, maybe it was a bit too overwhelming that I decided to leave after the first year. It was also partly due to some frustrations as I struggle to explore my personal identity in this community. Believing that I, with no prior advantage and already behind, had no advantage in this system, I tried to "escape" again. 
 
-A friend asked my why did I choose to leave, I said, it's new experience and opportunities elsewhere, why not. I didn't want to admit that I was escaping, I really didn't believe that. 
+A friend asked me why did I choose to leave, I said, it's new experience and opportunities elsewhere, why not. I didn't want to admit that I was escaping. I really didn't believe that. 
 
 However, after all these year, "escape" seemed to be truly the central theme throughout my early life, especially after I went to UWC Maastricht in the Netherlands. 
 
@@ -42,7 +40,7 @@ However, it was a huge disappointment.
 
 Not only that it felt much more like a public school again with strict rules, rigid beauracracy, and lots of inflexibilities, the community life compared to UWC Changshu was also greatly under-developed.
 
-In UWC Changshu it feels like we are a big community living on an island. In Maastricht we also claim to be on an island (surrounded not by a lake, but a narrow moat), but we feel like tenants who happen to need to live here, managed by a bossy landlord. The school has day students who treat here not as their home but as, well, a school. It is in this weird mixture of place that I live in. 
+In UWC Changshu it feels like we are a big community living on an island. In Maastricht we also claim ourselves to be on an island (surrounded not by a lake, but a narrow moat), but we feel like tenants who happen to need to live here, managed by a bossy landlord. The school has day students who treat here not as their home but as, well, a school. It is in this weird mixture of place that I live in. 
 
 My frustration also came from the fact that my rate of learning is growing exponentially faster and faster (since the first days I have got my hands on my laptop), and I quickly outpaced everything I am supposed to learn in the IB program. 
 
@@ -80,10 +78,10 @@ But now, after application, my views are changing. I had a deeper understanding 
 
 But it's just a beginning. There are still lots more to experience and learn. 
 
-I convinced myself to start being proud of Umich, to love the big M logo against the naval blue color. I told myself environment doesn't matter that much, and what matters is your change in mindset and what you actually do besides complaining to escape. 
+I convinced myself to start being proud of UMich, to love the big M logo against the naval blue color. I told myself environment doesn't matter that much, and what matters is your change in mindset and what you actually do besides complaining to escape. 
 
 I don't know if I can start anew in UMich, as I imagined before I came to Maastricht. But regardless, I will be open towards whatever the world still have to offer me, because my journey is far from its destination. 
 
 I don't hold hope to transfer to Stanford or elsewhere in second-year. I might try, but for now, the mission is to live my life to the fullest in Ann Arbor. 
 
-And I hope for the first time in my life, Umich is not another escape, but somewhere I truly enjoy to be at. 
+And I hope for the first time in my life, UMich is not another escape, but somewhere I truly enjoy to be at. 
