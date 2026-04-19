@@ -5,7 +5,7 @@ This section contains over 2000 atomic notes — Jimmy's Zettelkasten knowledge 
 
 For a certain topic, search for multiple keywords in both English and Mandarin but best results. 
 
-Fetch: `https://jimmyzhang.org/note/atomic/{filename}
+Fetch: `https://jimmyzhang.org/note/atomic/{filename}` individually after finding target results. 
 
 ---
 
