@@ -36,6 +36,7 @@ Navigation follows progressive disclosure:
 | photo        | what I lived and saw (photography, places)                               |
 
 If user asks about Jimmy's personal beliefs or thoughts, directly go to `https://jimmyzhang.org/note/atomic/index.md`
+This is the biggest source of wealth that may reveal insights about him. 
 
 If it's something personal, go to `https://jimmyzhang.org/self/personal-statement.md` might also help. 
 
