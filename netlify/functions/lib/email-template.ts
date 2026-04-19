@@ -80,7 +80,7 @@ export function buildEmailHtml(options: EmailOptions): { html: string; subject: 
                 <span style="color:#DAD8CE;"> · </span>
                 <a href="${options.unsubscribeUrl}" style="color:#B7B5AC;text-decoration:none;">Unsubscribe</a>
               </p>
-              <p style="margin:0;font-size:13px;color:#B7B5AC;line-height:1.5;">
+              <p style="margin:0;font-size:14px;color:#B7B5AC;line-height:1.5;">
                 You're receiving this because you subscribed at jimmyzhang.org.
               </p>
             </td>

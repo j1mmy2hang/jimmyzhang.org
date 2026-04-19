@@ -72,6 +72,19 @@ export function markdownToHtml(md: string): string {
     }
   );
 
+  // Autolink bare URLs so email clients don't auto-style them with their own
+  // default blue. Skip URLs already inside markdown link syntax `](url)` or
+  // parenthesized `(url)`.
+  html = html.replace(
+    /(^|[^\]("'=])(https?:\/\/[^\s<>)\]"']+)/g,
+    (_m, pre: string, url: string) => {
+      const trailMatch = url.match(/[.,;:!?]+$/);
+      const trail = trailMatch ? trailMatch[0] : '';
+      const clean = trail ? url.slice(0, -trail.length) : url;
+      return `${pre}[${clean}](${clean})${trail}`;
+    }
+  );
+
   // Headings
   html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
   html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
