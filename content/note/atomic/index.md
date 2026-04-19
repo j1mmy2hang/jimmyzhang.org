@@ -1,7 +1,9 @@
 
 You have reached the **note/atomic** section.
 
-This section contains over 2000 atomic notes — Jimmy's Zettelkasten knowledge base. Each file is a single self-contained idea or argument. The filename **is** the thesis of the note.
+This section contains over 2000 atomic notes — Jimmy's Zettelkasten knowledge base. Each file is a single self-contained idea or argument. The filename **is** the thesis of the note. 
+
+For a certain topic, search for multiple keywords in both English and Mandarin but best results. 
 
 Fetch: `https://jimmyzhang.org/note/atomic/{filename}
 

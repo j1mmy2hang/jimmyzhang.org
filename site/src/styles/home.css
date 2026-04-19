@@ -20,6 +20,7 @@
   margin-bottom: 14rem;
   font-size: var(--font-even-smaller);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-underline-offset: 4px;
   color: var(--tx-3);
   opacity: 0;
