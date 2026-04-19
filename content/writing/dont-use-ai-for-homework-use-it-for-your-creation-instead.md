@@ -11,8 +11,6 @@ tags:
   - creativity
   - education
 ---
-![[Generated Image January 01, 2026 - 12_55PM.jpeg]]
-
 For decades, our education system ran on a simple premise—professional specialization. You didn't need to see the whole picture. Just master your tiny piece of the assembly line. The PhD student designs experiments. The master's student runs data. The undergrad feeds lab rats. Everyone gets their name on the paper. Everyone wins.
 
 This is **homework**—tasks driven by external demands. You execute what others define. No vision required. No passion needed. Just compliance.

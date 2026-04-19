@@ -30,6 +30,7 @@ export default function Home() {
   return (
     <main className={`home phase-${phase}${hasPlayed.current ? ' no-intro' : ''}`}>
       <div className="home-wrap">
+        <Link to="/how-can-i-help-you" className="home-help-link">How can I help you?</Link>
         <div className="home-inner">
           <div className="home-main">
             <h1 className="home-name">Jimmy Zhang</h1>

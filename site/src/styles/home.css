@@ -13,6 +13,28 @@
   width: min-content;
 }
 
+/* --- home-help-link: quiet annotation above home-inner --- */
+
+.home-help-link {
+  display: block;
+  margin-bottom: 14rem;
+  font-size: var(--font-even-smaller);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--tx-3);
+  opacity: 0;
+  transition: opacity 2s ease, color 150ms ease;
+}
+
+.home.phase-1 .home-help-link,
+.home.phase-2 .home-help-link {
+  opacity: 1;
+}
+
+.home-help-link:hover {
+  color: var(--tx-2);
+}
+
 /* --- home-inner: fade in at center --- */
 
 .home-inner {
