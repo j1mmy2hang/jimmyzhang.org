@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { useInternalLinkIntercept } from '../useInternalLinkIntercept';
 import {
   loadNoteIndex,
   noteConnection,
@@ -72,14 +73,17 @@ function ConnectionBox({ connections }: { connections: Connection[] }) {
 
 export default function NotePage({ type }: { type: NoteType }) {
   const { slug } = useParams<{ slug: string }>();
+  const handleProseClick = useInternalLinkIntercept();
   const [index, setIndex] = useState<NoteIndex | null>(null);
   const [raw, setRaw] = useState<string>('');
   const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading');
 
   useEffect(() => {
     const controller = new AbortController();
-    setStatus('loading');
-    setRaw('');
+    // Keep the previous note rendered while the next one loads — avoids a
+    // white flash + "loading…" flicker between atomic notes. Only the very
+    // first load (no prior raw) shows the loading state.
+    setStatus((prev) => (prev === 'ok' ? 'ok' : 'loading'));
     Promise.all([
       loadNoteIndex(),
       fetch(`/note/${type}/${slug}.md`, { signal: controller.signal }).then((r) => {
@@ -95,6 +99,7 @@ export default function NotePage({ type }: { type: NoteType }) {
       })
       .catch(() => {
         if (controller.signal.aborted) return;
+        setRaw('');
         setStatus('error');
       });
     return () => controller.abort();
@@ -156,7 +161,7 @@ export default function NotePage({ type }: { type: NoteType }) {
             )}
           </div>
         </header>
-        <div className="prose">
+        <div className="prose" onClick={handleProseClick}>
           {status === 'loading' && <p className="page-status">loading…</p>}
           {status === 'error' && <p className="page-status">could not load this note</p>}
           {status === 'ok' && <div dangerouslySetInnerHTML={{ __html: html }} />}

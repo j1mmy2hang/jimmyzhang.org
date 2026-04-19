@@ -10,8 +10,6 @@ tags:
   - autonomy
   - metrics
 ---
-, ![[Generated Image January 01, 2026 - 12_07PM.jpeg]]
-
 Every December, we wait for algorithms to tell us who we were. Spotify defines our taste; Uber calculates our movement; Instagram summarizes our "best" moments. We scroll through colorful slides, nodding along as a corporation explains our identity back to us.
 
 Stop outsourcing your self-reflection to tech giants.

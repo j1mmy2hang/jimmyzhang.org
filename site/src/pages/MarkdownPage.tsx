@@ -1,6 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb';
 import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
+import { useInternalLinkIntercept } from '../useInternalLinkIntercept';
 import '../styles/page.css';
 
 function formatLongDate(s: string): string {
@@ -17,6 +18,7 @@ export default function MarkdownPage({
   section: string;
 }) {
   const { html, loading, error, frontmatter } = useMarkdown(path);
+  const onProseClick = useInternalLinkIntercept();
   const title = frontmatter.title || '';
   const published = frontmatter.published || '';
 
@@ -28,7 +30,7 @@ export default function MarkdownPage({
           {title && <h1 className="page-title">{title}</h1>}
           {published && <p className="page-subtitle">{formatLongDate(published)}</p>}
         </header>
-        <div className="prose">
+        <div className="prose" onClick={onProseClick}>
           {loading && <p className="page-status">loading…</p>}
           {error && <p className="page-status">could not load {path}</p>}
           {html && <div dangerouslySetInnerHTML={{ __html: html }} />}

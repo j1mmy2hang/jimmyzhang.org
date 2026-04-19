@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
 import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
+import { useInternalLinkIntercept } from '../useInternalLinkIntercept';
 import '../styles/page.css';
 import '../styles/photo-page.css';
 
@@ -22,6 +23,7 @@ function rewriteEmbeds(html: string): string {
 export default function PhotoPage() {
   const { slug } = useParams<{ slug: string }>();
   const { html, loading, error, frontmatter } = useMarkdown(`/photo/${slug}.md`);
+  const onProseClick = useInternalLinkIntercept();
   const proseRef = useRef<HTMLDivElement>(null);
 
   const title = frontmatter.title || '';
@@ -62,7 +64,7 @@ export default function PhotoPage() {
             </p>
           )}
         </header>
-        <div className="prose photo-prose" ref={proseRef}>
+        <div className="prose photo-prose" ref={proseRef} onClick={onProseClick}>
           {description && (
             <blockquote className="photo-description">{description}</blockquote>
           )}

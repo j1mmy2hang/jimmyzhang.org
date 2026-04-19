@@ -3,11 +3,10 @@
 # Me, Opensourced
 
 <br>
-Not a project. Not a portfolio.  
-But my life's work of thinking, writing, building, and more — compressed into a repo.  
+My life's work of thinking, writing, building, and more — compressed into a repo.  
 <br>
 
-**Me as a file system.**
+**"Me as a file system"**
 
 <br>
 <br>
@@ -20,15 +19,15 @@ But my life's work of thinking, writing, building, and more — compressed into 
 
 ## The Idea
 
-What if a person were a repository? What if your values had version history, your ideas had branches, your life's work was forkable?
-
 It starts with these fundamental questions:
 
 > Who am I at the end of the day?  
 > What do I actually have to offer the world?  
-> What would I leave behind if I were gone tomorrow?
 
 If I leave this world by accident any time, I hope this repo is all that I leave for this world.
+
+This is the offical entry point for the world to learn about me. 
+
 <br>
 <br>
 
@@ -42,9 +41,6 @@ This repository has two parts: `content/` and `site/`.
 **`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
 <br>
 <br>
-
-
-### Content Sections
 
 | Section | Contents |
 |---|---|
