@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useInternalLinkIntercept } from '../useInternalLinkIntercept';
 import {
@@ -136,6 +136,12 @@ export default function NotePage({ type }: { type: NoteType }) {
   // Breadcrumb's `type` comes from the committed snapshot if we have one, so
   // the crumb stays in sync with the rendered body during transitions.
   const crumbType = displayed?.type ?? type;
+
+  // Scroll to the top the moment new content actually commits, not on URL
+  // change — otherwise the outgoing note visibly scrolls up before swapping.
+  useLayoutEffect(() => {
+    if (displayed) window.scrollTo(0, 0);
+  }, [displayed]);
 
   return (
     <main>

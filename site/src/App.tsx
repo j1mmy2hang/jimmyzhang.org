@@ -3,7 +3,14 @@ import { useEffect } from 'react';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  useEffect(() => {
+    // Note pages commit their content asynchronously (see NotePage's
+    // `displayed` snapshot), so scrolling here on URL change would jump the
+    // *old* note to top before the new one swaps in. They handle their own
+    // scroll at commit time instead.
+    if (pathname.startsWith('/note/') && pathname.split('/').length >= 4) return;
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return null;
 }
 import Home from './pages/Home';
