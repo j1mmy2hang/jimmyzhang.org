@@ -2,8 +2,8 @@
 .claude/
 .obsidian/
 .env
-newsletter/.env
 node_modules/
+dist/
 
 # Local Netlify folder
 .netlify
