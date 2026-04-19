@@ -34,19 +34,19 @@ export function useMarkdown(path: string): State {
   });
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
     setState({ loading: true, error: null, html: '', frontmatter: {} });
     const isNote = NOTE_PATH.test(path);
-    fetch(path)
+    fetch(path, { signal: controller.signal })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       })
       .then((text) => {
-        if (cancelled) return;
+        if (controller.signal.aborted) return;
         const { frontmatter, body } = parseFrontmatter(text);
         return loadNoteIndex().then((index) => {
-          if (cancelled) return;
+          if (controller.signal.aborted) return;
           const processed = isNote
             ? preprocessNoteBody(body, index)
             : preprocessPageBody(body, index);
@@ -55,12 +55,10 @@ export function useMarkdown(path: string): State {
         });
       })
       .catch((e) => {
-        if (cancelled) return;
+        if (controller.signal.aborted) return;
         setState({ loading: false, error: String(e), html: '', frontmatter: {} });
       });
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, [path]);
 
   return state;

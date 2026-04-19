@@ -24,6 +24,8 @@ export type NoteIndex = {
   atomic: Record<string, AtomicMeta>;
   book: Record<string, BookMeta>;
   clipping: Record<string, ClippingMeta>;
+  writing: Record<string, string>;
+  project: Record<string, string>;
   // slug → connected note slugs (undirected). Only note-type targets are
   // stored; display derives type/title from the meta maps.
   connections: Record<string, string[]>;
@@ -36,6 +38,8 @@ function titleFor(index: NoteIndex, type: SiteContentType, slug: string): string
   if (type === 'atomic') return index.atomic[slug]?.title ?? slug;
   if (type === 'book') return index.book[slug]?.title ?? slug;
   if (type === 'clipping') return index.clipping[slug]?.title ?? slug;
+  if (type === 'writing') return index.writing?.[slug] ?? slug;
+  if (type === 'project') return index.project?.[slug] ?? slug;
   return slug;
 }
 

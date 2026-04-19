@@ -4,11 +4,23 @@
  * No external dependencies.
  */
 
+const SITE_URL = 'https://jimmyzhang.org';
+
 export function markdownToHtml(md: string): string {
   let html = md;
 
   // Strip frontmatter
   html = html.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
+
+  // Obsidian image wikilinks: ![[filename|optional-size]] → absolute <img>.
+  // Size hint is ignored; email width is capped by max-width.
+  html = html.replace(
+    /!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\]/g,
+    (_m, filename: string) => {
+      const url = `${SITE_URL}/asset/image/${encodeURI(filename.trim())}`;
+      return `<img src="${url}" alt="" style="max-width:100%;height:auto;border-radius:6px;margin:16px 0;">`;
+    }
+  );
 
   // Headings
   html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');

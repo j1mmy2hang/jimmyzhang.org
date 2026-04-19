@@ -77,29 +77,27 @@ export default function NotePage({ type }: { type: NoteType }) {
   const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading');
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
     setStatus('loading');
     setRaw('');
     Promise.all([
       loadNoteIndex(),
-      fetch(`/note/${type}/${slug}.md`).then((r) => {
+      fetch(`/note/${type}/${slug}.md`, { signal: controller.signal }).then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
       }),
     ])
       .then(([idx, text]) => {
-        if (cancelled) return;
+        if (controller.signal.aborted) return;
         setIndex(idx);
         setRaw(text);
         setStatus('ok');
       })
       .catch(() => {
-        if (cancelled) return;
+        if (controller.signal.aborted) return;
         setStatus('error');
       });
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, [type, slug]);
 
   const { fm, body } = useMemo(() => parseFrontmatter(raw), [raw]);

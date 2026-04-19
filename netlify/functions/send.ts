@@ -36,7 +36,7 @@ export default async function handler(req: Request, _context: Context) {
   }
 
   try {
-    const { slug } = await req.json();
+    const { slug, testEmail } = await req.json();
     if (!slug || typeof slug !== 'string') {
       return Response.json({ error: 'slug is required' }, { status: 400 });
     }
@@ -48,7 +48,9 @@ export default async function handler(req: Request, _context: Context) {
     }
     const markdown = await mdRes.text();
 
-    const subscribers = await getSubscribers();
+    const subscribers = testEmail && typeof testEmail === 'string'
+      ? [{ email: testEmail, subscribedAt: new Date().toISOString() }]
+      : await getSubscribers();
     if (subscribers.length === 0) {
       return Response.json({ error: 'No subscribers' }, { status: 400 });
     }
@@ -103,8 +105,9 @@ export default async function handler(req: Request, _context: Context) {
       }
     }
 
+    const label = testEmail ? `test email to ${testEmail}` : `${subscribers.length} subscribers`;
     return Response.json({
-      message: `Sent to ${results.sent}/${subscribers.length} subscribers`,
+      message: `Sent to ${results.sent}/${subscribers.length} (${label})`,
       ...results,
     });
   } catch (e) {

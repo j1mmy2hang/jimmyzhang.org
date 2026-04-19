@@ -125,19 +125,21 @@ export default function NewsletterDashboard() {
     if (selectedSlug) loadPreview();
   }, [selectedSlug]);
 
-  async function handleSend() {
+  const TEST_EMAIL = 'jz9542063@gmail.com';
+
+  async function send(testEmail?: string) {
     if (!selectedSlug || sending) return;
-    const confirmed = window.confirm(
-      `Send "${selectedSlug}" to ${subscribers.length} subscriber(s)?`
-    );
+    const confirmed = testEmail
+      ? window.confirm(`Send test of "${selectedSlug}" to ${testEmail}?`)
+      : window.confirm(`Send "${selectedSlug}" to ${subscribers.length} subscriber(s)?`);
     if (!confirmed) return;
     setSending(true);
-    setSendStatus('Sending...');
+    setSendStatus(testEmail ? 'Sending test...' : 'Sending...');
     try {
       const res = await fetch('/.netlify/functions/send', {
         method: 'POST',
         headers: headers(),
-        body: JSON.stringify({ slug: selectedSlug }),
+        body: JSON.stringify(testEmail ? { slug: selectedSlug, testEmail } : { slug: selectedSlug }),
       });
       const data = await res.json();
       setSendStatus(data.message || data.error || 'Done');
@@ -223,7 +225,14 @@ export default function NewsletterDashboard() {
             </select>
             <button
               className="dash-btn"
-              onClick={handleSend}
+              onClick={() => send(TEST_EMAIL)}
+              disabled={!selectedSlug || sending}
+            >
+              {sending ? 'Sending...' : `Send test to ${TEST_EMAIL}`}
+            </button>
+            <button
+              className="dash-btn"
+              onClick={() => send()}
               disabled={!selectedSlug || sending}
             >
               {sending ? 'Sending...' : 'Send to all'}

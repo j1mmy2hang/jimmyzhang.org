@@ -134,10 +134,14 @@ async function main() {
   }
   // Add writing and project slugs — lower priority than notes on collision.
   // RANK for these is undefined → treated as lowest via the `!exType` guard.
+  const writing = {};
+  const project = {};
+  const siteMeta = { writing, project };
   for (const t of SITE_TYPES) {
     for (const n of await readSiteContent(t)) {
       put(n.slug, t, n.slug);
       if (n.fm.title) put(n.fm.title, t, n.slug);
+      siteMeta[t][n.slug] = n.fm.title || n.slug;
     }
   }
 
@@ -197,7 +201,7 @@ async function main() {
     }
   }
 
-  const out = { atomic, book, clipping, connections, resolve };
+  const out = { atomic, book, clipping, writing, project, connections, resolve };
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, JSON.stringify(out));
   // Slim index: just metadata, no connections or resolve map.
