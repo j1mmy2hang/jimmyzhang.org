@@ -4,7 +4,42 @@
  * No external dependencies.
  */
 
+import noteIndex from '../../../site/src/generated/note-index.json';
+
 const SITE_URL = 'https://jimmyzhang.org';
+
+type NoteType = 'atomic' | 'book' | 'clipping';
+type SiteType = NoteType | 'writing' | 'project';
+type Index = {
+  atomic: Record<string, { title: string }>;
+  book: Record<string, { title: string }>;
+  clipping: Record<string, { title: string }>;
+  writing: Record<string, string>;
+  project: Record<string, string>;
+  resolve: Record<string, [SiteType, string]>;
+};
+const idx = noteIndex as unknown as Index;
+
+function titleFor(type: SiteType, slug: string): string {
+  if (type === 'atomic') return idx.atomic[slug]?.title ?? slug;
+  if (type === 'book') return idx.book[slug]?.title ?? slug;
+  if (type === 'clipping') return idx.clipping[slug]?.title ?? slug;
+  if (type === 'writing') return idx.writing?.[slug] ?? slug;
+  if (type === 'project') return idx.project?.[slug] ?? slug;
+  return slug;
+}
+
+function resolvedUrl(type: SiteType, slug: string): string {
+  if (type === 'writing') return `${SITE_URL}/writing/${slug}`;
+  if (type === 'project') return `${SITE_URL}/project/${slug}`;
+  return `${SITE_URL}/note/${type}/${slug}`;
+}
+
+function escapeHtml(s: string): string {
+  return s.replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!)
+  );
+}
 
 export function markdownToHtml(md: string): string {
   let html = md;
@@ -19,6 +54,21 @@ export function markdownToHtml(md: string): string {
     (_m, filename: string) => {
       const url = `${SITE_URL}/asset/image/${encodeURI(filename.trim())}`;
       return `<img src="${url}" alt="" style="max-width:100%;height:auto;border-radius:6px;margin:16px 0;">`;
+    }
+  );
+
+  // Text wikilinks: [[target|alias]] → <a> to resolved URL, or plain text if unresolved.
+  html = html.replace(
+    /\[\[([^\]\n]+?)\]\]/g,
+    (_m, inner: string) => {
+      const [rawTarget, rawAlias] = inner.split('|');
+      const target = rawTarget.split('#')[0].trim();
+      const alias = rawAlias?.trim();
+      const hit = idx.resolve[target.toLowerCase()];
+      if (!hit) return escapeHtml(alias || target);
+      const [type, slug] = hit;
+      const label = alias || titleFor(type, slug);
+      return `<a href="${resolvedUrl(type, slug)}" style="color:#205EA6;text-decoration:underline;text-underline-offset:3px;">${escapeHtml(label)}</a>`;
     }
   );
 
