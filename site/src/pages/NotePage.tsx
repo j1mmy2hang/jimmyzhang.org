@@ -71,19 +71,27 @@ function ConnectionBox({ connections }: { connections: Connection[] }) {
   );
 }
 
+// A committed snapshot of everything needed to render a note. The URL
+// (useParams) changes the instant a link is clicked; `displayed` only
+// advances once the next note's index + markdown have both loaded. That way
+// breadcrumb, title, backlinks, and body all swap in a single frame — no
+// out-of-sync transitions where backlinks update ahead of the body.
+type Displayed = {
+  type: NoteType;
+  slug: string;
+  index: NoteIndex;
+  raw: string;
+};
+
 export default function NotePage({ type }: { type: NoteType }) {
   const { slug } = useParams<{ slug: string }>();
   const handleProseClick = useInternalLinkIntercept();
-  const [index, setIndex] = useState<NoteIndex | null>(null);
-  const [raw, setRaw] = useState<string>('');
-  const [status, setStatus] = useState<'loading' | 'ok' | 'error'>('loading');
+  const [displayed, setDisplayed] = useState<Displayed | null>(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
+    if (!slug) return;
     const controller = new AbortController();
-    // Keep the previous note rendered while the next one loads — avoids a
-    // white flash + "loading…" flicker between atomic notes. Only the very
-    // first load (no prior raw) shows the loading state.
-    setStatus((prev) => (prev === 'ok' ? 'ok' : 'loading'));
     Promise.all([
       loadNoteIndex(),
       fetch(`/note/${type}/${slug}.md`, { signal: controller.signal }).then((r) => {
@@ -93,36 +101,41 @@ export default function NotePage({ type }: { type: NoteType }) {
     ])
       .then(([idx, text]) => {
         if (controller.signal.aborted) return;
-        setIndex(idx);
-        setRaw(text);
-        setStatus('ok');
+        setError(false);
+        setDisplayed({ type, slug, index: idx, raw: text });
       })
       .catch(() => {
         if (controller.signal.aborted) return;
-        setRaw('');
-        setStatus('error');
+        setError(true);
       });
     return () => controller.abort();
   }, [type, slug]);
 
-  const { fm, body } = useMemo(() => parseFrontmatter(raw), [raw]);
+  const { fm, body } = useMemo(
+    () => (displayed ? parseFrontmatter(displayed.raw) : { fm: {}, body: '' }),
+    [displayed]
+  );
   const html = useMemo(
-    () => (index && body ? renderNoteMarkdown(body, index) : ''),
-    [index, body]
+    () => (displayed && body ? renderNoteMarkdown(body, displayed.index) : ''),
+    [displayed, body]
   );
 
-  const title = fm.title || slug || '';
+  const title = fm.title || displayed?.slug || '';
   const date = fm.published || fm.created || '';
   const author = fm.author || '';
   const source = fm.source || '';
   const rating = fm.rating ? Number(fm.rating) : 0;
   const connections: Connection[] = useMemo(() => {
-    if (!index || !slug) return [];
-    const slugs = index.connections[slug] || [];
+    if (!displayed) return [];
+    const slugs = displayed.index.connections[displayed.slug] || [];
     return slugs
-      .map((s) => noteConnection(index, s))
+      .map((s) => noteConnection(displayed.index, s))
       .filter((c): c is Connection => c !== null);
-  }, [index, slug]);
+  }, [displayed]);
+
+  // Breadcrumb's `type` comes from the committed snapshot if we have one, so
+  // the crumb stays in sync with the rendered body during transitions.
+  const crumbType = displayed?.type ?? type;
 
   return (
     <main>
@@ -131,10 +144,10 @@ export default function NotePage({ type }: { type: NoteType }) {
         <span className="breadcrumb-sep">/</span>
         <Link to="/note" className="breadcrumb-section">note</Link>
         <span className="breadcrumb-sep">/</span>
-        {type === 'atomic' ? (
+        {crumbType === 'atomic' ? (
           <span className="breadcrumb-section">atomic</span>
         ) : (
-          <Link to={`/note/${type}`} className="breadcrumb-section">{type}</Link>
+          <Link to={`/note/${crumbType}`} className="breadcrumb-section">{crumbType}</Link>
         )}
       </nav>
       <article>
@@ -162,9 +175,9 @@ export default function NotePage({ type }: { type: NoteType }) {
           </div>
         </header>
         <div className="prose" onClick={handleProseClick}>
-          {status === 'loading' && <p className="page-status">loading…</p>}
-          {status === 'error' && <p className="page-status">could not load this note</p>}
-          {status === 'ok' && <div dangerouslySetInnerHTML={{ __html: html }} />}
+          {error && <p className="page-status">could not load this note</p>}
+          {!error && !displayed && <p className="page-status">loading…</p>}
+          {!error && displayed && <div dangerouslySetInnerHTML={{ __html: html }} />}
         </div>
       </article>
     </main>
