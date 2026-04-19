@@ -1,14 +1,22 @@
-![jimmyzhangorg-banner](./content/asset/image/jimmyzhangorg-banner.png)
-
 <div align="center">
 
-**jimmyzhang.org** is an attempt to open-source myself.
+# Me, Opensourced
 
-Not a project. Not a portfolio. But my life's worth of thinking, writing, building, and more — compressed into a repo. Me as a file system.
+<br>
+Not a project. Not a portfolio.  
+But my life's work of thinking, writing, building, and more — compressed into a repo.  
+<br>
+
+**Me as a file system.**
+
+<br>
+<br>
+
+![jimmyzhangorg-banner](./content/asset/image/jimmyzhangorg-banner.png)
 
 </div>
-
----
+<br>
+<br>
 
 ## The Idea
 
@@ -21,8 +29,9 @@ It starts with these fundamental questions:
 > What would I leave behind if I were gone tomorrow?
 
 If I leave this world by accident any time, I hope this repo is all that I leave for this world.
+<br>
+<br>
 
----
 
 ## Repo Layout
 
@@ -31,6 +40,9 @@ This repository has two parts: `content/` and `site/`.
 **`content/`** is the single source of truth — a collection of plain Markdown files organized into thematic sections. It does not depend on any framework or build tool. The Markdown files *are* the product. Any frontend is just a lens through which to read them.
 
 **`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
+<br>
+<br>
+
 
 ### Content Sections
 
@@ -42,8 +54,9 @@ This repository has two parts: `content/` and `site/`.
 | `project` | What I have made — products, software, art |
 | `writing` | What I have written — essays, opinions |
 | `photo` | What I have lived and seen — photography, places |
+<br>
+<br>
 
----
 
 ## Agent Architecture
 
@@ -58,16 +71,18 @@ Navigation follows a **progressive disclosure** model:
 3. **Individual files** — the full content of each piece, fetchable by URL path
 
 Every Markdown file in `content/` is a static file served at `https://jimmyzhang.org/{path}`. Agents fetch what they need. There is no API, no database, no authentication.
+<br>
+<br>
 
----
 
 ## Credits
 
 - Color palette — [Flexoki](https://stephango.com/flexoki) by [Steph Ango](https://stephango.com/)
 - Window shade effect — [Mason Wang](https://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b)
 - Notes written in [Obsidian](https://obsidian.md/) by [Steph Ango](https://stephango.com/)
+<br>
+<br>
 
----
 
 ## License
 
