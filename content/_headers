@@ -2,9 +2,22 @@
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET
 
+# Hashed build assets (JS, CSS, fonts) never change once deployed.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images: filename-stable, rarely change. Day-long fresh cache, then
+# serve-stale-while-revalidating for a week.
+/asset/image/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# Markdown content: may change when I publish. Keep fresh for an hour,
+# but let repeat visitors get instant loads while the browser checks.
 /*.md
   Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
 /jimmyzhang.md
   X-Robots-Tag: all
   Link: </jimmyzhang.md>; rel="canonical"
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

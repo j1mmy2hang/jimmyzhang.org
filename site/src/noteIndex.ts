@@ -24,9 +24,34 @@ export type NoteIndex = {
   atomic: Record<string, AtomicMeta>;
   book: Record<string, BookMeta>;
   clipping: Record<string, ClippingMeta>;
-  connections: Record<string, Connection[]>;
-  resolve: Record<string, Resolved>;
+  // slug → connected note slugs (undirected). Only note-type targets are
+  // stored; display derives type/title from the meta maps.
+  connections: Record<string, string[]>;
+  // lowercase key (slug or title) → [type, slug]. Titles live in the meta
+  // maps, not here, so the table stays lean.
+  resolve: Record<string, [SiteContentType, string]>;
 };
+
+function titleFor(index: NoteIndex, type: SiteContentType, slug: string): string {
+  if (type === 'atomic') return index.atomic[slug]?.title ?? slug;
+  if (type === 'book') return index.book[slug]?.title ?? slug;
+  if (type === 'clipping') return index.clipping[slug]?.title ?? slug;
+  return slug;
+}
+
+export function resolveKey(index: NoteIndex, key: string): Resolved | null {
+  const hit = index.resolve[key.toLowerCase()];
+  if (!hit) return null;
+  const [type, slug] = hit;
+  return { type, slug, title: titleFor(index, type, slug) };
+}
+
+export function noteConnection(index: NoteIndex, slug: string): Connection | null {
+  if (index.atomic[slug]) return { type: 'atomic', slug, title: index.atomic[slug].title };
+  if (index.book[slug]) return { type: 'book', slug, title: index.book[slug].title };
+  if (index.clipping[slug]) return { type: 'clipping', slug, title: index.clipping[slug].title };
+  return null;
+}
 
 export type NoteMetaIndex = Pick<NoteIndex, 'atomic' | 'book' | 'clipping'>;
 

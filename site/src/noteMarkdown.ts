@@ -1,5 +1,5 @@
 import { marked, stripObsidianDecorations } from './markdown';
-import { resolvedUrl } from './noteIndex';
+import { resolvedUrl, resolveKey } from './noteIndex';
 import type { NoteIndex } from './noteIndex';
 
 function escapeHtml(s: string): string {
@@ -57,7 +57,7 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
       const [rawTarget, rawAlias] = inner.split('|');
       const target = rawTarget.split('#')[0].trim();
       const alias = rawAlias?.trim();
-      const r = index.resolve[target.toLowerCase()];
+      const r = resolveKey(index, target);
       if (!r) {
         const label = alias || target;
         return `<span class="wikilink-missing">${escapeHtml(label)}</span>`;
@@ -100,7 +100,7 @@ export function preprocessPageBody(body: string, index: NoteIndex): string {
       const [rawTarget, rawAlias] = inner.split('|');
       const target = rawTarget.split('#')[0].trim();
       const alias = rawAlias?.trim();
-      const r = index.resolve[target.toLowerCase()];
+      const r = resolveKey(index, target);
       if (!r) return escapeHtml(alias || target);
       const label = alias || r.title;
       const safe = label.replace(/[\[\]]/g, '');

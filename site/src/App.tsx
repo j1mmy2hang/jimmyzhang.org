@@ -1,34 +1,40 @@
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }
+
+// Home loads eagerly — it's the landing page and we don't want a round trip
+// before the first paint. Everything else is code-split so the initial
+// bundle only carries what's on screen.
 import Home from './pages/Home';
-import Self from './pages/Self';
-import Telos from './pages/Telos';
-import Writing from './pages/Writing';
-import WritingPost from './pages/WritingPost';
-import Photo from './pages/Photo';
-import PhotoPage from './pages/PhotoPage';
-import MarkdownPage from './pages/MarkdownPage';
-import Project from './pages/Project';
-import NoteIndex from './pages/NoteIndex';
-import BookShelf from './pages/BookShelf';
-import ClippingWheel from './pages/ClippingWheel';
-import NotePage from './pages/NotePage';
-import Newsletter from './pages/Newsletter';
-import NewsletterPost from './pages/NewsletterPost';
-import NewsletterDashboard from './pages/NewsletterDashboard';
 import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
+
+const Self = lazy(() => import('./pages/Self'));
+const Telos = lazy(() => import('./pages/Telos'));
+const Writing = lazy(() => import('./pages/Writing'));
+const WritingPost = lazy(() => import('./pages/WritingPost'));
+const Photo = lazy(() => import('./pages/Photo'));
+const PhotoPage = lazy(() => import('./pages/PhotoPage'));
+const MarkdownPage = lazy(() => import('./pages/MarkdownPage'));
+const Project = lazy(() => import('./pages/Project'));
+const NoteIndex = lazy(() => import('./pages/NoteIndex'));
+const BookShelf = lazy(() => import('./pages/BookShelf'));
+const ClippingWheel = lazy(() => import('./pages/ClippingWheel'));
+const NotePage = lazy(() => import('./pages/NotePage'));
+const Newsletter = lazy(() => import('./pages/Newsletter'));
+const NewsletterPost = lazy(() => import('./pages/NewsletterPost'));
+const NewsletterDashboard = lazy(() => import('./pages/NewsletterDashboard'));
 
 export default function App() {
   return (
     <>
       <ScrollToTop />
+      <Suspense fallback={null}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/self" element={<Self />} />
@@ -77,6 +83,7 @@ export default function App() {
           element={<MarkdownPage path="/how-can-i-help-you.md" section="" />}
         />
       </Routes>
+      </Suspense>
       <ThemeToggle />
       <DappledLight />
     </>

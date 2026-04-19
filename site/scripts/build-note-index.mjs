@@ -116,26 +116,28 @@ async function main() {
     return Boolean(stripWikilink(n.fm.cover || ''));
   });
 
-  // Resolve table: keyed by lowercased slug AND lowercased title.
-  // Priority atomic > book > clipping when slug collides.
+  // Resolve table: lowercased slug/title → slug. Priority atomic > book >
+  // clipping when keys collide. A parallel `resolveType` map carries the type
+  // so callers can locate the target without fattening every entry with it.
+  // Resolve values are [type, slug] tuples. Titles are not stored here —
+  // callers dereference them via the meta maps (atomic/book/clipping).
   const resolve = {};
-  const put = (key, entry) => {
+  const put = (key, type, slug) => {
     const k = key.toLowerCase().trim();
     if (!k) return;
     const ex = resolve[k];
-    if (!ex || RANK[entry.type] < RANK[ex.type]) resolve[k] = entry;
+    if (!ex || RANK[type] < RANK[ex[0]]) resolve[k] = [type, slug];
   };
   for (const n of all) {
-    const entry = { type: n.type, slug: n.slug, title: n.fm.title || n.slug };
-    put(n.slug, entry);
-    if (n.fm.title) put(n.fm.title, entry);
+    put(n.slug, n.type, n.slug);
+    if (n.fm.title) put(n.fm.title, n.type, n.slug);
   }
   // Add writing and project slugs — lower priority than notes on collision.
+  // RANK for these is undefined → treated as lowest via the `!exType` guard.
   for (const t of SITE_TYPES) {
     for (const n of await readSiteContent(t)) {
-      const entry = { type: t, slug: n.slug, title: n.fm.title || n.slug };
-      put(n.slug, entry);
-      if (n.fm.title) put(n.fm.title, entry);
+      put(n.slug, t, n.slug);
+      if (n.fm.title) put(n.fm.title, t, n.slug);
     }
   }
 
@@ -163,19 +165,17 @@ async function main() {
     }
   }
 
-  // Connections: an undirected edge map. Every link between two notes —
-  // whether via body wikilink or frontmatter `reference:` — gets added to
-  // both endpoints' lists. Display splits by the other side's type.
+  // Connections: an undirected edge map `slug → [slug, ...]`. Every link
+  // between two notes — body wikilink or frontmatter `reference:` — gets
+  // added to both endpoints. The display side looks up type/title from the
+  // meta maps; storing only slugs keeps the graph tiny.
   const connections = {};
-  const addConnection = (ownerSlug, other) => {
+  const addConnection = (ownerSlug, otherSlug) => {
     const list = (connections[ownerSlug] ||= []);
-    if (!list.some((x) => x.slug === other.slug && x.type === other.type)) {
-      list.push(other);
-    }
+    if (!list.includes(otherSlug)) list.push(otherSlug);
   };
 
   for (const n of all) {
-    const self = { type: n.type, slug: n.slug, title: n.fm.title || n.slug };
     const keys = new Set();
     for (const t of collectOutbound(n.body)) keys.add(t.toLowerCase());
     const refField = n.fm.reference;
@@ -185,11 +185,15 @@ async function main() {
       if (t) keys.add(t.toLowerCase());
     }
     for (const key of keys) {
-      const r = resolve[key];
-      if (!r) continue;
-      if (r.type === n.type && r.slug === n.slug) continue;
-      addConnection(n.slug, { type: r.type, slug: r.slug, title: r.title });
-      addConnection(r.slug, self);
+      const hit = resolve[key];
+      if (!hit) continue;
+      const [otherType, otherSlug] = hit;
+      // Only notes participate in the connection graph (writing/project
+      // targets are reachable via wikilinks but don't get a backlink box).
+      if (!TYPES.includes(otherType)) continue;
+      if (otherSlug === n.slug && otherType === n.type) continue;
+      addConnection(n.slug, otherSlug);
+      addConnection(otherSlug, n.slug);
     }
   }
 

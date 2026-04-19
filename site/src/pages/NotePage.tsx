@@ -1,6 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { loadNoteIndex, type NoteIndex, type NoteType, type Connection } from '../noteIndex';
+import {
+  loadNoteIndex,
+  noteConnection,
+  type NoteIndex,
+  type NoteType,
+  type Connection,
+} from '../noteIndex';
 import { renderNoteMarkdown } from '../noteMarkdown';
 import '../styles/page.css';
 import '../styles/note.css';
@@ -107,7 +113,13 @@ export default function NotePage({ type }: { type: NoteType }) {
   const author = fm.author || '';
   const source = fm.source || '';
   const rating = fm.rating ? Number(fm.rating) : 0;
-  const connections = (index && slug && index.connections[slug]) || [];
+  const connections: Connection[] = useMemo(() => {
+    if (!index || !slug) return [];
+    const slugs = index.connections[slug] || [];
+    return slugs
+      .map((s) => noteConnection(index, s))
+      .filter((c): c is Connection => c !== null);
+  }, [index, slug]);
 
   return (
     <main>
