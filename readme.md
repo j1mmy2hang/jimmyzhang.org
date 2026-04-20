@@ -34,13 +34,13 @@ This is the offical entry point for the world to learn about me.
 
 ## Repo Layout
 
-This repository has two parts: `content/` and `site/`.
+This repository has two main parts: `content/` and `site/`.
 
-**`content/`** is the single source of truth — a collection of plain Markdown files organized into thematic sections. It does not depend on any framework or build tool. The Markdown files *are* the product. Any frontend is just a lens through which to read them.
+### Content/ -- MD as source of truth
 
-**`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
-<br>
-<br>
+**`content/`** is the actual file system and the only source of truth. It's a collection of plain Markdown files organized into thematic sections. It does not depend on any framework or build tool. The Markdown files *are* the product. Any frontend is just a lens through which to read them.
+
+`content` is divided into several sections or folders. 
 
 | Section | Contents |
 |---|---|
@@ -50,6 +50,22 @@ This repository has two parts: `content/` and `site/`.
 | `project` | What I have made — products, software, art |
 | `writing` | What I have written — essays, opinions |
 | `photo` | What I have lived and seen — photography, places |
+<br>
+<br>
+
+
+### Site/ -- my frontend
+
+**`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
+
+My frontend design is heavily influenced by [Steph Ango](https://stephango.com)'s personal website. 
+
+
+### Design Philosophy
+
+Content is the core. At the outer layer is Site, the WebUI, through which the human can interact with. An AI Agent can also skip the WebUI and directly retrieve information from Content, which is in essence just a folder hosted on the internet. 
+
+It is desgined to be platform- and tool-agnostic, as I believe in the time-enduring nature of markdown files. 
 <br>
 <br>
 
@@ -69,6 +85,18 @@ Navigation follows a **progressive disclosure** model:
 Every Markdown file in `content/` is a static file served at `https://jimmyzhang.org/{path}`. Agents fetch what they need. There is no API, no database, no authentication.
 <br>
 <br>
+
+## Human Exeprience
+
+As a human you can interact with me through two ways. 
+
+1. **WebUI** -- go to visit https://jimmyzhang.org directly and visit all the pages
+2. **AI Agent** -- mention to your AI Agent (OpenClaw, Claude Code, Codex, etc.) my website (jimmyzhang.org) and ask any question about me, shallow or deep, your AI agent will be instructed to retrieve the right information for you. 
+
+e.g. 
+```
+jimmyzhang.org — what is the last book Jimmy read and what did he learn?
+```
 
 
 ## Credits
