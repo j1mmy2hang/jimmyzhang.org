@@ -40,7 +40,7 @@ This repository has two main parts: `content/` and `site/`.
 
 **`content/`** is the actual file system and the only source of truth. It's a collection of plain Markdown files organized into thematic sections. It does not depend on any framework or build tool. The Markdown files *are* the product. Any frontend is just a lens through which to read them.
 
-`content` is divided into several sections or folders. 
+`content/` is divided into several sections or folders. 
 
 | Section | Contents |
 |---|---|
@@ -51,14 +51,14 @@ This repository has two main parts: `content/` and `site/`.
 | `writing` | What I have written — essays, opinions |
 | `photo` | What I have lived and seen — photography, places |
 <br>
-<br>
-
 
 ### Site/ -- my frontend
 
 **`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
 
 My frontend design is heavily influenced by [Steph Ango](https://stephango.com)'s personal website. 
+<br>
+<br>
 
 
 ### Design Philosophy
@@ -104,7 +104,6 @@ jimmyzhang.org — what is the last book Jimmy read and what did he learn?
 - Color palette — [Flexoki](https://stephango.com/flexoki) by [Steph Ango](https://stephango.com/)
 - Window shade effect — [Mason Wang](https://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b)
 - Notes written in [Obsidian](https://obsidian.md/) by [Steph Ango](https://stephango.com/)
-<br>
 <br>
 
 
