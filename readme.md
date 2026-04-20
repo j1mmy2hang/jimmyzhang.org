@@ -17,6 +17,7 @@ My life's work of thinking, writing, building, and more — compressed into a re
 ![jimmyzhangorg-banner](./content/asset/image/jimmyzhangorg-banner.png)
 
 </div>
+
 <br>
 
 ## Project Vision
@@ -29,6 +30,7 @@ It starts with these fundamental questions:
 If I leave this world by accident any time, I hope this repo is all that I leave for this world.
 
 This is the official entry point for the world to learn about me.
+
 <br>
 
 
@@ -50,6 +52,7 @@ This repository has two main parts: `content/` and `site/`.
 | `project` | What I have made — products, software, art |
 | `writing` | What I have written — essays, opinions |
 | `photo` | What I have lived and seen — photography, places |
+
 <br>
 
 ### Site/ — my frontend
@@ -57,6 +60,7 @@ This repository has two main parts: `content/` and `site/`.
 **`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
 
 My frontend design is heavily influenced by [Steph Ango](https://stephango.com)'s personal website. 
+
 <br>
 
 ### Design Philosophy
