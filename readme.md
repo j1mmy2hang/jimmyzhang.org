@@ -9,15 +9,17 @@ My life's work of thinking, writing, building, and more — compressed into a re
 **"Me as a file system"**
 
 <br>
+
+[Visit my website](https://jimmyzhang.org) &nbsp;·&nbsp; [Interact with your AI Agent](#human-experience) &nbsp;·&nbsp; [Project Vision](#project-vision)
+
 <br>
 
 ![jimmyzhangorg-banner](./content/asset/image/jimmyzhangorg-banner.png)
 
 </div>
 <br>
-<br>
 
-## The Idea
+## Project Vision
 
 It starts with these fundamental questions:
 
@@ -26,9 +28,8 @@ It starts with these fundamental questions:
 
 If I leave this world by accident any time, I hope this repo is all that I leave for this world.
 
-This is the offical entry point for the world to learn about me. 
+This is the official entry point for the world to learn about me.
 
-<br>
 <br>
 
 
@@ -36,11 +37,11 @@ This is the offical entry point for the world to learn about me.
 
 This repository has two main parts: `content/` and `site/`.
 
-### Content/ -- MD as source of truth
+### Content/ — MD as source of truth
 
 **`content/`** is the actual file system and the only source of truth. It's a collection of plain Markdown files organized into thematic sections. It does not depend on any framework or build tool. The Markdown files *are* the product. Any frontend is just a lens through which to read them.
 
-`content/` is divided into several sections or folders. 
+`content` is divided into several sections or folders. 
 
 | Section | Contents |
 |---|---|
@@ -51,21 +52,21 @@ This repository has two main parts: `content/` and `site/`.
 | `writing` | What I have written — essays, opinions |
 | `photo` | What I have lived and seen — photography, places |
 <br>
+<br>
 
-### Site/ -- my frontend
+
+### Site/ — my frontend
 
 **`site/`** is the official frontend implementation, built with Vite and TypeScript. It reads the content and renders it for human visitors. The frontend is intentionally swappable — build your own interface over this content if you want. The Markdown stays the core; the presentation layer is your choice.
 
 My frontend design is heavily influenced by [Steph Ango](https://stephango.com)'s personal website. 
-<br>
-<br>
 
 
 ### Design Philosophy
 
 Content is the core. At the outer layer is Site, the WebUI, through which the human can interact with. An AI Agent can also skip the WebUI and directly retrieve information from Content, which is in essence just a folder hosted on the internet. 
 
-It is desgined to be platform- and tool-agnostic, as I believe in the time-enduring nature of markdown files. 
+It is designed to be platform- and tool-agnostic, grounded in the time-enduring nature of plain Markdown files.
 <br>
 <br>
 
@@ -86,17 +87,18 @@ Every Markdown file in `content/` is a static file served at `https://jimmyzhang
 <br>
 <br>
 
-## Human Exeprience
+## Human Experience
 
-As a human you can interact with me through two ways. 
+As a human, you can interact with me in two ways.
 
-1. **WebUI** -- go to visit https://jimmyzhang.org directly and visit all the pages
-2. **AI Agent** -- mention to your AI Agent (OpenClaw, Claude Code, Codex, etc.) my website (jimmyzhang.org) and ask any question about me, shallow or deep, your AI agent will be instructed to retrieve the right information for you. 
+1. **WebUI** — visit [jimmyzhang.org](https://jimmyzhang.org) directly and browse all pages
+2. **AI Agent** — mention my website (`jimmyzhang.org`) to your AI agent (Claude Code, Codex, etc.) and ask any question about me. The agent will retrieve the right information directly from the source.
 
 e.g. 
 ```
 jimmyzhang.org — what is the last book Jimmy read and what did he learn?
 ```
+<br>
 
 
 ## Credits
@@ -104,6 +106,7 @@ jimmyzhang.org — what is the last book Jimmy read and what did he learn?
 - Color palette — [Flexoki](https://stephango.com/flexoki) by [Steph Ango](https://stephango.com/)
 - Window shade effect — [Mason Wang](https://gist.github.com/masonwang025/49edffdff399175af2262e921eaae50b)
 - Notes written in [Obsidian](https://obsidian.md/) by [Steph Ango](https://stephango.com/)
+<br>
 <br>
 
 
