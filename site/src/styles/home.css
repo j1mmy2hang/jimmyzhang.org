@@ -125,3 +125,13 @@
     column-gap: 2.4rem;
   }
 }
+
+@media (max-height: 800px) {
+  .home-help-link {
+    margin-bottom: 10rem;
+  }
+
+  .home.phase-2 .home-secondary {
+    margin-top: 10rem;
+  }
+}
