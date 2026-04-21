@@ -62,11 +62,17 @@ export type NoteMetaIndex = Pick<NoteIndex, 'atomic' | 'book' | 'clipping'>;
 let cached: Promise<NoteIndex> | null = null;
 let cachedMeta: Promise<NoteMetaIndex> | null = null;
 
+// Caching the promise (not the resolved value) is intentional: in-flight calls
+// share one fetch. But we MUST drop the cache on rejection — otherwise a single
+// transient chunk-load failure on the first call permanently poisons every
+// subsequent page that needs the index.
 export function loadNoteIndex(): Promise<NoteIndex> {
   if (!cached) {
-    cached = import('./generated/note-index.json').then(
+    const p = import('./generated/note-index.json').then(
       (m) => (m.default || m) as unknown as NoteIndex
     );
+    p.catch(() => { if (cached === p) cached = null; });
+    cached = p;
   }
   return cached;
 }
@@ -75,9 +81,11 @@ export function loadNoteIndex(): Promise<NoteIndex> {
  *  Use this for list and wheel pages that don't do wikilink resolution. */
 export function loadNoteMetaIndex(): Promise<NoteMetaIndex> {
   if (!cachedMeta) {
-    cachedMeta = import('./generated/note-meta.json').then(
+    const p = import('./generated/note-meta.json').then(
       (m) => (m.default || m) as unknown as NoteMetaIndex
     );
+    p.catch(() => { if (cachedMeta === p) cachedMeta = null; });
+    cachedMeta = p;
   }
   return cachedMeta;
 }

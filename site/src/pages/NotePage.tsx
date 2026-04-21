@@ -91,6 +91,14 @@ export default function NotePage({ type }: { type: NoteType }) {
 
   useEffect(() => {
     if (!slug) return;
+    // Drop the previous note's snapshot so the loading indicator appears
+    // immediately on slow nav, instead of the old body lingering at a new URL
+    // (which reads as "stuck"). Skip the reset on the very first render so we
+    // don't flash an empty frame before the first fetch resolves.
+    setDisplayed((prev) =>
+      prev && (prev.type !== type || prev.slug !== slug) ? null : prev
+    );
+    setError(false);
     const controller = new AbortController();
     Promise.all([
       loadNoteIndex(),
@@ -101,7 +109,6 @@ export default function NotePage({ type }: { type: NoteType }) {
     ])
       .then(([idx, text]) => {
         if (controller.signal.aborted) return;
-        setError(false);
         setDisplayed({ type, slug, index: idx, raw: text });
       })
       .catch(() => {

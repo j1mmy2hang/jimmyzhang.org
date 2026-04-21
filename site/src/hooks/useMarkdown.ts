@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { marked } from '../markdown';
-import { loadNoteIndex } from '../noteIndex';
+import { loadNoteIndex, type NoteIndex } from '../noteIndex';
 import { preprocessNoteBody, preprocessPageBody } from '../noteMarkdown';
 
 export type Frontmatter = Record<string, string>;
@@ -24,6 +24,15 @@ function parseFrontmatter(raw: string): { frontmatter: Frontmatter; body: string
 }
 
 const NOTE_PATH = /^\/note\//;
+// Matches `[[...` only when not preceded by `!` — i.e. a real wikilink, not an
+// `![[image]]` embed. The preprocess functions only touch the note index from
+// inside their `[[...]]` regex callback, so a body without these can render
+// without loading the 1.2 MB index at all.
+const WIKILINK_RE = /(?<!!)\[\[/;
+const EMPTY_INDEX: NoteIndex = {
+  atomic: {}, book: {}, clipping: {}, writing: {}, project: {},
+  connections: {}, resolve: {},
+};
 
 export function useMarkdown(path: string): State {
   const [state, setState] = useState<State>({
@@ -45,12 +54,13 @@ export function useMarkdown(path: string): State {
       .then((text) => {
         if (controller.signal.aborted) return;
         const { frontmatter, body } = parseFrontmatter(text);
-        return loadNoteIndex().then((index) => {
+        const preprocess = isNote ? preprocessNoteBody : preprocessPageBody;
+        const indexPromise = WIKILINK_RE.test(body)
+          ? loadNoteIndex()
+          : Promise.resolve(EMPTY_INDEX);
+        return indexPromise.then((index) => {
           if (controller.signal.aborted) return;
-          const processed = isNote
-            ? preprocessNoteBody(body, index)
-            : preprocessPageBody(body, index);
-          const html = marked.parse(processed, { async: false }) as string;
+          const html = marked.parse(preprocess(body, index), { async: false }) as string;
           setState({ loading: false, error: null, html, frontmatter });
         });
       })
