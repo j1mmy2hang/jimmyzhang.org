@@ -52,24 +52,9 @@ main>article>.page-status {
 @media (max-width: 860px) {
   main {
     padding: 4rem 0rem 18rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
-
-  main>.breadcrumb,
-  main>article>.page-header,
-  main>article>.prose,
-  main>article>.writing-list,
-  main>article>.page-status {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  main>.page-deeper {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-
 }
 
 /* --- breadcrumb --------------------------------------------------- *
@@ -289,11 +274,4 @@ main>article>.page-status {
 .page-status {
   color: var(--tx-3);
   margin: 0;
-}
-
-@media (max-width: 450px) {
-  .page-deeper {
-    margin-left: 4rem !important;
-    margin-right: 4rem !important;
-  }
 }

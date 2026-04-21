@@ -151,7 +151,6 @@
   .project-section {
     grid-template-columns: 1fr;
     gap: 2rem;
-    margin: 0rem 4rem;
   }
 
   .project-section-label {

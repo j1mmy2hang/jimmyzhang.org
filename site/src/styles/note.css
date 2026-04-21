@@ -24,23 +24,11 @@ main>article>.book-shelf {
   width: var(--wrap-wide, var(--wrap-normal));
 }
 
-@media (max-width: 860px) {
 
-  main>article>.note-entries,
-  main>article>.book-shelf,
-  main>article>.clipping-wheel {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
 
 @media (max-width: 450px) {
 
-  main>article>.note-entries,
-  main>article>.book-shelf {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
+
 
   .note-entry-name {
     font-size: 2.4rem !important;
@@ -119,15 +107,7 @@ main>article>.backlink-box {
   border-radius: 2px;
 }
 
-@media (max-width: 860px) {
-  main>article>.backlink-box {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
-    width: auto;
-  }
-}
+
 
 .backlink-header {
   font-size: var(--font-small);
@@ -224,7 +204,7 @@ main>article>.backlink-box {
 /* --- book shelf --------------------------------------------------- */
 .book-shelf {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(16rem, calc(50% - 1.6rem)), 1fr));
   gap: 4rem 3.2rem;
   margin-top: 4rem;
 }

@@ -163,11 +163,3 @@
   color: var(--tx-2);
   margin: 0.8rem 0 0;
 }
-
-
-@media (max-width: 450px) {
-  .subscribe--page {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-}

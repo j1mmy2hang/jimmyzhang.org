@@ -12,5 +12,4 @@ Furthermore, you have access to these supplemental files
 | `key-beliefs.md`         | Jimmy's three key beliefs                                     |
 | `academic-inquiry.md`    | Jimmy's current largest academic inquiry and guiding question |
 
-
 Fetch `https://jimmyzhang.org/telos/{filename}` for each page if needed. 

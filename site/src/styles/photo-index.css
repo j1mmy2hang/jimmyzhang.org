@@ -246,8 +246,6 @@ main>article.photo-index {
 
   .photo-index>.page-header {
     flex: 0 0 auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .photo-index .photo-hint {
@@ -286,7 +284,6 @@ main>article.photo-index {
   .photo-index>.photo-timeline {
     flex: 0 0 auto;
     margin: auto 0 14vh;
-    padding: 0 2rem;
     height: 8rem;
   }
 
