@@ -8,6 +8,9 @@ export default function DappledLight() {
   const [on, setOn] = useState(false);
   const onRef = useRef(on);
   onRef.current = on;
+  // Lifted out of the main effect so the [on] effect below can resume the
+  // RAF loop after we pause it during the fully-idle state.
+  const kickRef = useRef<() => void>(() => {});
 
   useEffect(() => {
     const C = canvasRef.current;
@@ -45,7 +48,9 @@ export default function DappledLight() {
     let fadeVal = 0;
     let darkVal = document.documentElement.getAttribute('data-theme') === 'dark' ? 1 : 0;
     let lastTime = 0;
-    let raf = 0;
+    // null when paused. The toggle is off at mount, so we start paused — no
+    // background 60fps loop until the user opts in.
+    let raf: number | null = null;
 
     const draw = (now: number) => {
       const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -69,7 +74,11 @@ export default function DappledLight() {
 
       if (fadeVal === 0 && fadeTarget === 0) {
         X.clearRect(0, 0, w, h);
-        raf = requestAnimationFrame(draw);
+        // Truly idle (toggle off, fade fully decayed): stop scheduling frames
+        // until the user toggles it back on. Reset lastTime so the resume
+        // doesn't see a giant dt jump.
+        raf = null;
+        lastTime = 0;
         return;
       }
 
@@ -284,12 +293,27 @@ export default function DappledLight() {
       raf = requestAnimationFrame(draw);
     };
 
-    raf = requestAnimationFrame(draw);
+    kickRef.current = () => {
+      if (raf == null) {
+        lastTime = 0;
+        raf = requestAnimationFrame(draw);
+      }
+    };
+    // Don't auto-start: the toggle is off by default. Mount-time idle costs
+    // nothing now.
     return () => {
-      cancelAnimationFrame(raf);
+      if (raf != null) cancelAnimationFrame(raf);
+      kickRef.current = () => {};
       window.removeEventListener('resize', fit);
     };
   }, []);
+
+  // Resume the loop when the user toggles on. Turning off doesn't need a kick:
+  // the running loop will see fadeTarget=0, ease fadeVal down to 0, and pause
+  // itself on the idle frame.
+  useEffect(() => {
+    if (on) kickRef.current();
+  }, [on]);
 
   return (
     <>

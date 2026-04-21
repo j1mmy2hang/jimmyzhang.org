@@ -42,7 +42,12 @@ import { spawn } from 'node:child_process';
 var __dirname = dirname(fileURLToPath(import.meta.url));
 function noteIndexPlugin() {
     var script = resolve(__dirname, 'scripts/build-note-index.mjs');
-    var notesDir = resolve(__dirname, '../content/note');
+    var contentDir = resolve(__dirname, '../content');
+    // Sections whose .md edits should regenerate indexes. The note-index covers
+    // notes; the per-section JSONs cover the others.
+    var watchedSections = ['note', 'writing', 'project', 'newsletter', 'photo'].map(function (s) {
+        return resolve(contentDir, s);
+    });
     var running = null;
     var run = function () {
         if (running)
@@ -72,18 +77,23 @@ function noteIndexPlugin() {
         },
         configureServer: function (server) {
             var _this = this;
-            server.watcher.add(notesDir);
+            for (var _i = 0, watchedSections_1 = watchedSections; _i < watchedSections_1.length; _i++) {
+                var d = watchedSections_1[_i];
+                server.watcher.add(d);
+            }
             server.watcher.on('change', function (p) { return __awaiter(_this, void 0, void 0, function () {
                 return __generator(this, function (_a) {
                     switch (_a.label) {
                         case 0:
-                            if (!(p.startsWith(notesDir) && p.endsWith('.md'))) return [3 /*break*/, 2];
+                            if (!p.endsWith('.md'))
+                                return [2 /*return*/];
+                            if (!watchedSections.some(function (d) { return p.startsWith(d); }))
+                                return [2 /*return*/];
                             return [4 /*yield*/, run()];
                         case 1:
                             _a.sent();
                             server.ws.send({ type: 'full-reload' });
-                            _a.label = 2;
-                        case 2: return [2 /*return*/];
+                            return [2 /*return*/];
                     }
                 });
             }); });

@@ -57,10 +57,7 @@ export function noteConnection(index: NoteIndex, slug: string): Connection | nul
   return null;
 }
 
-export type NoteMetaIndex = Pick<NoteIndex, 'atomic' | 'book' | 'clipping'>;
-
 let cached: Promise<NoteIndex> | null = null;
-let cachedMeta: Promise<NoteMetaIndex> | null = null;
 
 // Caching the promise (not the resolved value) is intentional: in-flight calls
 // share one fetch. But we MUST drop the cache on rejection — otherwise a single
@@ -75,17 +72,4 @@ export function loadNoteIndex(): Promise<NoteIndex> {
     cached = p;
   }
   return cached;
-}
-
-/** Loads only atomic/book/clipping metadata (~290 KB vs ~2 MB full index).
- *  Use this for list and wheel pages that don't do wikilink resolution. */
-export function loadNoteMetaIndex(): Promise<NoteMetaIndex> {
-  if (!cachedMeta) {
-    const p = import('./generated/note-meta.json').then(
-      (m) => (m.default || m) as unknown as NoteMetaIndex
-    );
-    p.catch(() => { if (cachedMeta === p) cachedMeta = null; });
-    cachedMeta = p;
-  }
-  return cachedMeta;
 }

@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import { loadNoteMetaIndex, type BookMeta } from '../noteIndex';
+import { type BookMeta, loadNoteIndex } from '../noteIndex';
+import { loadBookMeta } from '../siteIndex';
 import '../styles/page.css';
 import '../styles/note.css';
 
@@ -12,9 +13,9 @@ export default function BookShelf() {
 
   useEffect(() => {
     let cancelled = false;
-    loadNoteMetaIndex().then((idx) => {
+    loadBookMeta().then((book) => {
       if (cancelled) return;
-      const list = Object.entries(idx.book)
+      const list = Object.entries(book)
         .map(([slug, meta]) => ({ slug, ...meta }))
         .sort((a, b) => {
           if (!a.date) return 1;
@@ -23,6 +24,10 @@ export default function BookShelf() {
         });
       setBooks(list);
     });
+    // Warm the note-index chunk in the background. Anyone landing on the shelf
+    // is one click from a book detail page, which needs the full index — by
+    // the time they click, it's already in cache.
+    loadNoteIndex().catch(() => { /* prefetch is best-effort */ });
     return () => {
       cancelled = true;
     };

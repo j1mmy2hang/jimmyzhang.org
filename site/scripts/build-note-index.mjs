@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readdir, readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -7,7 +7,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT = join(__dirname, '../../content/note');
 const CONTENT_ROOT = join(__dirname, '../../content');
 const OUT = join(__dirname, '../src/generated/note-index.json');
-const OUT_META = join(__dirname, '../src/generated/note-meta.json');
+const OLD_META = join(__dirname, '../src/generated/note-meta.json');
+// Public generated dir lives inside the publicDir (content/) so its files are
+// served as plain static JSON at /generated/*.json — no JS bundling, native
+// JSON.parse, browser-cached. Anything fetched at runtime goes here; only the
+// big resolve+connections graph still ships as a JS chunk (note-index.json).
+const PUB_GEN = join(CONTENT_ROOT, 'generated');
 
 const TYPES = ['atomic', 'book', 'clipping'];
 const RANK = { atomic: 0, book: 1, clipping: 2 };
@@ -204,10 +209,57 @@ async function main() {
   const out = { atomic, book, clipping, writing, project, connections, resolve };
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, JSON.stringify(out));
-  // Slim index: just metadata, no connections or resolve map.
-  // Used by list/wheel pages that don't need wikilink resolution.
-  const slim = { atomic, book, clipping };
-  await writeFile(OUT_META, JSON.stringify(slim));
+  // Older builds emitted a note-meta.json next to note-index.json. It became
+  // dead weight once the shelf/wheel pages started fetching their dedicated
+  // public meta files; remove it so it doesn't ship as an unused JS chunk.
+  await unlink(OLD_META).catch(() => { /* already gone */ });
+
+  // Per-section public JSONs: one fetch, parsed natively by the browser. The
+  // shelf/wheel pages each get their own ~tens-of-KB file instead of sharing a
+  // 282 KB chunk that pulls in atomic titles they don't use.
+  await mkdir(PUB_GEN, { recursive: true });
+  await writeFile(join(PUB_GEN, 'book-meta.json'), JSON.stringify(book));
+  await writeFile(join(PUB_GEN, 'clipping-meta.json'), JSON.stringify(clipping));
+
+  // List-page indexes: replace `import.meta.glob({ eager: true, query: '?raw' })`
+  // bundling, which previously inlined every post body into the main JS bundle.
+  const sectionIndexes = {
+    writing: ['title', 'published'],
+    project: ['title', 'description', 'website', 'image', 'finished', 'status'],
+    newsletter: ['title', 'created', 'cover'],
+  };
+  for (const [type, fields] of Object.entries(sectionIndexes)) {
+    const list = [];
+    for (const n of await readSiteContent(type)) {
+      const entry = { slug: n.slug };
+      for (const k of fields) if (n.fm[k] !== undefined) entry[k] = n.fm[k];
+      list.push(entry);
+    }
+    await writeFile(join(PUB_GEN, `${type}-index.json`), JSON.stringify(list));
+  }
+
+  // Photo: same pattern but the cover comes from the first body embed
+  // (`![[filename]]`), not frontmatter — so we have to read the body too.
+  const photoDir = join(CONTENT_ROOT, 'photo');
+  let photoFiles = [];
+  try { photoFiles = await readdir(photoDir); } catch { /* no photo dir */ }
+  const photoList = [];
+  for (const f of photoFiles) {
+    if (!f.endsWith('.md') || f === 'index.md') continue;
+    const slug = f.replace(/\.md$/, '');
+    const raw = await readFile(join(photoDir, f), 'utf8');
+    const { fm, body } = parseFrontmatter(raw);
+    const embed = body.match(/!\[\[([^\]]+)\]\]/);
+    photoList.push({
+      slug,
+      title: fm.title || slug,
+      date: fm.date || '',
+      location: fm.location || '',
+      cover: embed ? embed[1].trim() : null,
+    });
+  }
+  await writeFile(join(PUB_GEN, 'photo-index.json'), JSON.stringify(photoList));
+
   console.log(
     `[note-index] atomic=${Object.keys(atomic).length} book=${Object.keys(book).length} clipping=${Object.keys(clipping).length}`
   );

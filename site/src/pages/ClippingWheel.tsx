@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
-import { loadNoteMetaIndex, type ClippingMeta } from '../noteIndex';
+import { type ClippingMeta, loadNoteIndex } from '../noteIndex';
+import { loadClippingMeta } from '../siteIndex';
 import '../styles/page.css';
 import '../styles/note.css';
 
@@ -33,9 +34,9 @@ export default function ClippingWheel() {
 
   useEffect(() => {
     let cancelled = false;
-    loadNoteMetaIndex().then((idx) => {
+    loadClippingMeta().then((clipping) => {
       if (cancelled) return;
-      const list = Object.entries(idx.clipping)
+      const list = Object.entries(clipping)
         .map(([slug, meta]) => ({ slug, ...meta }))
         .sort((a, b) => {
           if (!a.date) return 1;
@@ -47,6 +48,9 @@ export default function ClippingWheel() {
         setFocus(Math.floor(Math.random() * list.length));
       }
     });
+    // Warm the note-index chunk so the eventual click into a clipping detail
+    // page lands on a cached chunk.
+    loadNoteIndex().catch(() => { /* prefetch is best-effort */ });
     return () => {
       cancelled = true;
     };

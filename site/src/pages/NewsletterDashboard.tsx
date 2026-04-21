@@ -1,4 +1,5 @@
 import { useState, useEffect, type FormEvent } from 'react';
+import { loadNewsletterIndex } from '../siteIndex';
 import '../styles/dashboard.css';
 
 interface Subscriber {
@@ -6,30 +7,7 @@ interface Subscriber {
   subscribedAt: string;
 }
 
-const modules = import.meta.glob('../../../content/newsletter/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>;
-
-function parseFrontmatter(raw: string): Record<string, string> {
-  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return {};
-  const fm: Record<string, string> = {};
-  match[1].split(/\r?\n/).forEach((line) => {
-    const m = line.match(/^([\w-]+):\s*(.*)$/);
-    if (m) fm[m[1]] = m[2].replace(/^["']|["']$/g, '').trim();
-  });
-  return fm;
-}
-
-const issueList = Object.entries(modules)
-  .map(([path, raw]) => {
-    const slug = path.split('/').pop()!.replace(/\.md$/, '');
-    const fm = parseFrontmatter(raw);
-    return { slug, title: fm.title || slug };
-  })
-  .sort((a, b) => b.slug.localeCompare(a.slug));
+type IssueOption = { slug: string; title: string };
 
 export default function NewsletterDashboard() {
   const [adminKey, setAdminKey] = useState('');
@@ -41,10 +19,24 @@ export default function NewsletterDashboard() {
   const [subStatus, setSubStatus] = useState('');
 
   // Send
+  const [issueList, setIssueList] = useState<IssueOption[]>([]);
   const [selectedSlug, setSelectedSlug] = useState('');
   const [previewHtml, setPreviewHtml] = useState('');
   const [sendStatus, setSendStatus] = useState('');
   const [sending, setSending] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadNewsletterIndex().then((list) => {
+      if (cancelled) return;
+      setIssueList(
+        list
+          .map((m) => ({ slug: m.slug, title: m.title || m.slug }))
+          .sort((a, b) => b.slug.localeCompare(a.slug))
+      );
+    });
+    return () => { cancelled = true; };
+  }, []);
 
   function headers() {
     return {

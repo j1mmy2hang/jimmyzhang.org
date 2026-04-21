@@ -8,7 +8,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 function noteIndexPlugin(): Plugin {
   const script = resolve(__dirname, 'scripts/build-note-index.mjs');
-  const notesDir = resolve(__dirname, '../content/note');
+  const contentDir = resolve(__dirname, '../content');
+  // Sections whose .md edits should regenerate indexes. The note-index covers
+  // notes; the per-section JSONs cover the others.
+  const watchedSections = ['note', 'writing', 'project', 'newsletter', 'photo'].map((s) =>
+    resolve(contentDir, s)
+  );
   let running: Promise<void> | null = null;
   const run = () => {
     if (running) return running;
@@ -27,12 +32,12 @@ function noteIndexPlugin(): Plugin {
       await run();
     },
     configureServer(server) {
-      server.watcher.add(notesDir);
+      for (const d of watchedSections) server.watcher.add(d);
       server.watcher.on('change', async (p) => {
-        if (p.startsWith(notesDir) && p.endsWith('.md')) {
-          await run();
-          server.ws.send({ type: 'full-reload' });
-        }
+        if (!p.endsWith('.md')) return;
+        if (!watchedSections.some((d) => p.startsWith(d))) return;
+        await run();
+        server.ws.send({ type: 'full-reload' });
       });
     },
   };

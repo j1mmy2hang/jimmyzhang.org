@@ -1,13 +1,9 @@
+import { useEffect, useState } from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import SubscribeForm from '../components/SubscribeForm';
+import { loadProjectIndex, type ProjectMeta } from '../siteIndex';
 import '../styles/page.css';
 import '../styles/project-index.css';
-
-const modules = import.meta.glob('../../../content/project/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>;
 
 type Status = 'active' | 'finished' | 'archive';
 
@@ -20,17 +16,6 @@ type Project = {
   finished: string;
   status: Status;
 };
-
-function parseFrontmatter(raw: string): Record<string, string> {
-  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return {};
-  const fm: Record<string, string> = {};
-  match[1].split(/\r?\n/).forEach((line) => {
-    const m = line.match(/^([\w-]+):\s*(.*)$/);
-    if (m) fm[m[1]] = m[2].replace(/^["']|["']$/g, '').trim();
-  });
-  return fm;
-}
 
 function stripWikilink(s: string): string {
   const m = s.match(/^\[\[(.+?)\]\]$/);
@@ -50,21 +35,17 @@ function monthYearValue(s: string): number {
   return isNaN(d.getTime()) ? -Infinity : d.getTime();
 }
 
-const projects: Project[] = Object.entries(modules)
-  .map(([path, raw]) => {
-    const slug = path.split('/').pop()!.replace(/\.md$/, '');
-    const fm = parseFrontmatter(raw);
-    return {
-      slug,
-      title: fm.title || slug,
-      description: fm.description || '',
-      website: fm.website || '',
-      image: fm.image ? stripWikilink(fm.image) : '',
-      finished: fm.finished || '',
-      status: normalizeStatus(fm.status || ''),
-    };
-  })
-  .filter((p) => p.slug !== 'index');
+function normalize(meta: ProjectMeta): Project {
+  return {
+    slug: meta.slug,
+    title: meta.title || meta.slug,
+    description: meta.description || '',
+    website: meta.website || '',
+    image: meta.image ? stripWikilink(meta.image) : '',
+    finished: meta.finished || '',
+    status: normalizeStatus(meta.status || ''),
+  };
+}
 
 const SECTIONS: { key: Status; label: string; icon: JSX.Element }[] = [
   {
@@ -145,6 +126,17 @@ function ProjectCard({ p }: { p: Project }) {
 }
 
 export default function Project() {
+  const [projects, setProjects] = useState<Project[] | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadProjectIndex().then((list) => {
+      if (cancelled) return;
+      setProjects(list.filter((p) => p.slug !== 'index').map(normalize));
+    });
+    return () => { cancelled = true; };
+  }, []);
+
   return (
     <main>
       <Breadcrumb section="project" />
@@ -152,25 +144,27 @@ export default function Project() {
         <header className="page-header">
           <h1 className="page-title">Project</h1>
         </header>
-        <div className="project-sections">
-          {SECTIONS.map(({ key, label, icon }) => {
-            const items = groupAndSort(projects, key);
-            if (items.length === 0) return null;
-            return (
-              <section key={key} className="project-section">
-                <div className="project-section-label">
-                  <span className={`project-section-icon icon-${key}`}>{icon}</span>
-                  <span>{label}</span>
-                </div>
-                <div className="project-cards">
-                  {items.map((p) => (
-                    <ProjectCard key={p.slug} p={p} />
-                  ))}
-                </div>
-              </section>
-            );
-          })}
-        </div>
+        {projects && (
+          <div className="project-sections">
+            {SECTIONS.map(({ key, label, icon }) => {
+              const items = groupAndSort(projects, key);
+              if (items.length === 0) return null;
+              return (
+                <section key={key} className="project-section">
+                  <div className="project-section-label">
+                    <span className={`project-section-icon icon-${key}`}>{icon}</span>
+                    <span>{label}</span>
+                  </div>
+                  <div className="project-cards">
+                    {items.map((p) => (
+                      <ProjectCard key={p.slug} p={p} />
+                    ))}
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+        )}
       </article>
       <SubscribeForm />
     </main>
