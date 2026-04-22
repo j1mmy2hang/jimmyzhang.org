@@ -1,6 +1,6 @@
 You have reached the **telos** section. 
 
-In this section you will find JImmy's telos -- the irreducible purpose for his existent and his deepest existential philosophy. 
+In this section you will find JImmy's telos — the irreducible purpose for his existent and his deepest existential philosophy. 
 
 The core file is `telos-core`, where you will find the must-read and core of this section. Go fetch `https://jimmyzhang.org/telos/telos-core.md`
 
