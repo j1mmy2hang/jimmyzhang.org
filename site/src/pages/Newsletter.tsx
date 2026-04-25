@@ -47,7 +47,10 @@ export default function Newsletter() {
       <Breadcrumb section="newsletter" />
       <article>
         <header className="page-header">
-          <h1 className="page-title">Newsletter</h1>
+          <h1 className="page-title">Monthly Update</h1>
+          <p className="page-subtitle">
+            Subscribe for human connection, not product or service.
+          </p>
         </header>
 
         {latest && (
