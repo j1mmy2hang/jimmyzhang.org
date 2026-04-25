@@ -49,6 +49,8 @@ export default function Newsletter() {
         <header className="page-header">
           <h1 className="page-title">Monthly Update</h1>
           <p className="page-subtitle">
+            The portal for the world to follow me, and for me to share my life's work.
+            <br />
             Subscribe for human connection, not product or service.
           </p>
         </header>
