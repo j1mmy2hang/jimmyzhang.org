@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readdir, readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
+import { readdir, readFile, writeFile, mkdir, unlink, rename } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -60,6 +60,12 @@ function stripWikilink(s) {
   return m ? m[1] : s;
 }
 
+// Netlify rejects deployed filenames containing `?` or `#`. Obsidian-authored
+// notes use both freely (rhetorical questions, anchors), so each build pass
+// renames offenders on disk and remembers the original title as a wikilink
+// alias. Re-running with already-sanitized files is a no-op.
+const FORBID_FS_CHARS = /[?#]/;
+
 async function readNotes(type) {
   const dir = join(CONTENT, type);
   let files;
@@ -71,8 +77,21 @@ async function readNotes(type) {
   const out = [];
   for (const f of files) {
     if (!f.endsWith('.md') || f === 'index.md') continue;
-    const filename = f.replace(/\.md$/, '');
-    const raw = await readFile(join(dir, f), 'utf8');
+    let actualFile = f;
+    let aliasTitle = null;
+    if (FORBID_FS_CHARS.test(f)) {
+      const sanitized = f.replace(/[?#]/g, '');
+      try {
+        await rename(join(dir, f), join(dir, sanitized));
+        aliasTitle = f.replace(/\.md$/, '');
+        actualFile = sanitized;
+        console.log(`[note-index] sanitized: ${type}/${f} → ${sanitized}`);
+      } catch (e) {
+        throw new Error(`failed to sanitize ${type}/${f}: ${e.message}`);
+      }
+    }
+    const filename = actualFile.replace(/\.md$/, '');
+    const raw = await readFile(join(dir, actualFile), 'utf8');
     const { fm, body } = parseFrontmatter(raw);
     // Every note is addressed by its `uid` frontmatter. Filenames are the
     // human-readable titles authored in Obsidian and may change between
@@ -81,7 +100,7 @@ async function readNotes(type) {
     if (!fm.uid) {
       throw new Error(`note missing uid frontmatter: note/${type}/${f}`);
     }
-    out.push({ type, slug: fm.uid, file: filename, fm, body });
+    out.push({ type, slug: fm.uid, file: filename, fm, body, aliasTitle });
   }
   return out;
 }
@@ -159,6 +178,9 @@ async function main() {
     // The filename IS the human-readable title — register it so wikilinks
     // written as `[[Some Title]]` resolve to the uid-keyed entry.
     put(n.file, n.type, n.slug);
+    // If the file was renamed to drop forbidden chars (?/#), wikilinks may
+    // still reference the original title — register it as an alias.
+    if (n.aliasTitle) put(n.aliasTitle, n.type, n.slug);
   }
   // Add writing and project slugs — lower priority than notes on collision.
   // RANK for these is undefined → treated as lowest via the `!exType` guard.
