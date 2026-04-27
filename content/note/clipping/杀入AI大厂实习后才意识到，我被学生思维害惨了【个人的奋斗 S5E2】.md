@@ -4,7 +4,7 @@ published: 2026-03-11
 source: https://www.bilibili.com/video/BV1eiwFz1EQx/?spm_id_from=333.1387.homepage.video_card.click&vd_source=78585ce4c2a36e956f1c85f987f6708e
 type: "[[Clipping]]"
 rating: 5
-uid: 1Pui
+uid: YZfB
 ---
 **采访者**：你刚才也提到，有些同学可能缺少Vision（愿景），自己在做事情都不知道在做什么。你有没有觉得企业和学校有着根本的差别？或者说，学校是否真的在培养未来能够胜任特定工作的人？
 

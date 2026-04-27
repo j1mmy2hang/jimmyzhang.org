@@ -4,7 +4,7 @@ published: 2025-12-30
 source: https://x.com/wshuyi/article/2005915521410064447
 type: "[[Clipping]]"
 rating: 6
-uid: 6r5U
+uid: 5pdG
 ---
 [![Image](https://pbs.twimg.com/media/G9Zsk1wboAAJQqB?format=jpg&name=large)](https://x.com/wshuyi/article/2005915521410064447/media/2005910064201441280)
 

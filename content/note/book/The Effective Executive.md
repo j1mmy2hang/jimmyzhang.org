@@ -2,7 +2,7 @@
 type: "[[Book]]"
 author: Peter Drucker
 cover: "[[image-gWcV.png]]"
-uid: pUQx
+uid: J4rt
 ---
 ![[image-gWcV.png|350]]
 # Preface & Intro

@@ -3,7 +3,7 @@ created: 2025-06-05
 tags:
   - demand
   - innovation
-uid: tV7I
+uid: QbUq
 ---
 ## Customer indifference
 

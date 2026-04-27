@@ -4,7 +4,7 @@ author:
   - Kevin Kelly
 type: "[[Book]]"
 cover: "[[image-hxnl.png]]"
-uid: cvtO
+uid: 6lQH
 ---
 ![[image-hxnl.png|350]]
 

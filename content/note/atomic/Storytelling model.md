@@ -1,7 +1,7 @@
 ---
 tags:
   - story
-uid: TWqU
+uid: tPv4
 ---
 Once upon a time...
 Every day...

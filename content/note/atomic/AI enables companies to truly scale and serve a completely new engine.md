@@ -1,6 +1,6 @@
 ---
 created: 2025-12-25 22:12
-uid: Tsi5
+uid: HlWC
 ---
 > A few hundred years ago, most companies were workshops of a dozen people. Now we have multinationals with hundreds of thousands. The communication infrastructure (human brains connected by meetings and messages) buckles under exponential load. We try to solve this with hierarchy, process, and documentation. But we've been solving an industrial-scale problem with human-scale tools, like building a skyscraper with wood.
 

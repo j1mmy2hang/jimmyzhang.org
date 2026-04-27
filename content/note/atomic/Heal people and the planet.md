@@ -2,7 +2,7 @@
 tags:
   - world
   - healing
-uid: 3ZQb
+uid: UKSe
 ---
 Will Shan's personal mission statement: 
 

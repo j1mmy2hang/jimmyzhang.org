@@ -3,7 +3,7 @@ created: 2024-12-11
 tags:
   - resilience
   - system
-uid: DN0a
+uid: 5zb3
 ---
 Chang in environment --> feedback loops --> respond to the change and restore the system
 

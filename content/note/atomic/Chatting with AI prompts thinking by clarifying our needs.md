@@ -4,7 +4,7 @@ tags:
   - AI
   - thinking
   - communication
-uid: eCXg
+uid: 64Al
 ---
 给 AI 写 prompt
 是探索自己真正想要什么，在怎么思考问题的过程。

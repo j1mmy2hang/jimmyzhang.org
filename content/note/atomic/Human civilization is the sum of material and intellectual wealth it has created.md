@@ -5,7 +5,7 @@ tags:
   - civilization
   - knowledge
   - wealth
-uid: OdQG
+uid: IxKs
 ---
 - Material wealth -- The Pyramids, the Great Wall, WTC, etc.
 	- tangible

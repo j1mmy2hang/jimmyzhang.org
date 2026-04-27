@@ -2,7 +2,7 @@
 tags:
   - tech
   - humans
-uid: ugXD
+uid: sl4Q
 ---
 [[Men use tools instead off being used]]
 

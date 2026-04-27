@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: cNMo
+uid: kJjS
 ---
 east:: [[AI 将人类从枯燥的工作中解放出来]]
 

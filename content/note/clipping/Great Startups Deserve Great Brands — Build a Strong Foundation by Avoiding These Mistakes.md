@@ -4,7 +4,7 @@ published: 2022-01-25
 source: https://review.firstround.com/great-startups-deserve-great-brands-build-a-strong-foundation-by-avoiding-these-mistakes/
 type: "[[Clipping]]"
 rating: 4
-uid: rrLk
+uid: XJaK
 ---
 After working with hundreds of startups on brand strategy, Arielle Jackson shares the most common early marketing missteps that founders make. From how to articulate your product benefit and clarify your company's purpose, to tips for infusing your brand with personality and making your launch annou
 

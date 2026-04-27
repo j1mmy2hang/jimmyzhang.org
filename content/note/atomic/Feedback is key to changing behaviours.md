@@ -1,6 +1,6 @@
 ---
 created: 2025-05-06
-uid: j8K5
+uid: 2WaV
 ---
 Feedback = information creating energy & changing action
 

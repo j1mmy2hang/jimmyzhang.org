@@ -3,7 +3,7 @@ web: https://knowledge.insead.edu/leadership-organisations/death-ultimate-motiva
 tags:
   - death
   - life
-uid: lnCe
+uid: idtf
 ---
 ![[Escaping the fear of death|700]]
 

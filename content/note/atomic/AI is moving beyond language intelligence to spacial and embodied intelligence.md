@@ -6,7 +6,7 @@ tags:
   - language
   - agency
 credit: 李飞飞
-uid: cZcX
+uid: XE2w
 ---
 There's more than language intelligence
 the ability to interact with people & things -- spacial & embodied intelligence

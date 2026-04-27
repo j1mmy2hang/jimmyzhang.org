@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21
-uid: lGyO
+uid: xLY3
 ---
 Nourishing the soul requires disconnecting from the screen and engaging in slow, physical, and often difficult analog experiences—especially in nature and community—that connect us to the profound reality of our embodied human existence.
 

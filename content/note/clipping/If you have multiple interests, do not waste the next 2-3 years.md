@@ -4,7 +4,7 @@ published: 2026-01-10
 source: https://x.com/thedankoe/article/2010042119121957316
 type: "[[Clipping]]"
 rating: 6
-uid: jjOx
+uid: B9QN
 ---
 [![Image](https://pbs.twimg.com/media/G-UaHxDXYAAa4VR?format=jpg&name=large)](https://x.com/thedankoe/article/2010042119121957316/media/2010041529419653120)
 Society made you think that having multiple interests was a weakness.

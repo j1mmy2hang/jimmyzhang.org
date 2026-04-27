@@ -3,7 +3,7 @@ tags:
   - Aristotle
   - pinciple
   - rationality
-uid: U6XR
+uid: 9Ni8
 ---
 There is an objective reality. 
 Man’s consciousness is tasked with perceiving it through rationality. 

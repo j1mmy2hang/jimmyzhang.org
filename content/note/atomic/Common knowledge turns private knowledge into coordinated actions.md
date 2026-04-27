@@ -2,7 +2,7 @@
 created: 2026-01-25 13:34
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: Gxkz
+uid: Odll
 ---
 [[Possessing shared information is insufficient to launch collective action due to the coordination problem.]]
 

@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: QUhX
+uid: lJGF
 ---
 Trap: Seeking the Wrong Goal
 Source (underlying principle): one of the most powerful ways to influence the behavior of a system is through its purpose or goal -- if the goal is defined badly, doesn’t measure what it’s supposed to measure, abd doesn’t reflect the real welfare of the system, then the system can’t possibly produce a desirable result.

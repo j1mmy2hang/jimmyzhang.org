@@ -4,7 +4,7 @@ published:
 source: https://mp.weixin.qq.com/s/wp7LOJlPfqXLfLjWIxUmrQ
 type: "[[Clipping]]"
 rating: 4
-uid: zJBY
+uid: Xk8z
 ---
 最近 IT 圈有两个大话题。哦对了，现在没人叫 IT 了，大家应该叫 AI 圈和币圈。 AI 圈，今秋以来的 AI 泡沫见顶、 Scaling Law 失效的讨论，被 Gemini 3 的全面升级几乎淹没了，全面，不仅是技术全面，还是应用全面。币圈呢，被去杠杆、获利回吐、微策略退指等等合并引发了比特币价格跳水。昨天又回升了一些。
 

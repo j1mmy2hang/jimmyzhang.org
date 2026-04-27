@@ -4,7 +4,7 @@ tags:
   - responsibility
   - ethics
   - decision-making
-uid: 24xO
+uid: Dg34
 ---
 [[Ethical and responsible decisions must be informed decisions]]
 

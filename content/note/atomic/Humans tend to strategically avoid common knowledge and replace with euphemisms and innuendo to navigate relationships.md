@@ -2,7 +2,7 @@
 created: 2026-01-25 13:35
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: 4LCi
+uid: qdrV
 ---
 [[The creation of public knowledge is a high-stakes act that removes the exit strategy]]
 

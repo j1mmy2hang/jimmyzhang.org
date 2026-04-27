@@ -2,7 +2,7 @@
 created: 2026-01-18 18:45
 reference:
   - "[[Life in Three Dimensions -- How Curiosity, Exploration, and Experience Make a Fuller, Better Life]]"
-uid: 4qGf
+uid: ovRT
 ---
 ## “探索”的前提是“安全网”
 

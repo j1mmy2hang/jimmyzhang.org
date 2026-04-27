@@ -2,7 +2,7 @@
 created: 2026-03-06 20:49
 reference:
   - "[[The Brand Age]]"
-uid: 9GDn
+uid: JIk3
 ---
 > Branding isn't merely orthogonal to good design, but opposed to it. Branding by definition has to be distinctive. But good design, like math or science, seeks the right answer, and right answers tend to converge.
 > -- [[The Brand Age]]

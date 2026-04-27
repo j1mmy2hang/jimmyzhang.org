@@ -1,6 +1,6 @@
 ---
 created: 2025-04-15
-uid: L8Lt
+uid: m1SN
 ---
 专栏：The Art of Using a Computer
 

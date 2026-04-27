@@ -1,6 +1,6 @@
 ---
 created: 2026-02-03 21:28
-uid: sH08
+uid: SpWt
 ---
 From today on I will learn to speak dutch. 
 The method I will use is simple: I will try to express whatever I want to say in dutch. 

@@ -2,7 +2,7 @@
 created: 2026-04-12
 reference:
   - "[[The Malleable Software That Never Was]]"
-uid: t3n1
+uid: 7K5g
 ---
 ## The vision
 

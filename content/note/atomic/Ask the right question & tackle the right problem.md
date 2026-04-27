@@ -2,7 +2,7 @@
 created: 2026-03-18
 reference:
   - "[[The Art of Doing Science and Engineering]]"
-uid: E6vB
+uid: myaI
 ---
 [[The most critical step in any decision-making or problem-solving is to define the problem right]]
 

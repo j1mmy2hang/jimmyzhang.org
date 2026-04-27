@@ -2,7 +2,7 @@
 author: Michael Michalko
 type: "[[Book]]"
 cover: "[[image-8xw9.png]]"
-uid: rfyO
+uid: strJ
 ---
 ![[image-8xw9.png|350]]
 ## What is creativity?

@@ -2,7 +2,7 @@
 created: 2026-03-18
 reference:
   - "[[The Art of Doing Science and Engineering]]"
-uid: VVGz
+uid: yVr4
 ---
 > "For example, working with one’s door closed lets you get more work done per year than if you had an open door, but I have observed repeatedly that later those with the closed doors, while working just as hard as others, seem to work on slightly the wrong problems, while those who have let their door stay open get less work done but tend to work on the right problems!"
 

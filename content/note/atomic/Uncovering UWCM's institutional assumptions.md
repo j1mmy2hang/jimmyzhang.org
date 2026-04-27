@@ -1,6 +1,6 @@
 ---
 created: 2025-05-07
-uid: gQgj
+uid: 6UXS
 ---
 ## The UWC Mission in printed in front of the reception
 

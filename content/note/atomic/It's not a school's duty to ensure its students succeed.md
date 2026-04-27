@@ -3,7 +3,7 @@ tags:
   - school
   - success
   - responsibility
-uid: tBo0
+uid: EAq6
 ---
 A school should not be obliged to make sure its students succeed just because it is paid. 
 -- It is not paid to shape the student into whoever they want. 

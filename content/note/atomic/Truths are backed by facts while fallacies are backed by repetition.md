@@ -4,7 +4,7 @@ tags:
   - fact
   - fallacy
   - repetition
-uid: EPJa
+uid: gBVq
 ---
 ![[Facts & fallacies.svg]]
 

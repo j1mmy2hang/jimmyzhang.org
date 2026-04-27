@@ -1,6 +1,6 @@
 ---
 created: 2025-05-06
-uid: wEcv
+uid: oDDq
 ---
 Given the unpredictable changes in the world and within oneself, clinging rigidly to a single "dream" is risky. Success often involves recognizing and seizing timely opportunities (things possible *now*) and remaining flexible and responsive to change, rather than just relying on passion and persistence.
 

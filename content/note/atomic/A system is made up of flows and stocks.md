@@ -1,6 +1,6 @@
 ---
 created: 2025-03-05
-uid: 8EuG
+uid: fCRX
 ---
 Systems thinkers see the world as a collection of stocks along with the mechanisms for regulating the levels in the stocks by manipulating flows
 

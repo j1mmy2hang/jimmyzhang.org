@@ -1,6 +1,6 @@
 ---
 created: 2025-11-10
-uid: BqCM
+uid: A02a
 ---
 Same for software & human relationship --
 You should not have something if your are not ready to lose it

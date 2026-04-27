@@ -4,7 +4,7 @@ published: 2026-02-18
 source: https://x.com/ivanhzhao/status/2024083641685385324
 type: "[[Clipping]]"
 rating: 4
-uid: eycY
+uid: ei7v
 ---
 1. The universe doesn't care.
 2. Life, such as humans, cares and does have a value system.

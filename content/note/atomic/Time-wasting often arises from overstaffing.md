@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - time
   - waste
-uid: q2N6
+uid: Ak6P
 ---
 The more people are together, the more time will their sheer interaction take, and the less time will be available to them for work, accomplishment, and results. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-07-07
-uid: SDii
+uid: 8r06
 ---
 Life is an intricate balance between giving fucks and not giving a fuck, between paying attention and not paying attention, between focusing on what matters and ignoring what doesn't, between whole in and diversifying.
 

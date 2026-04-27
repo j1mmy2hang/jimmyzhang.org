@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: hGzO
+uid: HTVZ
 ---
 School bells signify that learning doesn't matter
 

@@ -4,7 +4,7 @@ tags:
   - communication
   - compression
   - decompression
-uid: 8D8q
+uid: fw9n
 ---
 ### How does communication happen
 

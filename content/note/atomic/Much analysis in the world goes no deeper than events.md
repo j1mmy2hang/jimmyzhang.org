@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: 1qoX
+uid: rNjE
 ---
 This happened because that happened
 Single causational relationships

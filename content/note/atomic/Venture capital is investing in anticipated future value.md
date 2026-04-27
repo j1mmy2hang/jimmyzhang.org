@@ -1,7 +1,7 @@
 ---
 created: 2025-04-13
 AIGC: true
-uid: VnL3
+uid: Y2ql
 ---
 ## Part 1 -- Simple Explanation
 

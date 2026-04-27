@@ -4,7 +4,7 @@ published: 2026-01-08
 source: https://x.com/thedankoe/article/2009320195848872014
 type: "[[Clipping]]"
 rating: 6
-uid: ffhp
+uid: m4M1
 ---
 [![Image](https://pbs.twimg.com/media/G-FvV1GaoAcH2gw?format=jpg&name=large)](https://x.com/thedankoe/article/2009320195848872014/media/2009009329605877767)
 

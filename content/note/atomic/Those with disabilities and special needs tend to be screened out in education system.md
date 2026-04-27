@@ -3,7 +3,7 @@ tags:
   - education
   - disability
   - specialty
-uid: Dte4
+uid: YPmS
 ---
 > People with disabilities have a long history of being screened out in schooling—in life in general, for that matter.
 

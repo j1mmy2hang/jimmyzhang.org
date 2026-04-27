@@ -4,7 +4,7 @@ tags:
   - opensource
   - sharing
 weight: 3
-uid: b2Nj
+uid: tSBd
 ---
 When you share your work freely, you invite contribution, feedback, and goodwill. You build reputation capital. You earn trust. And in the digital age, _trust is more valuable than control._
 

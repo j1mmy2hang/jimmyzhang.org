@@ -2,7 +2,7 @@
 created: 2025-06-05
 tags:
   - reality
-uid: ywUz
+uid: Xjyu
 ---
 Real-world, first-hand observations of how people interact with a problem, product, or process — captured in detailed, contextual documentation.
 

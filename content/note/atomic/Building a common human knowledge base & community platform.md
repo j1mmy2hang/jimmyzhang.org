@@ -1,6 +1,6 @@
 ---
 weight: 5
-uid: h1CH
+uid: 7JYW
 ---
 Keep this idea alive -- don't forget:
 Knowledge management for humanity

@@ -2,7 +2,7 @@
 created: 2026-03-09 13:52
 reference:
   - "[[Notes apps are where ideas go to die. And that’s good.]]"
-uid: p8Ty
+uid: 7H9N
 ---
 [[Note are made to be forgotten]];
 The best ones will resurface by themselves

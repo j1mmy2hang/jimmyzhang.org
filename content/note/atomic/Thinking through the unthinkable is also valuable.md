@@ -2,7 +2,7 @@
 tags:
   - politics
   - imagine
-uid: J685
+uid: tNOZ
 ---
 Get insights from hypothetical scenarios to inform the real-life decision making.
 -- Decision-making is fundamentally comparing the different futures that would develop from different choices.

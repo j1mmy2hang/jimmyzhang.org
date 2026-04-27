@@ -2,7 +2,7 @@
 tags:
   - effectiveness
   - efficiency
-uid: Dd4c
+uid: ljqI
 ---
 
 |             | Efficiency                     | Effectiveness                                                        |

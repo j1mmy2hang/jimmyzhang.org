@@ -1,6 +1,6 @@
 ---
 created: 2025-05-01
-uid: TqBm
+uid: yaFl
 ---
 Problems = the *system behaviour* rooted in *system strucutre*
 ([[System structure is the source of system behavior]])

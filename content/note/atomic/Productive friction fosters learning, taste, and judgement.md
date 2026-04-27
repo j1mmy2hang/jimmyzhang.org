@@ -1,6 +1,6 @@
 ---
 created: 2025-07-20
-uid: fq35
+uid: xxkc
 ---
 ## Productive friction is grip
 

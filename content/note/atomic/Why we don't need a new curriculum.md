@@ -1,6 +1,6 @@
 ---
 created: 2025-06-10
-uid: 1wGc
+uid: WnkK
 ---
 Curriculum is designed based on the premise that information & knowledge is scarce. There is no point in having a currcium in an age where the internet and Artificial Intelligence made information & knowledge so widely accessible. 
 

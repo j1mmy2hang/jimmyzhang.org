@@ -2,7 +2,7 @@
 created: 2024-09-22
 tags:
   - sharing
-uid: gI3q
+uid: myKH
 ---
 > One of the greatest rewards of making art is our ability to share it. 
 > Despite our insecurities, the more times we can bring ourselves to release our work, the less weight insecurity has.

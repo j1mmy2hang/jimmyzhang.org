@@ -3,7 +3,7 @@ created: 2024-09-08
 tags:
   - rule
   - mediocrity
-uid: F4eM
+uid: g0lU
 ---
 > Rules direct us to average behaviors. If we're aiming to create works that are exceptional, most rules don't apply. Average is nothing to aspire to.
 

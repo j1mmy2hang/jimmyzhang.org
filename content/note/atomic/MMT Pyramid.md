@@ -4,6 +4,6 @@ tags:
   - mindset
   - pyramid
   - methodology
-uid: NWD9
+uid: Fra6
 ---
 ![[image-BnLu.png]]

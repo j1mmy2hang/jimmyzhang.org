@@ -2,7 +2,7 @@
 type: "[[Book]]"
 author: Ayn Rand
 cover: "[[image-eqKZ.png]]"
-uid: JtMh
+uid: 6gzh
 ---
 ![[image-eqKZ.png|350]]
 ## Pre-Capitalist Societies

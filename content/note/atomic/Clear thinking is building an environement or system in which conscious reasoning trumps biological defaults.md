@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 08:14
 tags:
-uid: 3aPj
+uid: Y3JV
 ---
 In order to get the results we desire, we must
 1. create the space to reason in our thoughts, feelings, and actions

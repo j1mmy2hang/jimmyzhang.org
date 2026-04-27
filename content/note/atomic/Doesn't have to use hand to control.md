@@ -5,7 +5,7 @@ tags:
   - control
   - neuralink
   - BCI
-uid: oYHr
+uid: Fefh
 ---
 The current input devices (keyboard & mouses) are centered around human hands -- those little meat sticks that we move around, under a certainr rate. 
 

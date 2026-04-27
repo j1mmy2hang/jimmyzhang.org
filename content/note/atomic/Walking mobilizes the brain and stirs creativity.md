@@ -1,6 +1,6 @@
 ---
 created: 2025-11-29 08:41
-uid: pz3b
+uid: IHSL
 ---
 the simple act of standing mobilizes the brain, shifting it from a quiescent state to one of alertness
 

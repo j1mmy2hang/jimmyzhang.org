@@ -2,7 +2,7 @@
 tags:
   - learning
   - effectiveness
-uid: k2vz
+uid: "6513"
 ---
 It’s not inborn or natural.
 

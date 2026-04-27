@@ -4,7 +4,7 @@ published: 2026-02-22
 source: https://www.citriniresearch.com/p/2028gic
 type: "[[Clipping]]"
 rating: 5
-uid: PBmQ
+uid: B2Wl
 ---
 ### A Thought Exercise in Financial History, from the Future
 

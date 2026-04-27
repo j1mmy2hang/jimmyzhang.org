@@ -1,7 +1,7 @@
 ---
 tags:
   - Logseq
-uid: Bap9
+uid: tF5t
 ---
 Logseq's unique strength lies in its query superpower enabled by its block structure
 

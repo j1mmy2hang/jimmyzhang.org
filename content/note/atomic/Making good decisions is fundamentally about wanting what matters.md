@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:34
 tags:
-uid: uBUU
+uid: zYTN
 ---
 Good decision-making comes down to two things:
 1. Knowing how to get what you want 

@@ -2,7 +2,7 @@
 tags:
   - future
   - tech
-uid: UxsE
+uid: I2sH
 ---
 definition = 学习并驾驭科技的能力
 

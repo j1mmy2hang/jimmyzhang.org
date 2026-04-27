@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - center
   - creativity
-uid: LSoh
+uid: STKd
 ---
 > The ecstatic is our compass, pointing to our true north. It arises genuinely in the process of creation. 
 

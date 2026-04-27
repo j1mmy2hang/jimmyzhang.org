@@ -1,6 +1,6 @@
 ---
 created: 2025-11-20 19:46
-uid: YjpD
+uid: eD6l
 ---
 "The illusion of independence"
 

@@ -2,7 +2,7 @@
 created: 2026-03-13
 reference:
   - "[[AI Is a Five‑Layer Cake]]"
-uid: uBXr
+uid: J8jK
 ---
 Energy
 Chips

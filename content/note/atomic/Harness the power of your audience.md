@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: gmxU
+uid: t5QU
 ---
 The line between producer and consumer has dissolved. Users are no longer a passive audience; they are a massive, unpaid, and highly motivated workforce. The most successful modern companies don't just sell to their customers; they harness their customers' creativity and labor.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-06-24
-uid: 5rm0
+uid: q5ul
 ---
 - **Context-dependent** — Knowledge shifts depending on circumstances. What is “true” or “useful” in one situation may not be in another.
 

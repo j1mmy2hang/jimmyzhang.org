@@ -2,7 +2,7 @@
 created: 2025-12-26 08:15
 reference:
   - "[[Distributional AGI Safety]]"
-uid: R4KJ
+uid: hkJK
 ---
 [[AGI终将是一个 DAO，而不是一个 CEO]]
 

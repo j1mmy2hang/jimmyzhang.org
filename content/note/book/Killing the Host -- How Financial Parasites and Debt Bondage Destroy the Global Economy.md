@@ -4,7 +4,7 @@ type: "[[Book]]"
 author:
   - Michael Hudson
 cover: "[[image-yW48.jpg]]"
-uid: LJ54
+uid: hlVE
 ---
 ![[image-yW48.jpg|350]]
 

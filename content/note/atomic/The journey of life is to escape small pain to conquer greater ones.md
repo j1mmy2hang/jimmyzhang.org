@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: ZprN
+uid: Fnlq
 ---
 The journey of life is the journey to discover and conquer greater and greater pains.
 

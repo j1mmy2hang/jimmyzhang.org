@@ -2,7 +2,7 @@
 created: 2025-05-14
 tags:
   - money
-uid: pau6
+uid: V6CY
 ---
 No shame in making money
 

@@ -2,7 +2,7 @@
 tags:
   - school
   - learning
-uid: BM0K
+uid: NCht
 ---
 学习 = 处理信息的能力
 Learning = the ability to deal with information

@@ -2,7 +2,7 @@
 created: 2026-01-25 13:33
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: WgmD
+uid: oKRj
 ---
 ## The Gap between "Shared Belief" and "Coordination"
 

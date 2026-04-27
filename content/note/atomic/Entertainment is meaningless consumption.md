@@ -4,7 +4,7 @@ tags:
   - entertainment
   - consumption
 parent: "[[关于娱乐文化和高级艺术的讨论]]"
-uid: TRSZ
+uid: 10tC
 ---
 e.g. Star Wars, Marvel movies, etc.
 

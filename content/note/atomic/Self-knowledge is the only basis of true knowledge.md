@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: Zcn0
+uid: smVc
 ---
 [[Real knowledge is earned, only abstractions can be borrowed]]
 

@@ -5,7 +5,7 @@ tags:
   - world
   - rise
   - division
-uid: iR1w
+uid: fO7r
 ---
 Should the world admire or fear China's model of governance?
 

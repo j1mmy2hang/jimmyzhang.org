@@ -5,7 +5,7 @@ tags:
   - social
   - responsibility
 parent: "[[关于娱乐文化和高级艺术的讨论]]"
-uid: lr55
+uid: shtv
 ---
 [[Art is self-expression|Art = only a medium of a personal self-expression]]
 but should also have a larger social purpose

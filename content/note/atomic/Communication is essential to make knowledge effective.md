@@ -4,7 +4,7 @@ tags:
   - communication
   - knowledge
   - effectiveness
-uid: mhuR
+uid: enI2
 ---
 自己有知识没用 --> 要让别人知道并一起实践才能让知识发挥效用
 

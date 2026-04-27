@@ -2,7 +2,7 @@
 created: 2025-12-16 18:16
 reference:
   - "[[What Becomes Valuable When AI Makes Creative Work Easy]]"
-uid: VvEO
+uid: gGaf
 ---
 Rather than a creativity of newness, or even difficulty, it’s a creativity of ==aptness==. And in a world of generative AI, it feels like the future.
 

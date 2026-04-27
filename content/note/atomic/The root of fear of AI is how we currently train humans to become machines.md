@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: atYm
+uid: Sg5b
 ---
 If your worth—like mine—has been tangled up in your output, it’s hard not to feel the creeping anxiety when a machine can produce in seconds what used to take you days or months.
 

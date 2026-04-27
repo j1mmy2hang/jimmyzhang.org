@@ -2,7 +2,7 @@
 created: 2026-01-05 06:55
 reference:
   - "[[Towards Human like Memory for AI Agents]]"
-uid: xPJs
+uid: 9JJk
 ---
 1. Input enters the <u>sensory layer</u>, gets filtered, and is tagged
 2. <u>Short-term memory</u> holds the topics temporarily

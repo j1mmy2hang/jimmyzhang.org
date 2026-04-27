@@ -2,7 +2,7 @@
 tags:
   - manipulation
   - humans
-uid: Q50f
+uid: 8Sez
 ---
 The Chess-Pieces Fallacy: 
 someone (a doctrinaire theorist) is able to "arrange the different members of a great society with as much ease as he can arrange the different pieces upon a chess-board" (Adam Smith)

@@ -2,7 +2,7 @@
 created: 2026-02-07 10:25
 reference:
   - "[[What Is Taste, Really]]"
-uid: 3UYG
+uid: 6pX2
 ---
 > Reading like a writer, using like a builder
 

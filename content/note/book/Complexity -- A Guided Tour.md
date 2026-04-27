@@ -4,7 +4,7 @@ author:
   - Melanie Mitchell
 type: "[[Book]]"
 cover: "[[image-tw74.png]]"
-uid: 9KmD
+uid: H4Jy
 ---
 > [!Deep Summary]
 > ### [[<Deep Summary> Complexity -- A Guided Tour]]

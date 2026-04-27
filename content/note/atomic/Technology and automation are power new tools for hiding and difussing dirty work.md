@@ -1,6 +1,6 @@
 ---
 created: 2025-08-28
-uid: FSw9
+uid: cRdJ
 ---
 making our collective complicity more abstract, more distant, and therefore, much more comfortable to ignore
 

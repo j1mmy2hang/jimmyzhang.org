@@ -1,6 +1,6 @@
 ---
 created: 2025-10-11
-uid: DNGb
+uid: KRUT
 ---
 1. Clarifying Questions
 2. Probing Assumptions

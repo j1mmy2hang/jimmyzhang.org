@@ -1,6 +1,6 @@
 ---
 created: 2025-10-09
-uid: e0d2
+uid: uKDc
 ---
 ![[The Knowledge Cycle Diagram|800]]
 

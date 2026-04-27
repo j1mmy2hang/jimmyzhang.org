@@ -4,7 +4,7 @@ tags:
   - artist
   - sensitivity
   - perception
-uid: B6GX
+uid: 2itJ
 ---
 > To live as an artist is a way of being in the world. A way of perceiving. A practice of [[Paying attention enables binary vision|paying attention]]. Refining our sensitivity to tune in to the more subtle notes. Looking for what draws us in and what pushes us away. Noticing what feeling tones arise and where they lead.
 

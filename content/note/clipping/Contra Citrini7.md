@@ -4,7 +4,7 @@ published: 2026-02-23
 source: https://x.com/johnloeber/status/2025748423157432756
 type: "[[Clipping]]"
 rating: 4
-uid: 91XI
+uid: oSR7
 ---
 Popular markets commentator Citrini7 recently published a compelling and popular [[The 2028 Global Intelligence Crisis|piece of AI doomer fiction]], admittedly with some small probability of occurring. But I am old enough to have seen many cycles of economic doomsaying. I want to present a critique of Citrini's work and show a much likelier, more positive view of the future.
 

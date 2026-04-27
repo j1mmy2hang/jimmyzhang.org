@@ -2,7 +2,7 @@
 tags:
   - Apple
   - VR
-uid: kYND
+uid: 3guI
 ---
 Apple's going to roll out AppleVision Air sometime in the future, because the current AppleVision is just too bulky to be called an Air, so just let it be a Pro. 
 

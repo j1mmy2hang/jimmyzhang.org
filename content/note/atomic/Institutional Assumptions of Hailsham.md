@@ -1,6 +1,6 @@
 ---
 created: 2025-05-07
-uid: LRYt
+uid: 3WlT
 ---
 - lack of ownership -- nothing you created is yours, it's instituional properties to be redistributed
 - inter-dependency -- you have to rely on what others create

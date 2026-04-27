@@ -2,7 +2,7 @@
 created: 2026-01-01 14:49
 reference:
   - "[[You’re Wrong About “The Journey” -- Why I’m Not Making Resolutions for 2026]]"
-uid: i4Q0
+uid: mqSn
 ---
 社会为你设计了一套完美的“双轨制”陷阱，让你误以为自己在生活，其实只是在**执行**和**消费**之间无限循环。
 

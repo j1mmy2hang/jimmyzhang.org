@@ -3,7 +3,7 @@ created: 2025-01-08
 tags:
   - story
   - conflict
-uid: XkEg
+uid: iJN4
 ---
 from "not getting something" to "getting something"
 from "having something" to "losing something"

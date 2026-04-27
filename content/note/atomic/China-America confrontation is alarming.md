@@ -6,7 +6,7 @@ tags:
   - power
   - ambition
   - incompatible
-uid: B9fk
+uid: Pref
 ---
 China & American are two giant powers with mutually incompatible ambitions
 

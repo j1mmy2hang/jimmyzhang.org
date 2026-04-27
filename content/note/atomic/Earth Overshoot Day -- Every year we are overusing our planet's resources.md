@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: hoK4
+uid: i5pI
 ---
 ![](https://overshoot.footprintnetwork.org/content/uploads/2024/12/GFN-Country-Overshoot-Day-2025_Final_72.jpg)
 

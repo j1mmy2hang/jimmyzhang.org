@@ -1,6 +1,6 @@
 ---
 created: 2025-07-20
-uid: XR4w
+uid: 4UUx
 ---
 source:: https://every.to/chain-of-thought/toward-a-definition-of-agi
 

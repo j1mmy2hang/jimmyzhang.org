@@ -4,7 +4,7 @@ published: 2022-07-16
 source: https://thesephist.com/posts/legacy/
 type: "[[Clipping]]"
 rating: 6
-uid: y33S
+uid: MvIP
 ---
 I spent the last three weeks in Seoul, partly visiting family I hadn’t seen in years and partly taking a vacation from my usual work in my usual city in my usual context of life. While I haven’t been able to work much at all, I spent my subway rides and waiting-in-line times reading the [*Singularity Sky* series of novels](https://www.goodreads.com/series/52277-eschaton) by Charles Stross.
 

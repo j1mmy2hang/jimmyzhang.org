@@ -4,7 +4,7 @@ published:
 source: https://www.seangoedecke.com/seeing-like-a-software-company/
 type: "[[Clipping]]"
 rating: 4
-uid: vO0j
+uid: twIQ
 ---
 The big idea of James C. Scott’s [*Seeing Like A State*](https://files.libcom.org/files/Seeing%20Like%20a%20State%20-%20James%20C.%20Scott.pdf) can be expressed in three points:
 

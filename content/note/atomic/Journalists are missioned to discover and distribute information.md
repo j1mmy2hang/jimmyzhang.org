@@ -4,7 +4,7 @@ tags:
   - journalism
   - information
   - distribution
-uid: jrJt
+uid: 2Bhn
 ---
 journalists = information miner & producer & distributor all in one
 

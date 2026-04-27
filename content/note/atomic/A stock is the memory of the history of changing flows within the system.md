@@ -5,7 +5,7 @@ tags:
   - memory
   - flow
   - system
-uid: FpRT
+uid: yIX7
 ---
 Stocks are the elements of the system that you can see, feel, count, or measure at any given time.
 

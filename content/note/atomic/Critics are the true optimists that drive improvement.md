@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: pVk6
+uid: 1MbZ
 ---
 It's the critics that drive improvement. It's the critics who are the true optimists. 
 

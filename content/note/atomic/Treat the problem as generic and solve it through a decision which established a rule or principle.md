@@ -6,7 +6,7 @@ tags:
   - decision-making
   - rule
   - principle
-uid: 3uhY
+uid: zgdW
 ---
 [[Effective decisions should be strategic & made at the highest conceptual level of understanding]]
 

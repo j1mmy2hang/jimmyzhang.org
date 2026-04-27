@@ -1,6 +1,6 @@
 ---
 created: 2025-09-24
-uid: hTNg
+uid: YUZM
 ---
 # Life's Essential Consumption: Calories and Tokens
 

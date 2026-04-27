@@ -1,6 +1,6 @@
 ---
 created: 2025-10-11
-uid: n8pG
+uid: 59Ds
 ---
 > But language models offer a new way of thinking about these complex systems. They show us that meaningful patterns can emerge from vast networks of relationships, without requiring reduction to simple mathematical laws. They offer the prospect of a fundamental paradigm shift in the way science is done.
 

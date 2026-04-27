@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - time
   - limiting_factor
-uid: 0YzZ
+uid: OxNY
 ---
 Time is the scarcest resource. 
 The output limits of any product are set by the scarcest resource. 

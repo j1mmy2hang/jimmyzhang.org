@@ -5,7 +5,7 @@ source: https://sequoiacap.com/article/notion-spotlight/
 type: "[[Clipping]]"
 rating: 4
 chat: "[[<Conversation> Notion -- Augmenting Human Intellect, No Code Required]]"
-uid: FTi2
+uid: MM2w
 ---
 In 2015, Notion co-founders Simon Last and Ivan Zhao had removed from their lives anything that wasn’t writing code and eating noodles. Three years into building their startup, they scrapped the code powering their app. They were running out of money. They’d just laid off their only colleagues. And to stretch what money they had left, they’d moved from San Francisco to Kyoto, Japan, which was less than half as expensive.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: gwMj
+uid: 0ZKt
 ---
 A significant portion of the West’s leadership class, from academia to Silicon Valley, has been culturally conditioned to avoid authentic belief and conviction, leading to a hollowed-out public square where moral courage is punished and ineffectual, administrative posturing is rewarded.
 

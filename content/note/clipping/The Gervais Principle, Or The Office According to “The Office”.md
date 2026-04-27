@@ -4,7 +4,7 @@ published: 2009-10-07
 source: https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/
 type: "[[Clipping]]"
 rating: 5
-uid: ZCUu
+uid: 6WJ0
 ---
 My neighbor introduced me to *The Office* back in 2005. Since then, I’ve watched every episode of both the British and American versions. I’ve watched the show obsessively because I’ve been unable to figure out what makes it so devastatingly effective, and elevates it so far above the likes of [Dilbert](http://dilbert.com/) and [Office Space](http://en.wikipedia.org/wiki/Office_Space).
 

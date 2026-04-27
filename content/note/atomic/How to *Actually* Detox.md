@@ -1,6 +1,6 @@
 ---
 created: 2025-01-09
-uid: IHQG
+uid: mkpN
 ---
 
 - Tie short videos with negative emotions like pain & fear

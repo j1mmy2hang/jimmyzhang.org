@@ -2,7 +2,7 @@
 created: 2026-01-25 13:35
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: ePMu
+uid: xSrA
 ---
 Creating Common Knowledge is a **high stakes act**. 
 It is powerful because it forces the situation into a new stake and **removes the exit strategy** -- binary and irreversible. 

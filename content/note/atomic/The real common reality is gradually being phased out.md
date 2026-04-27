@@ -2,7 +2,7 @@
 tags:
   - reality
 created: 2025-01-07
-uid: LT7i
+uid: byM1
 ---
 the real world can be a pretty nasty space full of noise -- both audio & visual
 

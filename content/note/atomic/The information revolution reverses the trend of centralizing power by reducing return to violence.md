@@ -1,6 +1,6 @@
 ---
 created: 2025-10-19
-uid: 3L7Q
+uid: 1m5R
 ---
 [[The logic of violence is the ultimate determinant of social structures]]
 

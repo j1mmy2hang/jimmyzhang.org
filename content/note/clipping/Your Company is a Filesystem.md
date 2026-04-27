@@ -4,7 +4,7 @@ published: 2026-02-10
 source: https://x.com/mernit/article/2021324284875153544
 type: "[[Clipping]]"
 rating: 4
-uid: GAT1
+uid: P0MM
 ---
 [![Image](https://pbs.twimg.com/media/HA0iudkagAEsM7g?format=jpg&name=large)](https://x.com/mernit/article/2021324284875153544/media/2021309989365907457)
 

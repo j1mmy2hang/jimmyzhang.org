@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: kBjm
+uid: LgEH
 ---
 In a world of infinite choice, providing more options is not a feature; it's a bug. The greatest value you can offer customers is to save them time by filtering the noise and presenting them with only what is relevant and valuable to them.
 

@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:33
 tags:
-uid: GVF3
+uid: TD8v
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

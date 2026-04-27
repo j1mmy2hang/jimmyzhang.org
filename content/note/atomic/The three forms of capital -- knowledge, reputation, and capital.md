@@ -1,6 +1,6 @@
 ---
 created: 2026-01-11 14:02
-uid: dVFt
+uid: LhYR
 ---
 intellectual -- knowledge & learning
 social -- reputation & trust

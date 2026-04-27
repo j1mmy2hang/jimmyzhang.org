@@ -5,7 +5,7 @@ tags:
   - productivity
   - respect
   - habit
-uid: sc9u
+uid: xr6o
 ---
 “What are the things that I seem to be able to do with relative ease, while they come rather hard to other people?” 
 

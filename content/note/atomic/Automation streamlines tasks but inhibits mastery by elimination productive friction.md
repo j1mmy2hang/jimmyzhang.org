@@ -1,6 +1,6 @@
 ---
 created: 2025-07-20
-uid: Bma6
+uid: G0jB
 ---
 ## Drugery vs Productive Friction
 

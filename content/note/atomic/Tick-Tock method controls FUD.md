@@ -3,7 +3,7 @@ book: "[[Thinkertoys -- A Handbook of Creative-Thinking Techniques]]"
 credit: Precott Lecky
 tags:
   - control
-uid: OOAR
+uid: YU2M
 ---
 Tick = ==acknowledge== the negative feelings
 Tock = ==substitute== positie factors

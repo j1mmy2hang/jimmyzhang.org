@@ -2,7 +2,7 @@
 created: 2026-02-06 08:51
 reference:
   - "[[On Artificial Intelligence]]"
-uid: kq8r
+uid: 0Ub3
 ---
 > "The only real test of intelligence is if you get what you want out of life."
 > -- Naval

@@ -2,7 +2,7 @@
 tags:
   - data
   - humans
-uid: tZFW
+uid: E5MT
 ---
 一个人的全部生活都可以用数据呈现
 

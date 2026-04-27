@@ -1,6 +1,6 @@
 ---
 created: 2025-06-29
-uid: C1pZ
+uid: R2ZE
 ---
  [[The world is made up of people who were less smart than you]] 
 

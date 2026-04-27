@@ -1,6 +1,6 @@
 ---
 created: 2025-04-10
-uid: 9FCX
+uid: bmYv
 ---
 "There was no war"
 the power of narratives & frames

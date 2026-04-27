@@ -1,6 +1,6 @@
 ---
 created: 2025-08-03
-uid: 1mXV
+uid: m0sF
 ---
 source:: x.com/gregisenberg/status/1947693459147526179
 

@@ -3,7 +3,7 @@ created: 2024-11-27
 tags:
   - information
   - world
-uid: iQUt
+uid: TR6X
 ---
 ## Information Elements
 

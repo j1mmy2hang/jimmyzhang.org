@@ -1,6 +1,6 @@
 ---
 created: 2025-06-19
-uid: WY4r
+uid: 487Z
 ---
 Sell a product -- a solution to a problem, not a philosophy. 
 

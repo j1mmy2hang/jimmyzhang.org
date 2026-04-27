@@ -3,7 +3,7 @@ tags:
   - understanding
   - meaning
   - school
-uid: Cc9k
+uid: HUrz
 ---
 we fail to teach and they fail to understand [[学校的意义]]
 

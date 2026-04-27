@@ -1,7 +1,7 @@
 ---
 created: 2025-03-16 13:16
 credit: Marieke
-uid: 2OKq
+uid: BBVp
 ---
 offload thinking to an external agent?
 

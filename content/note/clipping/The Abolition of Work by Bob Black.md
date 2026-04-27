@@ -6,7 +6,7 @@ type: "[[Clipping]]"
 rating: 5
 chat:
   - "[[<Conversation> The Abolition of Work by Bob Black]]"
-uid: RzAi
+uid: 973H
 ---
 No one should ever work.
 

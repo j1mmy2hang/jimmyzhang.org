@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: 5bSk
+uid: A8n2
 ---
 substituion is achieved through differentiation
 

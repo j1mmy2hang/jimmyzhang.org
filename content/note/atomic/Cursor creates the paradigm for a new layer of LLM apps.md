@@ -2,7 +2,7 @@
 created: 2025-12-20 20:27
 reference:
   - "[[2025 LLM Year in Review]]"
-uid: qZJa
+uid: mMNr
 ---
 my project:: [[Personal AI Agent -- Obsidian + Claude Code with Cursor Vibe]]
 

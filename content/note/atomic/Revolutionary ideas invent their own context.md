@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - revolution
   - context
-uid: CkWQ
+uid: mO6N
 ---
 They don't need a system of reference to measure their value. 
 

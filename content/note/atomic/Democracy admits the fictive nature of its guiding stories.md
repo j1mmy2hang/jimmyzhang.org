@@ -2,7 +2,7 @@
 created: 2024-08-24
 tags:
   - democracy
-uid: d07c
+uid: f8oe
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

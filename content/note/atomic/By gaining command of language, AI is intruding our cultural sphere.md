@@ -3,7 +3,7 @@ created: 2025-01-28
 tags:
   - language
   - AI
-uid: dpyI
+uid: tNN5
 ---
 [[Language is the operating system of human civilization]]
 

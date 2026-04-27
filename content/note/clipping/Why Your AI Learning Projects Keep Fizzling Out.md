@@ -4,7 +4,7 @@ published: 2026-01-14
 source: https://every.to/podcast/transcript-why-your-ai-learning-projects-keep-fizzling-out
 type: "[[Clipping]]"
 rating: 6
-uid: SzIb
+uid: IlDe
 ---
 **The transcript of *[AI & I](https://every.to/podcast)* with Nir Zicherman is below. Watch on [X](https://x.com/danshipper/status/2011468416415117714) or [YouTube](https://youtu.be/0xxo8YLpbdY), or listen on [Spotify](https://open.spotify.com/episode/2VAQBHKePX09meLgCK18YD?si=nyrp4F1xSxOh_lmKczi45g) or [Apple Podcasts](https://podcasts.apple.com/us/podcast/why-your-ai-learning-projects-keep-fizzling-out/id1719789201?i=1000745154993).**
 

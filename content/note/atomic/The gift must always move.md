@@ -2,7 +2,7 @@
 created: 2026-03-13 19:49
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: 9qW8
+uid: tUVk
 ---
 [[钱的价值储存假设和挑战]]；[[Money & value should flow freely in real-time]]
 

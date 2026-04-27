@@ -3,7 +3,7 @@ created: 2024-12-18
 tags:
   - system
   - interconnection
-uid: D3MM
+uid: wxBi
 ---
 [[Thinking in Systems -- A Primer]] --
 

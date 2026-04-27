@@ -2,7 +2,7 @@
 created: 2026-01-11 14:35
 reference:
   - "[[If you have multiple interests, do not waste the next 2-3 years]]"
-uid: tKuz
+uid: Kv4S
 ---
 ![[image-BygC.png]]
 

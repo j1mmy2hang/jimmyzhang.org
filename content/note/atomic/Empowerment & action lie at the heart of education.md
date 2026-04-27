@@ -3,7 +3,7 @@ tags:
   - education
   - empowerment
   - action
-uid: dc2N
+uid: ft58
 ---
 to equip each student with the capability to take actions, big or small, to make positive impacts to his community and make this world a better place
 

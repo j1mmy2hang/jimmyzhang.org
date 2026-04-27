@@ -1,6 +1,6 @@
 ---
 created: 2025-06-17
-uid: baOA
+uid: uw3k
 ---
 # Why does AI loves using "not just... but..."
 

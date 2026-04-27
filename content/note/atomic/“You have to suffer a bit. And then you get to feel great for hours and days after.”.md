@@ -1,5 +1,5 @@
 ---
 created: 2025-10-20
-uid: N4QB
+uid: 3ked
 ---
 Self-discipline

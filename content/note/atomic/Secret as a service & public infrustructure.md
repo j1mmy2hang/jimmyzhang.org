@@ -2,7 +2,7 @@
 created: 2025-12-16 18:36
 reference:
   - "[[Big Ideas 2026 Part 3]]"
-uid: FCCu
+uid: cj0R
 ---
 Without data access controls, anyone who wants to keep data confidential currently has to use a centralized service or build a custom setup — which is not only time-consuming and expensive, but blocks traditional finance institutions and others from fully unlocking the features and benefits of onchain data management. And as begin browsing, transacting, and making decisions autonomously, both users and institutions across industries need cryptographic guarantees as opposed to “best-effort trust”.
 

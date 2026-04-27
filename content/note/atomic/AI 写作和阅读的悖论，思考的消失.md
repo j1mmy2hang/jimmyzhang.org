@@ -2,7 +2,7 @@
 created: 2026-04-12
 reference:
   - 李继刚
-uid: 9kkp
+uid: MtPC
 ---
 A: 脑中有 1，2，3 三句话冒了出来，借助 AI，形成了一篇几千字的文章发布出去。
 

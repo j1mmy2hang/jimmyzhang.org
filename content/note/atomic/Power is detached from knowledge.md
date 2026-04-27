@@ -3,7 +3,7 @@ created: 2024-11-16
 tags:
   - power
   - knowledge
-uid: 7zrF
+uid: u4ua
 ---
 Knowledge, truth  <—> Power (action, change, impact)
 知识常常得不到权力的认可

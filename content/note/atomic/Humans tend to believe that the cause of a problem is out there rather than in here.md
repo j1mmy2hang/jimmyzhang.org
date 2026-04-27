@@ -3,7 +3,7 @@ created: 2024-11-30
 tags:
   - cause
   - problem
-uid: jpDD
+uid: rHaG
 ---
 To find a external cause of the problem and fix it
 

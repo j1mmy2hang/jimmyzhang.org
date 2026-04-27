@@ -1,6 +1,6 @@
 ---
 created: 2026-01-09 16:20
-uid: EMCc
+uid: oABe
 ---
 人性，not 人类?
 

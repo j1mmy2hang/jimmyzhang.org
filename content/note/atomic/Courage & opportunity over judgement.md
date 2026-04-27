@@ -1,6 +1,6 @@
 ---
 created: 2024-10-21
-uid: KVFx
+uid: aclh
 ---
 Courage rather than analysis dictates the true important rules for identifying priorities. 
 

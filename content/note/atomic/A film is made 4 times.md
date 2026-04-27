@@ -2,7 +2,7 @@
 created: 2024-10-16
 tags:
   - film
-uid: Fcqb
+uid: LtxP
 ---
 First by the writer
 Second by the cinematographer

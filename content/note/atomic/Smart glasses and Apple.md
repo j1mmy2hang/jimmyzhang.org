@@ -1,6 +1,6 @@
 ---
 type: topic
-uid: DUNs
+uid: 9avz
 ---
 ## [[Smart glasses have very promising prospects]]
 

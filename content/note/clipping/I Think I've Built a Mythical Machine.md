@@ -4,7 +4,7 @@ published:
 source: https://world.hey.com/martijnaslander/i-think-i-ve-built-a-mythical-machine-cac6597f
 type: "[[Clipping]]"
 rating: 4
-uid: m4Xw
+uid: JKEb
 ---
 full paper:: [[The Information Problem Was Never the Real Problem -- Building a Confirmation-Driven Personal Knowledge Graph and the Four Principles That Emerge From Practice]]
 

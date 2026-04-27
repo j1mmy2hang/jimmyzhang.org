@@ -2,7 +2,7 @@
 created: 2026-01-25 13:47
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: ipd5
+uid: rD1g
 ---
 [[Common knowledge turns private knowledge into coordinated actions]]
 

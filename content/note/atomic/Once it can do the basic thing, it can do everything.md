@@ -1,6 +1,6 @@
 ---
 created: 2025-05-05
-uid: USG6
+uid: syVg
 ---
 1. **Bootstrapping**: Mastery of a core skill enables the system to learn and build upon itself.
 2. **Skill Composability**: Complex tasks are combinations of simpler ones—doing the basics allows assembling higher-level abilities.

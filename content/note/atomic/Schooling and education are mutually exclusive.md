@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: iCcW
+uid: 0VTd
 ---
 > It’s just impossible for education and schooling ever to be the same thing.
 > -- [[Dumbing Us Down]]

@@ -5,7 +5,7 @@ author:
 type: "[[Book]]"
 chat: "[[<Conversation> When Everyone Knows That Every One Knows]]"
 cover: "[[image-v5Lz.png]]"
-uid: Lgqw
+uid: Tzay
 ---
 ![[image-v5Lz.png|350]]
 

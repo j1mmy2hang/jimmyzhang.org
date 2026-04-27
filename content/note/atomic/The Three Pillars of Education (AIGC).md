@@ -1,6 +1,6 @@
 ---
 created: 2025-05-13
-uid: MTlb
+uid: YCoH
 ---
 ## The Three Pillars of Education
 

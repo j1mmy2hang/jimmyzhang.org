@@ -4,7 +4,7 @@ published: 2025-12-15
 source: https://every.to/p/what-becomes-valuable-when-ai-makes-creative-work-easy?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 6
-uid: 4TCY
+uid: dH6S
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3865/full_page_cover_Painting_himself.png)
 

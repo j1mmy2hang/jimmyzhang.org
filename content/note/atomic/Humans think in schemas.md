@@ -2,7 +2,7 @@
 tags:
   - humans
   - thinking
-uid: FkYE
+uid: heN5
 ---
 - schema = cognitive framework
 	- could be helpful (organize, categorize, etc.)

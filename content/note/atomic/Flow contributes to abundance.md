@@ -2,7 +2,7 @@
 created: 2026-03-13 20:28
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: w66P
+uid: j6Ij
 ---
 [[Gift exchange creates connection, commodity exchange creates separation]]
 [[The gift must always move]]

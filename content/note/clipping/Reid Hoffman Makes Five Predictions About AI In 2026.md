@@ -4,7 +4,7 @@ published: 2026-01-05
 source: https://every.to/podcast/transcript-reid-hoffman-makes-five-predictions-about-ai-in-2026
 type: "[[Clipping]]"
 rating: 4
-uid: MT0L
+uid: nPRz
 ---
 ![](https://every.to/assets/placeholders-hi-res/4-351cffd968700e9dcf492b495a3002170e16eeafc9e1a15a96b38f6ab196d1b5.png)
 

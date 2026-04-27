@@ -1,6 +1,6 @@
 ---
 created: 2025-04-18
-uid: sVcy
+uid: TB8Y
 ---
 > The history of progress is a history of better monopoly businesses replacing incumbents.
 > -- [[Zero to One]]

@@ -1,6 +1,6 @@
 ---
 created: 2025-11-25 13:34
-uid: YtDe
+uid: kAdN
 ---
 Impact / Power = Idea x World
 [[思考力是一种（将可能性转化为现实性的）力]]

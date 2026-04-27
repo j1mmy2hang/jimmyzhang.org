@@ -2,7 +2,7 @@
 tags:
   - link
   - world
-uid: JYAQ
+uid: Cwjm
 ---
 Finding connections; creating meaning; spurring creativity
 

@@ -4,7 +4,7 @@ published:
 source: https://worrydream.com/LadderOfAbstraction
 type: "[[Clipping]]"
 rating: 4
-uid: uRkW
+uid: GBGc
 ---
 *"In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it. Of course, you seldom, if ever, see either pure state."*
 

@@ -2,7 +2,7 @@
 created: 2026-03-13 20:27
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: csNR
+uid: jyx9
 ---
 书中介绍了太平洋岛民著名的“库拉圈（Kula Ring）”。那里的贝壳项链和臂环在一个巨大的岛屿圆环上持续不断地流转。没有一个人会永久拥有（Stock）这些珍宝，它们顶多在一个岛主手里停留一两年，就必须被送走。  
 在那里，拥有（Ownership）的概念完全被颠覆了：**"To possess is to give."（拥有即是给予。）**

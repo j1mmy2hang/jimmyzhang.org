@@ -1,6 +1,6 @@
 ---
 created: 2025-12-03 09:42
-uid: vvfM
+uid: kF1i
 ---
 [[Measure what you value]]
 

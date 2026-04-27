@@ -1,6 +1,6 @@
 ---
 created: 2025-12-31 18:06
-uid: Bzvs
+uid: HoER
 ---
 I have / am given muscles, so why not take more control of them by actively training them and testing the limits? 
 

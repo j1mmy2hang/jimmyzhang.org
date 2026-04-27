@@ -2,7 +2,7 @@
 created: 2026-03-23
 reference:
   - "[[好消息：公司给你发 Token 当工资，坏消息：你的 KPI 是烧光它]]"
-uid: uKm2
+uid: PAue
 ---
 [[好消息：公司给你发 Token 当工资，坏消息：你的 KPI 是烧光它]] -- 人被用作老板利用 AI 创造 output 的中间层工具
 

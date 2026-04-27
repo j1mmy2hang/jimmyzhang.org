@@ -3,7 +3,7 @@ tags:
   - decision-making
   - organization
 topic: "[[Steps to become an effective executive]]"
-uid: pygi
+uid: O92K
 ---
 ❌ Only senior executives make decisions. 
 ✅ Making good decisions is a crucial skill *at every level.*

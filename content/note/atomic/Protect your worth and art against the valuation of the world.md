@@ -2,7 +2,7 @@
 created: 2026-03-13 20:15
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: 6dNk
+uid: E6oV
 ---
 [[Value vs Worth]], market vs art
 

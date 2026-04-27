@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: UCSm
+uid: tsjt
 ---
 To build anything is to make a normative judgment
 

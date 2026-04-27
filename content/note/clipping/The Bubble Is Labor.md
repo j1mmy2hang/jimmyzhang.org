@@ -4,7 +4,7 @@ published: 2025-12-08
 source: https://danielmiessler.com/blog/the-real-bubble-is-human-labor?utm_campaign=the-bubble-is-labor&utm_medium=referral&utm_source=newsletter.danielmiessler.com
 type: "[[Clipping]]"
 rating: 6
-uid: DJjQ
+uid: bLuN
 ---
 [![The real bubble is human labor](https://danielmiessler.com/images/the-real-bubble-is-human-labor.webp)](https://danielmiessler.com/images/the-real-bubble-is-human-labor.webp)
 

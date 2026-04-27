@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: EGv0
+uid: XxGg
 ---
 ## Top-Down Surveillance -- Monitor & Manipulation
 

@@ -4,7 +4,7 @@ tags:
   - AI
   - data
   - evaluation
-uid: 8lkb
+uid: 8fkF
 ---
 问 ChatGPT: Describe me based on your memories of me.
 得出的回答惊人的准确

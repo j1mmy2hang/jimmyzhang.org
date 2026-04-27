@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:31
 tags:
-uid: Wx9L
+uid: MTFj
 ---
 For computers to have a more accurate and responsible view of the world, they need to take into account their own power and impact. And for that to happen, the humans who currently engineer computers need to accept that they are not manufacturing new tools. They are unleashing new kinds of independent agents, and potentially even new kinds of gods.
 

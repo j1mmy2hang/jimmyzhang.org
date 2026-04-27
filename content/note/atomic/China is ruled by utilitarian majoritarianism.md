@@ -4,7 +4,7 @@ tags:
   - china
   - utilitarianism
   - majority
-uid: ibzd
+uid: yv2C
 ---
 An utilitarian rule of the majority
 

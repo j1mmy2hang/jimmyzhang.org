@@ -3,7 +3,7 @@ created: 2025-01-25
 tags:
   - democracy
   - information
-uid: 5LAT
+uid: UOnP
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

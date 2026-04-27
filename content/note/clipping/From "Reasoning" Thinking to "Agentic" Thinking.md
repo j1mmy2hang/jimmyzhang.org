@@ -4,7 +4,7 @@ published: 2026-03-26
 source: https://x.com/JustinLin610/status/2037116325210829168
 type: "[[Clipping]]"
 rating: 6
-uid: yyk6
+uid: h95m
 ---
 The last two years reshaped how we evaluate models and what we expect from them. OpenAI's o1 showed that "thinking" could be a first-class capability, something you train for and expose to users. DeepSeek-R1 proved that reasoning-style post-training could be reproduced and scaled outside the original labs. OpenAI described o1 as a model trained with reinforcement learning to "think before it answers." DeepSeek positioned R1 as an open reasoning model competitive with o1.
 

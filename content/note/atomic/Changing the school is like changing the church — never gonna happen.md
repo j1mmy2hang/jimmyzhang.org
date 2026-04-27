@@ -1,6 +1,6 @@
 ---
 created: 2025-12-04
-uid: TIby
+uid: ZTRi
 ---
 Schools and churches are similar.
 School serves as the modern day church.

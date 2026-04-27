@@ -1,6 +1,6 @@
 ---
 created: 2025-10-03
-uid: SxQl
+uid: Ccx9
 ---
 > “These walls are funny. First you hate 'em, then you get used to 'em. Enough time passes, you get so you depend on them. That's institutionalized.”
 > -- The Shawshank Redemption

@@ -4,7 +4,7 @@ published: 2025-12-23
 source: https://www.youtube.com/watch?v=4t3Wp1b8GNY
 type: "[[Clipping]]"
 rating: 4
-uid: SRgf
+uid: Sftw
 ---
 ![](https://www.youtube.com/watch?v=4t3Wp1b8GNY)  
 

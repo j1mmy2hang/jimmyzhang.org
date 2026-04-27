@@ -4,7 +4,7 @@ published: 2025-12-20
 source: https://karpathy.bearblog.dev/year-in-review-2025/
 type: "[[Clipping]]"
 rating: 4
-uid: f1g9
+uid: SNqm
 ---
 ![unnamed](https://bear-images.sfo2.cdn.digitaloceanspaces.com/karpathy/unnamed.webp)
 

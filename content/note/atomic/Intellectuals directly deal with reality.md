@@ -2,7 +2,7 @@
 tags:
   - intellectual
   - reality
-uid: 09k6
+uid: cqK6
 ---
 Scientists, philosophers, etc.
 They are the first to discover any scrap of new knowedge. 

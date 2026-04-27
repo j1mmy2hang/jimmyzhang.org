@@ -2,7 +2,7 @@
 tags:
   - tech
   - reality
-uid: PtcF
+uid: 6wAs
 ---
 [[Information creates new realities and connects]]
 

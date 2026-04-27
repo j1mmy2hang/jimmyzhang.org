@@ -2,7 +2,7 @@
 created: 2026-02-07 10:32
 reference:
   - "[[What Is Taste, Really]]"
-uid: DrVx
+uid: RnYy
 ---
 > The most important thing he learned in music school, he said, was to be able to say _why_ you like or dislike something. 'Is it because it's high or low? Is it because it's red or blue?' That articulation is important, Kieran said, 'because then you can start building a toolbox for yourself.'
 

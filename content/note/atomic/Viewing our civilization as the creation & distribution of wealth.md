@@ -1,6 +1,6 @@
 ---
 created: 2025-04-23
-uid: jUcO
+uid: xTIm
 ---
 looking at the world through the lens os system, flow of information & feedback loops
 the production & distribution of wealth (physical & intellectual)

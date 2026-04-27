@@ -3,7 +3,7 @@ created: 2025-01-25
 tags:
   - order
   - truth
-uid: ADxC
+uid: CxPf
 ---
 Reducing the messiness of reality to a limited number of fixed drawers helps bureaucrats keep order, but it comes at the expense of truth.
 

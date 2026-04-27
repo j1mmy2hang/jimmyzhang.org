@@ -2,7 +2,7 @@
 created: 2025-05-17
 reference:
   - "[[User-driven UI]]"
-uid: Kpnj
+uid: PHFg
 ---
 Onboarding of a software should be self-explanatory
 

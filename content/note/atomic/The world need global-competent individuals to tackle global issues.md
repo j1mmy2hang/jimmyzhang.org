@@ -3,7 +3,7 @@ tags:
   - education
   - world
 topic: "[[Global competency]]"
-uid: 5c0G
+uid: D8lE
 ---
 From the perspective of world leaders, the purpose & duty of education (as a tool) is to cultivate global-competent teenagers to tackle world issues
 

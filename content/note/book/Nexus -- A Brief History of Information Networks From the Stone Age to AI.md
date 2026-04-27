@@ -3,7 +3,7 @@ created: 2025-01-22
 author: Yuval Levin Herari
 type: "[[Book]]"
 cover: "[[image-5UlB.png]]"
-uid: CQJc
+uid: nGBP
 ---
 ![[image-5UlB.png|350]]
 Foundational philosophy -- [[History is not set and we have the power to change]]

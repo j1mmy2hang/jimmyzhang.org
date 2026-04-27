@@ -4,7 +4,7 @@ tags:
   - system
   - flow
   - information
-uid: lJDY
+uid: Mao1
 ---
 [[Thinking in Systems -- A Primer]] --
 

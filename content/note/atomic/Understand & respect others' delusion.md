@@ -2,7 +2,7 @@
 created: 2026-02-11 18:59
 reference:
   - "[[Rare Skills]]"
-uid: QH4z
+uid: Hvv1
 ---
 Understanding how people justify their beliefs in a way that makes you respect their delusions.
 

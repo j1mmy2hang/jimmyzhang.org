@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06
-uid: y87Z
+uid: 5iAL
 ---
 the hard side = the minority of users who will create disproportionate value (e.g., creators, sellers, developers). & make the network valuable for the "easy side" (consumers)
 

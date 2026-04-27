@@ -1,6 +1,6 @@
 ---
 web: https://www.reddit.com/r/LifeProTips/comments/1dkuv6v/lpt_if_you_deal_with_anger_management_issues/
-uid: f5Lh
+uid: KIrG
 ---
 "If you look cool you'll be cool"
 

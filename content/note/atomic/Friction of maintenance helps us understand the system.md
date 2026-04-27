@@ -2,7 +2,7 @@
 created: 2026-03-19
 reference:
   - "[[I Hired an AI to Do My Chores. Now I Maintain the AI.]]"
-uid: xBlD
+uid: KMNU
 ---
 当系统运转顺畅时，它对你是透明的 -- 你只看见输出，看不见内部 (black box)
 当系统出故障时，它的内部结构才会暴露出来 (as it requires you to look "into" it)

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: N3YK
+uid: rCqC
 ---
 Schools teach confusion, jargon, and fragmented knowledge instead of create meaning, relationship, and system
 

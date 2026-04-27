@@ -4,7 +4,7 @@ published: 2026-02-16
 source: https://x.com/Flynnjamm/status/2023465136204419096
 type: "[[Clipping]]"
 rating: 5
-uid: qIiG
+uid: Ggf3
 ---
 In 1937, Ronald Coase asked a question that won him a Nobel Prize: if markets are so efficient, why do firms exist at all? Why don't we just contract everything out?
 

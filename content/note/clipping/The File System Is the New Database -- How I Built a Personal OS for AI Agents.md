@@ -4,7 +4,7 @@ published: 2025-12-30
 source: https://x.com/koylanai/status/2025286163641118915
 type: "[[Clipping]]"
 rating: 4
-uid: vYVr
+uid: PNgp
 ---
 Every AI conversation starts the same way. You explain who you are. You explain what you're working on. You paste in your style guide. You re-describe your goals. You give the same context you gave yesterday, and the day before, and the day before that. Then, 40 minutes in, the model forgets your voice and starts writing like a press release.
 

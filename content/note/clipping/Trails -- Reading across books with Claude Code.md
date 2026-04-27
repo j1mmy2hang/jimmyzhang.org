@@ -4,7 +4,7 @@ published:
 source: https://pieterma.es/syntopic-reading-claude/
 type: "[[Clipping]]"
 rating: 4
-uid: hm0e
+uid: 0bdV
 ---
 Thematic links across books
 

@@ -1,5 +1,5 @@
 ---
-uid: b4cp
+uid: 1wop
 ---
 These two figures -- the man of faith and the man of force -- are philosophical archetypes, psychological symbols and historical reality.
 

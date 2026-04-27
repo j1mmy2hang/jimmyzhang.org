@@ -4,7 +4,7 @@ tags:
   - UBI
   - freedom
   - meaning
-uid: eX4D
+uid: 5Pay
 ---
 [[金钱的目的是购买自由]]
 

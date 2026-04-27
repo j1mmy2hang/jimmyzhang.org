@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - essence
   - distill
-uid: mBwv
+uid: FGAP
 ---
 Notice how many pieces you can remove before the work you're making ceases to be the work you're making.
 

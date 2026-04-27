@@ -3,7 +3,7 @@ created: 2024-09-08
 tags:
   - difference
   - amplify
-uid: iIdQ
+uid: 5evs
 ---
 > The goal is not to fit in. If anything, it's to amplify the differences, what doesn't fit, the special characteristics unique to how you see the world. Instead of sounding like others, value your own voice. Develop it. Cherish it.
 

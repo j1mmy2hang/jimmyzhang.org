@@ -1,6 +1,6 @@
 ---
 created: 2025-08-29
-uid: BvV4
+uid: kmSr
 ---
 > As advances in information technology and communication supply us with information at an ever accelerating rate, the limitations of our brains become all the more obvious. Boundaries are defined no longer by technology but by our own biology.
 

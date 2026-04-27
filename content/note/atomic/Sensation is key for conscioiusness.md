@@ -1,6 +1,6 @@
 ---
 created: 2025-06-11
-uid: NNjR
+uid: ohmg
 ---
 I sense, therefore I am
 Once AI is able to sense & collect data on its own, it gains consciouss -- "the awakening"

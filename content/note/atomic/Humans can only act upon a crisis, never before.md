@@ -1,7 +1,7 @@
 ---
 created: 2025-04-13
 AIGC: true
-uid: mFJX
+uid: Srqh
 ---
 ## Part 1 -- Simple Explanation
 

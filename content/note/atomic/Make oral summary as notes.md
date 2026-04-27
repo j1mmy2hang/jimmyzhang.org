@@ -1,7 +1,7 @@
 ---
 tags:
   - notes
-uid: wC33
+uid: dnGO
 ---
 How to take notes while consuming any type of content
 -- applies to reading / watching a youtube video / listening to a podcast etc. 

@@ -2,7 +2,7 @@
 created: 2026-01-25 14:04
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: LyBu
+uid: JfFT
 ---
 - We need **Truth** to solve physical problems (Vaccines need to work, Bridges need to stand).
 - But we need **Myth/Hypocrisy** to solve social problems (Diplomacy, Peace, Polite Society) -- [[Societies suppress truth to maintain shared fiction with rational hypocrisy]]

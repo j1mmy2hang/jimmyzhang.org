@@ -3,7 +3,7 @@ created: 2024-10-20
 tags:
   - original
   - creation
-uid: GUFK
+uid: zMBp
 ---
 [[All of our work is a collaboration]]
 

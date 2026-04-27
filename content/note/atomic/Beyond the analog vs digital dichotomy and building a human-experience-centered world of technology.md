@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21
-uid: LmRr
+uid: khJ2
 ---
 The future is not a binary choice between digital and analog, but a continuous process of choosing to build a more human-centric world where technology serves our essential analog needs for community, creativity, and connection, rather than replacing them with a soulless virtual facsimile like the "metaverse."
 

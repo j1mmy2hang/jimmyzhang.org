@@ -1,6 +1,6 @@
 ---
 created: 2025-11-29 21:24
-uid: XRzS
+uid: muDR
 ---
 Our system is designed to measure transactions involving scarce goods. It is therefore structurally blind to abundance. When something becomes abundant and free, our dashboard does not just fail to see its value; it registers its arrival as a negative event.
 

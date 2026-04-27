@@ -2,7 +2,7 @@
 tags:
   - language
   - humans
-uid: oc9Y
+uid: 3S82
 ---
 ![[Language & human|600]]
 

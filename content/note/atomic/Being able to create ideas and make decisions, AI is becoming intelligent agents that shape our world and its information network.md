@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: WMv1
+uid: 2V9a
 ---
 [[Intelligence = interacting with the envrionment by taking in data, processing information, make decisions, and attaining goals|Intelligent]] machines can make decisions & create new ideas by itself
 --> for the first time in history power is shifting from humans and toward something else

@@ -4,7 +4,7 @@ author:
   - Eyal Press
 type: "[[Book]]"
 cover: "[[image-THQr.png]]"
-uid: Amcq
+uid: BoLF
 ---
 ![[image-THQr.png|350]]
 

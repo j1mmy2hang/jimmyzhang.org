@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:25
 tags:
-uid: HBIV
+uid: g7qP
 ---
 THE ASAP PRINCIPLE: If the cost to undo the decision is low, make it as soon as possible.
 

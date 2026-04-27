@@ -3,7 +3,7 @@ tags:
   - begin
   - mistake
   - problem
-uid: 97HY
+uid: 3QW7
 ---
 It's normal to have issues and run into problems. But that shoudn't stop you from start working on great projects. 
 

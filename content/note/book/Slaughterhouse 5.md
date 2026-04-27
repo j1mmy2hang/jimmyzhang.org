@@ -2,7 +2,7 @@
 created: 2025-03-07 20:07
 type: "[[Book]]"
 cover: "[[image-23bV.png]]"
-uid: atlG
+uid: iXlf
 ---
 [[Asking why is such a human thing]] 
 

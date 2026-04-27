@@ -2,7 +2,7 @@
 created: 2026-02-02 21:57
 reference:
   - "[[How can we develop transformative tools for thought]]"
-uid: bZDa
+uid: Wx5w
 ---
 > The craftman has the best tool. 
 

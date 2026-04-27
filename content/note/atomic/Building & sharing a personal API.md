@@ -3,7 +3,7 @@ created: 2026-01-10 17:05
 reference:
   - "[[Unsupervised Learning & Daniel Miessler]]"
   - https://danielmiessler.com/blog/launching-daemon-personal-api)
-uid: 1JCh
+uid: TSwN
 ---
 QA on my entire Obsidian vault?
 Bascially wrap around Claude Skill entire-vault

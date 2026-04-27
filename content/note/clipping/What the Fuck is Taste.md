@@ -4,7 +4,7 @@ published: 2026-02-24
 source: https://x.com/amytam01/status/2026400911451676829
 type: "[[Clipping]]"
 rating: 3
-uid: q1lN
+uid: e8og
 ---
 In college I took a class on what it means to be human. We spent weeks eliminating the obvious answers: intelligence, tool use, language. Now AI is working on all three.
 

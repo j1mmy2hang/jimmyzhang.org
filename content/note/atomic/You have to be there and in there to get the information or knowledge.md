@@ -3,7 +3,7 @@ created: 2026-03-23
 reference:
   - "[[人比 AI 凶]]"
   - "[[I Achieved the Four-Hour Workweek. So, Why Did I Just Take a Job?]]"
-uid: e6r3
+uid: SN37
 ---
 独有的信息
 隐性知识 -- 必须在现场（圈子内）才能感知到

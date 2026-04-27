@@ -3,7 +3,7 @@ created: 2024-10-23
 tags:
   - organization
   - change
-uid: Nb8N
+uid: Gics
 ---
 It must organize itself to embrace constant change—what Joseph Schumpeter called “creative destruction.” 
 

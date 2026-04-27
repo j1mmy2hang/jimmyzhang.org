@@ -1,6 +1,6 @@
 ---
 created: 2025-06-30
-uid: qK9g
+uid: YX23
 ---
 ## Individual: 一个过时的、被生产出来的概念
 

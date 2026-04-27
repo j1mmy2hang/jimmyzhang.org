@@ -4,7 +4,7 @@ published: 2021-08-02
 source: https://x.com/nayakkayak/status/2009660549554913574
 type: "[[Clipping]]"
 rating: 4
-uid: sBrY
+uid: 8HBk
 ---
 Today, AI works impressively for individuals but disappointingly for organizations. Closing that gap requires not just more context, but treating agents as social participants in the multiplayer systems they aim to disrupt.
 

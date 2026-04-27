@@ -2,7 +2,7 @@
 created: 2026-02-20 12:36
 reference:
   - "[[Richard Sutton -- The Future of AI]]"
-uid: naXz
+uid: tfHb
 ---
 AI is not an alien invader. It is a product of human striving; it is our technology, our design, and an extension of human intelligence. 
 

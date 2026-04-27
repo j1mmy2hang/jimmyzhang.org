@@ -2,7 +2,7 @@
 created: 2026-03-14 08:25
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: ZlP3
+uid: HSFN
 ---
 各位朋友，同仁们，下午好。
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-23
-uid: Z7H5
+uid: Cfr9
 ---
 Other people sell computers & cloud computing power
 We sell (rent) our thinking power

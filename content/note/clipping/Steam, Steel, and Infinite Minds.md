@@ -4,7 +4,7 @@ published: 2025-12-23
 source: https://x.com/ivanhzhao/article/2003192654545539400
 type: "[[Clipping]]"
 rating: 6
-uid: KcDE
+uid: I6kZ
 ---
 ![](https://pbs.twimg.com/media/G8y8l1PXwAA1hg0?format=jpg&name=large)
 

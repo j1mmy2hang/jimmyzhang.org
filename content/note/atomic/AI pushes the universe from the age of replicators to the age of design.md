@@ -2,7 +2,7 @@
 created: 2026-02-20 11:51
 reference:
   - "[[Richard Sutton -- The Future of AI]]"
-uid: hbWd
+uid: pX0n
 ---
 - **粒子时代（Age of Particles）：** 大爆炸后物理定律的形成。
 - **恒星时代（Age of Stars）：** 恒星形成并创造出重元素。

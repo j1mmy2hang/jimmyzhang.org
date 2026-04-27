@@ -1,6 +1,6 @@
 ---
 created: 2025-02-28 21:24
-uid: MwKK
+uid: Y47T
 ---
 ethnopsychiatry
 

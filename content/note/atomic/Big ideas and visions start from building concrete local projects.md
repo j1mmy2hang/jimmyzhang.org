@@ -4,7 +4,7 @@ tags:
   - vision
   - local
   - project
-uid: 4E5u
+uid: jZiA
 ---
 Apart from those big lofty projects and visions, what projects can I already start doing in my local community?
 

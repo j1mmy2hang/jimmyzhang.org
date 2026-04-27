@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - emptiness
   - life
-uid: pNeQ
+uid: 0y0t
 ---
 My life needs more emptiness so that great ideas can come
 To create space for inspiration by quieting my mind

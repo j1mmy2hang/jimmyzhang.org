@@ -2,7 +2,7 @@
 created: 2025-12-31 21:27
 reference:
   - 李继刚
-uid: GGGZ
+uid: jFC6
 ---
 AI 生成的内容太流畅、太自洽、太丝滑了。 
 

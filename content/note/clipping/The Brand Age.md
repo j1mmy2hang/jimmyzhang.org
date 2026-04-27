@@ -4,7 +4,7 @@ published:
 source: https://paulgraham.com/brandage.html
 type: "[[Clipping]]"
 rating: 5
-uid: 9A5e
+uid: YwJE
 ---
 March 2026  
   

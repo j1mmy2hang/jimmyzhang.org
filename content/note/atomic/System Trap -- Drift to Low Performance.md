@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: nMIN
+uid: k6u0
 ---
 Trap: Drift to Low Performance
 Source: The balancing feedback loop that should keep the system state at an acceptable level being overwhelmed by a reinforcing feedback loop heading downhill.

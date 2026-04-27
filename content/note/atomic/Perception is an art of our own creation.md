@@ -4,7 +4,7 @@ tags:
   - perception
   - art
   - creativity
-uid: usHw
+uid: j3N4
 ---
 We recreate an inner perceptive world based on the outer ohyscial world. 
 [[The universe is our perception of it]]

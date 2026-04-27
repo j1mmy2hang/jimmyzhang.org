@@ -4,7 +4,7 @@ tags:
   - mindset
   - abundance
   - creativity
-uid: yyHW
+uid: HRon
 ---
 > [[Our creation is the mechanism through which the creative energy of the universe manifests|A river of material flows through us.]] When we [[Share your work|share our works and our ideas]], they are replenished. If we block the flow by holding them all inside, the river cannot run and new ideas are slow to appear.
 

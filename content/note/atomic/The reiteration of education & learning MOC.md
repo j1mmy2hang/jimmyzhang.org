@@ -2,7 +2,7 @@
 created: 2024-10-04
 type: MOC
 id: 01JGD1KKHBWDM5J2ASMF597TRV
-uid: AYoL
+uid: KFTG
 ---
 ## Misunderstandings around "school"
 

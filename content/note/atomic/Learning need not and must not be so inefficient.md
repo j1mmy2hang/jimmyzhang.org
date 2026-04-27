@@ -4,7 +4,7 @@ tags:
   - efficiency
   - knowledge
   - passing-on
-uid: AjAM
+uid: rWu4
 ---
 [[学习的目的是知识的传递以达到物种文明的进化]]
 [[Our modern-day classrooms today still rely the most primitive form of information transmission -- Oral transmission]]

@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 08:16
 tags:
-uid: qNyA
+uid: dPU6
 ---
 1. The emotion default: we tend to respond to feelings rather than reasons and facts.
 2. The ego default: we tend to react to anything that threatens our sense of self-worth or our position in a group hierarchy.

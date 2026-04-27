@@ -1,5 +1,5 @@
 ---
-uid: M5yY
+uid: CUbR
 ---
 The fallacy of composition: what's true for a part is true of the whole
 

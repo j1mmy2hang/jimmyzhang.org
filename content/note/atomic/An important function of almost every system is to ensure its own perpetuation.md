@@ -3,7 +3,7 @@ created: 2024-11-30
 tags:
   - function
   - system
-uid: tmqz
+uid: IKNt
 ---
 > The function of a thermostat-furnace system is to keep a building at a given temperature. One function of a plant is to bear seeds and create more plants. One purpose of a national economy is, judging from its behavior, to keep growing larger.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-09-11
-uid: LxZN
+uid: sQ2L
 ---
 Web / Software building?
 Writing newsletters?

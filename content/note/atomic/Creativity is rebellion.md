@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: 2YbW
+uid: cdG5
 ---
 > Creativity is the greatest rebellion in existence. 
 > -- Osho

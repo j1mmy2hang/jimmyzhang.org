@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - passion
   - education
-uid: VTh7
+uid: Bvha
 ---
 in education -- 所有干的事情学生心中都必须有一个明确的 why -- 价值、意义、目的、满足感的来源
 

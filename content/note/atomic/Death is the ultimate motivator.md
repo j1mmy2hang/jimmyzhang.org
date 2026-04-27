@@ -4,7 +4,7 @@ tags:
   - death
   - meaning
   - fear
-uid: V8d8
+uid: qXgr
 ---
 ![[The fear of death & meaning.svg|350]]
 

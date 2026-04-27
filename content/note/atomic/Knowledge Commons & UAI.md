@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:55
-uid: 71vq
+uid: kFPL
 ---
 **The Big Mistake:**
 For the last 100 years, we have tried to treat the *Recipe* like the *Sandwich*. We put walls around ideas (Copyright, Patents, Paywalls) to make them scarce so we can sell them. We pretend the infinite is finite just so we can put a price tag on it.

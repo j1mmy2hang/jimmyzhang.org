@@ -4,7 +4,7 @@ tags:
   - monoply
   - competition
   - innovation
-uid: eg0L
+uid: Y4Ik
 ---
 逃避竞争不是懦弱，而是创新的底层动力。
 [[成功不是挤上独木桥，而是开辟新赛道]]

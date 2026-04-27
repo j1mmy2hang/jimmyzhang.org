@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - contribution
   - relevance
-uid: S7TC
+uid: 6JDU
 ---
 to screen out the noises and the things that are useless
 

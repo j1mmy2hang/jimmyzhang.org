@@ -6,7 +6,7 @@ tags:
   - civilization
   - knowledge
   - improvement
-uid: zcG0
+uid: FliF
 ---
 文明的进步是人类获取、传承知识效率的提高
 

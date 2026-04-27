@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: pRUc
+uid: KZZs
 ---
 fight for belief -- Leaders must have the courage to articulate a "thick" vision of the good life, rejecting the sterile neutrality that cedes the public square to market forces.
 

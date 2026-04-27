@@ -2,7 +2,7 @@
 created: 2024-12-09
 tags:
   - growth
-uid: 65F1
+uid: Rr4B
 ---
 Limits-to-growth Archetype
 either self-imposed or system-imposed

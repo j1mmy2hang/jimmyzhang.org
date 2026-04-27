@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: B54B
+uid: VvuN
 ---
 [[The role of innovation is to discover the next great question]]
 

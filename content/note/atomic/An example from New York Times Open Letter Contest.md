@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: Bxke
+uid: EbDt
 ---
 [Open Letters Contest](https://www.nytimes.com/2024/08/08/learning/open-letters-our-opinion-writing-contest.html)
 [A Letter from a "Loser"](https://www.nytimes.com/2024/07/18/learning/a-letter-from-a-loser.html)

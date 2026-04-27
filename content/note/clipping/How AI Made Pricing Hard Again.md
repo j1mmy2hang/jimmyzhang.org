@@ -4,7 +4,7 @@ published: 2026-01-05
 source: https://every.to/p/how-ai-made-pricing-hard-again?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 3
-uid: gPkY
+uid: 3tIB
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3882/full_page_cover_Robot_with_receipts.png)
 

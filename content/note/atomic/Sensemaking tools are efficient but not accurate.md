@@ -5,7 +5,7 @@ tags:
   - tool
   - efficiency
   - accuracy
-uid: xIi7
+uid: sOCe
 ---
 [[Humans try to make sense of this world]]
 Humans develop these tools in order to survive in & better navigate this world. 

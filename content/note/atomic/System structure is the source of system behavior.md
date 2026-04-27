@@ -4,7 +4,7 @@ tags:
   - system
   - structure
   - behavior
-uid: u5HO
+uid: dWvd
 ---
 [[The system causes its own behavior]]
 

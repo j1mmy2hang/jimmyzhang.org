@@ -4,7 +4,7 @@ published: 2025-11-03
 source: https://www.seangoedecke.com/why-do-ai-enterprise-projects-fail/
 type: "[[Clipping]]"
 rating: 4
-uid: VHsR
+uid: yUof
 ---
 In July of this year, MIT NANDA released a [report](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) called *The GenAI Divide: State of AI in Business 2025*. The report spends most of its time giving advice about how to run enterprises AI projects, but the item that got everybody talking was its headline stat: **95% of organizations are getting zero return from their AI projects**.
 

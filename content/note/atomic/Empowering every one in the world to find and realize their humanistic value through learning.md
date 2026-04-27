@@ -1,6 +1,6 @@
 ---
 created: 2025-04-27
-uid: PCQ5
+uid: 4kL6
 ---
 north:: [[Empower universal human agency]]
 

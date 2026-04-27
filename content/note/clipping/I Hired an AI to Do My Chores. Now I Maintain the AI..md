@@ -4,7 +4,7 @@ published: 2026-03-17
 source: https://every.to/p/i-hired-an-ai-to-do-my-chores-now-i-maintain-the-ai
 type: "[[Clipping]]"
 rating: 4
-uid: TOeW
+uid: qSbj
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/4010/full_page_cover_The_End_of_Maintenance.png)
 

@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - goal
   - discovery
-uid: wzLw
+uid: 80kn
 ---
 Artists are led by the goals to an adventure of discovery
 Not focusing entirely on the goal itself

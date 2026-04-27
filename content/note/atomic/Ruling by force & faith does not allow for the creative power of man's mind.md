@@ -5,7 +5,7 @@ tags:
   - faith
   - creativity
   - mind
-uid: 9QRX
+uid: tSEa
 ---
 Neither the creation of ideas nor in the creation of wealth.
 

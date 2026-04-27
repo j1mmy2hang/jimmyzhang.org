@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:16
-uid: pxUn
+uid: tt3w
 ---
 For a growing majority of cognitive tasks, the economic value of a human is not just lower than an AI. It is negative.
 

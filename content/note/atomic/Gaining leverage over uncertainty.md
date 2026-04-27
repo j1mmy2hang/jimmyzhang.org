@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: tzNC
+uid: 82AH
 ---
 Gaining leverage over uncertainty doesn’t mean eliminating it—it means reducing its power over you while increasing your ability to act meaningfully despite it.
 

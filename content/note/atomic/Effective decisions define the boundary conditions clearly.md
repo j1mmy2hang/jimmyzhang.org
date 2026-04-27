@@ -4,7 +4,7 @@ tags:
   - effect
   - decision-making
   - define
-uid: d33h
+uid: 7Zez
 ---
 What are the objectives the decision has to reach? What are the minimum goals it has to attain? What are the conditions it has to satisfy? 
 

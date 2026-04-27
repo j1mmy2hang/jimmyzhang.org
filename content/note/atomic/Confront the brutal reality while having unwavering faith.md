@@ -3,7 +3,7 @@ created: 2025-02-24 20:06
 tags:
 reference:
   - "[[Clear Thinking -- Turning Ordinary Moments Into Extraordinary Results]]"
-uid: Egjw
+uid: tU70
 ---
 don't avoid the brutal realities -- but at the same time have faith in success
 

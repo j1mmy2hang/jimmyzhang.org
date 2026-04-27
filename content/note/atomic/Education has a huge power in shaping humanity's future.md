@@ -4,7 +4,7 @@ tags:
   - economics
   - future
   - humans
-uid: c0sG
+uid: xms6
 ---
 You really begin to see how destructive a bad course have -- on hundreds of millions of students be ing churned out of the machine every year
 

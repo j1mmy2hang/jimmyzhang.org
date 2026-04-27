@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: DeXI
+uid: sc3n
 ---
 [[Scarcity is the fundamental condition of our world]]
 

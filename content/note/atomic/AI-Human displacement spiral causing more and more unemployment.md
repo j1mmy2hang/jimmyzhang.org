@@ -2,7 +2,7 @@
 created: 2026-02-23 14:28
 reference:
   - "[[The 2028 Global Intelligence Crisis]]"
-uid: l3cb
+uid: UcRx
 ---
 企业为了生存必须采用AI裁员，而裁员导致的消费力下降迫使企业进一步依赖AI降本，形成恶性循环。
 

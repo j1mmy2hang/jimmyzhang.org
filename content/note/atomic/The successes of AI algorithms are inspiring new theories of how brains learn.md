@@ -2,7 +2,7 @@
 tags:
   - AI
   - brain
-uid: cO0U
+uid: Y9Tt
 ---
 As better AI models are created, light might be shed on how the brain's neural networks do the same.
 

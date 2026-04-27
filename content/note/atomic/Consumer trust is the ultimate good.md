@@ -1,6 +1,6 @@
 ---
 created: 2025-04-24
-uid: XTWY
+uid: kSgO
 ---
 profit comes from sales
 sales come from advertisement

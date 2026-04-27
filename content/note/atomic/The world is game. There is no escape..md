@@ -1,6 +1,6 @@
 ---
 created: 2025-11-17 09:16
-uid: 5uGV
+uid: 8aEA
 ---
 You can don't like the game. You can't hate the game. You can point out that it's just a game, and it doesn't all make sense. But in the end, you still have to play the game. Otherwise no is going to listen to what you talking about. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: LCmp
+uid: Ybqn
 ---
 > The mark of a free person is that they learn how to learn.
 > -- Dan Koe

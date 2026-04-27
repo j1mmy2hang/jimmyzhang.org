@@ -4,7 +4,7 @@ published: 2026-02-20
 source: https://every.to/p/how-luxury-handbags-can-help-solve-ais-context-problem
 type: "[[Clipping]]"
 rating: 4
-uid: tPGq
+uid: u6zt
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3948/full_page_cover_handbag.png)
 

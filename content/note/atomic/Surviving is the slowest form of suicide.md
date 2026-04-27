@@ -1,7 +1,7 @@
 ---
 tags:
   - death
-uid: YV6P
+uid: vLtC
 ---
 底层逻辑：向死而生
 Death is the ultimate destination. 

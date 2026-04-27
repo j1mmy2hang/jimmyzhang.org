@@ -1,6 +1,6 @@
 ---
 created: 2025-03-16 14:07
-uid: uNoI
+uid: p2Hg
 ---
 Level 1 -- Text, Evidence, Details
 Level 2 -- (Technique -->) Meaning / Implication

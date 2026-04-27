@@ -1,6 +1,6 @@
 ---
 created: 2025-09-07
-uid: toqn
+uid: Cq6e
 ---
 > The expertise flows around the world; the goods are made locally.
 

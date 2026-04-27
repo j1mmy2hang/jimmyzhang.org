@@ -2,7 +2,7 @@
 created: 2025-12-25 22:10
 reference:
   - "[[Steam, Steel, and Infinite Minds]]"
-uid: M6tl
+uid: ndds
 ---
 Comparing with coding agent, why is it more difficult for AI to help with knowledge work? Because knowledge work is more fragmented and less verifiable.
 

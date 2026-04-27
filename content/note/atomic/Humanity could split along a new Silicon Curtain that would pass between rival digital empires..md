@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:47
 tags:
-uid: pddp
+uid: wiEi
 ---
 The Silicon Curtain is made of code, and it passes through every smartphone, computer, and server in the world. The code on your smartphone determines on which side of the Silicon Curtain you live, which algorithms run your life, who controls your attention, and where your data flows.
 

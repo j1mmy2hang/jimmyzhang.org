@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: lHDz
+uid: GUxr
 ---
 Trap: Rule Beating -- abiding by the letter but not the spirit of the law.
 Source: a response of the lower levels in a hierarchy to overrigid, deleterious, unworkable, or ill-defined rules from above

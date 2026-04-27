@@ -2,7 +2,7 @@
 created: 2025-12-16 18:11
 reference:
   - "[[What Becomes Valuable When AI Makes Creative Work Easy]]"
-uid: BN3j
+uid: V2cp
 ---
 [[Experience is the biggest wealth]]
 [[个人核心竞争力 = 独特的个性知识经验组合]]

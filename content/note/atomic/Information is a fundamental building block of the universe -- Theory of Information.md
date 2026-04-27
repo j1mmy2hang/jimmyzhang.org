@@ -1,5 +1,5 @@
 ---
-uid: QDti
+uid: zeRb
 ---
 Theory of Intelligence
 Theory of Power

@@ -4,7 +4,7 @@ tags:
   - grade
   - dedication
   - measure
-uid: gDJQ
+uid: KDlH
 ---
 Oh you have a 7 -- so what?
 That just means you are hardworking and put a lot of effort into your schoolwork

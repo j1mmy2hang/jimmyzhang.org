@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - universe
   - creativity
-uid: m6CE
+uid: 7N12
 ---
 To pick up the signals & transmissions of the universe
 [[Our creation is the mechanism through which the creative energy of the universe manifests]]

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-31 10:34
-uid: UTtO
+uid: iBbC
 ---
 原post: [[Crypto Exodus -- Why Capital Is Leaving Bitcoin]]
 

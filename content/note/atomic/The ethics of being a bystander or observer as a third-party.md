@@ -1,7 +1,7 @@
 ---
 created: 2025-02-28 21:28
 tags:
-uid: 2VEW
+uid: Yax7
 ---
 How can you connect with experiences that you do not have in order to express empathy with those who did?
 

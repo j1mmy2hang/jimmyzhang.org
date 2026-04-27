@@ -1,7 +1,7 @@
 ---
 created: 2025-04-23
 AIGC: true
-uid: W50e
+uid: YNul
 ---
 ## Part 1 -- Simple Explanation
 

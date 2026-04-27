@@ -3,7 +3,7 @@ created: 2025-06-05
 tags:
   - knowledge
   - belief
-uid: zYe5
+uid: huIM
 ---
 Innovators often *know too much* (or think they do) about their product or domain
 --> overconfidence and assumptions that customers share the same perspective. 

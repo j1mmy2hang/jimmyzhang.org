@@ -2,7 +2,7 @@
 created: 2026-01-18 12:56
 reference:
   - "[[Life in Three Dimensions -- How Curiosity, Exploration, and Experience Make a Fuller, Better Life]]"
-uid: wm2C
+uid: fyAT
 ---
 > “熟悉性偏见”是人类寻求安全感、导致生活平庸的生物本能，而“一打原则”则是打破这种本能、强制开启探索模式的理性策略。
 

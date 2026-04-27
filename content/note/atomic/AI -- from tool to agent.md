@@ -4,7 +4,7 @@ tags:
   - AI
   - tool
   - agency
-uid: eqjH
+uid: KWtd
 ---
 > While printing presses and radio sets were passive tools in human hands, computers are already becoming active agents that escape our control and understanding and that can take initiatives in shaping society, culture, and history.
 

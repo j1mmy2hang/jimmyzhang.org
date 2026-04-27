@@ -3,7 +3,7 @@ tags:
   - future
   - Apple
   - VR
-uid: t7RA
+uid: 4GdG
 ---
 [[Smart glasses have very promising prospects]]
 [[Apple vision air 在未来也将被从牛皮纸里拿出来]]

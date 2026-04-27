@@ -4,7 +4,7 @@ tags:
   - academia
   - efficiency
   - value
-uid: Qwnm
+uid: aSEI
 ---
 - Inefficient
 	- [[思想记录和交流的载体需要得到革新]]

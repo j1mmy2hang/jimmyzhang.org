@@ -5,7 +5,7 @@ tags:
   - executive
   - contribution
   - result
-uid: 0s8F
+uid: V1Dn
 ---
 He looks up from his work and outward toward goals. 
 "And what do you do that justifies your being on the payroll? "

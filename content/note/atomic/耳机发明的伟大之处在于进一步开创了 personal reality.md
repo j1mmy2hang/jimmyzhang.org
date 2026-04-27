@@ -2,7 +2,7 @@
 created: 2025-01-07
 tags:
   - reality
-uid: DGoP
+uid: 8MPg
 ---
 声音私有化
 将个人听到的声音 (personal reality) 与 所有人听到的声音 (common reality) 区分

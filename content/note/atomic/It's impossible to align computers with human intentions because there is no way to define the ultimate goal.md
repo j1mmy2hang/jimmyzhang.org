@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:27
 tags:
-uid: mpuK
+uid: nEfy
 ---
 long-term policy --> mid-term strategy --> short-term tactics
 

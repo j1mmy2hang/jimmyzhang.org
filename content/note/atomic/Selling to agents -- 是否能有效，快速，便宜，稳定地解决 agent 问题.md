@@ -2,7 +2,7 @@
 created: 2026-02-21 10:12
 reference:
   - "[[How to Sell to Agents]]"
-uid: AB0g
+uid: E6VK
 ---
 > [!Principle]
 > 是否能有效，快速，便宜，稳定地解决 agent 问题。

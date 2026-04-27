@@ -4,7 +4,7 @@ tags:
   - power
   - humans
   - mind
-uid: RTfM
+uid: KliJ
 ---
 Capitalism declared that men are competent of directly facing the universe and using reason to solve all problems. 
 

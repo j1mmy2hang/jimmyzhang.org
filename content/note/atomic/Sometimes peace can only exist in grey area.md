@@ -2,7 +2,7 @@
 created: 2026-01-25 13:58
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: TdNv
+uid: eJfU
 ---
 Common Knowledge creates a **Focal Point**—a sharp, binary line that coordinates action.
 

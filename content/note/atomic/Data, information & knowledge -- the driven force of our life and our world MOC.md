@@ -2,7 +2,7 @@
 created: 2024-10-04
 type: MOC
 id: 01JGD1KKHSZ1Q4NXWPDA9DYKFR
-uid: 3I9o
+uid: J0hY
 ---
 [[DIKW pyramid]]
 

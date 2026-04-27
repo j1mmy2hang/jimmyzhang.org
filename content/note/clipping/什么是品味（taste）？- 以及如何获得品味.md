@@ -4,7 +4,7 @@ published: 2026-02-18
 source: https://x.com/jarodise/status/2024055647709569160
 type: "[[Clipping]]"
 rating: 6
-uid: 0Fuh
+uid: wV1j
 ---
 ## 不会乐器的音乐制作人
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: dbv2
+uid: wI0n
 ---
 ## Founder & Philosophy
 

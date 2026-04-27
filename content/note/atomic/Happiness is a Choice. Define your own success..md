@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:40
 tags:
-uid: w5Xf
+uid: GAkS
 ---
 Happiness is a choice -- not a condition
 

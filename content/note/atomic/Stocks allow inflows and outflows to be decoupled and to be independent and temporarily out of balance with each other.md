@@ -4,7 +4,7 @@ tags:
   - stock
   - flow
   - independence
-uid: pryl
+uid: zgHZ
 ---
 Stocks act as delays, buffers, or shock absorbers in systems
 Stocks generally change slowly, even when the flows into or out of them change suddenly.

@@ -2,7 +2,7 @@
 created: 2025-03-05 19:59
 tags:
   - bias
-uid: Tv1b
+uid: A2wK
 ---
 College fair: the shoppers have little sense of what they are buying
 

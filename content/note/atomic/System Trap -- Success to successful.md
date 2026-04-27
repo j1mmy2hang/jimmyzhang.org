@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: qaGR
+uid: Q7Pd
 ---
 Trap: Success to the Successful— Competitive Exclusion
 Source: a reinforcing feedback loop that rapidly divides a system into winners who go on winning, and losers who go on losing

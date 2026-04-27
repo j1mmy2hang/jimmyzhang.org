@@ -4,7 +4,7 @@ published: 2025-04-21
 source: https://www.piratewires.com/p/agency-is-eating-the-world
 type: "[[Clipping]]"
 rating: 7
-uid: OPfA
+uid: A41A
 ---
 a solo operator can now launch a $1b business powered by ai. our economy's critical dividing line is no longer skill or education — it's will.
 

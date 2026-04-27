@@ -3,7 +3,7 @@ created: 2024-12-18
 tags:
 reference:
   - "[[Thinking in Systems -- A Primer]]"
-uid: Hwyh
+uid: Kb02
 ---
 Trap: Escalation
 Source: a reinforcing loop set up by competing actors trying to get ahead of each other

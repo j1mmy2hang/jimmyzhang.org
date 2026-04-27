@@ -4,7 +4,7 @@ tags:
   - life
   - effort
   - gap
-uid: g3mH
+uid: NSmW
 ---
 Where do I want to go? -- Gap
 How can I achieve it & What can I do *now*? -- Effort

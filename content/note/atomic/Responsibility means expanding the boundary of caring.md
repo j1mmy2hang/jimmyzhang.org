@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: GILU
+uid: 1UNl
 ---
 [[The real system is interconnected]]
 [[Responsibility is a care for not just yourself]]

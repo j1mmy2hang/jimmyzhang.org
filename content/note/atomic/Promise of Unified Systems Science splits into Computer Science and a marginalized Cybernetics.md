@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: lz4c
+uid: fVWc
 ---
 ## The Unified Promise (Post-WWII)
 

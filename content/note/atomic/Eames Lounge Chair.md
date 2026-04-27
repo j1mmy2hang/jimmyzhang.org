@@ -2,7 +2,7 @@
 created: 2026-01-05 06:39
 reference:
   - "[[The Other Stuff 28 -- The Interconnectedness of Everything w. Kepano]]"
-uid: QaUv
+uid: WN6U
 ---
 ![[image-LRiZ.png]]
 

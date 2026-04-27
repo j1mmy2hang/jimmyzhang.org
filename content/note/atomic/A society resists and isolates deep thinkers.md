@@ -1,6 +1,6 @@
 ---
 created: 2025-05-04
-uid: QBR9
+uid: tJGY
 ---
 Galileo, Socrates, Tesla, Nietzsche
 

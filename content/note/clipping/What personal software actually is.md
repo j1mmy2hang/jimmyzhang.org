@@ -4,7 +4,7 @@ published: 2026-02-23
 source: https://x.com/danshipper/status/2026014755438182782
 type: "[[Clipping]]"
 rating: 4
-uid: iV45
+uid: ooTQ
 ---
 1. Personal software is not vibe-coded SaaS. Building software is a skill. Most people don't have it and don't want it, even if a computer does the coding for them.
 2. ==Personal software is an **agent you have a relationship with.**== You teach it, correct it, shape it. It grows a personality and skills in response to you. This is what OpenClaw is showing us.

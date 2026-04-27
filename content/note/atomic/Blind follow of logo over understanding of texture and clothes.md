@@ -2,7 +2,7 @@
 created: 2026-02-28 20:16
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: p1j2
+uid: C1cm
 ---
 [[丝绸是人类社会中“权力、阶级与欲望”的终极视觉化]]
 到了现代，曾经的高定丝绸演变成了品牌Logo

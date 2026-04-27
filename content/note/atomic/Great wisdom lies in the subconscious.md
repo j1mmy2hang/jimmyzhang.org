@@ -4,7 +4,7 @@ tags:
   - sleep
   - wisdom
   - transition
-uid: oZ4F
+uid: T9ot
 ---
 Great wisdom lies in transitional realms between wakfulness and sleep
 

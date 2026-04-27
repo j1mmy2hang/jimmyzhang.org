@@ -4,7 +4,7 @@ published: 2026-03-02
 source: https://x.com/TechFlowPost/status/2028420513136275730
 type: "[[Clipping]]"
 rating: 4
-uid: N0VZ
+uid: SLwc
 ---
 ![Image](https://pbs.twimg.com/media/HCZj6JWbQAAO_13?format=jpg&name=large)
 

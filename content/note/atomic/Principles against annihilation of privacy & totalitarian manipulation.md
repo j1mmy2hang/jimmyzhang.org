@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:35
 tags:
-uid: 4IB3
+uid: r50x
 ---
 **The first principle is benevolence. When a computer network collects information on me, that information should be used to help me rather than manipulate me.**
 

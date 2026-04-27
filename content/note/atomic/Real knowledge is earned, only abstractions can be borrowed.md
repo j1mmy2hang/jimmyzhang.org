@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:17
 tags:
-uid: rQhF
+uid: I0Mv
 ---
 A lot of the information we consume is in the form of highlights, summaries, or distillations. It’s the illusion of knowledge.
 

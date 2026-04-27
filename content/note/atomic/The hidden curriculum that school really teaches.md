@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: wv9Q
+uid: PMUC
 ---
 1. Confusion -- [[Schools teach confusion by presenting knowledge as diconnected fragments and preventing students from synthesizing meaning or seeing coherence]]
 2. Class Position -- students must stay in the class where they belong

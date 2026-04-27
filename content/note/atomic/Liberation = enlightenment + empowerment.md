@@ -3,7 +3,7 @@ tags:
   - enlightenment
   - empowerment
   - liberation
-uid: MMYO
+uid: QOPB
 ---
 1. [[You have more choices than you realize]]
 2. And you are absolutely capable of pursuing them

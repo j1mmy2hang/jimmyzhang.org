@@ -4,7 +4,7 @@ published: 2026-03-20
 source: https://x.com/karrisaarinen/status/2034845387488731585
 type: "[[Clipping]]"
 rating: 4
-uid: fKCK
+uid: Z85n
 ---
 ![Image](https://pbs.twimg.com/media/HDz0iDnboAEJzQU?format=jpg&name=large)
 

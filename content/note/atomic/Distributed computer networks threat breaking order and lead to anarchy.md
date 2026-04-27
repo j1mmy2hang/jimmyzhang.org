@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:42
 tags:
-uid: 7FtT
+uid: qEB7
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

@@ -4,7 +4,7 @@ published: 2018-11-08
 source: https://visakanv.com/1000/0745-encourage-weirdos-discourage-assholes/
 type: "[[Clipping]]"
 rating: 4
-uid: NiJu
+uid: h5Gn
 ---
 OK for starters, I’ve put together a [thread of tweets](https://twitter.com/visakanv/status/1060427994844426240) that I’ve tweeted about weirdness, and I think they provide a good (if disjointed) background context for this vomit.
 

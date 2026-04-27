@@ -1,6 +1,6 @@
 ---
 created: 2026-01-25 13:55
-uid: oLFm
+uid: 1fKH
 ---
 In the 20th Century, we had the "6 O'clock News." It wasn't always true, but it was **Common Knowledge**. We all knew what the main stories were.
 

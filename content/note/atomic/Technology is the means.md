@@ -1,6 +1,6 @@
 ---
 created: 2025-07-25
-uid: qQrc
+uid: a8XG
 ---
 Never use technology just for the sake of using them.
 Technology is only a means. 

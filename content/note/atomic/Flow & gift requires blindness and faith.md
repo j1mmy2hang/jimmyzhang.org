@@ -2,7 +2,7 @@
 created: 2026-03-13 20:29
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: Zeh2
+uid: CBem
 ---
 当我们谈论“礼物”时，很多人（包括绝大多数经济学家）脑海中浮现的画面是：**“我送你一个苹果，你明天还我一个梨。”**
 

@@ -3,7 +3,7 @@ created: 2024-12-18
 tags:
   - responsibility
   - system
-uid: CG8c
+uid: DyH0
 ---
 For individuals: [[Recognizing our role is systems is crucial for ethical decision-making]]
 For system-designers: Systems should be designed with intrinsic responsibilities built-in

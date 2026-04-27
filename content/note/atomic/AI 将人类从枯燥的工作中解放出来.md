@@ -4,7 +4,7 @@ tags:
   - humans
   - job
   - liberation
-uid: 7Nga
+uid: 64ck
 ---
 那些不用体现人之为人价值的工作都可以由AI来替代
 而人类可以用这些获得的时间去追求更有价值的事情

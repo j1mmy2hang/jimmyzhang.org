@@ -1,6 +1,6 @@
 ---
 created: 2025-10-08
-uid: sgVz
+uid: KuRq
 ---
 school = secretly swapping ice cream with pill
 children need pills, parents aren't willing to give --> so the they send the kids to school

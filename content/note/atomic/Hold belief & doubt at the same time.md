@@ -2,7 +2,7 @@
 created: 2026-03-18
 reference:
   - "[[The Art of Doing Science and Engineering]]"
-uid: l5qL
+uid: 6z4k
 ---
 > "If you do not, now and then, doubt accepted rules, it is unlikely you will be a leader into new areas; **if you doubt too much you will be paralyzed and will do nothing.** When to doubt, when to examine the basics, when to think for yourself, and when to go on and accept things as they are is a matter of style, and I can give no simple formula on how to decide. You must learn from your own study of life."
 

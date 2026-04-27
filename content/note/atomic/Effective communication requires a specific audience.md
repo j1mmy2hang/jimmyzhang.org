@@ -2,6 +2,6 @@
 tags:
   - communication
   - effectiveness
-uid: AgEP
+uid: BzbR
 ---
 There is no effective communication without a particular audience in mind

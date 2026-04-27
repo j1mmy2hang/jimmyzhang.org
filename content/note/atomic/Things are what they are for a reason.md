@@ -2,7 +2,7 @@
 tags:
   - system
   - reason
-uid: ivO7
+uid: ZI2f
 ---
 万事万物必有它的成因
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: nDmO
+uid: LCaU
 ---
 see AI not as a discrete machine, but as a cloud-based service you plug into
 

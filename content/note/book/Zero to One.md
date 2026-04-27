@@ -4,7 +4,7 @@ author:
   - Peter Thiel
 type: "[[Book]]"
 cover: "[[image-d6dz.png]]"
-uid: 2bfz
+uid: QiWm
 ---
 > [!Deep Summary]
 > [[<Deep Summary> Zero to One]]

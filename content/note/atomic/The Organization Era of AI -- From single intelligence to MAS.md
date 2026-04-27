@@ -1,6 +1,6 @@
 ---
 created: 2025-06-17
-uid: wp6r
+uid: vxcn
 ---
 Once intelligence reaches a threshold
 multi-agent systems become a vital way to scale performance

@@ -1,6 +1,6 @@
 ---
 created: 2025-05-01
-uid: XVJd
+uid: HpaV
 ---
 [[AI 将人类从枯燥的工作中解放出来]]
 

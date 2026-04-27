@@ -2,7 +2,7 @@
 created: 2025-04-04
 tags:
   - why
-uid: ys1T
+uid: Bncp
 ---
 Extrinsic motivators encourage achieving the bare minimum, while intrinsic motivators encourage the perfect -- what is known as art. 
 

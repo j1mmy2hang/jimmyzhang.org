@@ -2,7 +2,7 @@
 created: 2025-06-05
 tags:
   - world
-uid: ICfC
+uid: IVla
 ---
 Each living being **doesn’t experience the objective world**, but rather **a filtered version of it**, shaped by its senses, needs, and cognitive capacities.
 

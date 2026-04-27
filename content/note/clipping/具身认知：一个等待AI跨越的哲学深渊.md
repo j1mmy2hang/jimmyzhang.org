@@ -4,7 +4,7 @@ published: 2026-02-24
 source: https://x.com/MindfulReturn/status/2026204343796650279
 type: "[[Clipping]]"
 rating: 5
-uid: zf8K
+uid: EKjU
 ---
 ## 一个奇特的对称
 

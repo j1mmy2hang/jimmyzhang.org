@@ -4,7 +4,7 @@ author:
   - Shane Parrish
 type: "[[Book]]"
 cover: "[[image-d0xC.png]]"
-uid: zgak
+uid: nchp
 ---
 ![[image-d0xC.png|350]]
 

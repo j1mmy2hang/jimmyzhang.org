@@ -1,6 +1,6 @@
 ---
 created: 2025-09-02
-uid: uDWB
+uid: Zscn
 ---
 [[Reimagine "Browser"]]
 [[Building a LearningOS]]; [[Larc Mini (Ideation)]]

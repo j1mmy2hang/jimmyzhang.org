@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: 3p3n
+uid: p0iF
 ---
 [[Sillicon Valley should re-engage with the state, take social responsibilities, and build a technological republic]]
 

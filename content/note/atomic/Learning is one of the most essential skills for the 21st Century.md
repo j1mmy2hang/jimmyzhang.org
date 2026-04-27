@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - learning
   - skill
-uid: 7zGC
+uid: xKp5
 ---
 > "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn" 
 > -- Alvin Toffler

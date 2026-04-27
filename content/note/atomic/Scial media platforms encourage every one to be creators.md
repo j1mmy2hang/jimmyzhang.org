@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:23
 tags:
-uid: YG7s
+uid: Cmrs
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-11-18 09:49
-uid: 4cyf
+uid: aagb
 ---
 All verifiable tasks can be easily automized
 

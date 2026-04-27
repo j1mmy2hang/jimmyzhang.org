@@ -2,7 +2,7 @@
 tags:
   - belief
   - you
-uid: D5x2
+uid: 6AXE
 ---
 Even if you are not, you will gradually become what you **believe** yourself to be.
 You will be able to influence the world the way you **imagine** yourself to be able to. 

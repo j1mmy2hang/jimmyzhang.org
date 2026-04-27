@@ -2,7 +2,7 @@
 created: 2024-12-11
 tags:
   - world
-uid: p72q
+uid: Fl1g
 ---
 since [[Humans tend to think in linearities and causations]], the world often surprises our linear-thinking minds --> [[Nonlinearities contribute to complex system behaviors]]
 

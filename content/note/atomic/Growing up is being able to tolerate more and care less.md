@@ -1,7 +1,7 @@
 ---
 created: 2025-02-28 21:21
 tags:
-uid: O8UC
+uid: beWQ
 ---
 The ones who give the most fucks are children, and they cry about everything. 
 

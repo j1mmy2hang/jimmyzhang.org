@@ -2,7 +2,7 @@
 created: 2026-01-05 06:49
 reference:
   - "[[Towards Human like Memory for AI Agents]]"
-uid: 7Uv0
+uid: fYzn
 ---
 > "Real intelligence depends on what we choose to forget. Without selective forgetting, retrieval becomes slower, relevance drifts, and personalization breaks down. The system ends up remembering everything except what's important."
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-26
-uid: pEGT
+uid: vZrh
 ---
 「你选A还是选B?」 
 这个问题，很容易让人陷入“非此即彼”（Mutually Exclusive）的二元思维陷阱，默认只能选择其中一个，而排斥另一个。 

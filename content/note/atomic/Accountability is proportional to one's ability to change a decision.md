@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: ZMBF
+uid: BBTf
 ---
 The Fundamental Law of Accountability:
 

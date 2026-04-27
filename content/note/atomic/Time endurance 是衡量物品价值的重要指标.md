@@ -4,7 +4,7 @@ tags:
   - object
   - measure
   - value
-uid: r2Ms
+uid: rltf
 ---
 不仅仅是几年之后这个物品能否保持现在的==物理形态==
 更是几年之后这个物品的==价值==能否保值甚至增值

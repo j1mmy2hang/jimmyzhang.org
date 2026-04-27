@@ -4,7 +4,7 @@ published: 2025-12-31
 source: https://x.com/onenewbite/article/2006286417169928521
 type: "[[Clipping]]"
 rating: 4
-uid: FpYz
+uid: RhrE
 ---
 [![Image](https://pbs.twimg.com/media/G9e9RlvaYAAA-Qa?format=jpg&name=large)](https://x.com/onenewbite/article/2006286417169928521/media/2006280268903243776)
 

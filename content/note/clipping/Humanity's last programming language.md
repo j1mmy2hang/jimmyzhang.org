@@ -4,7 +4,7 @@ published: 2026-02-10
 source: https://xeiaso.net/blog/2026/markdownlang/
 type: "[[Clipping]]"
 rating: 4
-uid: JbAC
+uid: ikAQ
 ---
 What if markdown was executable? You get markdownlang.
 

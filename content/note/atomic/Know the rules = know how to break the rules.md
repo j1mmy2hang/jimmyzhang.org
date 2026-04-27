@@ -1,6 +1,6 @@
 ---
 created: 2025-05-24
-uid: tkV7
+uid: qDbJ
 ---
 if one knows the rules well enough he already he automatically knows how to break them
 those who think the rules are unbreakable, though, who haven't actually read the rules

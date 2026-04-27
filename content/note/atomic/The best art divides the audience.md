@@ -4,7 +4,7 @@ tags:
   - art
   - division
   - audience
-uid: 5t6Y
+uid: VhDv
 ---
 不可能让所有人都喜欢。
 所有人都喜欢的即为平庸。

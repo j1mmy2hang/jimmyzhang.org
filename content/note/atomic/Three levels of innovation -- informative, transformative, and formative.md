@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05
-uid: F0Mj
+uid: HrTI
 ---
 
 | **Level of Innovation**       | **Definition**                                                                               | **Core Challenge**                                    | **Key Insight / Strategy**                                                   |

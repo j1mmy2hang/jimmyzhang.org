@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:37
 tags:
-uid: XtUI
+uid: HhoX
 ---
 The dynamics of the job market may contradict many of our intuitions. Some skills that we have cherished for centuries as unique human abilities may be automated rather easily. Other skills that we tend to look down on may be far more difficult to automate.
 

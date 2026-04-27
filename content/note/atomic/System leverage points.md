@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: PjTu
+uid: gDzV
 ---
 **\12. Numbers -- Constants and parameters such as subsidies, taxes, standards**
 

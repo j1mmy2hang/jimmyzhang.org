@@ -3,7 +3,7 @@ created: 2024-11-30
 author: Donella Meadows
 type: "[[Book]]"
 cover: "[[image-5crM.png]]"
-uid: 8nHx
+uid: 6zJo
 ---
 ![[image-5crM.png|350]]
 # Introduction: The System Lens

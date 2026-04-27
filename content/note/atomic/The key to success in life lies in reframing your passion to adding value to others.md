@@ -1,6 +1,6 @@
 ---
 created: 2025-05-06
-uid: Rfhu
+uid: IH6N
 ---
 What do you enjoy doing <--> What does other people need
 

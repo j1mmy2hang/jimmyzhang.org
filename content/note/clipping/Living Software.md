@@ -4,7 +4,7 @@ published: 2026-04-17
 source: https://every.to/p/living-software
 type: "[[Clipping]]"
 rating: 4
-uid: tyVC
+uid: Dat8
 ---
 *Why do constant updates fill us with dread in some apps, while we greet the daily evolution of an AI agent with more curiosity?* ***[Jack Cheng](https://every.to/@jackcheng)****, Every’s senior editor, explores that tension through a clarifying distinction: “tool-like software,” which we expect to be stable and consistent, versus “living software,” which we expect to grow and adapt. Read on for his practical advice for builders of both.— [Kate Lee](https://every.to/on-every/kate-lee-joins-every-as-editor-in-chief)*
 

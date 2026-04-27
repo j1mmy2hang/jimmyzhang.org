@@ -2,7 +2,7 @@
 tags:
   - photo
   - memory
-uid: 4iFi
+uid: 6Ip2
 ---
 Pictures and (especially POV) videos enable us to relive our memories. 
 Photo management is memories management.

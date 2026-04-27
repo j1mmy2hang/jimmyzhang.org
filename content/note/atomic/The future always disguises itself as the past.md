@@ -2,7 +2,7 @@
 created: 2025-12-25 22:06
 reference:
   - "[[Steam, Steel, and Infinite Minds]]"
-uid: 2GEZ
+uid: 5Ncc
 ---
 > This future is often difficult to predict because it always disguises itself as the past. Early phone calls were concise like telegrams. Early movies looked like filmed plays. 
 

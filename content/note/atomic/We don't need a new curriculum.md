@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: 2J9S
+uid: jkKN
 ---
 we don't need a new curriculum; we need a new xxx (pedagogy? 范式?)
 

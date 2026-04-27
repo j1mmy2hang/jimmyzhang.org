@@ -4,7 +4,7 @@ tags:
   - individual
   - rationality
   - information
-uid: Vv3V
+uid: 7MwB
 ---
 > Change comes first from stepping outside the limited information that can be seen from any single place in the system and getting an overview.
 

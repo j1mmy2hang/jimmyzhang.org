@@ -1,7 +1,7 @@
 ---
 created: 2024-12-06
 tags:
-uid: 9PJa
+uid: cRVG
 ---
 How to succeed:
 - identify the wave

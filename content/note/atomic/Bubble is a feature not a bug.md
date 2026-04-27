@@ -2,7 +2,7 @@
 created: 2025-12-11 16:50
 reference:
   - "[[What's next after the AI bubble bursts]]"
-uid: VjNq
+uid: DNap
 ---
 > Bubbles come and go, but capital investment sticks around. 
 

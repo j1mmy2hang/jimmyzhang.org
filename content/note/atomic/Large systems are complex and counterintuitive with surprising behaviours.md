@@ -4,7 +4,7 @@ tags:
   - system
   - economics
   - complexity
-uid: BHlQ
+uid: hRYr
 ---
 --> you begin to see how simple stocks and flows, plumbed together, create systems way too complicated and dynamically complex to figure out easily.
 

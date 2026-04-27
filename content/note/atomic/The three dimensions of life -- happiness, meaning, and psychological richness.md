@@ -2,7 +2,7 @@
 created: 2026-01-18 12:35
 reference:
   - "[[Life in Three Dimensions -- How Curiosity, Exploration, and Experience Make a Fuller, Better Life]]"
-uid: SKuN
+uid: rjHg
 ---
 ### 第一维度：快乐（Happiness）
 

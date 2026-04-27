@@ -4,7 +4,7 @@ published: 2026-02-16
 source: https://x.com/WillManidis/status/2023866928608002183
 type: "[[Clipping]]"
 rating: 5
-uid: PTJ6
+uid: MBab
 ---
 Taste arrived quietly, somewhere over the last few months. It arrived the way a new technology consensus always arrives. It wasn't argued into place. It simply appeared there one morning, like the weather.
 

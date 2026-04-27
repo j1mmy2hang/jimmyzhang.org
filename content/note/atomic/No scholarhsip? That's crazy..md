@@ -1,6 +1,6 @@
 ---
 created: 2024-10-02
-uid: ny5g
+uid: jcAB
 ---
 Mickele: 
 Jimmy, how much scholarship do you have?

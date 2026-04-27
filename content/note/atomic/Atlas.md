@@ -1,6 +1,6 @@
 ---
 created: 2025-11-10
-uid: KPIv
+uid: qZsx
 ---
 [[Stasis vs Exploration, Order vs Potential]]
 

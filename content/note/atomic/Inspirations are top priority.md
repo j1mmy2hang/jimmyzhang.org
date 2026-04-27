@@ -3,7 +3,7 @@ created: 2024-09-08
 tags:
   - priority
   - inspiration
-uid: Gwth
+uid: oyXL
 ---
 不惜一切代价保住灵感的到访
 

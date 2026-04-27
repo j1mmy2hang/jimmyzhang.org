@@ -4,7 +4,7 @@ type: "[[Book]]"
 cover: "[[image-PH6a.png]]"
 author:
   - Richard Hamming
-uid: ajDU
+uid: V1zz
 ---
 ![[image-PH6a.png|350]]
 

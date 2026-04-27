@@ -3,7 +3,7 @@ tags:
   - world
   - genius
   - inclusivity
-uid: 6L67
+uid: wqcX
 ---
 Being neurotypical becomes being normal. 
 

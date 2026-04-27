@@ -3,7 +3,7 @@ created: 2026-01-23 14:51
 reference:
   - "[[林亦对话谷歌高管：我们要拥抱AI开发吗？]]"
   - "[[I Achieved the Four-Hour Workweek. So, Why Did I Just Take a Job?]]"
-uid: Nq6W
+uid: RQFR
 ---
 linked: [[AI Can Build Anything. Social Dandelions Decide What Spreads.]]
 

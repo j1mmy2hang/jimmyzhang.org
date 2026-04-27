@@ -2,7 +2,7 @@
 created: 2024-10-04
 type: MOC
 id: 01JGD1KKHM00MY7M2C5JWF99MG
-uid: lLkq
+uid: oS70
 ---
 何为[[自我价值 & 他人价值]]
 

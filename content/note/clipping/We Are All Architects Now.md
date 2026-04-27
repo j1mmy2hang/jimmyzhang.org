@@ -4,7 +4,7 @@ published: 2025-03-30
 source: https://x.com/internetvin/status/1906377250137596230
 type: "[[Clipping]]"
 rating: 5
-uid: Q8Jf
+uid: Tj6k
 ---
 If you think that nothing has changed, I just can't even have a conversation with you. It's exhausting. Every time your energy is around me, I worry I might internalize it, I feel death is certain if I do.
 

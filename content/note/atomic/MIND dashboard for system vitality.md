@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:30
-uid: 74cn
+uid: DfLr
 ---
 The goal is to move from maximizing "growth" to maximizing **Vitality** using the **MIND Dashboard**. Every nation, city, and company should audit themselves against these four capitals (Capitals multiply; if one is zero, the total is zero).
 

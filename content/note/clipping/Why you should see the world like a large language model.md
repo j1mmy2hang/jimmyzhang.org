@@ -4,7 +4,7 @@ published: 2025-11-21
 source: https://www.youtube.com/watch?v=jkXOudImoI0
 type: "[[Clipping]]"
 rating: 6
-uid: ExoB
+uid: dXXA
 ---
 ## The Limits of Rationalism and the Rise of AI
 

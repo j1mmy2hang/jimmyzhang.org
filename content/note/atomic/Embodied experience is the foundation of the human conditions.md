@@ -3,7 +3,7 @@ created: 2025-10-21
 reference:
   - "[[The Future is Analog]]"
   - "[[The Last Economy]]"
-uid: hMbU
+uid: 90AP
 ---
 The state of being fully present in one's physical body and engaging with the world through all five senses. 
 

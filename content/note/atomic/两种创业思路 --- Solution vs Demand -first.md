@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05
-uid: rvnv
+uid: kLNS
 ---
 ## 1. Solution-first -- 自上而下
 

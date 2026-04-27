@@ -1,7 +1,7 @@
 ---
 tags:
   - management
-uid: JGnY
+uid: TNwu
 ---
 “先管好自己”
 “以身作则”

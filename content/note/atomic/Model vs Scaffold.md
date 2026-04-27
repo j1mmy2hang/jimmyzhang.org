@@ -2,7 +2,7 @@
 created: 2026-04-12
 reference:
   - 李继刚
-uid: qYrk
+uid: g4n0
 ---
 如果模型本身足够强，Agent 框架会不会变得多余？ 
 in other words, 闭环控制本身是不是就是智能不可或缺的一部分？

@@ -6,7 +6,7 @@ tags:
   - tech
   - revolution
 weight: 4
-uid: DHht
+uid: dWcq
 ---
 [[科技公司的成功机制]] --> [["Free information through technology" is the foundational philosophy]]
 

@@ -5,7 +5,7 @@ tags:
   - tool
   - manipulation
   - addiction
-uid: pASA
+uid: Ijc6
 ---
 A bicycle is just genuiney a tool -- it's sitting there and waiting to be used. 
 A tool doesn't demand anything from you. 

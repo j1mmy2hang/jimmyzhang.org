@@ -4,7 +4,7 @@ published: 2026-02-17
 source: https://x.com/amytam01/status/2023593365401636896
 type: "[[Clipping]]"
 rating: 4
-uid: HZ3e
+uid: Uzdw
 ---
 Every technical person I know is doing the same math right now. They won’t call it that. They’ll say they’re “exploring options” or “thinking about what’s next.” But underneath it’s the same calculation: how much is it costing me to stay where I am?
 

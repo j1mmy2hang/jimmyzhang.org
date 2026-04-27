@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:48
 tags:
-uid: hhIf
+uid: ASY6
 ---
 When the race to develop AI gathered steam in the early years of the twenty-first century, it too was initially spearheaded by private entrepreneurs in a handful of countries. They set their sights on centralizing the world’s flow of information. Google wanted to organize all the world’s information in one place. Amazon sought to centralize all the world’s shopping. Facebook wished to connect all the world’s social spheres.
 

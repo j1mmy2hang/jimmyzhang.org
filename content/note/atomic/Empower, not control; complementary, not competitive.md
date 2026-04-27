@@ -1,6 +1,6 @@
 ---
 created: 2026-02-03 09:45
-uid: 95zU
+uid: VFg5
 ---
 ![[image-hFxs.jpg]]
 (ref = [[Tools for Thought as Cultural Practices, not Computational Objects]])

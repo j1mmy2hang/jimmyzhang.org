@@ -4,7 +4,7 @@ published: 2026-02-21
 source: https://x.com/Zhongxing_Sun/status/2025018457046352075
 type: "[[Clipping]]"
 rating: 5
-uid: Gcik
+uid: uMrL
 ---
 从信息论、语义学与软件工程的交叉视角重新理解 AI Agent 架构
 

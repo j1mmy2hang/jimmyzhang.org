@@ -1,6 +1,6 @@
 ---
 created: 2025-04-24
-uid: taze
+uid: U60W
 ---
 [[System leverage points]]
 source:: [A leverage points perspective on sustainability](https://doi.org/10.1002/pan3.13)

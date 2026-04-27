@@ -2,7 +2,7 @@
 tags:
   - change
   - local
-uid: CMjS
+uid: bNxZ
 ---
 真正的变革只能是自下而上的
 

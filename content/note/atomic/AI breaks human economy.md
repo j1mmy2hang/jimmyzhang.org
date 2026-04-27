@@ -2,7 +2,7 @@
 created: 2026-02-24 16:10
 reference:
   - '[[How AI will make your money "useless"]]'
-uid: Om19
+uid: Aekw
 ---
 root:: [[The Intelligence Inversion -- Intelligence is no longer scarce]]
 

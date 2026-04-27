@@ -3,7 +3,7 @@ created: 2024-09-08
 tags:
   - listen
   - disbelief
-uid: QFyU
+uid: H330
 ---
 Listening is freedom from accepted limitations
 

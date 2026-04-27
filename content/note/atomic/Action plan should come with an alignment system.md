@@ -4,7 +4,7 @@ tags:
   - plan
   - alignment
 topic: "[[Steps to become an effective executive]]"
-uid: wBnh
+uid: nGoK
 ---
 Review decisions periodically
 to check the results against the expectations

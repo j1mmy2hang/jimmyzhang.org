@@ -2,7 +2,7 @@
 created: 2026-03-13 20:14
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: qO1C
+uid: cCIh
 ---
 To obtain value, a thing must be alienable
 

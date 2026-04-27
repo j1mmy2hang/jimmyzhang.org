@@ -2,7 +2,7 @@
 created: 2026-01-23 20:58
 reference:
   - "[[What AI Is Teaching Us About Management]]"
-uid: rd6P
+uid: uwGq
 ---
 north:: [[Becoming unLLMable]]
 

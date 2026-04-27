@@ -3,7 +3,7 @@ created: 2024-09-08
 tags:
   - distraction
   - creativity
-uid: KVV6
+uid: aGYM
 ---
 Holding a problem to be solved **lightly in the back of our consciousness** instead of the front of our mind. 
 

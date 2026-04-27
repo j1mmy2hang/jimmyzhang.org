@@ -4,7 +4,7 @@ author:
   - Shane O'Mara
 type: "[[Book]]"
 cover: "[[image-04hA.png]]"
-uid: ZNV8
+uid: IzJP
 ---
 ![[image-04hA.png|350]]
 ## Deep Summary

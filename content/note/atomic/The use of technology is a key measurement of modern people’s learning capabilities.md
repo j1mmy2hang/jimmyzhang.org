@@ -3,7 +3,7 @@ tags:
   - tech
   - learning
   - measure
-uid: LWRh
+uid: uOuV
 ---
 Learning ability = the ability to [[Technologies are extensions of human beings|extend and grow]] one's already-have abilities
 

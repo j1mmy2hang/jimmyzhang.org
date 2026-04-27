@@ -4,7 +4,7 @@ reference:
   - '[[How AI will make your money "useless"]]'
   - "[[好消息：公司给你发 Token 当工资，坏消息：你的 KPI 是烧光它]]"
 publish: "[[<Publish> Token as the new currency]]"
-uid: 97Oa
+uid: 8S9D
 ---
 ![[image-QbHx.jpg]]
 ## From Money to Token Economy

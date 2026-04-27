@@ -1,6 +1,6 @@
 ---
 created: 2025-05-04
-uid: cfN6
+uid: sKum
 ---
 Let passion guide you to solve problems and learn skills along the way
 

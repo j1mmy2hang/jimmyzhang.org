@@ -5,7 +5,7 @@ tags:
   - contrarian
   - epistemic
   - CKM
-uid: byEg
+uid: Cm4E
 ---
 
 # The Most Significant Challenge Today — Our Epistemic/Knowledge Infrastructure Is Failing

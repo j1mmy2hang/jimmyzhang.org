@@ -2,7 +2,7 @@
 created: 2026-04-02
 reference:
   - "[[Notion -- Think Together]]"
-uid: zuUD
+uid: kWPE
 ---
 The loudest story about AI is a lonely one. One person with an army of chatbots. Other humans are friction.  
   

@@ -4,7 +4,7 @@ author:
   - Dan Koe
 type: "[[Book]]"
 cover: "[[image-KVEo.png]]"
-uid: l9AO
+uid: z3Za
 ---
 ![[image-KVEo.png|350]]
 

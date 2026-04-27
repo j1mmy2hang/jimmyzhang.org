@@ -1,6 +1,6 @@
 ---
 created: 2025-06-26
-uid: heIj
+uid: 4Bzo
 ---
 AI部署的瓶颈不是算力或算法，而是更具社会学意义的“变革管理”（change management）
 

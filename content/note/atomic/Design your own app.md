@@ -2,7 +2,7 @@
 created: 2025-09-13
 tags:
   - design
-uid: 7tn4
+uid: KCSt
 ---
 You should design your own app and take active charge of your digital space. 
 It's like designing your own room where you spend your whole day.

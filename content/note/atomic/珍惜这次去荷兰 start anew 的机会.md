@@ -2,7 +2,7 @@
 tags:
   - opportunity
   - cherish
-uid: 6UPY
+uid: rYBM
 ---
 Cherish your chance of starting anew, just bringing your necessities and the things and only the things that matter to you with value. 
 

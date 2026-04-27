@@ -2,7 +2,7 @@
 tags:
   - vision
   - focus
-uid: Q2tK
+uid: kL5y
 ---
 because of lack of attention / care / alertness / insight
 

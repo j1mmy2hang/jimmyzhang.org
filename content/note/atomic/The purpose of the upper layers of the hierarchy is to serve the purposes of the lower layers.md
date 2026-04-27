@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: ga4z
+uid: ZweL
 ---
 [[Hierarchical systems evolve from the bottom up]]
 

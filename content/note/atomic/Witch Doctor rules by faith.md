@@ -3,7 +3,7 @@ parent: "[[Attila & Witch Doctor -- Rule of Force & Faith]]"
 tags:
   - faith
   - conquer
-uid: gJCI
+uid: k8sI
 ---
 - dreads physical reality & the necessity of practical action
 	- escapes into his emotions & visions of some mystic realm where his wishes enjoy a supernatural power unlimited by the absolute of nature.

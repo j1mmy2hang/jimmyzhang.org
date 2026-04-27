@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: il4A
+uid: 55ow
 ---
 
 - [[Humans tend to think in linearities and causations]]

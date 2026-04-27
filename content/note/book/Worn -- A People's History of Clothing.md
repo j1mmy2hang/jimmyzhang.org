@@ -4,7 +4,7 @@ type: "[[Book]]"
 author:
   - Sofi Thanhauser
 cover: "[[image-EA6A.png]]"
-uid: 0i53
+uid: Hl7C
 ---
 ![[image-EA6A.png|350]]
 

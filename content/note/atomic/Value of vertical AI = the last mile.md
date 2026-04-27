@@ -2,7 +2,7 @@
 created: 2026-02-20 14:14
 reference:
   - "[[In defense of vertical software]]"
-uid: RBz4
+uid: bngd
 ---
 ## On-field Knowledge & Customizable needs
 

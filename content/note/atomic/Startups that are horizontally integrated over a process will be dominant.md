@@ -1,6 +1,6 @@
 ---
 created: 2025-09-28
-uid: LAL5
+uid: jjVe
 ---
 Startups should integrate over more of the process their customers perform
 [[Build process instead of product]]

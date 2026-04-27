@@ -2,7 +2,7 @@
 created: 2026-03-13 20:06
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
-uid: kCKM
+uid: WpRL
 ---
 early theory:: [[自我价值 & 他人价值]]
 

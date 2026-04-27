@@ -2,7 +2,7 @@
 tags:
   - linear
   - efficiency
-uid: ibe4
+uid: FxML
 ---
 ![[Linear Coding and Decoding|1500]]
 

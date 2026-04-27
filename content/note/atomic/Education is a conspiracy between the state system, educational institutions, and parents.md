@@ -4,7 +4,7 @@ tags:
   - education
   - conspiracy
 credit: 赵鼎新
-uid: woMk
+uid: 8Hax
 ---
 [[No informed consent for receiving education]]
 

@@ -4,7 +4,7 @@ tags:
   - prediction
   - compression
   - intelligence
-uid: K2vx
+uid: gfs1
 ---
 为什么 predict next token 是最有效的学习
 

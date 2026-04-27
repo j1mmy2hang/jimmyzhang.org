@@ -1,7 +1,7 @@
 ---
 created: 2025-05-25
 AIGC: true
-uid: PtND
+uid: sg2P
 ---
 ## Reality as Operating System: Navigating Multiple Worlds
 

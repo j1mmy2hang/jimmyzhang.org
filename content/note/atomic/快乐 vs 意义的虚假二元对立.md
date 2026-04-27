@@ -2,7 +2,7 @@
 created: 2026-01-18 12:33
 reference:
   - "[[Life in Three Dimensions -- How Curiosity, Exploration, and Experience Make a Fuller, Better Life]]"
-uid: 7yli
+uid: 2vKQ
 ---
 [[Resist binary choices and false dualities]]
 

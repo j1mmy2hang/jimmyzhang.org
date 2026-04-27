@@ -3,7 +3,7 @@ created: 2025-01-06
 tags:
   - math
   - language
-uid: Hrx3
+uid: h12V
 ---
 Natural language precedes mathematical language.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: Nulc
+uid: cCAy
 ---
 Economics became the "science of thinking in terms of models -- building a highly simplified model based on strong assumptions, proving a conclusion within that model, and then acting as if that conclusion is a proven fact about the messy real world.
 

@@ -2,7 +2,7 @@
 tags:
   - world
   - purpose
-uid: MiOR
+uid: 9vAq
 ---
 Finding your purpose isn't enough. You also have to create that sense of purpose for others. 
 

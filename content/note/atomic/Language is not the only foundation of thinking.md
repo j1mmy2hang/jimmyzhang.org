@@ -4,7 +4,7 @@ tags:
   - humans
   - foundation
   - thinking
-uid: CqN7
+uid: ToYn
 ---
 Language is (only) a human construct. 
 

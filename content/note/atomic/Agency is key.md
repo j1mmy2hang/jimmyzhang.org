@@ -4,7 +4,7 @@ reference:
   - "[[Agency Is Eating the World]]"
   - "[[The most important skill to learn in the next 10 years]]"
   - "[[The Techno Optimist’s Guide to Future-proofing Your Child]]"
-uid: Xxkm
+uid: a2IP
 ---
 [[Agency Is Eating the World]]: 
 

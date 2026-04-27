@@ -1,6 +1,6 @@
 ---
 created: 2025-05-09
-uid: SXu7
+uid: i1Ip
 ---
 Education is claimed to faciliate an individual's growth. 
 

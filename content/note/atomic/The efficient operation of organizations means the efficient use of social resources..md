@@ -4,7 +4,7 @@ tags:
   - efficiency
   - organization
   - resource
-uid: Jbe3
+uid: BqAi
 ---
 All the social resources are being fed to large corporations for their production and output. 
 

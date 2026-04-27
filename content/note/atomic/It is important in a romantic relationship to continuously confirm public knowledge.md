@@ -2,7 +2,7 @@
 created: 2026-01-25 13:44
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: kVte
+uid: MRFH
 ---
 ## Romantic Relationships, and "Following the Script"
 

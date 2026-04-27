@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: ekAN
+uid: tmij
 ---
 Flowing forces a radical re-evaluation of what is valuable. 
 

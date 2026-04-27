@@ -1,6 +1,6 @@
 ---
 created: 2025-06-25
-uid: lYPX
+uid: 8hI0
 ---
 ## Know what's worth doing
 

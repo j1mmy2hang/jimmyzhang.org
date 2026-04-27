@@ -4,7 +4,7 @@ published: 2026-01-02
 source: https://x.com/manthanguptaa/article/2006948885898617116
 type: "[[Clipping]]"
 rating: 4
-uid: 703Z
+uid: GD4r
 ---
 [![Image](https://pbs.twimg.com/media/G9ocMoKaMAcEEhE?format=jpg&name=large)](https://x.com/manthanguptaa/article/2006948885898617116/media/2006947587212062727)
 Memory has become one of the most talked about topics in the AI community. Every few weeks, we see new papers, frameworks, and posts, each claiming to “solve” memory for LLMs. Yet most of them are glorified caches that store tokens, not thoughts. Today’s memory systems rely on brute force retrieval: dumping everything into a vector database or rank-fusing it with BM25. These approaches scale clutter, not cognition.

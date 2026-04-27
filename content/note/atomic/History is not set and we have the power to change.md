@@ -4,7 +4,7 @@ tags:
   - history
   - power
   - change
-uid: mREL
+uid: 6EHZ
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]] --
 

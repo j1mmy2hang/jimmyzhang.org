@@ -2,7 +2,7 @@
 tags:
   - information
   - manipulation
-uid: AcKk
+uid: 2YzU
 ---
 Where there is information, there is manipulation --> is this inevitable at all?
 Are humans able to actively manage information and "form their own thoughts"?

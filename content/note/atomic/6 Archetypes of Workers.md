@@ -1,7 +1,7 @@
 ---
 created: 2025-10-11
 source: https://www.bain.com/insights/beliefs-about-what-makes-a-good-job-are-diverging-future-of-work-report/
-uid: yu8m
+uid: 7BBc
 ---
 - **Operators** find meaning and self-worth primarily outside of their jobs. When it comes down to it, they see work as a means to an end. They’re not particularly motivated by status or autonomy, and generally don’t seek to stand out in their workplace. They tend to prefer stability and predictability. Thus, they have less interest in investing to change their future compared with other archetypes. At the same time, Operators are one of the more team-minded archetypes, and often see many of their colleagues as friends. At their best, they are the team players that form the backbone of the organization. At their worst, they are disengaged and lack proactivity.
 

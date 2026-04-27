@@ -1,7 +1,7 @@
 ---
 created: 2025-04-13
 AIGC: true
-uid: LKii
+uid: ofol
 ---
 ## Part 1 -- Simple Explanation
 

@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:19
 tags:
-uid: AuOd
+uid: BGxP
 ---
 When seeking information, withhold your judgement as long as possibe 
 

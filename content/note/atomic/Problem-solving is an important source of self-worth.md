@@ -1,6 +1,6 @@
 ---
 created: 2025-04-14
-uid: FL7q
+uid: xQTZ
 ---
 > Problems are the limits on your potential. When you solve problems and remove your limits, you become more complex, more skilled, more knowledgeable, more open, more connected to reality. With each problem you solve, the perceived difficulty of life goes down, and your level of purpose goes up.
 

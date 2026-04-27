@@ -2,7 +2,7 @@
 created: 2025-12-11 13:25
 reference:
   - "[[Big Ideas 2026 Part 1]]"
-uid: EKTV
+uid: 8Fgu
 ---
 ### Santiago Rodriguez: The end of the screen time KPI in AI applications
 

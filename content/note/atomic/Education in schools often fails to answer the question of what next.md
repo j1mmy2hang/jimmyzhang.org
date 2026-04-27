@@ -4,7 +4,7 @@ tags:
   - education
   - society
   - school
-uid: Kwaa
+uid: RWWx
 ---
 [[人文通识教育的危机在于与世界割裂]]
 Education 似乎独立于社会之外，自己构成其自己的意义，不承担任何义务与世俗性的价值

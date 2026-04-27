@@ -2,7 +2,7 @@
 created: 2026-02-24 21:22
 reference:
   - '[[How AI will make your money "useless"]]'
-uid: or2h
+uid: 56Ww
 ---
 [[金钱的本质是调度人的时间和劳动]] -- 我们想要获得更多商品和服务，于是需要钱来调度别的人给自己生产
 

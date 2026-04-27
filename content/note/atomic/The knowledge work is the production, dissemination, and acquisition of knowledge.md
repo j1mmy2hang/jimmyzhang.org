@@ -5,7 +5,7 @@ tags:
   - production
   - dissemination
   - acquisition
-uid: GDI1
+uid: 98aR
 ---
 ![[The Knowledge market.svg]]
 

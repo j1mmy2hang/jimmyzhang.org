@@ -1,6 +1,6 @@
 ---
 created: 2025-09-21
-uid: hkAR
+uid: Ergj
 ---
 ## Principles of software engineering
 

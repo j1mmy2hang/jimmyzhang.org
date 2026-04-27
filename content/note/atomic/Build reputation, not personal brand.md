@@ -2,7 +2,7 @@
 created: 2026-01-24 13:32
 reference:
   - "[[The Gap Between Reputation and Personal Brand]]"
-uid: F9gR
+uid: n06p
 ---
 > Reputation is old. Personal brands are new.
 

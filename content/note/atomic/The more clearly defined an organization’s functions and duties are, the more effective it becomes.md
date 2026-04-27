@@ -3,7 +3,7 @@ created: 2024-10-23
 tags:
   - organization
   - mission
-uid: B9VY
+uid: NObh
 ---
 一个组织的功能和任务越细，工作能力越强
 

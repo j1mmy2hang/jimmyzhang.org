@@ -1,7 +1,7 @@
 ---
 created: 2025-02-22 08:02
 tags:
-uid: XTEc
+uid: An97
 ---
 One of the great tragedies of history is that geniuses are separated by time and cannot have a meaningful converation with each other
 Great thinkers are trapped in their time (and space) and struggle to communicate with one another

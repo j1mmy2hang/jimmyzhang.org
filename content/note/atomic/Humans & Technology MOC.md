@@ -1,7 +1,7 @@
 ---
 created: 2024-10-04
 type: MOC
-uid: TDnz
+uid: gtNK
 ---
 ![[Technology and human abilities]]
 ## Relationship

@@ -4,7 +4,7 @@ published: 2026-01-20
 source: https://every.to/also-true-for-humans/what-ai-is-teaching-us-about-management?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 6
-uid: KvEM
+uid: HiiR
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3899/full_page_cover_CM_Tuesday-1.png)
 

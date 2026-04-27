@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: 7zt6
+uid: 9bFT
 ---
 ![[Progress -- technology & globalization.svg]]
 

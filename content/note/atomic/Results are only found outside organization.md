@@ -2,7 +2,7 @@
 tags:
   - result
   - organization
-uid: C9br
+uid: AOJf
 ---
 There are no results within the organization.
 What happens inside any organization is effort and cost.

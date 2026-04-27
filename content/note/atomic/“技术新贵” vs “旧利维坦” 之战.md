@@ -1,7 +1,7 @@
 ---
 created: 2026-02-04 17:01
 parent: "[[The Sovereign Individuals, Code vs Leviathan, Elite vs the masses]]"
-uid: MAhM
+uid: RWDV
 ---
 目前的局势是：**“主权个人”（硅谷科技新贵、加密富豪）** 正在与 **“传统国家权力”（旧官僚、军工复合体、传统银行）** 进行殊死搏斗。
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-03-17
-uid: riAn
+uid: I7XM
 ---
 this is for impartaiton of technology -->
 

@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:32
 tags:
-uid: GMRR
+uid: 9vSv
 ---
 Make your decision-making process as visible and open to scrutiny as possible.
 

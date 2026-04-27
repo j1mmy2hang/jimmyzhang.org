@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - polarity
   - greatness
-uid: 8afb
+uid: 4eJo
 ---
 > The magic comes from dynamic tension between different points of view, creating works more distinctive than a lone voice would.
 

@@ -4,7 +4,7 @@ tags:
   - expression
   - discovery
   - self
-uid: UJ19
+uid: NnIJ
 ---
 > It may not be possible to know who you are without somehow expressing it.
 

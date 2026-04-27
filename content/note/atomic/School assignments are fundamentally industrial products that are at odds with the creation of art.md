@@ -1,6 +1,6 @@
 ---
 created: 2025-09-24
-uid: Ba0P
+uid: q83m
 ---
 full blog:: [[On Art vs Industrial Products in the Context of School Projects]]
 

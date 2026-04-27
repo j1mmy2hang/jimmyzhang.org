@@ -2,7 +2,7 @@
 created: 2025-04-13
 tags:
   - impact
-uid: 45Lg
+uid: zveg
 ---
 we have to admit -- making impact is hard
 -- requires courage, deep observation, persistence, system understanding, etc.

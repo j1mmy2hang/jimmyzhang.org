@@ -3,7 +3,7 @@ created: 2024-09-25
 tags:
   - knowledge
   - group
-uid: xA0n
+uid: dCT3
 ---
 "专业知识" vs public knowledge
 e.g. doctors, economists, members of a tribe, etc.

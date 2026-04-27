@@ -1,6 +1,6 @@
 ---
 created: 2026-02-11 13:51
-uid: yK9F
+uid: FANg
 ---
 essense: [[生命是对抗熵增]]
 

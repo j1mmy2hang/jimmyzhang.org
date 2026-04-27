@@ -2,7 +2,7 @@
 created: 2024-10-04
 type: MOC
 id: 01JGD1KKHNEJ7S8BHTYGD5AKVY
-uid: RPVH
+uid: ti6C
 ---
 [[KM -- from personal to human-wide]]
 [[Bringing about an Information Revolution 2.0]]

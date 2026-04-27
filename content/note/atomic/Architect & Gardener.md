@@ -1,7 +1,7 @@
 ---
 tags:
   - management
-uid: U153
+uid: HThC
 ---
 Architect: top-down, order, structure, the big picture, control, convergent, static
 

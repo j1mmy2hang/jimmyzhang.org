@@ -7,7 +7,7 @@ tags:
   - curiosity
   - passion
   - creativity
-uid: rnxH
+uid: dnFn
 ---
 ![[image-Eu62.png]]
 

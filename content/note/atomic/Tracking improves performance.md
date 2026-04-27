@@ -2,7 +2,7 @@
 tags:
   - measure
   - improvement
-uid: JbzE
+uid: 32Ba
 ---
 Simply measuring and tracking something improves your performance in that domain. 
 [[Measure what you value]]

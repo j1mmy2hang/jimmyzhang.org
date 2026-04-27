@@ -1,6 +1,6 @@
 ---
 created: 2025-10-04
-uid: gggC
+uid: bqZr
 ---
 The only deadline for life is the "dead"line -- that's what only matters and what gives life meaning.
 

@@ -4,7 +4,7 @@ published:
 source: https://www.seangoedecke.com/after-the-ai-bubble/
 type: "[[Clipping]]"
 rating: 4
-uid: c6xA
+uid: LYi3
 ---
 In the mid-1800s, America went mad for rail. Over thirty thousand miles of rail were built in a five year period. This was all largely funded by a frenzy of consumer investment in railway companies, which were considered a safe and lucrative bet. In 1873, the bubble burst. Thousands of Americans lost their savings, and about one-third of railroad companies went bankrupt. But the rail lines didn’t disappear. They were bought up on the cheap by the railroad companies that did survive, and over the next hundred years they carried a lot of trains.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-11-18 11:28
-uid: 6q5P
+uid: qE5E
 ---
 [[AI -- from tool to agent]]
 

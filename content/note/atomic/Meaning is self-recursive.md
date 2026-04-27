@@ -2,7 +2,7 @@
 created: 2026-01-24 10:20
 reference:
   - "[[A Nihilist’s Guide to Meaning]]"
-uid: vDK7
+uid: LeLg
 ---
 [[Meaning comes from connection]]
 

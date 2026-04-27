@@ -1,6 +1,6 @@
 ---
 created: 2025-10-19
-uid: zGyr
+uid: ehe6
 ---
 [[Nation-states will be obsolete]]
 As the nation-state withers, a new elite, the "Sovereign Individual," emerges.

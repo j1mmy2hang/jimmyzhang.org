@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: yYNY
+uid: 3g3T
 ---
 > After a long life, and thirty years in the public school trenches, I’ve concluded that genius is as common as dirt. We suppress genius because we haven’t yet figured out how to manage a population of educated men and women. The solution, I think, is simple and glorious. Let them manage themselves.
 

@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - greatness
   - infectious
-uid: cuk4
+uid: 1AJT
 ---
 Greatness begets greatness. 
 Great works inspire even greater ones. 

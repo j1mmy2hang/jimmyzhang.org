@@ -4,7 +4,7 @@ published: 2026-02-18
 source: https://x.com/karrisaarinen/status/2024157578943742192
 type: "[[Clipping]]"
 rating: 4
-uid: Jou1
+uid: kgmP
 ---
 Taste did not suddenly arrive. Every few years the word comes back into fashion and starts carrying more weight than it should. But taste itself is simple. It is knowing what is good.
 

@@ -1,6 +1,6 @@
 ---
 created: 2024-10-04
-uid: 9iyt
+uid: WVC6
 ---
 [[Responsibility is a care for not just yourself]]
 [[If not me who else?]]

@@ -3,7 +3,7 @@ created: 2024-09-16
 tags:
   - external
   - measure
-uid: zafb
+uid: HfUs
 ---
 College application
 

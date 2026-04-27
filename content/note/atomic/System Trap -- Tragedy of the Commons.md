@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: TTqu
+uid: 8ti2
 ---
 Trap: Tragedy of the Commons
 Source: missing (or too long delayed) feedback from the resource to the growth of the users of that resource.

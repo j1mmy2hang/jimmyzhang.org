@@ -2,7 +2,7 @@
 created: 2026-01-28 18:15
 reference:
   - "[[Knowledge as an API]]"
-uid: tcZx
+uid: VyeQ
 ---
 > Knowledge API: A mental model for thinking about the understanding of a specific domain as an Application Programming Interface (API). Knowledge APIs depend on, and can be used by one-another. A knowledge API is like a module in a programming language, it depends on (imports) other knowledge APIs, and can be used by (exported) other knowledge APIs. - Chris Behan
 

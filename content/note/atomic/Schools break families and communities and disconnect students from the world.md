@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: 1Pyb
+uid: 2iqG
 ---
 Schooling actively dismantles the essential functions and vitality of genuine families and communities by isolating individuals, preempting time, and replacing organic learning with standardized, top-down control.
 

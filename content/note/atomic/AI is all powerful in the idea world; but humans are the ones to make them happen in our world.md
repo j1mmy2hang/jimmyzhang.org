@@ -2,7 +2,7 @@
 created: 2026-01-10 18:52
 reference:
   - "[[The most important skill to learn in the next 10 years]]"
-uid: v6Mg
+uid: b2IG
 ---
 through our value judgement, selection, agency, courage, and intention
 

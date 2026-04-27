@@ -1,7 +1,7 @@
 ---
 created: 2025-04-14
 AIGC: true
-uid: XX6W
+uid: MiB1
 ---
 **Title: Problem-Solving & Self-Worth -- Finding Value Through Agency**
 

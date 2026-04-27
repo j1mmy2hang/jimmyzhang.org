@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: HuGO
+uid: vTqn
 ---
 A phase transition for civilization
 

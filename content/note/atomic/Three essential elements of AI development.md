@@ -2,7 +2,7 @@
 created: 2025-02-19 11:09
 tags:
   - AI
-uid: sffq
+uid: 0mkd
 ---
 1. **ALGORITHM**: the study of perceptual algorithm -- how living creatures make "sense" of the world around us
 2. **DATA**: brains are simply machines locked away in the darkness of our skulls, but eager students learning from each glimpse of light, tinge of touch, whisper of soundk --> the law of scale in data

@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - AI
   - humans
-uid: 7aa3
+uid: 81gW
 ---
 that is the unfortunate truth.
 Though it may take some time for the impact to land on you and me. 

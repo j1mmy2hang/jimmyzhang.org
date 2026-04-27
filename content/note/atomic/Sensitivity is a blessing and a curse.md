@@ -5,7 +5,7 @@ tags:
   - blessing
   - curse
   - paradox
-uid: V0zq
+uid: RzOG
 ---
 > The sensitivity that allows them to make the art is the same vulnerability that makes them more tender to being judged. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-09-05
-uid: fHY9
+uid: D1N4
 ---
 **The Architect Learner:**
 

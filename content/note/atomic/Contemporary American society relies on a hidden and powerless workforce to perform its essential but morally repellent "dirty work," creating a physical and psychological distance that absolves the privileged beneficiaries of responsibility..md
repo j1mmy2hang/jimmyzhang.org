@@ -1,6 +1,6 @@
 ---
 created: 2025-08-28
-uid: 8zBp
+uid: nWDP
 ---
 Contemporary American society outsources its most morally compromising yet essential tasks—from guarding prisoners and killing by drone to slaughtering animals and extracting fossil fuels—to a hidden, disadvantaged class of workers, allowing the privileged to maintain a clean conscience and creating a profound moral inequality.
 

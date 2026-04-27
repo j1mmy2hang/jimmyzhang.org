@@ -3,7 +3,7 @@ tags:
   - visual
   - thinking
   - perception
-uid: 6ol8
+uid: DO0N
 ---
 The difference between verbal and visual thinking is not just the difference between reading words and looking at pictures.
 

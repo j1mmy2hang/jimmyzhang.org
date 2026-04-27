@@ -1,6 +1,6 @@
 ---
 created: 2025-03-16 13:39
-uid: AlGq
+uid: o2kj
 ---
 PKM is the solution --> what is the question / problem to solve?
 All of the world problems humanity is facing?

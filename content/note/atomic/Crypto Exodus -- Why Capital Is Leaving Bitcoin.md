@@ -2,7 +2,7 @@
 created: 2025-11-27
 published: 2025-11-24
 source: https://x.com/PillageCapital/status/1992974809601352067
-uid: nm0w
+uid: sMPd
 ---
 ![Image](https://pbs.twimg.com/media/G6fxuOGXoAA1xPm?format=jpg&name=large)
 

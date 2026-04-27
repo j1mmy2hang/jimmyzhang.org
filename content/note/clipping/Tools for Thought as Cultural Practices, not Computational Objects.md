@@ -4,7 +4,7 @@ published: 2025-04-16
 source: https://maggieappleton.com/tools-thought-talk
 type: "[[Clipping]]"
 rating: 5
-uid: jZZa
+uid: s6Qv
 ---
 ## Video Recording
 

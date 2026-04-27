@@ -2,7 +2,7 @@
 created: 2025-12-21 09:01
 reference:
   - "[[Value Props -- Create a Product People Will Actually Buy]]"
-uid: u3jD
+uid: jlzJ
 ---
 For -- (target customer segment)
 dissatisfied with (existing solution)

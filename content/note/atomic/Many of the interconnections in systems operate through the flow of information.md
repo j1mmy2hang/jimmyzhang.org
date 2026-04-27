@@ -5,6 +5,6 @@ tags:
   - system
   - flow
   - information
-uid: yKWN
+uid: 3PSF
 ---
 Information holds systems together and plays a great role in determining how they operate.

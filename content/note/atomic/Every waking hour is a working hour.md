@@ -1,6 +1,6 @@
 ---
 created: 2025-11-24 09:25
-uid: wJzo
+uid: yn4d
 ---
 > A common pattern among highly successful founders is an absolute obsession with their work. It becomes difficult to separate them from what they love to do. This idea appears repeatedly in the stories of great entrepreneurs.
 > 

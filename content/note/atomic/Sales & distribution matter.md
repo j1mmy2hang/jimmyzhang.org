@@ -4,7 +4,7 @@ reference:
   - "[[Zero to One]]"
   - "[[The Art of Doing Science and Engineering]]"
   - "[[人比 AI 凶]]"
-uid: IF5V
+uid: LRfa
 ---
 ## 酒香不怕巷子深？
 

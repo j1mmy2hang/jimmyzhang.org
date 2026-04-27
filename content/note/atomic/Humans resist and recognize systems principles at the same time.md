@@ -6,7 +6,7 @@ tags:
   - recognition
   - system
   - principle
-uid: 86FK
+uid: nUfQ
 ---
 <u>On one hand -- the tendency to use rationality and resort to cause and effect</u>
 

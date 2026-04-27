@@ -3,7 +3,7 @@ tags:
   - problem
   - opportunity
 topic: "[[Steps to become an effective executive]]"
-uid: uzYl
+uid: 8dqP
 ---
 Good executives focus on opportunities rather than problems. 
 Effective executives make sure that problems do not overwhelm opportunities.

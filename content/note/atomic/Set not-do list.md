@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - concentration
   - posteriority
-uid: mBIq
+uid: 4d6W
 ---
 Concentration requires setting posteriorities
 

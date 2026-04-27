@@ -1,6 +1,6 @@
 ---
 created: 2025-07-10
-uid: I31M
+uid: vlqk
 ---
 satisfy + suffice
 coined by Herbert A. Simon

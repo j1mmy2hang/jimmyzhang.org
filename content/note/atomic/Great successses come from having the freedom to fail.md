@@ -3,7 +3,7 @@ tags:
   - success
   - freedom
   - failure
-uid: i12A
+uid: 5mqK
 ---
 [[自由是创造的土壤]]
 [[A society needs to give everyone the freedom to pursue purpose]]

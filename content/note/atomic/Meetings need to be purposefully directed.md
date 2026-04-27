@@ -4,7 +4,7 @@ tags:
   - meeting
   - purpose
   - contribution
-uid: POqq
+uid: Ynq2
 ---
 Meetings must be related to purpose and contribution
 I don't come here for nothing. 

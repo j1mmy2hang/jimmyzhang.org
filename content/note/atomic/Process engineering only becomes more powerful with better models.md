@@ -2,7 +2,7 @@
 created: 2026-02-20 14:12
 reference:
   - "[[In defense of vertical software]]"
-uid: NyXS
+uid: KoLZ
 ---
 更好的模型让流程工程更强大，因为：
 

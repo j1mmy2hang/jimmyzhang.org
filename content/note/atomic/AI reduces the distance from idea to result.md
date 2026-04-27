@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: BNdy
+uid: ooH8
 ---
 the speed at which an idea becomes a product will go from months to minutes
 

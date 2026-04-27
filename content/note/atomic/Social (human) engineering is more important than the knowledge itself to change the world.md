@@ -1,6 +1,6 @@
 ---
 created: 2025-08-06
-uid: mb1P
+uid: Zvs5
 ---
 Knowing how something works ≠ being able to change the world with that knowledge
 

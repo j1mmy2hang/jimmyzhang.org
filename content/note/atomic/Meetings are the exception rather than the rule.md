@@ -2,7 +2,7 @@
 created: 2024-10-21
 tags:
   - meeting
-uid: 2LuF
+uid: lF27
 ---
 Meetings are a concession to deficient organization; either you meet or you work. One cannot do both at the same time in an ideally designed structure (which is a changing world, of course only a dream). There would be no meetings. Everybody would know what he needs to know to do his job, and everybody would have the resources available to him to do his job.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-12
-uid: G5rS
+uid: IwYf
 ---
 Let's talk about the temporal vision. How far down the road can you see? Not literally, but in terms of foresight -- the ability to look into the future and grasp consequences, trends, and possibilities. 
 

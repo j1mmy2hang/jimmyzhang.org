@@ -2,7 +2,7 @@
 created: 2026-01-01 21:19
 reference:
   - "[[Advice for generalists who want to join startups]]"
-uid: yAig
+uid: Mmmq
 ---
 > And so I think my number one piece of advice is to find a way to prove that you can identify (and even do some!) useful work before you are even hired by the company.
 

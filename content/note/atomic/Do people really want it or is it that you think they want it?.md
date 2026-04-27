@@ -1,6 +1,6 @@
 ---
 created: 2025-05-13
-uid: bM3e
+uid: mPlJ
 ---
 Do people really need such a space?
 Are people really willing to move from traditional social media

@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - exit
   - design
-uid: yTnI
+uid: gAMW
 ---
 Unless one has therefore built into the new endeavor the means for bailing it out when it runs into heavy weather, one condemns it to failure from the start. 
 

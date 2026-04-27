@@ -5,6 +5,6 @@ tags:
   - risk
   - interconnection
 web: https://www.weforum.org/publications/global-risks-report-2024/
-uid: SaQ8
+uid: jLdo
 ---
 ![[image-YPyl.png]]

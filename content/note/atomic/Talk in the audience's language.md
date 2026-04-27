@@ -1,6 +1,6 @@
 ---
 created: 2025-11-24 09:57
-uid: 9glV
+uid: JYVy
 ---
 > The thing I hate for a lot of companies of what they do is that they love talking in their own words, with their own concepts that they came up that nobody else understands. Like you just throw those big words but they don't mean anything to me. 
 > 

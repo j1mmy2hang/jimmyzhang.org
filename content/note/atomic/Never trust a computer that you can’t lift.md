@@ -1,7 +1,7 @@
 ---
 created: 2025-01-06
 tags:
-uid: hpjj
+uid: EEKt
 ---
 -- **Steve Wozniak**
 

@@ -2,7 +2,7 @@
 tags:
   - meaning
   - you
-uid: WPl2
+uid: mjkm
 ---
 你才是你人生的主宰
 意义由自己赋予

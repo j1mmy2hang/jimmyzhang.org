@@ -2,7 +2,7 @@
 created: 2026-01-01 14:44
 reference:
   - "[[You’re Wrong About “The Journey” -- Why I’m Not Making Resolutions for 2026]]"
-uid: 4x0v
+uid: JXE1
 ---
 ## Definitions
 

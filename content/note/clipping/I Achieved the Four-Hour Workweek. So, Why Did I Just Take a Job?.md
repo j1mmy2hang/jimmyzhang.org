@@ -4,7 +4,7 @@ published: 2026-03-23
 source: https://every.to/also-true-for-humans/i-achieved-the-four-hour-workweek-so-why-did-i-just-take-a-job?loggedin=true
 type: "[[Clipping]]"
 rating: 7
-uid: tQO7
+uid: rbLw
 ---
 # After years of self-employment, I went full-time at Every. Here’s why.
 

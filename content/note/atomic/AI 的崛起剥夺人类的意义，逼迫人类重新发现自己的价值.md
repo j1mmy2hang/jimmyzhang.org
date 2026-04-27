@@ -4,7 +4,7 @@ tags:
   - humans
   - value
   - rediscover
-uid: XVNi
+uid: AAgX
 ---
 [[AI 将人类从枯燥的工作中解放出来]]
 如果 AI 能胜任人类的工作，人之为人的价值何在？

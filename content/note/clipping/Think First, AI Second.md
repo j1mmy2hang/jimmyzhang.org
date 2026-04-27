@@ -4,7 +4,7 @@ published: 2025-12-02
 source: https://every.to/p/think-first-ai-second
 type: "[[Clipping]]"
 rating: 5
-uid: ctL8
+uid: 6VCs
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3855/full_page_cover_Thinking_Ai(2).png)
 

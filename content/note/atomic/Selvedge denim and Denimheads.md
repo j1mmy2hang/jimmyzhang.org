@@ -2,7 +2,7 @@
 created: 2026-02-28 20:05
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: h9vX
+uid: 7UYU
 ---
 https://www.copenhagenfashionsummit.com/what-is-selvedge-denim/
 https://denimhunters.com/denim-wiki/denim-explained/selvedge/

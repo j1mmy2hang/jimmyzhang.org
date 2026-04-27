@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - responsibility
   - artist
-uid: kEpE
+uid: rhn9
 ---
 > The work of art serves its purpose independent of the creator's interest in social responsibility. 
 

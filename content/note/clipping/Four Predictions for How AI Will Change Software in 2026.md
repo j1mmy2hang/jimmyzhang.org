@@ -4,7 +4,7 @@ published: 2025-12-23
 source: https://every.to/podcast/four-predictions-for-how-ai-will-change-software-in-2026?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 3
-uid: EI9Z
+uid: VOJb
 ---
 > [!TLDR]-
 > #### 1. 软件将以“AI 智能体”为核心构建 (Agent-Native)

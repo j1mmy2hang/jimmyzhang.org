@@ -1,5 +1,5 @@
 ---
 created: 2025-03-14 20:44
-uid: nc9e
+uid: qafz
 ---
 Education is the future

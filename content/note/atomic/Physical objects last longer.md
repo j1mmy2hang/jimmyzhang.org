@@ -1,7 +1,7 @@
 ---
 tags:
   - object
-uid: OjrP
+uid: FAsQ
 ---
 physical objects may seem fragile compared to digital ones.
 But that's also what gives them their unique value. 

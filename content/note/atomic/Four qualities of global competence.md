@@ -1,7 +1,7 @@
 ---
 topic: "[[Global competency]]"
 type: literature note
-uid: nARY
+uid: hT5s
 ---
 Globally competent youth:
 1. ==investigate== the world beyond their immediate environment by examining issues of local, global, and cultural significance;

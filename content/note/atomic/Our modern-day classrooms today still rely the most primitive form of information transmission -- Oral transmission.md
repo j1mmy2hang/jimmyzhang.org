@@ -4,7 +4,7 @@ tags:
   - education
   - information
   - communication
-uid: dW4x
+uid: pVjM
 ---
 看看现在人类的课堂 -- 人类传递知识的方式
 本质上依然是口耳相传为主（加上一点点的阅读/视觉辅助）

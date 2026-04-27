@@ -4,7 +4,7 @@ published: 2020-11-15
 source: https://www.chrisbehan.ca/posts/KnowledgeAsAnAPI
 type: "[[Clipping]]"
 rating: 5
-uid: Dk5q
+uid: Molp
 ---
 Do you ever come across a technology or concept and say to yourself, "This is insane, how can anyone understand this?". If so, this essay may help you to answer that question; how do people understand extremely complex concepts?
 

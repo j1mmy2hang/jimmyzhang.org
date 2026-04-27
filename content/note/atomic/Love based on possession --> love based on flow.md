@@ -1,6 +1,6 @@
 ---
 created: 2025-11-10
-uid: b7vE
+uid: 9wbD
 ---
 north:: [[From scarcity to abundance]]
 

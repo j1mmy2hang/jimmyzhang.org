@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: toJH
+uid: 4H1s
 ---
 [[The Power Law -- The Steep Distribution of Value|The Power Law -- The Steep Distribution of Value]] emands a focus on finding and backing singular, potentially transformative opportunities instead of broad diversification.
 

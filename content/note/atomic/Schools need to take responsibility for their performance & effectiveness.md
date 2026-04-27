@@ -6,7 +6,7 @@ tags:
   - school
   - effectiveness
   - responsibility
-uid: UrkA
+uid: Fm0T
 ---
 我们关心这所学校的排名和声望
 但是，我们很少问：“这所名校的绩效如何？它的绩效又应该是什么？”

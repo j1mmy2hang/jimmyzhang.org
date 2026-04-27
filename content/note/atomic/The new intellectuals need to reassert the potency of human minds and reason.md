@@ -6,7 +6,7 @@ tags:
   - humans
   - mind
   - reason
-uid: 38XL
+uid: 4VXh
 ---
 > It is into the midst of this dismal gray vacuum that the New Intellectuals must step— and must challenge the worshippers of doom, resignation and death, with an attitude best expressed by a paraphrase of an ancient salute: “We who are not about to die . . .”
 

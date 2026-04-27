@@ -1,6 +1,6 @@
 ---
 created: 2025-06-19
-uid: FZGR
+uid: z7cz
 ---
 知识社会
 学历的瓦解

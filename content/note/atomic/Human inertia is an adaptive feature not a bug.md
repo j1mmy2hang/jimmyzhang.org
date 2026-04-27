@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: wqw6
+uid: wCrF
 ---
 ## Part 1 -- Simple Explanation
 

@@ -1,6 +1,6 @@
 ---
 type: topic
-uid: bqAF
+uid: OjvH
 ---
 North: [[Perception of the reality can change reality]]
 Core: [[You are what you believe yourself to be]]

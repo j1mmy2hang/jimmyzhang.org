@@ -5,7 +5,7 @@ tags:
   - strength
   - focus
   - achievement
-uid: L1cy
+uid: IH0Z
 ---
 Mankind is indeed capable of doing an amazingly wide diversity of things. 
 Humanity is a multipurpose tool. 

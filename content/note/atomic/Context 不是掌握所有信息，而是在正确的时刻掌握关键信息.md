@@ -2,7 +2,7 @@
 created: 2026-02-23 08:30
 reference:
   - "[[How Luxury Handbags Can Help Solve AI's Context Problem]]"
-uid: wbt8
+uid: FzeU
 ---
 [[AI 需要 Context 管理和注意力机制]]
 

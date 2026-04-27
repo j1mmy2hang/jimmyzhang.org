@@ -1,6 +1,6 @@
 ---
 created: 2025-11-10
-uid: HUiY
+uid: WlgA
 ---
 **匮乏心态**
 

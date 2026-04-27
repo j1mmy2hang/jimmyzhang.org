@@ -5,6 +5,6 @@ tags:
   - industrial
   - standardization
   - tool
-uid: mizm
+uid: H6P0
 ---
 ![[image-LOvS.png]]

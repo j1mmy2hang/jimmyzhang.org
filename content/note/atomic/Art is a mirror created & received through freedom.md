@@ -4,7 +4,7 @@ tags:
   - art
   - mirror
   - freedom
-uid: Jlg4
+uid: EmDL
 ---
 [[Art is self-expression]]
 [[Art is a mirror for the interpreter]]

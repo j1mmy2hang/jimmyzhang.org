@@ -1,7 +1,7 @@
 ---
 tags:
   - fallacy
-uid: zZo4
+uid: 7jKa
 ---
 People won't stop believing in some things simply because they are false, especially when those beliefs are framed in a nice way or are beneficial.
 

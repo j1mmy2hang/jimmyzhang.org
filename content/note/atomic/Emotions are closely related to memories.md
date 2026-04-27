@@ -2,7 +2,7 @@
 tags:
   - memory
   - emotion
-uid: Lxc0
+uid: DPIC
 ---
 Memories create meaning. 
 

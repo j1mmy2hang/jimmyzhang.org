@@ -2,7 +2,7 @@
 tags:
   - allocation
 topic: "[[Steps to become an effective executive]]"
-uid: c54e
+uid: ioHu
 ---
 People who fail in a new job after promotion may not be the ones to blame
 The problem may lie in the decision-making rather than the performance. 

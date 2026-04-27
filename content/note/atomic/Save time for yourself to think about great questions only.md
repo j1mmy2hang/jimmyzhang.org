@@ -2,7 +2,7 @@
 created: 2026-03-18
 reference:
   - "[[The Art of Doing Science and Engineering]]"
-uid: BpVb
+uid: cVMZ
 ---
 [[Ask the right question & tackle the right problem]]
 

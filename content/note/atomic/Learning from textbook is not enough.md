@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: d8gd
+uid: oxEV
 ---
 Tacit knowledge
 Michael Polanyi, *The Tacit Dimension* (1966): "we can know more than we can tell." 

@@ -2,7 +2,7 @@
 created: 2025-12-16 18:29
 reference:
   - "[[Big Ideas 2026 Part 3]]"
-uid: WST2
+uid: D41B
 ---
 [[钱的价值储存假设和挑战]]
 

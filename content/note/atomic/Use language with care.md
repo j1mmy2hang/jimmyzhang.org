@@ -2,7 +2,7 @@
 created: 2024-12-18
 tags:
   - language
-uid: FdF8
+uid: q8Mj
 ---
 [[Language shapes worldview and perception]]
 

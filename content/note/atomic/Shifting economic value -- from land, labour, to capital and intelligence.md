@@ -1,6 +1,6 @@
 ---
 created: 2025-11-29 21:20
-uid: cY4i
+uid: UMYT
 ---
 a history of four specific "inversions" where the fundamental source of economic value shifted. 
 

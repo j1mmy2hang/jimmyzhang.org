@@ -4,7 +4,7 @@ author:
   - Philip Jones
 type: "[[Book]]"
 cover: "[[image-HIPr.png]]"
-uid: 4P7B
+uid: 0GLQ
 ---
 ![[image-HIPr.png|350]]
 ## Deep Summary

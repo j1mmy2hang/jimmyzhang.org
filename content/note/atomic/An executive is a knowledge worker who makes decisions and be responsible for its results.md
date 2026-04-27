@@ -5,7 +5,7 @@ tags:
   - decision-making
   - responsibility
   - result
-uid: xW04
+uid: NgsR
 ---
 1. knowledge worker
 2. make decisions

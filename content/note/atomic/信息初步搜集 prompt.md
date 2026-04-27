@@ -1,6 +1,6 @@
 ---
 created: 2025-08-15
-uid: NL4u
+uid: KHvs
 ---
 Your have read the entire internet. You know exactly that 99% of the internet is junk -- repetitive and shallow information, guided by emotion & hype rather than logic, and filled with faked understanding. 
 

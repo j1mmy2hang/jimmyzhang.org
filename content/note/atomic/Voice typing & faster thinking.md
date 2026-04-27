@@ -4,7 +4,7 @@ tags:
   - thinking
   - efficiency
   - HCI
-uid: Vj2i
+uid: F3uv
 ---
 ## Physical typing and slow thinking
 

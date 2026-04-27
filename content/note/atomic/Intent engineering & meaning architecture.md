@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: rKMN
+uid: fJRP
 ---
 Turn business objectives into machine-readable specs OKR-to-API
 

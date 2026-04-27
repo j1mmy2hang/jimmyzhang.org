@@ -3,7 +3,7 @@ tags:
   - paradox
   - information
   - manipulation
-uid: RZYv
+uid: nCC6
 ---
 [[Information is manipulation]]
 The only way to escape information cocoons seems to be escaping all information at all. 

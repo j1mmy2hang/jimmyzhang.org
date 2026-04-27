@@ -4,7 +4,7 @@ published: 2026-02-18
 source: https://x.com/gsivulka/status/2024187126020272197
 type: "[[Clipping]]"
 rating: 5
-uid: 1tuI
+uid: WJrJ
 ---
 Right now everyone in this industry is asking some version of the same question: in a world where Anthropic, OpenAI, and Google are pouring hundreds of billions of dollars into building the most powerful general-purpose AI systems in the world, why does vertical software need to exist? How does a company like Hebbia earn a right to win? Why don’t the foundation models just eat everything?
 

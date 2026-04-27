@@ -4,7 +4,7 @@ author:
   - Andrew Chen
 type: "[[Book]]"
 cover: "[[image-3jYX.png]]"
-uid: xMx1
+uid: L4cK
 ---
 ![[image-3jYX.png|200]]
 ## Deep Summary

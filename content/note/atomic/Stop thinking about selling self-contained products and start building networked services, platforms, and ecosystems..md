@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: JvZu
+uid: Q3b6
 ---
 ## Access over Ownership
 

@@ -2,7 +2,7 @@
 created: 2026-03-19
 reference:
   - 李继刚
-uid: c0nB
+uid: kDNV
 ---
 关于读书，可以拉出两个极端：
 

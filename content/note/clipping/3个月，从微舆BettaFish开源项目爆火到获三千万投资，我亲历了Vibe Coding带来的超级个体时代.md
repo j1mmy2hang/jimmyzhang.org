@@ -4,7 +4,7 @@ published: 2026-03-06
 source: https://mp.weixin.qq.com/s/UyYVjlBCvQRJI6B_MmZbsA
 type: "[[Clipping]]"
 rating: 6
-uid: oh1L
+uid: i6CT
 ---
 这篇文章完成于25年年底，在草稿箱放了很久，今天终于有机会分享出来。篇幅比较长，我写了一个阅读导览，可以快速定位每个章节：
 

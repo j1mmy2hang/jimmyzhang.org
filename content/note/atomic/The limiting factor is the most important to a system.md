@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: 8N4H
+uid: B75q
 ---
 木桶短板效应
 "Law of the minimum"

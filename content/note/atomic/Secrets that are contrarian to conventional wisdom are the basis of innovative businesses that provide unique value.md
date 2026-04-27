@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: xyqt
+uid: dAcZ
 ---
 [[Great startup ideas don't start out looking obvious]]
 

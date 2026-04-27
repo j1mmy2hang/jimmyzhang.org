@@ -1,7 +1,7 @@
 ---
 created: 2025-03-05 20:12
 tags:
-uid: Bnu3
+uid: zlwj
 ---
 College is different. It’s an emotional decision, one economists refer to as an “experience good.” We don’t know what we’re buying until after we experience it. Choosing the right college, the right major, or the right classes is difficult because we lack the tools to make bottom-line comparisons between options. As a result, the decision-making process is ill-informed, usually haphazard, and full of false starts.
 

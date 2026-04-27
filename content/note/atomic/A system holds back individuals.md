@@ -4,7 +4,7 @@ tags:
   - system
   - individual
   - benefit
-uid: drE4
+uid: cHNo
 ---
 > The system is not here for our benefit. It holds us back as individuals **to support its own continued existence**. This is particularly undermining to independent thinking and free expression. 
 

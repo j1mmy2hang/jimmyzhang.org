@@ -5,7 +5,7 @@ tags:
   - order
   - story
   - truth
-uid: cFTe
+uid: YzCS
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

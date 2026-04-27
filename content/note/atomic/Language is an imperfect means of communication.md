@@ -4,7 +4,7 @@ tags:
   - language
   - communication
   - means
-uid: 5Pmr
+uid: 0Fiv
 ---
 > An idea is altered and diluted through its mistranslation into words. Those words are then further distorted through our filter as we take them in, leaving us in a world of ambiguity.
 

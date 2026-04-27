@@ -4,7 +4,7 @@ published: 2025-12-11
 source: https://www.a16z.news/p/big-ideas-2026-part-3
 type: "[[Clipping]]"
 rating: 4
-uid: rKLe
+uid: HEfX
 ---
 ### What our Crypto partners are observing for the year ahead
 

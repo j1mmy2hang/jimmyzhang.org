@@ -4,7 +4,7 @@ published: 2026-03-30
 source: https://www.youtube.com/watch?v=vkpYpWfEK5s
 type: "[[Clipping]]"
 rating: 6
-uid: aDqT
+uid: fJVN
 ---
 ![](https://www.youtube.com/watch?v=vkpYpWfEK5s)
 

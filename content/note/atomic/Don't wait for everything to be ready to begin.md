@@ -2,7 +2,7 @@
 tags:
   - begin
   - ready
-uid: x9BG
+uid: q3Uy
 ---
 It's never too early to begin. 
 Don't wait for everything to be ready becayse it never will. 

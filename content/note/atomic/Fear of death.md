@@ -1,7 +1,7 @@
 ---
 web: https://knowledge.insead.edu/leadership-organisations/death-ultimate-motivator
 type: topic
-uid: g2Q3
+uid: HzMZ
 ---
 ## 1. [[Death is the ultimate motivator]]
 ## 2. Death is a mind-killer and source of anxiety

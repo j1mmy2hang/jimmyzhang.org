@@ -5,7 +5,7 @@ tags:
   - energy
   - mechanism
   - creativity
-uid: AHY5
+uid: fwE7
 ---
 We are all translators for messages the universe is broadcasting.
 我们不生产知识和艺术；我们只是宇宙的搬运工和传输器。

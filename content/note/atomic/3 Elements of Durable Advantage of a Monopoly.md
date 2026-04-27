@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: MQos
+uid: lfof
 ---
 - Branding
 - Proprietary technology

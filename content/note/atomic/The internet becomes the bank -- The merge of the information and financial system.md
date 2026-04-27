@@ -2,7 +2,7 @@
 created: 2025-12-16 18:34
 reference:
   - "[[Big Ideas 2026 Part 3]]"
-uid: toVm
+uid: P6Q3
 ---
 As agents arrive en masse, and more commerce happens automatically in the background rather than through user clicks, then the way money — value! — moves needs to change. In a world where systems act on intent instead of on step-by-step instructions — moving money because an AI agent recognized a need, fulfilled an obligation, or triggered an outcome — value has to travel as fast and freely as information does today. This is where blockchains, smart contracts, and new protocols come in.
 

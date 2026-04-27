@@ -3,7 +3,7 @@ tags:
   - respect
   - authority
   - individual
-uid: esOE
+uid: zYt0
 ---
 respect =
 1. treating someone like a person

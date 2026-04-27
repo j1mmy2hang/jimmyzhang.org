@@ -4,7 +4,7 @@ author:
   - Lewis Hyde
 type: "[[Book]]"
 cover: "[[image-LFSS.png]]"
-uid: 3uEs
+uid: 3y1r
 ---
 ![[image-LFSS.png|250]]
 

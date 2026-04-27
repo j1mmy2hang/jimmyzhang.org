@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 10:24
 tags:
-uid: jXOs
+uid: aPg6
 ---
 East:: [[Scial media platforms encourage every one to be creators]]
 

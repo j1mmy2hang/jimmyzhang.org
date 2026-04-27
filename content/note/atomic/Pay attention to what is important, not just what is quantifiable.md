@@ -2,7 +2,7 @@
 created: 2024-12-18
 tags:
   - measure
-uid: xXJ3
+uid: r1Sw
 ---
 > Our culture, obsessed with numbers, has given us the idea that what we can measure is more important than what we can’t measure.
 

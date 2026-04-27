@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: 8yoy
+uid: IyP0
 ---
 [[Intelligence = interacting with the envrionment by taking in data, processing information, make decisions, and attaining goals]]
 

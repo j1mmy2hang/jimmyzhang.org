@@ -4,7 +4,7 @@ tags:
   - organization
   - past
   - creativity
-uid: WT2H
+uid: HDj4
 ---
 There's no lack of ideas in any organization I know. 
 Creativity is not our problem. 

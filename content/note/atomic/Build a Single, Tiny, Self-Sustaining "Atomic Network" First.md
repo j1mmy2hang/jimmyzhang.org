@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06
-uid: 5zDL
+uid: 5eDB
 ---
 atomic network = the smallest possible network that is stable and can grow on its own. 
 

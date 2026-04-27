@@ -1,7 +1,7 @@
 ---
 tags:
   - effectiveness
-uid: bLYr
+uid: i4FI
 ---
 When it comes to helping others, being unreflective often means being ineffective.
 Relying on good intentions and emotions alone without evidence, rationality and research to inform your decision to help others is potentially disastrous.

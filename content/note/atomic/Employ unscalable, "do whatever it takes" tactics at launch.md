@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06
-uid: y1CV
+uid: YwJF
 ---
 Early on, use manual, often unglamorous or unprofitable methods to seed content, acquire initial users, and create engagement. This includes Flintstoning, strategic subsidies, invite-only curation, or hyper-focused community building.
 

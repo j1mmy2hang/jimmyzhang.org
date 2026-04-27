@@ -2,7 +2,7 @@
 tags:
   - art
   - freedom
-uid: ySpF
+uid: Z5rI
 ---
 Only artists can reach a state of pure freedom.
 [[Artists strive to keep themselves pure and unattached]]

@@ -3,7 +3,7 @@ tags:
   - change
   - trend
   - importance
-uid: OQht
+uid: MbBg
 ---
 Everybody sees and feels the trend. Willing or not, we are all in it. 
 Only a small amount of people can sense change in trends and take premptive actions accordingly. 

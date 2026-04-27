@@ -5,7 +5,7 @@ tags:
   - management
   - time
 topic: "[[Steps to become an effective executive]]"
-uid: x2kF
+uid: kg0E
 ---
 by setting [[Focus on what matters most]] --> what needs to be done and what do not
 

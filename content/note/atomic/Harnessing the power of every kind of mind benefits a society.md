@@ -4,7 +4,7 @@ tags:
   - mind
   - society
   - benefit
-uid: Iqhr
+uid: iePC
 ---
 > When we fail to encourage and develop the talents and skills of people who think in different ways, we fail to integrate ways of learning and thinking that benefit and enrich society.
 

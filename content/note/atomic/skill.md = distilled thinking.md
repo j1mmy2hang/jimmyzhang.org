@@ -1,6 +1,6 @@
 ---
 created: 2026-02-19 19:26
-uid: TdMl
+uid: V9on
 ---
 what distilled thinking do I have that can be turned into a `skill.md` to be re-used / shared?
 

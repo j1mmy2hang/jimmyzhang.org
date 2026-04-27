@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 20:11
 tags:
-uid: dWru
+uid: Qhsh
 ---
 Picking criteria = Define the most important thing 
 

@@ -4,7 +4,7 @@ tags:
   - source
   - existence
   - independence
-uid: V1MS
+uid: sL5G
 ---
 A source only <u>refers to / contributes to / uses</u> that idea
 

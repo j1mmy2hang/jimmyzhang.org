@@ -4,7 +4,7 @@ tags:
   - knowledge
   - ignorance
   - duality
-uid: Ujoi
+uid: QtNd
 ---
 > We know a tremendous amount about how the world works, but not nearly enough. Our knowledge is amazing; our ignorance even more so. We can improve our understanding, but we can’t make it perfect.
 > -- [[Thinking in Systems -- A Primer]]

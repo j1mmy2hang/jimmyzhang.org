@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: i4IB
+uid: npBj
 ---
 The ability of young generations to connect and collaborate virtually, if harnessed well, can become a powerful force
 

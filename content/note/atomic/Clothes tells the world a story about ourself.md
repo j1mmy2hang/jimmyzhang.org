@@ -2,7 +2,7 @@
 created: 2026-02-28 19:33
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: 2fSw
+uid: uDIv
 ---
 穿衣服就是在向世界讲一个关于自我的故事。
 

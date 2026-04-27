@@ -4,7 +4,7 @@ published: 2022-08-10
 source: https://collabfund.com/blog/rare-skills/
 type: "[[Clipping]]"
 rating: 5
-uid: 4ELN
+uid: OUQ2
 ---
 by Morgan Housel
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: gpHQ
+uid: TJcY
 ---
 [[Quality of idea over productivity]]
 [[Intent engineering & meaning architecture]]

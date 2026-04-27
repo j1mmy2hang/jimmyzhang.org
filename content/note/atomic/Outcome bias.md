@@ -1,6 +1,6 @@
 ---
 created: 2025-07-10
-uid: 78rj
+uid: gHEW
 ---
 **Outcome Bias** occurs when we judge the quality of a decision or method based on its outcome, rather than on the information available at the time the decision was made or the method was chosen.
 

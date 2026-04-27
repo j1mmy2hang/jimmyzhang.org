@@ -5,7 +5,7 @@ tags:
   - knowledge
   - united
   - vision
-uid: 5TcP
+uid: J9RD
 ---
 [[Intellectuals don't understand the responsibility they bear]]
 Intellectuals don't have vision and aspiration

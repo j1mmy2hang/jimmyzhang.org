@@ -1,6 +1,6 @@
 ---
 created: 2025-04-25
-uid: Sx4m
+uid: LRyN
 ---
 The prevailing **mechanistic worldview**, reducing life to parts and driving unsustainable quantitative growth, is failing humanity and the planet, necessitating a paradigm shift to a unifying **systems view of life**.
 

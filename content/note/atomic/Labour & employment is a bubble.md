@@ -2,7 +2,7 @@
 created: 2025-12-26 16:27
 reference:
   - "[[The Bubble Is Labor]]"
-uid: gXC5
+uid: S8Ye
 ---
 root:: [[从组织社会到主权个人社会]]，大多数 employment 都是 bullshit job, [[人类历史文明的发展就是人类通过发展科技不断寻找何以为人的新边界]]
 

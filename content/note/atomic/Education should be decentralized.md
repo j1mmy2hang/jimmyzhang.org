@@ -1,6 +1,6 @@
 ---
 created: 2025-05-16
-uid: YWlp
+uid: 09Qe
 ---
 Most modern-day schools are designed on the Prussian model, optimized for mass management and social engineering, for industrial needs.
 

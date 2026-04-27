@@ -2,6 +2,6 @@
 created: 2024-11-27
 tags:
   - world
-uid: BcAd
+uid: sMOt
 ---
 ![[image-Zuoq.png]]

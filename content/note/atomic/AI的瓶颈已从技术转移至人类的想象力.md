@@ -1,6 +1,6 @@
 ---
 created: 2025-06-10
-uid: vRBm
+uid: 5pzW
 ---
 AI 的性能早已远远超过传统的想象力
 

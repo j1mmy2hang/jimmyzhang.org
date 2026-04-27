@@ -1,6 +1,6 @@
 ---
 created: 2025-10-11
-uid: NiwT
+uid: ncTy
 ---
 instead of relying on formal institutions
 

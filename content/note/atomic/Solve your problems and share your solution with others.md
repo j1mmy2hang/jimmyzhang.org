@@ -1,6 +1,6 @@
 ---
 created: 2025-05-14
-uid: MI9g
+uid: XN0F
 ---
 > Entrepreneurship (solving problems) and self-actualization (solving your own) combine for a meaningful life: free yourself, then free others.
 

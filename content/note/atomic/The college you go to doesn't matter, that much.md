@@ -1,7 +1,7 @@
 ---
 created: 2025-03-05 20:23
 tags:
-uid: kB9Z
+uid: M6bT
 ---
 Myth -- Elite colleges seem to lead to elite jobs, and in turn, elite money.
 

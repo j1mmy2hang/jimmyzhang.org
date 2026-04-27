@@ -2,7 +2,7 @@
 created: 2024-10-25
 tags:
   - problem
-uid: YdEt
+uid: Kgia
 ---
 Don't stress, let problems solve themselves.
 Most of the time you don't have to worry too much, the problem is going to solve itself easily. So don't stress about it and let things flow for a while before you decide if you need to do anything.

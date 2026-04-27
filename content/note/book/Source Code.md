@@ -4,7 +4,7 @@ author:
   - Bill Gates
 type: "[[Book]]"
 cover: "[[image-hogv.png]]"
-uid: p0X3
+uid: 5avn
 ---
 [[<Raw Highlight> Source Code]]
 

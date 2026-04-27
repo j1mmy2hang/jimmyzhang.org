@@ -2,7 +2,7 @@
 created: 2026-02-20 13:39
 reference:
   - "[[We Are All Architects Now]]"
-uid: 6W8J
+uid: aA6O
 ---
 [[The Intelligence Inversion -- Intelligence is no longer scarce]]
 [[The beauty of humanity is exploring beautiful things that they cannot reproduce]]

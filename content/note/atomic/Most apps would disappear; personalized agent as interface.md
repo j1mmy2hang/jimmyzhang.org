@@ -2,7 +2,7 @@
 created: 2026-01-30 10:18
 reference:
   - "[[Full Interview -- Clawdbot’s Peter Steinberger Makes First Public Appearance Since Launch]]"
-uid: yWkU
+uid: G5FT
 ---
 north:: [[When code become cheap]]
 ## Agent as interface

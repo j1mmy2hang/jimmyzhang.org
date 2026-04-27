@@ -1,6 +1,6 @@
 ---
 created: 2025-03-09
-uid: 3LNT
+uid: HKd8
 ---
 ## Essence & Purpose
 

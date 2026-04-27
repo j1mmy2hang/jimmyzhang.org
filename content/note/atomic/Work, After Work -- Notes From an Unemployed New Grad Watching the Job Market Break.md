@@ -2,7 +2,7 @@
 source: https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/
 published:
 created: 2025-11-11
-uid: kghS
+uid: Scwo
 ---
 I have been putting off writing this for a month, mostly because I did everything I was supposed to do and it still feels like I have no idea what game I am actually playing.
 

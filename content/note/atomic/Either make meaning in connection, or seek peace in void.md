@@ -2,7 +2,7 @@
 created: 2026-01-24 10:23
 reference:
   - "[[A Nihilist’s Guide to Meaning]]"
-uid: JkU3
+uid: LLzt
 ---
 > Either we *strive* to make a meaningful difference in the world, or else learn to face the void without flinching, and to find peace in simple *being*.
 

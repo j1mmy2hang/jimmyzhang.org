@@ -1,6 +1,6 @@
 ---
 created: 2025-05-13
-uid: nj3O
+uid: aNW9
 ---
 This is my attempt to answer the agelong yet forgotten question: What should an education try to achieve? 
 

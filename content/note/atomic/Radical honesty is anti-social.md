@@ -2,7 +2,7 @@
 created: 2026-01-25 13:57
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: hNZ4
+uid: WXJQ
 ---
 [[虚伪是文明的润滑剂]]
 

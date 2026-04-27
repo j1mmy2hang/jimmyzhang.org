@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: T4L9
+uid: KcmO
 ---
 The ideal startup should emulate the social organization of a honeybee swarm, a decentralized and leaderless system where autonomy is pushed to the periphery, allowing the group to process information and adapt to challenges with a speed and efficiency that rigid, hierarchical human organizations cannot match.
 

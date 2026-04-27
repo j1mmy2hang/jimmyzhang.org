@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: hMkr
+uid: vEkq
 ---
 And the biggest regret people had? Worrying about things that never happened: “Worrying wastes your life,”
 

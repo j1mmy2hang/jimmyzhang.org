@@ -4,7 +4,7 @@ tags:
   - hierarchy
   - balance
   - system
-uid: zZ03
+uid: C2qk
 ---
 Challenges faced by hierarchies
 1. Suboptimization -- when a subsystem’s goals dominate at the expense of the total system’s goals ([[The purposes of subunits may not align with the overall system purpose]])

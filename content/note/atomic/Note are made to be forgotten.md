@@ -2,7 +2,7 @@
 created: 2026-03-09 13:35
 reference:
   - "[[Notes apps are where ideas go to die. And that’s good.]]"
-uid: 5qpv
+uid: wRVB
 ---
 ## 记笔记不是为了记住，而是为了忘记
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05
-uid: WfcL
+uid: X0HG
 ---
 Purchasing decisions and behavioral changes are more often dictated by the specific circumstances individuals find themselves in, rather than by their demographic profiles, personality traits, or self-perceived identities.
 

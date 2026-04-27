@@ -2,7 +2,7 @@
 created: 2024-09-08
 tags:
   - listen
-uid: QT9y
+uid: dByt
 ---
 > Listening is paying attention to those sounds, being present with them, being in communion with them. 
 

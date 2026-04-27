@@ -2,7 +2,7 @@
 topic: "[[教育的问题]]"
 tags:
   - education
-uid: 0ERG
+uid: YRvq
 ---
 ![[Education is complicated]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-10-03
-uid: 1Uws
+uid: zKQa
 ---
 ## The Dependency Trap
 

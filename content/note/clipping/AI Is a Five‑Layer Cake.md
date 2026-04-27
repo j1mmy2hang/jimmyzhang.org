@@ -4,7 +4,7 @@ published: 2026-03-10
 source: https://x.com/nvidia/status/2031311890752704790
 type: "[[Clipping]]"
 rating: 4
-uid: JJt7
+uid: AG0f
 ---
 AI is one of the most powerful forces shaping the world today. It is not a clever app or a single model; it is essential infrastructure, like electricity and the internet.
 

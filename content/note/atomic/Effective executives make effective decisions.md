@@ -4,7 +4,7 @@ tags:
   - effectiveness
   - executive
   - decision-making
-uid: JhTE
+uid: vUai
 ---
 [[Effective decisions should be strategic & made at the highest conceptual level of understanding]] 
  

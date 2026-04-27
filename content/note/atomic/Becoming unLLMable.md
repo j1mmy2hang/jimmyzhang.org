@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: mfS1
+uid: IMWQ
 ---
 through developing [[Humanistic edges in the AI age]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: sYjU
+uid: NHdD
 ---
 - self-expression
 	- freedom of expression

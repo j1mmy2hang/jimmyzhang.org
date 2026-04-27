@@ -1,6 +1,6 @@
 ---
 created: 2025-05-14
-uid: 8MR6
+uid: PVZQ
 ---
 > "The difference between an employee and entrepreneur is the difference between low agency and high agency. In this context, high-agency individuals are those who create their own goals and actively pursue them without permission from another. Low-agency individuals are those who are assigned goals and pursue them because they don’t have a mind that allows them to see any other option."
 

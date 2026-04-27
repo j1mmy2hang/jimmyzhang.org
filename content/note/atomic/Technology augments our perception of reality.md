@@ -2,7 +2,7 @@
 tags:
   - tech
   - reality
-uid: XBD4
+uid: UBCe
 ---
 By presenting us with more and more informaiton that we would not noramlly ahve access to
 data and information makes up a reality -- [[My world model of data, information, realities, & learning]]

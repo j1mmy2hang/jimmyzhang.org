@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:31
-uid: hniW
+uid: h161
 ---
 Stop using one currency for two different worlds. 
 

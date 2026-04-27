@@ -1,6 +1,6 @@
 ---
 created: 2026-02-04 16:24
-uid: q7IK
+uid: LCkW
 ---
 School is just a socially acceptable way to pause time. 
 

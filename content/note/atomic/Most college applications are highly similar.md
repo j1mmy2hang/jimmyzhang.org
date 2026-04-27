@@ -3,7 +3,7 @@ created: 2025-03-05 20:01
 tags:
 reference:
   - "[[Who Gets in and Why? A Year Inside College Admissions]]"
-uid: Qb7v
+uid: IHVQ
 ---
 Each applicant has a unique numerical code, but after a while many of the other numbers and key identifiers that accompany the applications begin to look the same. Everyone wants to major in biology, psychology, or business. They all scored a 1390 on the SAT and have a 3.7 GPA—a number that’s been deflated from high school standards through a recalculation by Emory. So again, the readers look for something that’s different.
 

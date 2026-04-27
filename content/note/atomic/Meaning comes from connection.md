@@ -2,7 +2,7 @@
 created: 2026-01-24 10:17
 reference:
   - "[[A Nihilist’s Guide to Meaning]]"
-uid: HnqA
+uid: 1PjY
 ---
 > A thing X will be *perceived as meaningful* in context C to the extent that it's *connected to other meaningful things* in C.
 

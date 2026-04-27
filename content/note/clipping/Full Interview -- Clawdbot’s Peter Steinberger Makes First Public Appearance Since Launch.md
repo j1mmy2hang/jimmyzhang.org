@@ -4,7 +4,7 @@ published: 2026-01-28
 source: https://www.youtube.com/watch?v=qyjTpzIAEkA
 type: "[[Clipping]]"
 rating: 6
-uid: KCuU
+uid: HAM5
 ---
 **John Coogan:** The man of the hour. How are you doing?
 

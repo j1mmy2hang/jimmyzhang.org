@@ -1,7 +1,7 @@
 ---
 type: "[[Event]]"
 created: 2024-07-04
-uid: MS1j
+uid: rIlM
 ---
 ## The Basics
 

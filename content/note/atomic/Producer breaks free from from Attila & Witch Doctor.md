@@ -1,7 +1,7 @@
 ---
 created: 2026-02-04 17:19
 parent: "[[The Sovereign Individuals, Code vs Leviathan, Elite vs the masses]]"
-uid: eTBW
+uid: rjVr
 ---
 foundation: [[For the New Intellectual]], [[Attila & Witch Doctor -- Rule of Force & Faith]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-12-25 22:16
-uid: J8AH
+uid: P8jt
 ---
 [[The future always disguises itself as the past]]
 

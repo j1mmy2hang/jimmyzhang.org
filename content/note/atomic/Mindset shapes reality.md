@@ -4,7 +4,7 @@ tags:
   - mindset
   - attention
   - reality
-uid: HiY3
+uid: 4arq
 ---
 We see (reality) what we see (our mindset and attention)
 

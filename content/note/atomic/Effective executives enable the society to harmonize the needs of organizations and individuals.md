@@ -5,7 +5,7 @@ tags:
   - executive
   - organization
   - individual
-uid: 8fqZ
+uid: BvUi
 ---
 Self-development of the executive toward effectiveness is the only available answer. It is the only way in which organization goals and individual needs can come together.
 

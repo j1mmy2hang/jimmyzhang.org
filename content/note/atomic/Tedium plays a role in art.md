@@ -2,7 +2,7 @@
 created: 2025-04-06
 tags:
   - art
-uid: FuCz
+uid: TnWF
 ---
 what is the role of tedium in the work that you are doing?
 what happens when it takes no effort, no craftsmanship to take an idea to its fruition, to its first execution?

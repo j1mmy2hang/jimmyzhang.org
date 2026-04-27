@@ -3,7 +3,7 @@ created: 2025-04-26
 author: James Gleick
 type: "[[Book]]"
 cover: "[[image-aUOI.png]]"
-uid: 7Pi4
+uid: Qd24
 ---
 ![[image-aUOI.png|300]]
 

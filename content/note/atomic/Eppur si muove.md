@@ -2,7 +2,7 @@
 created: 2026-03-25
 reference:
   - "[[The Four Quadrants of Conformism]]"
-uid: Z80p
+uid: BPSN
 ---
 and yet it moves
 

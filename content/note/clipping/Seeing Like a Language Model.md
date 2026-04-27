@@ -4,7 +4,7 @@ published: 2025-10-03
 type: "[[Clipping]]"
 source: https://every.to/chain-of-thought/seeing-like-a-language-model
 rating: 7
-uid: ffqu
+uid: SYbj
 ---
 AI and the successor to the old, Western worldview
 

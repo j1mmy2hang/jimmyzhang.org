@@ -1,6 +1,6 @@
 ---
 created: 2025-05-28
-uid: UG3f
+uid: epHX
 ---
 human (authentic) VS artificial intelligence
 

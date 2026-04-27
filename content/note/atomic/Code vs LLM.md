@@ -1,6 +1,6 @@
 ---
 created: 2026-02-12 14:42
-uid: MFgq
+uid: aqTG
 ---
 Deterministic Code versus Flexible LLM 这两个之间的平衡点是在哪里？
 

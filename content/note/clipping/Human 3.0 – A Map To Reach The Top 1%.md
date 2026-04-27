@@ -4,7 +4,7 @@ published: 2026-02-17
 source: https://x.com/thedankoe/status/2023779299367809063
 type: "[[Clipping]]"
 rating: 5
-uid: MX0z
+uid: zsZ2
 ---
 As corny as this may sound, I've always wanted to become an absolute unit of an individual.
 

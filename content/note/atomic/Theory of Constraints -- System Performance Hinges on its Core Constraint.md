@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: n0Qw
+uid: 9uF9
 ---
 ## Part 1 -- Simple Explanation
 

@@ -2,7 +2,7 @@
 created: 2025-01-25
 tags:
   - information
-uid: a2wU
+uid: a9oX
 ---
 Prior to the rise of computers, humans were indispensable links in every chain of information networks
 

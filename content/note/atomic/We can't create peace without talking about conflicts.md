@@ -3,7 +3,7 @@ created: 2024-10-09
 tags:
   - peace
   - conflict
-uid: AMwa
+uid: Q6BG
 ---
 How can we create peace without talking about conflicts?
 We don't create solutions without facing the problem first. 

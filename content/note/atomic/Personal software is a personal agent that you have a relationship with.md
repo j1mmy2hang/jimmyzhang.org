@@ -2,7 +2,7 @@
 created: 2026-03-23
 reference:
   - "[[What personal software actually is]]"
-uid: sUsn
+uid: PKIe
 ---
 fluid vs static
 

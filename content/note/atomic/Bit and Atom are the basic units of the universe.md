@@ -1,6 +1,6 @@
 ---
 created: 2025-04-24
-uid: x4To
+uid: 9yoB
 ---
 bit -- information
 atom -- matter

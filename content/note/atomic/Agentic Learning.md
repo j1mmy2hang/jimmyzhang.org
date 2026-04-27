@@ -1,6 +1,6 @@
 ---
 created: 2026-01-12 16:31
-uid: LCqH
+uid: xrmo
 ---
 north:: [[Agentic Being]]
 

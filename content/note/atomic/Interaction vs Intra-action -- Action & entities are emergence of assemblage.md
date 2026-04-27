@@ -1,6 +1,6 @@
 ---
 created: 2025-06-30
-uid: XWbR
+uid: h5LP
 ---
 ## 古典观念：Action = A Collision
 

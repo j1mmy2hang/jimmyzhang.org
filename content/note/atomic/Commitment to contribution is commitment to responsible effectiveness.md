@@ -5,7 +5,7 @@ tags:
   - contribution
   - responsibility
   - effectiveness
-uid: MyAE
+uid: AaFh
 ---
 To focus on contribution is to focus on effectiveness 
 

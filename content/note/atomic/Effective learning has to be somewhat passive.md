@@ -2,7 +2,7 @@
 created: 2026-01-16 19:49
 reference:
   - "[[Why Your AI Learning Projects Keep Fizzling Out]]"
-uid: 3c6R
+uid: YACD
 ---
 (someone designing the path for you)
 

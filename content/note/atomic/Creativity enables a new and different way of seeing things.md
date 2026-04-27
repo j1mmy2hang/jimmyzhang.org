@@ -2,7 +2,7 @@
 tags:
   - creativity
   - vision
-uid: WSz2
+uid: S0TK
 ---
 Creativity changes your perspective, expand the possibilities, and enables you to see things that you were unable to see before. 
 

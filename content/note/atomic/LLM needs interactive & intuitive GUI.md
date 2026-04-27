@@ -2,7 +2,7 @@
 created: 2025-12-20 20:34
 reference:
   - "[[2025 LLM Year in Review]]"
-uid: DhMl
+uid: QCeR
 ---
 [[Revolutionize how humans interact with AI to explore ideas and think together]]
 

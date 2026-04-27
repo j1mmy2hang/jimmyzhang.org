@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06
-uid: T3yt
+uid: fuqr
 ---
 [[Agency is key]], not knowledge or skills
 

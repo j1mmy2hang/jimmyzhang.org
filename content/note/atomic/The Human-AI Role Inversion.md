@@ -1,6 +1,6 @@
 ---
 created: 2025-06-10
-uid: peav
+uid: enmq
 ---
 ### 人机关系的反转：从“AI辅助我”到“我辅助AI”
 

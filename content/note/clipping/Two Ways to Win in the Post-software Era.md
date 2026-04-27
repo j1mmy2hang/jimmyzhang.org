@@ -4,7 +4,7 @@ published: 2025-12-08
 source: https://every.to/thesis/two-ways-to-win-in-the-post-software-era
 type: "[[Clipping]]"
 rating: 6
-uid: DH0K
+uid: lII5
 ---
 If you're funding or starting an AI company in 2025, Rich Sutton's 'bitter lesson' should terrify and guide you
 

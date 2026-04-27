@@ -1,6 +1,6 @@
 ---
 created: 2025-04-21
-uid: bRh4
+uid: S7E3
 ---
 > The oppressed must not, in seeking to regain their humanity, become in turn oppressors of the oppressors, but rather restorers of the humanity of both.
 > -- [[The Pedagogy of the Oppressed]]

@@ -2,7 +2,7 @@
 created: 2026-02-07 10:22
 reference:
   - "[[What Is Taste, Really]]"
-uid: funn
+uid: 3ByX
 ---
 through enlargening human [[Agency is key|agency]]
 

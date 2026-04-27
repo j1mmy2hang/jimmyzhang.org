@@ -1,6 +1,6 @@
 ---
 created: 2026-03-04 17:21
-uid: cHpB
+uid: 3JcZ
 ---
 east:: [[The File System Is the New Database -- How I Built a Personal OS for AI Agents]]
 

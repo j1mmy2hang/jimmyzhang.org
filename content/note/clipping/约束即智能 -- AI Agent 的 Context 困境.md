@@ -4,7 +4,7 @@ published: 2025-12-24
 source: https://x.com/beihuo/article/2003729415508046321
 type: "[[Clipping]]"
 rating: 6
-uid: GJav
+uid: mBR1
 ---
 ![](https://pbs.twimg.com/media/G86tQoaagAE65GE?format=jpg&name=medium)
 

@@ -3,7 +3,7 @@ created: 2025-11-10
 reference:
   - "[[人比 AI 凶]]"
   - "[[The Last Economy]]"
-uid: lspM
+uid: plcP
 ---
 相对于匮乏心态注重拥有，富足心态更注重体验。
 

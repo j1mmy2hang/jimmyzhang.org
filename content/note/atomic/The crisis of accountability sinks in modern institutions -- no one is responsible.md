@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: Pivv
+uid: aq8p
 ---
 the shift from decisions made by identifiable humans to those made by vast, industrial-scale systems and processes
 

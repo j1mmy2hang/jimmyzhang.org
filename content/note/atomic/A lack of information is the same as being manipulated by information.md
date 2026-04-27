@@ -4,7 +4,7 @@ tags:
   - manipulation
   - information
   - lack
-uid: VMs9
+uid: hrr0
 ---
 如果没有足够的多元的信息，人们就会被仅有的信息操控
 这就是为什么集权国家想用信息操控人民就必须封堵信息自由

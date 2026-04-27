@@ -3,7 +3,7 @@ created: 2025-03-05 18:24
 author: Jeffrey Selingo
 type: "[[Book]]"
 cover: "[[image-R7i3.png]]"
-uid: fylV
+uid: svGq
 ---
 ![[image-R7i3.png|350]]
 

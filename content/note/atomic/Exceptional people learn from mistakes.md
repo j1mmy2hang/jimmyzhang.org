@@ -1,7 +1,7 @@
 ---
 created: 2025-02-24 12:13
 tags:
-uid: JLFr
+uid: N0XZ
 ---
 One thing that sets exceptional people apart from the crowd is how they handle mistakes and whether they learn from them and do better as a result.
 

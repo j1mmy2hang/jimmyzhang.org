@@ -1,6 +1,6 @@
 ---
 created: 2025-12-31 18:09
-uid: uigI
+uid: kb8Q
 ---
 What do I value?
 What are the things I wish I could do more of?

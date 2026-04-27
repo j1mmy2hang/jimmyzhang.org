@@ -4,7 +4,7 @@ tags:
   - source
   - knowledge
   - repetition
-uid: 8oYL
+uid: 5cBD
 ---
 ![[Source and Idea.svg]]
 

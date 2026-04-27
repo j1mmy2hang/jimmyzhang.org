@@ -1,6 +1,6 @@
 ---
 created: 2026-02-01 10:41
-uid: CeDe
+uid: ZYER
 ---
 ### Floor 1: The Explicit (Conscious Strategy)
 *We are aware of these variables. This is the realm of Logic, Law, and War.*

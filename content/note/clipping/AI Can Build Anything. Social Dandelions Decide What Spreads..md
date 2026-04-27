@@ -4,7 +4,7 @@ published: 2026-01-15
 source: https://every.to/p/ai-can-build-anything-social-dandelions-decide-what-spreads?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 6
-uid: CXvn
+uid: GMoz
 ---
 
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3895/full_page_cover_Find_the_social_dandelions.png)

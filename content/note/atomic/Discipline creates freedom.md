@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - discipline
   - freedom
-uid: s0j4
+uid: p3GK
 ---
 > Discipline is not a lack of freedom, it is a harmonious relationship with time. Managing your schedule and daily habits well is a necessary component to free up the practical and creative capacity to make great art.
 

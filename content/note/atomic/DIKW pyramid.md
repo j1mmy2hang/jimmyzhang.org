@@ -5,7 +5,7 @@ tags:
   - knowledge
   - wisdom
   - pyramid
-uid: JqZR
+uid: mEcT
 ---
 > [!summary]
 > 数据 --> 信息 --> 知识 --> 智慧

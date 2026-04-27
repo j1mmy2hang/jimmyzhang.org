@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: HINz
+uid: Izx5
 ---
 a good question = one that **“creates new territory of thinking”** and **“generates many other good questions.”**
 

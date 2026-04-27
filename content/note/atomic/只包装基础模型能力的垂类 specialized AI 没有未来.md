@@ -1,7 +1,7 @@
 ---
 created: 2025-12-09 12:59
 reference: "[[Two Ways to Win in the Post-software Era]]"
-uid: 0FrK
+uid: NEVI
 ---
 因为会被更强的通用模型打败
 ## Specialization loses out to systems with more compute and data

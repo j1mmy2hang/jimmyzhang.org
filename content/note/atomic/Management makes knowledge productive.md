@@ -4,7 +4,7 @@ tags:
   - management
   - knowledge
   - productivity
-uid: tpl4
+uid: JmO0
 ---
 [[Effectiveness turns resources into results]]
 [[Management turns resources into outputs]]

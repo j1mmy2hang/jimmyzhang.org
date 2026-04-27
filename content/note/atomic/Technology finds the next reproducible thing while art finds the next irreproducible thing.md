@@ -1,6 +1,6 @@
 ---
 created: 2025-03-29
-uid: IkbP
+uid: 8Rfo
 ---
 becoming a "techno-artist?"
 

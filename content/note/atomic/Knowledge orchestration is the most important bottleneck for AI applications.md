@@ -1,6 +1,6 @@
 ---
 created: 2025-09-28
-uid: WvVa
+uid: fUoA
 ---
 > There are two important components to intelligence: reasoning and knowledge. GPT-4 is quite good at reasoning, but its knowledge of the world is limited. As such, its performance is bottlenecked by our ability to give it the right knowledge at the right time for it to reason with.
 

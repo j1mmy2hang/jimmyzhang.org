@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - job
   - strength
-uid: F5DL
+uid: I4yJ
 ---
 Not a personal should fit the requirement of a job
 Effective executives know that they have to start with what a man can do rather than what a job requires 

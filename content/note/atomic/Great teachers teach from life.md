@@ -2,7 +2,7 @@
 created: 2026-03-13 14:17
 reference:
   - "[[Some Thoughts on Teaching]]"
-uid: oc3U
+uid: boMp
 ---
 Great teachers teach what they do
 and how they think

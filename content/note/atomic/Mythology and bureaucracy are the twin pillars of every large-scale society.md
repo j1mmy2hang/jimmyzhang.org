@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: UP2Z
+uid: cSKy
 ---
 Mythology -- [[Stories connect large networks and give rise to power]]
 Bureaucracy -- [[Bureaucracy create new realities, devise new orders, and wield enormous power]]

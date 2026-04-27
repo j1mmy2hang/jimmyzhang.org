@@ -4,7 +4,7 @@ published: 2016-07-11
 source: https://meltingasphalt.com/a-nihilists-guide-to-meaning/
 type: "[[Clipping]]"
 rating: 4
-uid: f797
+uid: 8cS0
 ---
 I've never been plagued by the big existential questions. You know, like *What's my purpose?* or *What does it all mean?*
 

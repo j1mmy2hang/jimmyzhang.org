@@ -2,7 +2,7 @@
 created: 2024-12-09
 tags:
   - delay
-uid: YBaC
+uid: nTMt
 ---
 We are surprised over and over again at how much time things take
 

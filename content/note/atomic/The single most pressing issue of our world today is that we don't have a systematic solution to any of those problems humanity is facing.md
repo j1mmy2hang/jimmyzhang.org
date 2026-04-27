@@ -5,7 +5,7 @@ tags:
   - solution
   - system
   - s
-uid: G6Sq
+uid: 2Czi
 ---
 ![[Global risks landscape -- an interconnections map]]
 

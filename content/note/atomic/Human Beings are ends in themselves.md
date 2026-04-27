@@ -4,7 +4,7 @@ tags:
   - means
   - purpose
   - humans
-uid: pVt4
+uid: wp6h
 ---
 Human beings shouldn’t be used or treated as a mere means. 
 

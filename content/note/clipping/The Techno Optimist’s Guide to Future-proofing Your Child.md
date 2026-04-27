@@ -3,7 +3,7 @@ created: 2025-11-19 10:35
 type: "[[Clipping]]"
 rating: 5
 source: https://nymag.com/intelligencer/article/ai-future-predictions-parenting-kids-children-technology-education.html
-uid: QMpJ
+uid: jGJK
 ---
 # AI doomers and bloomers are girding themselves for what’s coming — starting with their kids.
 

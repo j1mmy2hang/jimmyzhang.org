@@ -2,7 +2,7 @@
 created: 2025-12-12 10:59
 reference:
   - "[[Big Ideas 2026 Part 2]]"
-uid: 2JfL
+uid: YbtR
 ---
 the rise of an industrial base that is truly AI native and software-first
 the rebirth of the American factory with software and AI at its heart

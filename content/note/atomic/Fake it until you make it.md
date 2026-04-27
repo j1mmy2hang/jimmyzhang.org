@@ -1,7 +1,7 @@
 ---
 tags:
   - confidence
-uid: Lhfq
+uid: 8Y6l
 ---
 Pretending to be confident through posture will actually make you confident
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-05-03
-uid: bBlV
+uid: iCnm
 ---
 [[<Discussion> AI 戳破了一个假象 -- 大多数人看似在做的智力劳动实则是低效重复劳动]]
 

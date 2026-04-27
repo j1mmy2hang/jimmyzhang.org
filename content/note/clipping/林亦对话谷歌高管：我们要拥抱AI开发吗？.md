@@ -4,7 +4,7 @@ published: 2026-01-23
 source: https://www.youtube.com/watch?v=UAJCA99hEcg
 type: "[[Clipping]]"
 rating: 6
-uid: m829
+uid: cQSm
 ---
 **Matt:** Matt Thompson (Google Cloud Developer Ecosystem Lead)
 **Ricky:** Ricky Robinett (Google Cloud Global Developer Marketing Lead)

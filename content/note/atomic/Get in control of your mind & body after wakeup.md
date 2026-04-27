@@ -4,7 +4,7 @@ tags:
   - wakeup
   - body
   - control
-uid: e1YI
+uid: VfxH
 ---
 Don't do anything yet before you are fully in control. Otherwise you may do some stupid shit and set your day on the wrong path. 
 

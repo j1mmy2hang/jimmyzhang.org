@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - understanding
   - appreciate
-uid: HoIi
+uid: 6YnB
 ---
 Simply notice the awe and inspirations. 
 

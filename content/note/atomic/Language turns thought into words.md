@@ -2,7 +2,7 @@
 tags:
   - language
   - thinking
-uid: axeR
+uid: D4ZM
 ---
 ![[Language -- from thought to words|600]]
 

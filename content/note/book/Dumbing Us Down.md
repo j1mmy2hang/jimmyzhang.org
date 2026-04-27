@@ -3,7 +3,7 @@ created: 2025-04-22
 author: John Taylor Gatto
 type: "[[Book]]"
 cover: "[[image-dVk0.png]]"
-uid: dwcU
+uid: 5EqE
 ---
 > [!Deep Summary]
 > ### [[<Deep Summary> Dumbing Us Down]]

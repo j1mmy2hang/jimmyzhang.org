@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 09:03
 tags:
-uid: z8FA
+uid: 5mm5
 ---
 [[AI -- from tool to agent]]
 

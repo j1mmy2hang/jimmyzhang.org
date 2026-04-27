@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21
-uid: TSOR
+uid: 2u8p
 ---
 A **Community** is a group of people bound by shared physical space, mutual trust, and interdependent relationships (a neighborhood, a school, a congregation). 
 

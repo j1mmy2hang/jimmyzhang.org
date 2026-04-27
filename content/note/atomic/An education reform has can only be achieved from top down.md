@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: uPj8
+uid: HMcj
 ---
 because the current structure works by passing down goals layer and layer down all the way till kindergarden -- it's a top-down structure
 

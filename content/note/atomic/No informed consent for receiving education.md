@@ -4,7 +4,7 @@ tags:
   - consent
   - education
   - school
-uid: zyPU
+uid: ccid
 ---
 1. no consent -- mandatory (law / norm), no choice
 2. not informed -- [[Most students do not possess an understanding of the meaning of school]]

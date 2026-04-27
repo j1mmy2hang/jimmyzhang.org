@@ -1,6 +1,6 @@
 ---
 created: 2025-05-26
-uid: DBvu
+uid: KHqS
 ---
 Turing Test -- if a human can tell a machine is a machine
 Reversed Turing Test -- if a machine can tell a human is a human

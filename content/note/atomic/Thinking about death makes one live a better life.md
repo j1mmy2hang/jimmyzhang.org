@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: PGw4
+uid: JZLi
 ---
 If you want a better life, start thinking about death.
 

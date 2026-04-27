@@ -1,6 +1,6 @@
 ---
 created: 2025-11-13 20:10
-uid: 8lIR
+uid: vRrb
 ---
 > With LLMs, the real expertise isn’t in doing the work. It’s knowing how to guide and evaluate the work. It’s knowing what is worth prompting, which is another way of 4saying *knowing what’s worth doing.*
 > -- [[<Raw> How I Stopped Worrying About AI and Learned to Value My Humanity]]

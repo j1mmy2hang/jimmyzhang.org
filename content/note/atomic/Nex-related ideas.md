@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: uJLX
+uid: zYwB
 ---
 [[Nex -- The Next Generation Platform for Knowledge]]
 

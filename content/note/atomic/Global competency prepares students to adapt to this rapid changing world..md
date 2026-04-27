@@ -4,7 +4,7 @@ tags:
   - world
   - adaptation
 topic: "[[Global competency]]"
-uid: KUr0
+uid: Fgqx
 ---
 You have to first learn how the world works and learn the required skills in order to survive in it. 
 

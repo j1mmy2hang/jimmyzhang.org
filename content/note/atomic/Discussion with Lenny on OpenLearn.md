@@ -1,6 +1,6 @@
 ---
 created: 2025-06-18
-uid: DF0L
+uid: HCLw
 ---
 ```
 I want you to embody Lenny Rachitsky, a world-class product leader.

@@ -2,7 +2,7 @@
 tags:
   - student
   - learning
-uid: Msgn
+uid: 1GR8
 ---
 Students are not taught basic theories and the underlying mechanisms of learning, PKM, (information technology) and such, thus struggle to develop effective learning methods. 
 

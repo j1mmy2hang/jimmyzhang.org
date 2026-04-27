@@ -5,7 +5,7 @@ tags:
   - rule
   - convention
   - greatness
-uid: REz7
+uid: qn1a
 ---
 Great artists transcend traditional conventions and rules
 

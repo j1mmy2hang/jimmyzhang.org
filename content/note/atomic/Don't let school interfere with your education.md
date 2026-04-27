@@ -1,6 +1,6 @@
 ---
 created: 2025-05-13
-uid: XZcE
+uid: IeZm
 ---
 Learning is natural. Education is self-directed. 
 

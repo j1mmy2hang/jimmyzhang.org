@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: UszS
+uid: ma9R
 ---
 [[Self-knowledge is the only basis of true knowledge]]
 

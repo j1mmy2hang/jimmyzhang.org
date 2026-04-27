@@ -3,7 +3,7 @@ created: 2024-08-31
 tags:
   - gracefulness
   - reaction
-uid: VAfP
+uid: lCfn
 ---
 任何情况下保持优雅与淡定
 不要慌张，不要害怕，从容面对一切，相信一切有解决办法

@@ -3,7 +3,7 @@ created: 2024-10-07
 tags:
   - media
   - power
-uid: Jhzn
+uid: F9iV
 ---
 The media holds the great power of creating & distributing information.
 They got to decide what to show and what not to show. 

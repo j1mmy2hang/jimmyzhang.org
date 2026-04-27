@@ -2,7 +2,7 @@
 created: 2026-01-29 10:14
 reference:
   - "[[The Abolition of Work by Bob Black]]"
-uid: 6pll
+uid: hAlp
 ---
 ## 大部分工作根本没必要存在
 

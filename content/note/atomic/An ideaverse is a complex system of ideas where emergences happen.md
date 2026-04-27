@@ -3,7 +3,7 @@ created: 2025-03-16 13:20
 tags:
   - system
   - complexity
-uid: UD3X
+uid: uDt9
 ---
 collecting information is no longer special --> what's valuable is seeing their relationship, interplay, & emergent qualitites
 

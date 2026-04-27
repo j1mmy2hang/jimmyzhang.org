@@ -3,7 +3,7 @@ created: 2024-12-18
 tags:
   - information
   - power
-uid: qe3v
+uid: Uamb
 ---
 [[Thinking in Systems -- A Primer]]: 
 

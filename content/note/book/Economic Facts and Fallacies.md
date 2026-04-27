@@ -2,7 +2,7 @@
 author: Thomas Sowell
 type: "[[Book]]"
 cover: "[[image-0WXo.png]]"
-uid: ZikJ
+uid: Su3l
 ---
 ![[image-0WXo.png|350]]
 

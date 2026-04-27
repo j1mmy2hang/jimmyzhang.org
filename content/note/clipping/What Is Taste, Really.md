@@ -4,7 +4,7 @@ published: 2026-02-06
 source: https://every.to/p/what-is-taste-really?ph_email=jz9542063%40gmail.com
 type: "[[Clipping]]"
 rating: 6
-uid: "9874"
+uid: ySba
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/3932/full_page_cover_What_Is_Taste_Really.png)
 

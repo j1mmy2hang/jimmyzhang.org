@@ -1,6 +1,6 @@
 ---
 created: 2025-10-09
-uid: wzFT
+uid: IdRt
 ---
 Bicycle of the mind -- Steve Jobs
 

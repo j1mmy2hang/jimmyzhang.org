@@ -3,7 +3,7 @@ created: 2024-12-09
 tags:
   - resource
   - flow
-uid: AdEl
+uid: DSEb
 ---
 > They can support extraction or harvest indefinitely, but only at a finite flow rate equal to their regeneration rate. If they are extracted faster than they regenerate, they may eventually be driven below a critical threshold and become, for all practical purposes, nonrenewable.
 

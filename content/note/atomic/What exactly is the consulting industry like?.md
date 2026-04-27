@@ -2,7 +2,7 @@
 created: 2024-10-09
 tags:
   - consulting
-uid: 7Mr3
+uid: y7BL
 ---
 The consulting industry can be pretty dirty. 
 

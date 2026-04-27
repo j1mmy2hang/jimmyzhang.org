@@ -3,7 +3,7 @@ created: 2026-02-23 15:42
 reference:
   - "[[The Last Economy]]"
   - "[[当系统不再需要你]]"
-uid: Ko5u
+uid: Dd3J
 ---
 重新定义人的价值，与产出脱钩
 

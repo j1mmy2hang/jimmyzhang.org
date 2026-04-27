@@ -2,7 +2,7 @@
 created: 2026-02-20 12:10
 reference:
   - "[[User-driven UI]]"
-uid: m5JI
+uid: 4vxN
 ---
 problem to solve:: [[做工具和教人用工具同等重要]]
 

@@ -3,7 +3,7 @@ created: 2025-03-28
 tags:
   - photography
   - art
-uid: f8sj
+uid: laTs
 ---
 https://daily.jstor.org/when-photography-was-not-art/
 

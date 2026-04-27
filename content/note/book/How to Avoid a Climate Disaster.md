@@ -4,7 +4,7 @@ author:
   -  Bill Gates
 type: "[[Book]]"
 cover: "[[image-CilS.png]]"
-uid: z2es
+uid: waxN
 ---
 ![[image-CilS.png|350]]
 

@@ -3,7 +3,7 @@ created: 2024-11-11
 tags:
   - inner_child
   - myself
-uid: AyXN
+uid: qH5O
 ---
 古灵精怪，喜欢表演，充满创意，有勇敢不怕别的就去干的精神
 我小时候似乎也是这样啊

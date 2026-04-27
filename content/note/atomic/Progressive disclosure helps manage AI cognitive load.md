@@ -2,7 +2,7 @@
 created: 2026-02-21 20:27
 reference:
   - "[[渐进式披露：LLM时代的核心工程哲学]]"
-uid: xH2P
+uid: YFT3
 ---
 ## From Human to AI
 

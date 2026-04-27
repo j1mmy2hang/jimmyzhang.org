@@ -2,7 +2,7 @@
 created: 2026-03-13
 reference:
   - "[[AI Is a Five‑Layer Cake]]"
-uid: Hkp0
+uid: ljwH
 ---
 From Pre‑Recorded Software to Real‑Time Intelligence
 

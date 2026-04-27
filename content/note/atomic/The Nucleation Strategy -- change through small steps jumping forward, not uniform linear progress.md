@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:00
-uid: Xqcu
+uid: 8hQt
 ---
 The old world will not be defeated in a final battle. It will be made obsolete by a thousand interconnected, overwhelmingly successful prototypes of the new one.
 

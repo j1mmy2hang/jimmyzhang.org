@@ -2,7 +2,7 @@
 created: 2025-01-25
 reference:
   - "[[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]"
-uid: xdo0
+uid: u3CW
 ---
 Information is
 - an elementary building block of reality that

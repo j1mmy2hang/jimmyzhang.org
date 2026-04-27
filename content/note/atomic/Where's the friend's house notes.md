@@ -1,6 +1,6 @@
 ---
 created: 2026-01-06 16:17
-uid: fNdZ
+uid: 9Dxu
 ---
 *What kind of world makes doing the right thing so difficult?*
 who is this world good for?

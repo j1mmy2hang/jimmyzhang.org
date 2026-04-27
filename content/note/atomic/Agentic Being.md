@@ -1,6 +1,6 @@
 ---
 created: 2026-01-12 16:42
-uid: iNKy
+uid: dFoy
 ---
 north:: [[Agency is key]]
 [[Empower universal human agency]]

@@ -4,7 +4,7 @@ published: 2025-12-10
 source: https://www.a16z.news/p/big-ideas-2026-part-2
 type: "[[Clipping]]"
 rating: 4
-uid: aWpj
+uid: sd7G
 ---
 ### The biggest problems builders will tackle in 2026, according to our American Dynamism and Apps partners
 

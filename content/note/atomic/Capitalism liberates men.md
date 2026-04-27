@@ -4,7 +4,7 @@ tags:
   - business
   - intellectual
   - liberation
-uid: dz2R
+uid: HOV6
 ---
 from [[Attila & Witch Doctor -- Rule of Force & Faith]]
 

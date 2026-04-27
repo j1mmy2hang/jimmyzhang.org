@@ -5,7 +5,7 @@ tags:
   - ethics
   - responsibility
   - decision-making
-uid: qY1x
+uid: PJoe
 ---
 Without knowing the crabon footprint / acts of exploitation of a certain company, consumers will not be able to tell which organizations are ethical and which are not. 
 

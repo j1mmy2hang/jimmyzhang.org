@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: ZCNT
+uid: m8wn
 ---
 knowledge is being crammed, not organized, managed, or retained. -- the need for PKM
 

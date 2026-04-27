@@ -1,7 +1,7 @@
 ---
 created: 2025-03-02 08:44
 tags:
-uid: SGXY
+uid: EDKq
 ---
 [[A story can be way more powerful than the entity itself]]
 

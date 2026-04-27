@@ -3,7 +3,7 @@ created: 2024-09-09
 tags:
   - economics
   - humans
-uid: kvRt
+uid: PZjc
 ---
 What makes the Economics significant is its focus on all **human activities**
 which is a basic living conditions of men

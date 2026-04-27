@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21
-uid: DU8f
+uid: ipaq
 ---
 True human work is more about task completion -- which AI can do better
 

@@ -5,7 +5,7 @@ tags:
   - effectiveness
   - executive
   - organization
-uid: eB8i
+uid: vkIm
 ---
 As executives work toward becoming effective, they raise the performance level of the whole organization. 
 

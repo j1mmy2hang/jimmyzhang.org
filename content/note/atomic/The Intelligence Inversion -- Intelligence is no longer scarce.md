@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: yZ0J
+uid: tRka
 ---
 The intelligence inversion --intelligence shifts from being a scarce human resource to an abundant, scalable commodity.
 

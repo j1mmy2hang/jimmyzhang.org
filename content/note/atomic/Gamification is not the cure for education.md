@@ -1,6 +1,6 @@
 ---
 created: 2025-05-31
-uid: UQgP
+uid: d4lP
 ---
 "Trying to get students engaged in a boring class"
 instead of figuring out what's wrong with the boring class itself.

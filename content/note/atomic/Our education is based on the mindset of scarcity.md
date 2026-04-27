@@ -1,6 +1,6 @@
 ---
 created: 2025-11-10
-uid: 29G4
+uid: WmjA
 ---
 # Education's Scarcity Architecture
 

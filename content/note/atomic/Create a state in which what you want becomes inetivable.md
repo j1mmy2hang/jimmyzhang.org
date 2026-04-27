@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - success
   - inevitability
-uid: zg9G
+uid: D2oy
 ---
 > The object isn't to make art. It's to be in that wonderful state which makes art inevitable.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: uIbO
+uid: QScJ
 ---
 soource:: [[<Raw> A.I. Is Starting to Wear Down Democracy]]
 

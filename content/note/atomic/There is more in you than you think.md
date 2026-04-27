@@ -4,7 +4,7 @@ tags:
   - potential
   - you
 weight: 4
-uid: siSb
+uid: Ciyw
 ---
 [[You have more choices than you realize]]
 [[Empowerment & action lie at the heart of education]]

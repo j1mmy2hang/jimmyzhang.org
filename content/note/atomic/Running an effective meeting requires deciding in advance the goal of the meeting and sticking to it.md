@@ -4,7 +4,7 @@ tags:
   - meeting
   - goal
 topic: "[[Steps to become an effective executive]]"
-uid: sX5s
+uid: Nizz
 ---
 Why are we meeting here in the first place?
 What makes it worthwhile to get everyone together and consume everybody’s time?

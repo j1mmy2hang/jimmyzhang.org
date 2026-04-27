@@ -1,6 +1,6 @@
 ---
 created: 2025-07-03
-uid: Al9q
+uid: WHBw
 ---
 一代人有一代人的信仰。
 

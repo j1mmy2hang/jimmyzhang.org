@@ -2,7 +2,7 @@
 created: 2026-02-21 20:33
 reference:
   - "[[渐进式披露：LLM时代的核心工程哲学]]"
-uid: 6RKS
+uid: MetX
 ---
 LLM 时代的"操作系统"将是另一个 LLM。
 

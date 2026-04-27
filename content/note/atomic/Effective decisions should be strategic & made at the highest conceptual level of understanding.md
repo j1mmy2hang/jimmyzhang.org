@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - decision-making
   - conceptual
-uid: HTvt
+uid: nf5X
 ---
 Effective executives do not make a great many decisions; they concentrate on the few important ones on the highest level of conceptual understanding. 
 They try to think through what is strategic and generic rather than "solve problems".

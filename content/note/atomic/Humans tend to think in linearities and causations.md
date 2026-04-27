@@ -3,7 +3,7 @@ created: 2024-12-11
 tags:
   - humans
   - thinking
-uid: 42LV
+uid: OZes
 ---
 > Linear relationships are easy to think about: the more the merrier. Linear equations are solvable, which makes them suitable for textbooks. Linear systems have an important modular virtue: you can take them apart and put them together again—the pieces add up.
 

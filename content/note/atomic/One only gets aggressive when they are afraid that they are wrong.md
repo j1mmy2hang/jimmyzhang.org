@@ -1,5 +1,5 @@
 ---
 created: 2025-05-19
-uid: bFss
+uid: 8eEp
 ---
 If you see someone getting aggressive when you challenge their beliefs, run away from them.

@@ -4,7 +4,7 @@ tags:
   - organization
 credit: The Functions of the Executive by Chester Barnard
 topic: "[[Steps to become an effective executive]]"
-uid: uCJF
+uid: jEfN
 ---
 rather than by ownership or command
 [[The authority of knowledge is as legitimate as the authority of position]]

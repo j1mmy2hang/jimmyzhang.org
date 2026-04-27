@@ -3,7 +3,7 @@ created: 2026-02-07 10:28
 reference:
   - "[[What Is Taste, Really]]"
   - "[[What the Fuck is Taste]]"
-uid: rcQ1
+uid: ELDn
 ---
 > Taste is the accumulated judgment of <u>everyone who came before you</u>, filtered through <u>your own experience</u>, applied to problems that don't have right answers.
 > -- [[What the Fuck is Taste]]

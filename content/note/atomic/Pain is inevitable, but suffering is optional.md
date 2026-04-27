@@ -2,7 +2,7 @@
 created: 2025-07-11
 tags:
   - pain
-uid: 2ii2
+uid: xUD1
 ---
 释加牟尼的第二支箭
 

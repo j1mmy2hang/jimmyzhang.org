@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05
-uid: A2a3
+uid: mfBv
 ---
  to notice indifference as much as interest
  “negative” insight is as practical as any positive validation.

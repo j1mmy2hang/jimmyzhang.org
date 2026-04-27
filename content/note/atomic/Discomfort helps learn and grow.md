@@ -2,7 +2,7 @@
 tags:
   - growth
   - discomfort
-uid: H9HB
+uid: TGnZ
 ---
 ![[image-QHBG.png]] 
 

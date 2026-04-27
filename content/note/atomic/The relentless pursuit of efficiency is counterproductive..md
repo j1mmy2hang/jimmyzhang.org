@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: jpG4
+uid: gLe0
 ---
 Inefficiency & frictions are necessary for a healthy system
 A resilient ecosystem requires redundancy

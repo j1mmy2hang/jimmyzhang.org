@@ -3,7 +3,7 @@ created: 2025-01-07
 tags:
   - education
   - competition
-uid: 5keh
+uid: xb59
 ---
 discourages unique contribution to the world of knowledge, value creation, & creativity
 

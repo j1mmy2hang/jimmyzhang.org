@@ -3,7 +3,7 @@ created: 2026-02-10 14:06
 reference:
   - "[[Why you should see the world like a large language model]]"
   - "[[Seeing Like a Language Model]]"
-uid: eqvL
+uid: 1GO0
 ---
 [[TOK Essay Draft]]; [[Final TOK Essay]]
 

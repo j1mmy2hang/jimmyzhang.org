@@ -2,7 +2,7 @@
 tags:
   - responsibility
   - world
-uid: bhJH
+uid: zJlL
 ---
 Rings of responsibility -- from yourself to the world and its future
 

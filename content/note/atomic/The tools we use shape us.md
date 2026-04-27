@@ -2,7 +2,7 @@
 tags:
   - tech
   - humans
-uid: uyUo
+uid: StIJ
 ---
 [[Technologies are extensions of human beings]]
 

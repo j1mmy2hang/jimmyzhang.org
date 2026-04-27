@@ -4,7 +4,7 @@ published: 2026-02-10
 source: https://x.com/mattshumer_/article/2021256989876109403
 type: "[[Clipping]]"
 rating: 4
-uid: kfYA
+uid: 6We2
 ---
 [![Image](https://pbs.twimg.com/media/HAxiX6SaAAsiV2U?format=jpg&name=large)](https://x.com/mattshumer_/article/2021256989876109403/media/2021098495705481227)
 

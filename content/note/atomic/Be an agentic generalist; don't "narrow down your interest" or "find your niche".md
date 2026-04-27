@@ -3,7 +3,7 @@ created: 2026-01-09 12:51
 reference:
   - "[[The most important skill to learn in the next 10 years]]"
   - "[[If you have multiple interests, do not waste the next 2-3 years]]"
-uid: deZi
+uid: Fz3l
 ---
 ![[image-27y7.jpg]]
 

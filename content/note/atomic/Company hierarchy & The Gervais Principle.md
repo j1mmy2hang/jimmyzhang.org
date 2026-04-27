@@ -2,7 +2,7 @@
 created: 2025-12-09 11:03
 reference:
   - "[[The Gervais Principle, Or The Office According to “The Office”]]"
-uid: 6r4Z
+uid: 3Qkz
 ---
 **Sociopaths** (top) - Smart, ambitious people who understand how things really work and use this knowledge to get ahead.
 

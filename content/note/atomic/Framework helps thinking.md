@@ -2,7 +2,7 @@
 tags:
   - framework
   - thinking
-uid: jl6v
+uid: gu8G
 ---
 framework = logic, the first principles, the rule of thumb, the underlying & universal rule that things work regardless of specific context
 

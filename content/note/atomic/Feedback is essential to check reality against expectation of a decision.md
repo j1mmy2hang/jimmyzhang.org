@@ -4,7 +4,7 @@ tags:
   - feedback
   - decision-making
   - reality
-uid: uBZe
+uid: gCfc
 ---
 to provide a continuous testing against actual events of the expectations that underlie the decision. 
 

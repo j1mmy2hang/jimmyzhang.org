@@ -2,7 +2,7 @@
 created: 2025-02-24 20:43
 tags:
   - life
-uid: YdUK
+uid: qn5x
 ---
 [[Thinking about death makes one live a better life]]
 [[Worry about the right thing]]

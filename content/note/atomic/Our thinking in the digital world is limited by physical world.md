@@ -2,7 +2,7 @@
 created: 2026-03-16
 reference:
   - "[[Why is our thinking on computers so restrained?]]"
-uid: a01g
+uid: mnPm
 ---
 > We largely have not explored completely new models for computer thinking native to the digital realm. We only use concepts native to the physical world, simulated digitally.
 

@@ -3,7 +3,7 @@ created: 2025-02-19 10:55
 tags:
   - AI
   - data
-uid: z8Ou
+uid: QXna
 ---
 常人看来一个视频可能没有什么价值，但是对于 AI 来说就是重要的训练数据
 

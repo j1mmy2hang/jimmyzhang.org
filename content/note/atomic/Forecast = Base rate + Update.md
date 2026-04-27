@@ -2,7 +2,7 @@
 created: 2026-01-24 15:12
 reference:
   - "[[Superforecasting -- The Art and Science of Prediction]]"
-uid: DAs5
+uid: BxtA
 ---
 <u>Base rate</u> -- tap into the power of other historical data instead of starting from pure intuition & guessing
 

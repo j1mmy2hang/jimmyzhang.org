@@ -4,7 +4,7 @@ tags:
   - education
   - student
   - history
-uid: ayfh
+uid: U1J2
 ---
 给学生以创造的机动性和主动权
 

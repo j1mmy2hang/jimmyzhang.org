@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - art
   - mirror
-uid: ON01
+uid: SfyJ
 ---
 Everyone see a part of themselves when looking at an artpiece.
 

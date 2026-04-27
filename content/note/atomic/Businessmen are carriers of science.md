@@ -2,7 +2,7 @@
 tags:
   - business
   - science
-uid: FD44
+uid: Tb2d
 ---
 Businessmen strive to prove that science is able to imporve people's lives.
 

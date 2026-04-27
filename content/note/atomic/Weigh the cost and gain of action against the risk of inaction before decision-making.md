@@ -4,7 +4,7 @@ tags:
   - effort
   - decision-making
   - risk
-uid: QJSt
+uid: MuhG
 ---
 “Is a decision really necessary?”
 One alternative is always the alternative of doing nothing. 

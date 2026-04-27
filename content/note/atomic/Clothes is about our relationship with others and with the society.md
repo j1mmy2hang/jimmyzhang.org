@@ -1,6 +1,6 @@
 ---
 created: 2026-02-28 19:31
-uid: ExxM
+uid: aBZO
 ---
 A clearinghouse of social codes, clothing also springs from concrete exchanges of resources, work, and wealth.
 

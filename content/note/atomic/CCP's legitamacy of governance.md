@@ -4,7 +4,7 @@ tags:
   - legitimacy
   - CCP
   - governance
-uid: WlPw
+uid: itEl
 ---
 1. Economic growth
 2. Political stability

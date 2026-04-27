@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: 3Zip
+uid: iQc2
 ---
 - based on an outdated premise
 	- knowledge scarcity --> knowledge abundance

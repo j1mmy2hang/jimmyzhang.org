@@ -2,7 +2,7 @@
 tags:
   - peace
   - uwc
-uid: iqFC
+uid: ic1P
 ---
 The UWC movement has been nominated twice for the Nobel Peace Prize
 --> How can I can make it actually win it?

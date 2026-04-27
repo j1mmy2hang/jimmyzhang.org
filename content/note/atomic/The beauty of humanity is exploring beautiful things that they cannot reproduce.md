@@ -2,7 +2,7 @@
 created: 2026-02-20 13:35
 reference:
   - "[[We Are All Architects Now]]"
-uid: PaE7
+uid: 302m
 ---
 > The beauty of humanity has always been in exploring the things that you cannot reproduce; at every technological shift, we discover the next thing. 
 

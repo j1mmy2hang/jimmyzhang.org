@@ -3,7 +3,7 @@ created: 2025-03-02 08:51
 tags:
   - bureaucracy
   - power
-uid: B3yT
+uid: PdpR
 ---
 these pieces of paper can wield enormous power 
 

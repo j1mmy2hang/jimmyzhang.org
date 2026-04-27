@@ -5,7 +5,7 @@ tags:
   - moral
   - fact
   - disguise
-uid: jIcZ
+uid: kJKT
 ---
 Rather than being acknowledged as a use of power.
 

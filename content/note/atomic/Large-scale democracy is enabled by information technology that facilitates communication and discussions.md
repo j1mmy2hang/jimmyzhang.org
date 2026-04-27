@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: Pdr1
+uid: 6XlM
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

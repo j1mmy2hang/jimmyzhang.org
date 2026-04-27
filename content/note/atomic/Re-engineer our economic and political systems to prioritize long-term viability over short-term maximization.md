@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: O4mt
+uid: qbQ9
 ---
 ## Short-term maximizaiton
 

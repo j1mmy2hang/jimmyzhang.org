@@ -1,6 +1,6 @@
 ---
 created: 2025-04-02
-uid: 4eIm
+uid: RZm0
 ---
 Specialization is anti-human. 
 

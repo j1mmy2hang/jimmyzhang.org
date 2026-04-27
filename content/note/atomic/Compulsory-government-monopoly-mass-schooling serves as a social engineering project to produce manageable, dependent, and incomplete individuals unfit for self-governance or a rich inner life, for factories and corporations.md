@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: yTDc
+uid: KuWr
 ---
 > School, as it was built, is an essential support system for a model of social engineering that condemns most people to be subordinate stones in a pyramid that narrows as it ascends to a terminal of control.
 

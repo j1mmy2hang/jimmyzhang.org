@@ -1,6 +1,6 @@
 ---
 created: 2025-08-04
-uid: Huh4
+uid: fCTu
 ---
 > [!Definition]
 > A browser is the smart agent & interface between the user and the world of information

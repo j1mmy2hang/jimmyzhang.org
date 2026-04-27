@@ -1,6 +1,6 @@
 ---
 created: 2025-05-28
-uid: GN9v
+uid: Ys5m
 ---
 a better chess robot becomes more intelligent by performing fewer moves
 an agi gets better by not only expanding possibilities, but also creating new possibilities that don't exist before

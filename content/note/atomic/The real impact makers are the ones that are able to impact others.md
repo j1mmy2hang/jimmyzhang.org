@@ -1,7 +1,7 @@
 ---
 tags:
   - impact
-uid: OrGa
+uid: bpln
 ---
 The impact that one can make themself is always limited. 
 However, if one can impact others by inspiring / persuading them to join your impact / make their own impacts, he is able to make infinite impact. 

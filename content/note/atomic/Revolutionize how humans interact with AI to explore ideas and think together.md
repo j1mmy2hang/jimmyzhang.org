@@ -1,6 +1,6 @@
 ---
 created: 2025-09-07
-uid: s5Pu
+uid: HxOg
 ---
 I want to create an AI client that revolutionizes and rethinks how does a human interact with an LLM. 
 

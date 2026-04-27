@@ -1,7 +1,7 @@
 ---
 created: 2025-04-18
 AIGC: true
-uid: Jv7p
+uid: 7ChT
 ---
 ## Part 1 -- Simple Explanation
 

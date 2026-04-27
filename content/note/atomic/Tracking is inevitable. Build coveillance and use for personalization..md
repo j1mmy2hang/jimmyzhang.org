@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: jaln
+uid: AZDl
 ---
 ## Build on Coveillance, Not Surveilalnce
 

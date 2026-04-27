@@ -1,7 +1,7 @@
 ---
 tags:
   - efficiency
-uid: ty44
+uid: Wns1
 ---
 [Neuralink Webgrid game](https://neuralink.com/webgrid/)
 

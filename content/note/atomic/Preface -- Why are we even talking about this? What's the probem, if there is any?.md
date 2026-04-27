@@ -1,7 +1,7 @@
 ---
 created: 2025-03-06 07:47
 tags:
-uid: M8hD
+uid: p8GZ
 ---
 Whenever someone asks me, what is the biggest problem of education that I have observed during my 11 years of schooling in two three schools across two continents, I would say that it's the fact that most people struggle to see and realize the problem. 
 

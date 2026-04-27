@@ -5,7 +5,7 @@ tags:
   - whole
   - self
   - expression
-uid: hepd
+uid: 4Gr1
 ---
 Artists are made whole through self-expression. 
 Our work is representative of the self. 

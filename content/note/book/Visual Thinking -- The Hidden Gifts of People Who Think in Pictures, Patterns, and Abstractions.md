@@ -2,7 +2,7 @@
 type: "[[Book]]"
 author: Temple Grandin
 cover: "[[image-V0PF.png]]"
-uid: 39CA
+uid: 5kwm
 ---
 ![[image-V0PF.png|350]]
 

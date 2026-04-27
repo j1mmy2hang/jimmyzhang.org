@@ -4,7 +4,7 @@ tags:
   - management
   - resource
   - result
-uid: MkrV
+uid: F4XG
 ---
 Knowledge --> action --> change, impact (to ourselves and to the world)
 

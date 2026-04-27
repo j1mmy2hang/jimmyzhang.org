@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: d3ce
+uid: zyXP
 ---
 **Shadow learning** refers to learning that happens _informally, indirectly, or on the sidelines_ of formal work or practice — usually by observing, supporting, or assisting experts as they perform real-world tasks.
 

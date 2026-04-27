@@ -4,7 +4,7 @@ published: 2025-12-04
 source: https://johnnydecimal.com/10-19-concepts/11-core/11.01-introduction/
 type: "[[Clipping]]"
 rating: 3
-uid: X0I5
+uid: 0mkk
 ---
 **Johnny.Decimal is designed to help you find things quickly, with more confidence, and less stress.**
 

@@ -2,7 +2,7 @@
 created: 2025-10-19
 reference:
   - "[[The Last Economy]]"
-uid: 73tH
+uid: ylhj
 ---
 ## Old Model
 

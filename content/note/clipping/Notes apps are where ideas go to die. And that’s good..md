@@ -4,7 +4,7 @@ published: 2022-02-15
 source: https://www.reproof.app/blog/notes-apps-help-us-forget
 type: "[[Clipping]]"
 rating: 5
-uid: icWw
+uid: 535i
 ---
 ![Notes apps are where ideas go to die. And that’s good.](https://blog.reproof.app/media/pages/blog/notes-apps-help-us-forget/31c850a025-1644914617/kind-and-curious-qisitz9njhs-unsplash-1200x600.jpg)
 ### Insurance for your mind

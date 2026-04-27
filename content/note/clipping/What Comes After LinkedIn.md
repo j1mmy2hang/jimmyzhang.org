@@ -4,7 +4,7 @@ published: 2026-03-16
 source: https://every.to/p/what-comes-after-linkedin
 type: "[[Clipping]]"
 rating: 4
-uid: KZ4W
+uid: bfkW
 ---
 ![](https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/4004/full_page_cover_Your_Resume_Is_Dead._Build_a_Portfolio_Instead.png)
 

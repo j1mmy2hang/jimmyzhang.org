@@ -4,7 +4,7 @@ tags:
   - AI
   - meaning
   - humans
-uid: tHlp
+uid: N3J9
 ---
 On one hand: [[AI 的崛起剥夺人类的意义，逼迫人类重新发现自己的价值]]
 

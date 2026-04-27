@@ -5,7 +5,7 @@ tags:
   - management
   - executive
   - effectiveness
-uid: G22g
+uid: lXau
 ---
 [[Effectiveness executives record & manage their time]]
 

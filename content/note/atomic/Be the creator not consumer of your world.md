@@ -2,7 +2,7 @@
 created: 2025-12-23 21:20
 reference:
   - "[[The Other Stuff 28 -- The Interconnectedness of Everything w. Kepano]]"
-uid: ASFT
+uid: Wm8P
 ---
 example: [Crumbl](https://crumblcookies.com/) vs [Kepano's Cookie](https://stephango.com/chocolate-chip-cookies)
 

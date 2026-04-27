@@ -1,7 +1,7 @@
 ---
 tags:
   - whole
-uid: 1SO3
+uid: thkX
 ---
 The open-ended fallacy: because there are benefits to be gained from an activity, more of that activity is always better
 

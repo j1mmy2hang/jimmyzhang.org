@@ -2,7 +2,7 @@
 created: 2025-11-30 09:11
 reference:
   - "[[The Last Economy]]"
-uid: 4eew
+uid: WcA0
 ---
 ## Objective function
 

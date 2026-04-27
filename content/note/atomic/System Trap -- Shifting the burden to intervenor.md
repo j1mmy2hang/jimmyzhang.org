@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: kwRE
+uid: 0UA1
 ---
 Trap: Shifting the Burden to the Intervenor — Addiction
 Source: a destructive reinforcing loop set in motion by an intervention designed to correct the problem undermines the self-maintaining capacity of the original system

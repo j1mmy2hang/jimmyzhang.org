@@ -4,7 +4,7 @@ tags:
   - humans
   - sense-making
   - world
-uid: EPRh
+uid: Vl0C
 ---
 Humans are interpretation machines. 
 

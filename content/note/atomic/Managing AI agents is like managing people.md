@@ -2,7 +2,7 @@
 created: 2026-01-23 20:53
 reference:
   - "[[What AI Is Teaching Us About Management]]"
-uid: nDE2
+uid: r7Or
 ---
 prompt = management
 Give direction, specify format, provide examples, evaluate quality, divide labor

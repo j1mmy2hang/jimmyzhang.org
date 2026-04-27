@@ -1,6 +1,6 @@
 ---
 type: topic
-uid: JjCa
+uid: k8uC
 ---
 - Get the knowledge
 	- <u>What needs to be done?</u> — priority

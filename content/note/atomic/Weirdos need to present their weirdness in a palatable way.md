@@ -2,7 +2,7 @@
 created: 2026-02-20 11:28
 reference:
   - "[[Encourage weirdos, discourage assholes]]"
-uid: 0Q99
+uid: 7i9Q
 ---
 > “I am at heart a much weirder person than I present to the world. Presenting your weirdness in a palatable way requires a lot of marketing skill – in a way you need to understand people better than they understand each other, since you’re going to interfere rather than imitate.”
 

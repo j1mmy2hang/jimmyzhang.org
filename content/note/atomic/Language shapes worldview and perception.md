@@ -4,7 +4,7 @@ tags:
   - language
   - narrative
   - reality
-uid: 1VtM
+uid: tGU0
 ---
 by creating meaning, understanding, and reality
 

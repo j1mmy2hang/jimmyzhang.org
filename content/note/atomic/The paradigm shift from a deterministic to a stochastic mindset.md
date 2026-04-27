@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: dAuu
+uid: 7ZJg
 ---
 [[From a mechanistic to a systemic understanding of the world]]
 

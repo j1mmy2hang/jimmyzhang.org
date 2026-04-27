@@ -5,7 +5,7 @@ tags:
   - management
   - organization
   - efficiency
-uid: BVGS
+uid: G2lY
 ---
 [[Organizations are held together by information]]
 

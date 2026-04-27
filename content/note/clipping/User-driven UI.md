@@ -4,7 +4,7 @@ published: 2023-05-18
 source: https://garden.bradwoods.io/notes/design/user-driven-ui
 type: "[[Clipping]]"
 rating: 5
-uid: hMUt
+uid: Vb3X
 ---
 > What is a User Driven UI. What is the Zone of Proximal Development. Different approaches to teaching users how to use a UI. Using AI in the UI.
 

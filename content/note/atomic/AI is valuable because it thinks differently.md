@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: YrKd
+uid: tKtg
 ---
 The real power comes from its inhuman nature.
 

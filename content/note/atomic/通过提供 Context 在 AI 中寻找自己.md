@@ -1,6 +1,6 @@
 ---
 created: 2025-10-11
-uid: eOGn
+uid: gJrG
 ---
 你的竞争优势就是“让 AI 更像你“
 

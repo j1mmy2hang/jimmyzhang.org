@@ -4,7 +4,7 @@ published: 2011-11-23
 source: https://worrydream.com/SomeThoughtsOnTeaching/
 type: "[[Clipping]]"
 rating: 4
-uid: yrXd
+uid: guQO
 ---
 Some teachers teach from life.
 

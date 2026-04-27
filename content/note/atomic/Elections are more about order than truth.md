@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: waOn
+uid: 2gTg
 ---
 > Elections are not a method for discovering truth. Rather, they are a method for maintaining order by adjudicating between people’s conflicting desires.
 > 

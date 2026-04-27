@@ -1,7 +1,7 @@
 ---
 tags:
   - creativity
-uid: YLti
+uid: AYMd
 ---
 be open to break established thoughts, pick up new ideas, and create connections
 

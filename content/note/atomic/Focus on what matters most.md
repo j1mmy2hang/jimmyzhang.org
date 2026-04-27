@@ -4,7 +4,7 @@ tags:
   - effectiveness
   - executive
   - priority
-uid: WKPB
+uid: W8q3
 ---
 [[Focus over diversification]]
 [[The Power Law -- The Steep Distribution of Value]]

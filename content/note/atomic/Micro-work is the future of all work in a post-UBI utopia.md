@@ -1,6 +1,6 @@
 ---
 created: 2025-08-27
-uid: 4FL7
+uid: OJGe
 ---
 [[Human capabilities should be versatile and holistic instead of specialized]]
 

@@ -2,7 +2,7 @@
 created: 2025-12-11 13:34
 reference:
   - "[[Big Ideas 2026 Part 1]]"
-uid: GHYY
+uid: WTq0
 ---
 when products stop being mass-produced and start being *made for you.*
 

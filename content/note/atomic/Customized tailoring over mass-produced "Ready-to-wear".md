@@ -2,7 +2,7 @@
 created: 2026-02-28 20:14
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: xoUl
+uid: lL5N
 ---
 机器量产（Ready-to-wear）杀死裁缝（Tailor）。
 

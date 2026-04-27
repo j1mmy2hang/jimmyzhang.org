@@ -2,7 +2,7 @@
 tags:
   - measure
   - value
-uid: BfXy
+uid: TefQ
 ---
 The acts of measurement itself indicates you putting value onto it. 
 

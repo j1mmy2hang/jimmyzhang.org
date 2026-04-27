@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - artist
   - greatness
-uid: l0tE
+uid: UxTe
 ---
 > All that matters is that you are making something you love, to the best of your ability, here and now.
 

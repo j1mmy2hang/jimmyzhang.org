@@ -4,7 +4,7 @@ tags:
   - ignorance
   - creativity
   - innovation
-uid: JBa0
+uid: tcrP
 ---
 ## Why did AlphaGo beat human players
 

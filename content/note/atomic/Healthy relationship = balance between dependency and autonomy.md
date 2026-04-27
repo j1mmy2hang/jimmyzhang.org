@@ -1,6 +1,6 @@
 ---
 created: 2026-02-11 13:37
-uid: YWxY
+uid: hW04
 ---
 A healthy relationship is one you can happily enjoy without fear of losing, and happily lose without devastation. 
 

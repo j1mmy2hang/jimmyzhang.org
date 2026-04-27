@@ -2,7 +2,7 @@
 created: 2026-02-20 12:23
 reference:
   - "[[Richard Sutton -- The Future of AI]]"
-uid: gzjT
+uid: spmI
 ---
 ## "Safety" or "Control"?
 

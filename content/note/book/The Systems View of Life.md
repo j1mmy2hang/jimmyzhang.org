@@ -5,7 +5,7 @@ author:
   - Pier Luigi Luisi
 type: "[[Book]]"
 cover: "[[image-wWek.png]]"
-uid: MQtp
+uid: Fwf6
 ---
 ![[image-wWek.png|400]]
 

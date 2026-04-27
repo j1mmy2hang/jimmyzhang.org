@@ -1,6 +1,6 @@
 ---
 created: 2025-10-21
-uid: ht9s
+uid: mWpI
 ---
 The fundamental flaw in the ed-tech vision, as longtime critic Larry Cuban has argued, is its failure to understand that education is, at its core, a relationship.
 

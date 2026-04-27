@@ -3,7 +3,7 @@ tags:
   - communication
   - effectiveness
   - organization
-uid: ZElv
+uid: KbnB
 ---
 ![[Executive. information, & communication|800]]
 

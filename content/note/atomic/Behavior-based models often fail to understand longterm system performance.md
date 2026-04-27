@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: xNPa
+uid: 1lsw
 ---
 [[System structure is the source of system behavior]]
 

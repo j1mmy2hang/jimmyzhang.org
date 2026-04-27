@@ -3,7 +3,7 @@ tags:
   - greatness
   - calmness
   - myself
-uid: DaIk
+uid: JoWl
 ---
 闷声干大事？
 中正平和，不骄不躁。

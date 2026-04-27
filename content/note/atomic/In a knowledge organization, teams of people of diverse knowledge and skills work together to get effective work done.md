@@ -5,7 +5,7 @@ tags:
   - organization
   - diversity
   - skill
-uid: js0q
+uid: JmXw
 ---
 Organizations multiplies the strengths of individuals
 

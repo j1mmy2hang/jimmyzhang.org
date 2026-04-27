@@ -1,7 +1,7 @@
 ---
 tags:
   - philosophy
-uid: gLjx
+uid: 8YUK
 ---
 Philosophy —> Narrative —> Story
 

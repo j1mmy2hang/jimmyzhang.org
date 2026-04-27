@@ -1,6 +1,6 @@
 ---
 created: 2025-06-05
-uid: JuBw
+uid: tsYD
 ---
 A visual map that captures the roles, actions, goals, and obstacles within a real-world situation
 

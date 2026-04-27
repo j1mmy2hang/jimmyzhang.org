@@ -2,7 +2,7 @@
 tags:
   - meaning
   - direction
-uid: uW7k
+uid: TUoz
 ---
 Wanderers never get lost. -- because they don't have a direction
 lost = a lack of direction

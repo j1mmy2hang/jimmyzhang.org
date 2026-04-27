@@ -1,6 +1,6 @@
 ---
 created: 2025-04-23
-uid: iTv0
+uid: Z2pE
 ---
 [[Secrets that are contrarian to conventional wisdom are the basis of innovative businesses that provide unique value]]
 

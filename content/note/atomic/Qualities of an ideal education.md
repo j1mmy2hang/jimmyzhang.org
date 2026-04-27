@@ -1,6 +1,6 @@
 ---
 created: 2025-06-04
-uid: 2Bsj
+uid: eLSm
 ---
 - **Self-directed** -- take charge of your own education; don't let school interfere with your education
 - **Meaning-guided** -- helping students discover what they are passionate about & what is something meaningful to do with their life

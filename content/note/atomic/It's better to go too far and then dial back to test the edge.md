@@ -2,7 +2,7 @@
 created: 2025-12-20 21:05
 reference:
   - "[[The Other Stuff 28 -- The Interconnectedness of Everything w. Kepano]]"
-uid: baUt
+uid: rrmA
 ---
 ## Principle
 

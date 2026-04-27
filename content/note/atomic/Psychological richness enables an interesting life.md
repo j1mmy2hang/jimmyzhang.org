@@ -2,7 +2,7 @@
 created: 2026-01-18 12:36
 reference:
   - "[[Life in Three Dimensions -- How Curiosity, Exploration, and Experience Make a Fuller, Better Life]]"
-uid: 84OB
+uid: OAui
 ---
 [[Experience is the biggest wealth]]
 ## Ingredients

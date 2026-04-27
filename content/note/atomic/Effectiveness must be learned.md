@@ -3,7 +3,7 @@ created: 2024-10-22
 tags:
   - effectiveness
   - learning
-uid: moVX
+uid: xnYn
 ---
 Effective executive --> Effective organization --> Societal development & Individual fulfillment
 

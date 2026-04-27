@@ -2,7 +2,7 @@
 created: 2026-02-23 11:53
 reference:
   - "[[The 2028 Global Intelligence Crisis]]"
-uid: jyZ4
+uid: l760
 ---
 AI 只生产，不消费
 金钱在 AI infinite supply 面前失效

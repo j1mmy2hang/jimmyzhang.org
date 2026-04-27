@@ -1,6 +1,6 @@
 ---
 created: 2025-06-25
-uid: m3ub
+uid: JNxm
 ---
 [[The tools we use shape us]]
 

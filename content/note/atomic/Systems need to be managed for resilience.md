@@ -3,7 +3,7 @@ created: 2024-12-11
 tags:
   - system
   - management
-uid: W0ez
+uid: owSA
 ---
 Resilience is often sacrificed due to neglect
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-10-03
-uid: 9fec12ae-fb51-4f29-869d-688a06d69887
+uid: DsYO
 ---
 GTD -- Get Things Done
 GTRTD -- Get The Right Things Done

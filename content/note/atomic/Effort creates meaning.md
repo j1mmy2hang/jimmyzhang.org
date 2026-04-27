@@ -2,7 +2,7 @@
 tags:
   - effort
   - meaning
-uid: sQI5
+uid: nVmk
 ---
 The more effort you put into something, the more meaning you find out of it. 
 

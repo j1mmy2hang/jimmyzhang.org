@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:03
-uid: wKrf
+uid: wKuB
 ---
 Your economic fate is determined less by your individual attributes than by your position in the network. You are not a player on a level field. You are a node in a web, and the structure of that web matters more than anything you do within it.
 

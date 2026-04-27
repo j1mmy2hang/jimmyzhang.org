@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: Fohi
+uid: XubT
 ---
 > Mass schooling damages children. We don’t need any more of it. And under the guise that it is the same thing as education, it has been picking our pockets just as Socrates predicted it would thousands of years ago.
 

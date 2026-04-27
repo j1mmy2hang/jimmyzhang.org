@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: GaKQ
+uid: XEd6
 ---
 Tools like Codex "unlock" human imagination so that the "scarcity of developers" doesn't constrain companies from innovating. 
 AI augmentation will make engineers 10 to 50 times as productive

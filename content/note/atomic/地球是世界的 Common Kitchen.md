@@ -1,6 +1,6 @@
 ---
 created: 2025-11-21 20:43
-uid: x5TA
+uid: McUa
 ---
 the planet is humanity's common kitchen
 the tragedy of the kitchen politics

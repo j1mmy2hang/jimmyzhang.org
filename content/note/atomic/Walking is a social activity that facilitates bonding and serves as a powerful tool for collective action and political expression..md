@@ -1,6 +1,6 @@
 ---
 created: 2025-11-29 08:42
-uid: 5ntH
+uid: 6AXH
 ---
 Humans have evolved to walk together, evidenced by the fossilized tracks of social groups in ancient mudflats. This shared movement fosters deep social connections. Walking side-by-side eliminates the need for awkward eye contact and allows conversation to flow more freely than in sedentary face-to-face settings. This synchronization is biological; when people walk together, they unconsciously match footsteps, heart rates, and breathing, driven by the brain's mirror neuron system which bridges the gap between self and other.
 

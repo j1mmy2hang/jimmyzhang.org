@@ -1,7 +1,7 @@
 ---
 created: 2025-04-13
 AIGC: true
-uid: 3ykM
+uid: kR3x
 ---
 ## Part 1 -- Simple Explanation
 

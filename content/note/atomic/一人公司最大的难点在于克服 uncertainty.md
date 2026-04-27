@@ -2,7 +2,7 @@
 created: 2026-03-23
 reference:
   - "[[I Achieved the Four-Hour Workweek. So, Why Did I Just Take a Job?]]"
-uid: JK7i
+uid: Oo7F
 ---
 ==The hardest thing to cope with, however, is the uncertainty.==
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-10-19
-uid: puCR
+uid: PvHU
 ---
 > The forces of the Intelligence Inversion: global networks, dematerialized capital, and algorithmic power, are making the traditional state irrelevant. It is too slow, its jurisdiction too territorial, its tools too clumsy. It is a fortress designed for a world of invading armies, now besieged by forces that flow through its walls as if they were not there. Capital flees to the lowest tax jurisdiction at the speed of light. Information, true and false, ignores borders. The greatest challenges we face, from climate change to AI alignment, are fundamentally global, mocking the very idea of national solutions.
 

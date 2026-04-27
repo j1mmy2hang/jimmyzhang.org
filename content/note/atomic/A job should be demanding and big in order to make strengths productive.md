@@ -4,7 +4,7 @@ tags:
   - job
   - strength
   - productivity
-uid: RcSr
+uid: 0QGF
 ---
 Only if the job is big and demanding to begin with will it enable a man to rise to new demands of a changed situation. 
 

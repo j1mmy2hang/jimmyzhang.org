@@ -3,7 +3,7 @@ created: 2026-03-13 19:41
 reference:
   - "[[The Gift -- Imagination and the Erotic Life of Property]]"
   - "[[新物种起源 -- 互联网的思想基石]]"
-uid: h1jO
+uid: JGu0
 ---
 ## Commodity vs Gift Exchange
 

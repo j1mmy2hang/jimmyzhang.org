@@ -1,6 +1,6 @@
 ---
 created: 2025-04-23
-uid: ddOv
+uid: zpwp
 ---
 [[The world is made up of people]]
 

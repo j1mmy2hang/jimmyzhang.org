@@ -1,6 +1,6 @@
 ---
 created: 2025-05-05
-uid: iAlF
+uid: REkE
 ---
 Get Cash First
 

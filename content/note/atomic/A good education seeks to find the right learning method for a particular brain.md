@@ -4,7 +4,7 @@ tags:
   - individual
   - learning
   - methodology
-uid: 3KPk
+uid: HrFZ
 ---
 Every brain is constructed differently and learns differently
 方法不对，什么都学费劲

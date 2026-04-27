@@ -4,7 +4,7 @@ published: 2025-12-18
 source: https://arxiv.org/html/2512.16856v1
 type: "[[Clipping]]"
 rating: 5
-uid: 4MQS
+uid: nkg7
 ---
 ## AI's Interpretation
 

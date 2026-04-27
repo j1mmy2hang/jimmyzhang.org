@@ -2,7 +2,7 @@
 created: 2024-12-11
 tags:
   - system
-uid: 7iBw
+uid: 4klI
 ---
 [[The world has no boundaries]]
 [[Boundaries are artificial]]

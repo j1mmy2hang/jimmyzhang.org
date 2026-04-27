@@ -2,7 +2,7 @@
 tags:
   - AI
   - electricity
-uid: 0Cfn
+uid: Zjd6
 ---
 [[能源是人类文明进步的最大瓶颈]]
 电力短缺会成为人工智能发展的下一个瓶颈。

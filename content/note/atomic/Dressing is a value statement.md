@@ -2,7 +2,7 @@
 created: 2026-02-28 19:33
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: cwNM
+uid: oE8l
 ---
 > "Our clothes are never neutral, and cannot be."
 

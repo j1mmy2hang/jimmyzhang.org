@@ -4,7 +4,7 @@ tags:
   - success
   - self
   - define
-uid: jGPn
+uid: uMHp
 ---
 Success occurs in the privacy of the soul.
 Success has nothing to do with variables outside yourself. (外在标准)

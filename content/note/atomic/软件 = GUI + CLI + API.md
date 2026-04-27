@@ -2,7 +2,7 @@
 created: 2026-03-19
 reference:
   - 李继刚
-uid: 7hMi
+uid: eftV
 ---
 - GUI -- for human users to interact and navigate (for the aesthetic visual & user experience)
 - CLI -- for deterministic I/O results for human or AI agents (optimizes for reliability & automation)

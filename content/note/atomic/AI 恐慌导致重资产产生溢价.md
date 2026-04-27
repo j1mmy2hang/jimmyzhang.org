@@ -2,7 +2,7 @@
 created: 2026-04-12
 reference:
   - "[[AI 越厉害，麦当劳越值钱]]"
-uid: 9PG8
+uid: DNym
 ---
 ## AI 倒逼资本转向“重资产”（HALO）
 

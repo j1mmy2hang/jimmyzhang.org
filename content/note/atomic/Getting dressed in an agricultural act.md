@@ -2,7 +2,7 @@
 created: 2026-02-28 19:45
 reference:
   - "[[Worn -- A People's History of Clothing]]"
-uid: EjDq
+uid: t0LT
 ---
 ## 质感来源于时间，耐用性，与和土地的链接
 

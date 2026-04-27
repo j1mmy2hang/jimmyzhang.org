@@ -3,7 +3,7 @@ created: 2024-11-16
 tags:
   - focus
   - perception
-uid: AoMG
+uid: pitu
 ---
 "The Red Car Theory" -- once you become particularly aware of red cars, you start noticing red cars everywhere.
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: gYu9
+uid: qCxO
 ---
 ## Schools are doing exactly what they are supposed to do
 

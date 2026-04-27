@@ -1,6 +1,6 @@
 ---
 created: 2025-07-20
-uid: ZSHo
+uid: hTUm
 ---
 source:: https://every.to/thesis/sailing-against-the-current-of-frictionless-ai
 https://every.to/context-window/why-you-need-productive-friction

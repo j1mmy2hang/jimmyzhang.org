@@ -4,7 +4,7 @@ published:
 source: https://this.how/futureOfText/index.opml
 type: "[[Clipping]]"
 rating: 4
-uid: b9k2
+uid: u8OL
 ---
 ## What is this?
 

@@ -2,7 +2,7 @@
 tags:
   - knowledge
   - power
-uid: 0Zfs
+uid: 5vHE
 ---
 知识分子手中也应当掌握一部分权力
 Knowledge is power. ([[Information - knowledge is power]])

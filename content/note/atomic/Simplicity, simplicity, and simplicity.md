@@ -1,7 +1,7 @@
 ---
 reference:
   - "[[Rare Skills]]"
-uid: BUyF
+uid: yhbx
 ---
 > “Our life is frittered away by detail...Simplicity, simplicity, simplicity! I say, let our affairs be as two or three, and not a hundred or a thousand...Simplify, simplify!”  
 > 

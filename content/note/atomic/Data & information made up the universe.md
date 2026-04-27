@@ -4,7 +4,7 @@ tags:
   - world
   - data
   - information
-uid: o3MQ
+uid: fBnF
 ---
 The world is made up of data and information.
 Humans perceive -- 人类的[[The universe is our perception of it|感官]] -- 视觉、听觉全部可以用数字来呈现

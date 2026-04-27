@@ -1,7 +1,7 @@
 ---
 created: 2026-01-23 14:54
 reference: "[[林亦对话谷歌高管：我们要拥抱AI开发吗？]]"
-uid: O5rd
+uid: 4oJL
 ---
 minstead of choking human creativity
 

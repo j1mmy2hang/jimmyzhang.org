@@ -6,7 +6,7 @@ tags:
   - preservaiton
   - civilization
 weight: 5
-uid: khv6
+uid: kTUo
 ---
 [[Human civilization is the sum of material and intellectual wealth it has created]]
 Humans should carefully preserve & manage their intellectual wealth just as it would to their material wealth

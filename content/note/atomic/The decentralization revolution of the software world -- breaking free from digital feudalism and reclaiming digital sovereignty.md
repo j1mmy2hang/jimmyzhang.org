@@ -2,7 +2,7 @@
 created: 2026-01-28 17:08
 reference:
   - "[[Personal Private Programmable by @balajis]]"
-uid: 7Eiu
+uid: fMf0
 ---
 north:: [[Build Your Own (BYO)]]
 

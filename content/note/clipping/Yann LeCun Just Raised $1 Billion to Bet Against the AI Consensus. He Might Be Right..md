@@ -4,7 +4,7 @@ published: 2026-03-10
 source: https://x.com/yoemsri/status/2031424981981422021
 type: "[[Clipping]]"
 rating: 4
-uid: 4DXH
+uid: oh9l
 ---
 In November 2025, Yann LeCun left Meta. Four months later, he has closed over $1 billion for AMI (Advanced Machine Intelligence) on a single conviction: that ==large language models cannot become the substrate of human-level intelligence==, and that the industry's decade-long bet on scaling them is approaching a ceiling it cannot reason its way past.
 

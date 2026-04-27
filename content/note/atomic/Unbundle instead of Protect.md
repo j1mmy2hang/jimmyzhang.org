@@ -1,6 +1,6 @@
 ---
 created: 2025-06-20
-uid: 4nd7
+uid: LCLm
 ---
 The traditional business model is to protect a finished, monolithic product (an album, a movie, a software suite). The new model is to unbundle that product into its smallest useful parts and make them available for others to use. Digital bits are inherently liquid and want to be broken apart and reassembled.
 

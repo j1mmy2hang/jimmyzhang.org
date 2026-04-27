@@ -1,6 +1,6 @@
 ---
 created: 2025-06-06
-uid: Ydf3
+uid: 1M4U
 ---
 The "Tipping Point" is when this process becomes repeatable, and the broader network effects (viral growth, increased stickiness, strong monetization) kick in, allowing rapid market-wide growth
 

@@ -2,7 +2,7 @@
 created: 2026-01-25 13:41
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: jBjK
+uid: qeza
 ---
 This is where your personal experience ("I love to call these things out") clashes with the logic of **Rational Hypocrisy**.
 

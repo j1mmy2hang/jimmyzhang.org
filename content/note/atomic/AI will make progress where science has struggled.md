@@ -1,6 +1,6 @@
 ---
 created: 2025-09-28
-uid: nZLu
+uid: l0Jb
 ---
 > Science is about creating *simple, causal explanations* of the world so that we can make good predictions. But science has had a hard time in certain parts of the world where simple, causal explanations seem to elude us: psychology, social sciences, economics, and more. Despite centuries of research, and little consistent progress we keep looking for scientific explanations in these areas because we have no good alternative
 

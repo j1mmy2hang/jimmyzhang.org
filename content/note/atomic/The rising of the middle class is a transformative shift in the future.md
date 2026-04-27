@@ -1,6 +1,6 @@
 ---
 created: 2025-09-07
-uid: YOnD
+uid: JQtj
 ---
 > "This has never happened before in the history of our species."
 

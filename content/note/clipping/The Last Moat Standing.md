@@ -4,7 +4,7 @@ published: 2026-01-05
 source: https://x.com/fintechjunkie/article/2008185723849982010
 type: "[[Clipping]]"
 rating: 5
-uid: Ysps
+uid: fqqZ
 ---
 [![Image](https://pbs.twimg.com/media/G93OIW0WgAA9uZL?format=jpg&name=large)](https://x.com/fintechjunkie/article/2008185723849982010/media/2007987651836542976)
 **If anyone can build your product in a weekend, what's actually defensible?**

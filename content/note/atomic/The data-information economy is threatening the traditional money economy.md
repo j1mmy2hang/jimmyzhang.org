@@ -1,7 +1,7 @@
 ---
 created: 2024-01-28
 tags:
-uid: 7Rag
+uid: KT5d
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

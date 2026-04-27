@@ -1,6 +1,6 @@
 ---
 created: 2025-04-08
-uid: ArG1
+uid: CTgu
 ---
 [[Being able to create ideas and make decisions, AI is becoming intelligent agents that shape our world and its information network]]
 

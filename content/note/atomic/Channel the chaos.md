@@ -1,6 +1,6 @@
 ---
 created: 2025-05-19
-uid: tYt2
+uid: 0v1i
 ---
 instead of reducing, simplifying, engineering, fighting, and fixing
 

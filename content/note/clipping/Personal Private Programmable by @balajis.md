@@ -7,7 +7,7 @@ rating: 6
 chat:
   - "[[<Conversation> Personal Private Porgrammable and more]]"
   - "[[<Conversation> 软件去中心化 w. Gemini]]"
-uid: g6lx
+uid: uHaR
 ---
 I’ve been thinking more about the intersection of Claude Code and Obsidian. There is an upcoming tech stack here that I’m calling personal private programmable.
 

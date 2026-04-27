@@ -1,6 +1,6 @@
 ---
 created: 2025-11-30 09:05
-uid: uVO6
+uid: t0l7
 ---
 **Definition**  
 **Intelligence Theory** is a new scientific framework that treats the economy not as a social system, but as a physical system. ==It defines economic value as **"low entropy"**== (order) created by intelligent agents fighting against the universe's natural tendency toward chaos.

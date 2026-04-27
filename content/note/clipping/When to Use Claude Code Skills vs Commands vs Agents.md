@@ -4,7 +4,7 @@ published: 2025-10-31
 source: https://danielmiessler.com/blog/when-to-use-skills-vs-commands-vs-agents
 type: "[[Clipping]]"
 rating: 4
-uid: wMJB
+uid: 9ekq
 ---
 [![Three-tier hierarchy diagram showing Skills as containers, Workflows nested inside, and Agents as parallel workers](https://danielmiessler.com/images/skills-commands-agents-hierarchy.png)](https://danielmiessler.com/images/skills-commands-agents-hierarchy.png)
 

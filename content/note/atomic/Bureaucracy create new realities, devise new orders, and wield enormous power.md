@@ -5,7 +5,7 @@ tags:
   - reality
   - order
   - power
-uid: WCIn
+uid: oJET
 ---
 
 - [[Bureaucracy impose order by creating new realities & dividing the world into drawers]]

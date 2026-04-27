@@ -3,7 +3,7 @@ created: 2025-02-11 10:49
 tags:
   - power
   - information
-uid: hw5z
+uid: RqQa
 ---
 ![[image-rZTr.png]]
 

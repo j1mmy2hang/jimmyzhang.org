@@ -3,7 +3,7 @@ created: 2024-10-12
 tags:
   - tech
   - value
-uid: oy7m
+uid: MhUx
 ---
 The value one finds from a technology matches their own abilities.
 

@@ -2,7 +2,7 @@
 tags:
   - belief
   - reality
-uid: 4AmB
+uid: qQyP
 ---
 example 1:
 A tribe in New Guinea that believed their world ended at a nearby river cannot see people who went past that river. 

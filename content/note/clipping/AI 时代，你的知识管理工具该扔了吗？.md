@@ -4,7 +4,7 @@ published: 2025-12-30
 source: https://x.com/wshuyi/article/2005921473618133007
 type: "[[Clipping]]"
 rating: 5
-uid: B1Nx
+uid: uQ5X
 ---
 [![Image](https://pbs.twimg.com/media/G9Z1AhEaAAAkIDX?format=jpg&name=large)](https://x.com/wshuyi/article/2005921473618133007/media/2005919335777435648)
 ## 疑惑

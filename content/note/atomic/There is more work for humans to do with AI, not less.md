@@ -1,6 +1,6 @@
 ---
 created: 2025-10-08
-uid: NxbL
+uid: Z2ik
 ---
 source:: https://every.to/chain-of-thought/smuggled-intelligence
 

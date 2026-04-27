@@ -1,7 +1,7 @@
 ---
 created: 2025-03-05 19:51
 tags:
-uid: On8f
+uid: IFHs
 ---
 *Selectivity* only came to signify a college's *quality* in the past 50 years.
 

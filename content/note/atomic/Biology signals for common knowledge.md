@@ -2,7 +2,7 @@
 created: 2026-01-25 13:37
 reference:
   - "[[When Everyone Knows That Everyone Knows -- Common Knowledge and the Mysteries of Money, Power, and Everyday Life]]"
-uid: lIA9
+uid: VBbH
 ---
 ### 1. Blushing: The "Re-entry Ticket"
 

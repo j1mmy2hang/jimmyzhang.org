@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: U9nN
+uid: 2PMB
 ---
 [[Passion is the greatest teacher]]
 

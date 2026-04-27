@@ -2,7 +2,7 @@
 created: 2025-01-25
 tags:
   - story
-uid: Ohli
+uid: ZMbz
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

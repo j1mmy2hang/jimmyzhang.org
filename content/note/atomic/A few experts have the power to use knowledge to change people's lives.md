@@ -6,7 +6,7 @@ tags:
   - life
   - people
   - knowledge
-uid: QzyO
+uid: FS23
 ---
 e.g. knowledge of biology --> make people go through PCR tests
 

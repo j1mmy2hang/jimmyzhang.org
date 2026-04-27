@@ -1,6 +1,6 @@
 ---
 created: 2025-09-26
-uid: QqOq
+uid: jioX
 ---
 ensuring the system's long-term survival and adaptive health by maintaining a dynamic balance of all its essential parts, allowing it to keep playing indefinitely.
 

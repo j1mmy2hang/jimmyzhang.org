@@ -1,6 +1,6 @@
 ---
 created: 2026-01-01 12:09
-uid: Az41
+uid: So5p
 ---
 Why everyone should have a yearly wrapped of their own
 

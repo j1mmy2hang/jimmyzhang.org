@@ -4,7 +4,7 @@ tags:
   - information
   - technology
   - freedom
-uid: T2lU
+uid: rwoL
 ---
 Freedom -- the ability to make choices & take actions
 Choices & actions --> information available

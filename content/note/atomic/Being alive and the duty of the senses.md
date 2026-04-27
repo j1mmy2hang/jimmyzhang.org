@@ -2,7 +2,7 @@
 created: 2025-12-23 21:28
 reference:
   - "[[The Other Stuff 28 -- The Interconnectedness of Everything w. Kepano]]"
-uid: gE5Q
+uid: 8zgP
 ---
 The morality of life and the importance of experieces
 

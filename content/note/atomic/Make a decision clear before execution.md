@@ -1,7 +1,7 @@
 ---
 tags:
   - decision-making
-uid: RIDR
+uid: iZyE
 ---
 - important aspects to cover
 	- person accountable

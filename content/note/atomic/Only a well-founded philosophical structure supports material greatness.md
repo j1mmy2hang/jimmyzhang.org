@@ -3,7 +3,7 @@ tags:
   - philosophy
   - material
   - greatness
-uid: qQaS
+uid: 5CpN
 ---
 [[For the New Intellectual]]:
 

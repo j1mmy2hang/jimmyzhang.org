@@ -2,7 +2,7 @@
 created: 2026-03-18
 reference:
   - "[[The Art of Doing Science and Engineering]]"
-uid: 1K46
+uid: TkhE
 ---
 ## Three principles of system design
 

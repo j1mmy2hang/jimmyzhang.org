@@ -4,7 +4,7 @@ published: 2025-12-31
 source: https://x.com/benln/article/2006057848430604705
 type: "[[Clipping]]"
 rating: 6
-uid: OW1Y
+uid: q852
 ---
 [![Image](https://pbs.twimg.com/media/G9bypN8XUAAA-cL?format=jpg&name=medium)](https://x.com/benln/article/2006057848430604705/media/2006057473971539968)
 

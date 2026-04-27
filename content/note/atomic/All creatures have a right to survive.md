@@ -3,7 +3,7 @@ credit: Thai Khang
 event: "[[UWC Short Course Vietnam -- Doing Good]]"
 tags:
   - right
-uid: R54L
+uid: NE3r
 ---
 万物有灵
 

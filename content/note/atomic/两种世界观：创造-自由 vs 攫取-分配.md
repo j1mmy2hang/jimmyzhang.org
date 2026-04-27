@@ -1,6 +1,6 @@
 ---
 created: 2025-10-11
-uid: cbUb
+uid: Oiem
 ---
 财富是创造出来的 / 攫取来的
 

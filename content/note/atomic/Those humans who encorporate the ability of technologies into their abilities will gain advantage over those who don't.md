@@ -3,7 +3,7 @@ created: 2024-10-12
 tags:
   - humans
   - tech
-uid: zOT9
+uid: fpY8
 ---
 those who are not able to master technology will out-mastered by those who are able to harness the power of technology, because [[Technologies are extensions of human beings]]
 

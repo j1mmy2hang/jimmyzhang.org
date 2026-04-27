@@ -1,7 +1,7 @@
 ---
 created: 2025-04-10
 AIGC: true
-uid: hVWl
+uid: bQIh
 ---
 ## Part 1: Simple Explanation
 

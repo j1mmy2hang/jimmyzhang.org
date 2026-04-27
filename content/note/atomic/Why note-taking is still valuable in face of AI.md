@@ -2,7 +2,7 @@
 created: 2026-01-11 13:55
 reference:
   - "[[AI 时代，你的知识管理工具该扔了吗？]]"
-uid: 3aK5
+uid: 969z
 ---
 ## From copying to verification
 

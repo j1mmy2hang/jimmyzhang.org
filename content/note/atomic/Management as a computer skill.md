@@ -1,6 +1,6 @@
 ---
 created: 2025-06-01
-uid: hf6I
+uid: p7sk
 ---
 Designing, orchestrating & managing AI agent workflow is a precious skill
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - meaning
-uid: YFR3
+uid: FZhq
 ---
 Don't let me disappear...
 Everyone has the fear of being forgotten by the world, because the prospect of disappearing as if never existed is arousing the sense of lack of self-worth & voidness of life, which is haunting. 

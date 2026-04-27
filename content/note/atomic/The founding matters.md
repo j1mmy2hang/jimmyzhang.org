@@ -1,6 +1,6 @@
 ---
 created: 2025-04-20
-uid: HdXO
+uid: pM6E
 ---
 A startup messed up at its foundation cannot be fixed. -- Thiel's Law
 

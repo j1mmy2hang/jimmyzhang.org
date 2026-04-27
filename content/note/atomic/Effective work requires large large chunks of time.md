@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - effectiveness
   - time
-uid: aDPu
+uid: DAq5
 ---
 Efforts will require a fairly big quantity of time to bear fruit. 
 

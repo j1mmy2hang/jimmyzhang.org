@@ -1,6 +1,6 @@
 ---
 created: 2026-01-23 11:12
-uid: EdbZ
+uid: TWry
 ---
 ## Xbox-Mac Controller
 

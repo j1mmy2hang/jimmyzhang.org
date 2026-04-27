@@ -1,7 +1,7 @@
 ---
 created: 2024-12-18
 tags:
-uid: 0RTU
+uid: svVL
 ---
 Trap: Policy Resistance
 Source: bounded rationality, goal of sub-systems different from each other

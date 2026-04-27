@@ -4,7 +4,7 @@ published:
 source: https://paulgraham.com/conformism.html
 type: "[[Clipping]]"
 rating: 4
-uid: 06NB
+uid: Evh1
 ---
 July 2020  
   

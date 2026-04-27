@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09
-uid: j4YW
+uid: m0P3
 ---
 The Hallmark of intelligence is not that it always succeeds, 
 but the fact that it can fail once twice, thrice, 

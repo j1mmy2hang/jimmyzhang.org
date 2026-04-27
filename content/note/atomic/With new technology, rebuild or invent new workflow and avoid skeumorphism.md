@@ -3,7 +3,7 @@ created: 2025-12-09 13:12
 reference:
   - "[[Two Ways to Win in the Post-software Era]]"
   - "[[Big Ideas 2026 Part 2]]"
-uid: 4jd3
+uid: MZ87
 ---
 > The ones that will fall prey to the bitter lesson are those that start with an existing workflow, such as updating inventory data, and AI-ify it. The ones that will survive will leverage models’ unique, nuanced properties to invent new workflows that were not technically possible before. I call these “post-skeuomorphic apps.”
 

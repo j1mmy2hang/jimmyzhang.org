@@ -3,7 +3,7 @@ created: 2025-03-02 08:58
 tags:
   - democracy
   - information
-uid: Inpp
+uid: oKKb
 ---
 > Totalitarian regimes choose to use modern information technology to centralize the flow of information and to stifle truth in order to maintain order. As a consequence, they have to struggle with the danger of ossification. When more and more information flows to only one place, will it result in efficient control or in blocked arteries and, finally, a heart attack? Democratic regimes choose to use modern information technology to distribute the flow of information between more institutions and individuals and encourage the free pursuit of truth. They consequently have to struggle with the danger of fracturing. Like a solar system with more and more planets circling faster and faster, can the center still hold, or will things fall apart and anarchy prevail?
 

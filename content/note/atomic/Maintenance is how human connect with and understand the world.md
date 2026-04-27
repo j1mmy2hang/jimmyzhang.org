@@ -3,7 +3,7 @@ created: 2026-03-19
 reference:
   - "[[Zen and the Art of Motorcycle Maintenance]]"
   - "[[Clipping/I Hired an AI to Do My Chores. Now I Maintain the AI.|I Hired an AI to Do My Chores. Now I Maintain the AI.]]"
-uid: 9Xl4
+uid: Xcgz
 ---
 Pirsig批判的是现代人对技术的态度——我们只想要结果，不想理解过程。我们把摩托车交给修车师傅，把身体交给医生，把代码交给程序员。我们和世界的接触越来越薄。
 

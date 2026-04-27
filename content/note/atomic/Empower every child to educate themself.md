@@ -1,6 +1,6 @@
 ---
 created: 2025-06-19
-uid: szIg
+uid: rTTM
 ---
 In the AI age, we don't need no teachers, curriculums, or schools. 
 All we need is the agency to reclaim our own education from institutions, regain the ability of self-directed learning, rediscover who we are, and reassert who we want to be in this world. 

@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: sDbi
+uid: 6UJI
 ---
 How do we grade students?
 How to avoid all the problems and disputes?

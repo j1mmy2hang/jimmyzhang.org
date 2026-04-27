@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: XeA2
+uid: M4gN
 ---
 Real systems rarely have real boundaries.
 Everything is connected to everything else. 

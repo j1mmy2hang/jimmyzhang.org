@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09
-uid: lYz2
+uid: ibxG
 ---
 > Design is not just what it looks like and feels like. Design is how it works.
 > -- Steve Jobs

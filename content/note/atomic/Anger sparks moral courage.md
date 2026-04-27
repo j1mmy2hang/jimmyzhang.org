@@ -4,7 +4,7 @@ tags:
   - anger
   - courage
   - ethics
-uid: 7ryE
+uid: VCaU
 ---
 When it comes to standing up to others’ wrongdoings, anger plays an important role.
 The more anger one experiences, the more likely they are to show moral courage.

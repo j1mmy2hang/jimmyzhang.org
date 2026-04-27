@@ -1,6 +1,6 @@
 ---
 created: 2025-06-30
-uid: lXHn
+uid: Y1KB
 ---
 ## 古典观念：世界 = “物”（A Thing）
 

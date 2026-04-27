@@ -2,7 +2,7 @@
 created: 2026-01-05 20:49
 reference:
   - "[[The Last Moat Standing]]"
-uid: PhFT
+uid: PfLr
 ---
 Having a perspective worth paying for.
 

@@ -1,7 +1,7 @@
 ---
 created: 2024-12-11
 tags:
-uid: VZVg
+uid: ZAOc
 ---
 > Insight comes not only from recognizing which factor is limiting, but from seeing that growth itself depletes or enhances limits and therefore changes what is limiting.
 

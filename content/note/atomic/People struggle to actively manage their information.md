@@ -2,7 +2,7 @@
 tags:
   - information
   - management
-uid: bfm2
+uid: R6bB
 ---
 > Drowning in information but craving for knowledge
 

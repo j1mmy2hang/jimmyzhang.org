@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: svCy
+uid: ehTA
 ---
 **1. 生物与资源竞争维度 (The Biological & Resource Dimension)**
 

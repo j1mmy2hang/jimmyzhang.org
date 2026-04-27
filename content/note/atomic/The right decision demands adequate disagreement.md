@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - decision-making
   - disagreement
-uid: tEph
+uid: n70G
 ---
 The first rule in decision-making is that one does not make a decision unless there is disagreement.
 

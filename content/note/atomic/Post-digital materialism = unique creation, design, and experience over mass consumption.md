@@ -2,7 +2,7 @@
 created: 2025-11-30 09:23
 reference:
   - "[[The Last Economy]]"
-uid: q9jK
+uid: VL2h
 ---
 A "post-digital materialism" focused on unique physical creation and experience, not *mass consumption*.
 

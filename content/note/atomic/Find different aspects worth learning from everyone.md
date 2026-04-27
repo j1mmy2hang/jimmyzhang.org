@@ -2,7 +2,7 @@
 tags:
   - learning
   - people
-uid: TSfn
+uid: wFtp
 ---
 No mentor / role model is perfect. 
 Finding inspirations = fragmenting -- picking & choosing pieces of different people to emulate

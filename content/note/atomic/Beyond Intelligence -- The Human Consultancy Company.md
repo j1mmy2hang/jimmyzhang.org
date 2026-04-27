@@ -1,6 +1,6 @@
 ---
 created: 2025-05-28
-uid: DCiv
+uid: xIgv
 ---
 AI is challenging human value.
 

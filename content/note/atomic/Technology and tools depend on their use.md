@@ -3,7 +3,7 @@ created: 2024-08-24
 tags:
   - tech
   - tool
-uid: 2FBh
+uid: C98C
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 

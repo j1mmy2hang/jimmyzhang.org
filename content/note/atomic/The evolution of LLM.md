@@ -1,7 +1,7 @@
 ---
 created: 2025-02-13 19:37
 tags:
-uid: Dx0g
+uid: kA6H
 ---
 Chatbot (3.5) — 会说话 (五岁小孩)
 Reasoner (o1) — 会思考（十四岁青春期）说话先经过大脑

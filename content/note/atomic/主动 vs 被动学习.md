@@ -1,6 +1,6 @@
 ---
 created: 2025-04-06
-uid: i1zh
+uid: 9e6r
 ---
 In our current schools, information is thrown at students;
 they have no incentive to active search for information on their own because first the curriculum is a 封闭的 information sphere, which means outside information has little vale; and second, information and deadlines will be fed to them and pressured on them anyway.

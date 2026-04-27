@@ -3,7 +3,7 @@ created: 2025-04-10
 tags:
   - war
   - truth
-uid: Qc4G
+uid: JIge
 ---
 > "In war, truth is the first casualty."
 

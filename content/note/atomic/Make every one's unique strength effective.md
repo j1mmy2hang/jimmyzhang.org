@@ -3,7 +3,7 @@ created: 2024-10-21
 tags:
   - strength
   - effectiveness
-uid: ZSmK
+uid: 28UD
 ---
 Don't count of universal genius. 
 

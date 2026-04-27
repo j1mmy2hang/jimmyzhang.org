@@ -1,7 +1,7 @@
 ---
 created: 2025-02-21 16:26
 tags:
-uid: 4ery
+uid: kQDj
 ---
 ordinary moments / small choices > big decisions
 

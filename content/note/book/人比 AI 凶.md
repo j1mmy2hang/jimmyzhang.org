@@ -4,7 +4,7 @@ author:
   - 万维钢
 type: "[[Book]]"
 cover: "[[image-ZBVq.webp]]"
-uid: 8Lrl
+uid: hNvj
 ---
 ![[image-ZBVq.webp|350]]
 

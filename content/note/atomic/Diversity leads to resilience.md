@@ -1,6 +1,6 @@
 ---
 created: 2025-04-13
-uid: JgKL
+uid: CcS8
 ---
 **The Core Idea Explained**
 

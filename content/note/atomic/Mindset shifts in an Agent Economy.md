@@ -1,6 +1,6 @@
 ---
 created: 2025-06-03
-uid: 0U9Y
+uid: QrKo
 ---
 1. **Stochastic mind-set:** manage a distribution of outcomes rather than a single answer.
 	- [[The paradigm shift from a deterministic to a stochastic mindset]]

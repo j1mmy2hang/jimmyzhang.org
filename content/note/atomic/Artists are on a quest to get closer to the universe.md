@@ -3,7 +3,7 @@ created: 2024-09-22
 tags:
   - artist
   - universe
-uid: qHGk
+uid: BwLu
 ---
 [[Art is a portal to the unseen world]]
 [[Creativity requires listening for the universe]]

@@ -5,7 +5,7 @@ author:
   - Dan Gardner
 type: "[[Book]]"
 cover: "[[image-q47A.png]]"
-uid: OxSw
+uid: oAEz
 ---
 ![[image-q47A.png]]
 

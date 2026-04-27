@@ -5,7 +5,7 @@ author:
   - Shigehiro Oishi
 chat: "[[<Conversation> Life in Three Dimensions]]"
 cover: "[[image-e7eS.png]]"
-uid: 8qjG
+uid: HK6s
 ---
 ![[image-e7eS.png|350]]
 

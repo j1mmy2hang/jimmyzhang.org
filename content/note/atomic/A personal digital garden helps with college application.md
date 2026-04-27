@@ -4,7 +4,7 @@ tags:
   - college
   - application
   - DG
-uid: 238R
+uid: YZyM
 ---
 [[大学申请文书的目的是为了展示自我]]
 但仅仅几百字很难完整准确呈现之前的所有生活

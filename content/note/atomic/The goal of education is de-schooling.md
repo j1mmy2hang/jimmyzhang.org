@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: rIaR
+uid: HdNY
 ---
 The ultimate goal of eduaction should be to teach a kid *how to learn on his own* so that he no longer needs an "educcation" in the traditional sense-- something forced upon him
 

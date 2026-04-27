@@ -1,6 +1,6 @@
 ---
 created: 2026-02-10 10:59
-uid: hOb7
+uid: xbbF
 ---
 old expertise: actually doing something
 new expertise: to shape the inputs & to evaluate outputs

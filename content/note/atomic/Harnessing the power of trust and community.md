@@ -2,7 +2,7 @@
 created: 2026-01-16 17:49
 reference:
   - "[[AI Can Build Anything. Social Dandelions Decide What Spreads.]]"
-uid: VebK
+uid: BLbm
 ---
 ## Simple vs Complex Contagion
 

@@ -1,7 +1,7 @@
 ---
 created: 2025-09-24
 web: https://every.to/learning-curve/you-re-probably-using-ai-wrong-dff84293-9edc-4da5-8732-71bd8d5d5b96
-uid: BtTx
+uid: On4T
 ---
 
 Humans are drawn to activities that bring them meaning.

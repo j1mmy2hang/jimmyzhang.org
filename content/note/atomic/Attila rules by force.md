@@ -3,7 +3,7 @@ parent: "[[Attila & Witch Doctor -- Rule of Force & Faith]]"
 tags:
   - power
   - conquer
-uid: F3t2
+uid: EYiz
 ---
 - rules by brute force
 	- respects nothing but man’s muscles

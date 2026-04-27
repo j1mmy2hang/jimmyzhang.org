@@ -2,7 +2,7 @@
 created: 2026-01-15 11:52
 reference:
   - "[[The Other Stuff 28 -- The Interconnectedness of Everything w. Kepano]]"
-uid: ERSs
+uid: KnB6
 ---
 *   **Ultimate Independence:** Just as local files free you from software lock-in, calisthenics frees you from equipment lock-in. It requires nothing but your own bodyweight (pushups, pullups, squats).
 *   **Direct Relationship:** It removes the abstraction of gym machines, forcing a direct understanding of your own balance, strength, and physical reality.

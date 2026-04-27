@@ -4,7 +4,7 @@ tags:
   - thinking
   - choice
   - consciousness
-uid: 6z3l
+uid: PkIW
 ---
 Men are not born with the gift of the rationality and the ability to think. 
 [[理性和逻辑是人类思想的武器]]

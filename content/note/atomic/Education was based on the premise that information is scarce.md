@@ -1,6 +1,6 @@
 ---
 created: 2025-03-22
-uid: sWLV
+uid: cguh
 ---
 the notion of education was formed before the printing press, grounded on the premise that information is scarce and the most effective way to get information is to gather together and listen to someone talk at you
 

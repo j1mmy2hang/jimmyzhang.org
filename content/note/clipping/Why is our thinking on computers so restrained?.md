@@ -4,7 +4,7 @@ published: 2021-06-26
 source: https://alexanderobenauer.com/weekly/20210626/
 type: "[[Clipping]]"
 rating: 4
-uid: iDJn
+uid: gaAX
 ---
 The computers we use are so capable, it’s almost hard to even fathom what we can do with them.
 

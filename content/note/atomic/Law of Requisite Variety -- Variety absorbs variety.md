@@ -1,7 +1,7 @@
 ---
 created: 2025-04-10
 AIGC: true
-uid: mscY
+uid: 99PM
 ---
 ## First -- Simple Terms & Explanation
 

@@ -1,7 +1,7 @@
 ---
 created: 2025-01-25
 tags:
-uid: gysf
+uid: 3JLu
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]
 The master key to all of our institutions

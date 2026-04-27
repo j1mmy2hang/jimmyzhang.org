@@ -1,6 +1,6 @@
 ---
 created: 2025-04-22
-uid: 9hPu
+uid: hgt7
 ---
 -- [[Dumbing Us Down]]
 ## 1. The adjustive or adaptive function. 

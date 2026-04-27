@@ -4,7 +4,7 @@ tags:
   - AI
   - intelligence
   - humans
-uid: en7r
+uid: cZfq
 ---
 ![[image-oTp1.jpg|497]]
 

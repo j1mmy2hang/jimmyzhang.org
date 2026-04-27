@@ -1,6 +1,6 @@
 ---
 created: 2025-05-22
-uid: EW7x
+uid: Qwle
 ---
 > So what _should_ one do? One should help people, and take care of the world. Those two are obvious. But is there anything else? When I ask that, the answer that pops up is _Make good new things_.
 > -- Paul Graham

@@ -3,7 +3,7 @@ tags:
   - memory
   - continuity
   - humans
-uid: nB8k
+uid: PSpz
 ---
 As individuals -- Memory sustains our role and existence
 As a species -- It is the continuity of memory and the transmitability of knowledge and enables our rapid evolution

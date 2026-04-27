@@ -2,7 +2,7 @@
 created: 2026-02-20 11:42
 reference:
   - "[[Richard Sutton -- The Future of AI]]"
-uid: WTO3
+uid: jNAM
 ---
 [[大语言模型对世界理解的天花板是人类语言的描述极限]]
 [[AI is moving beyond language intelligence to spacial and embodied intelligence]]

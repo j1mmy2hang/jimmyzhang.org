@@ -4,7 +4,7 @@ published: 2021-01-19
 source: https://commoncog.com/gap-between-reputation-personal-brand/
 type: "[[Clipping]]"
 rating: 4
-uid: H7vq
+uid: Qw7f
 ---
 ![Feature image for The Gap Between Reputation and Personal Brand](https://commoncog.com/content/images/size/w600/2021/01/personal_brand_reputation.jpeg)
 

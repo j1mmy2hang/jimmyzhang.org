@@ -2,7 +2,7 @@
 author: Rick Rubin
 type: "[[Book]]"
 cover: "[[image-a5OL.png]]"
-uid: EIoE
+uid: c1oX
 ---
 ![[image-a5OL.png|350]]
 ## Who are the artists and what do they do? 

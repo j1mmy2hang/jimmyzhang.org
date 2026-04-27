@@ -2,7 +2,7 @@
 tags:
   - focus
   - vision
-uid: ICn7
+uid: BFsX
 ---
 > “Vision is the art of seeing what is invisible to others.” -- Jonathan Swift
 

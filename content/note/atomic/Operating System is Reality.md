@@ -1,6 +1,6 @@
 ---
 created: 2025-05-27
-uid: FMRa
+uid: HPZ3
 ---
 we will see in the future 人类造物主 who has immense power in building the world and setting ots rules
 the rise of digital nation states

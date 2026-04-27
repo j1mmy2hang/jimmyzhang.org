@@ -1,7 +1,7 @@
 ---
 created: 2025-05-27
 type: "[[Event]]"
-uid: oP6n
+uid: tulp
 ---
 ![[image-jkHp.jpeg]]
 

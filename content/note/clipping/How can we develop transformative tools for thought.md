@@ -4,7 +4,7 @@ published:
 source: https://numinous.productions/ttft/
 type: "[[Clipping]]"
 rating: 6
-uid: xeel
+uid: 38Gi
 ---
 [Andy Matuschak](https://andymatuschak.org/) and [Michael Nielsen](http://michaelnielsen.org/)
 

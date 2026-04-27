@@ -5,7 +5,7 @@ tags:
   - people
   - role
   - development
-uid: nw8s
+uid: wHEw
 ---
 “升级版 employment rate“ -- *meaningful / true* employment rate
 一个良好社会让每一个公民都感到自己被需要以及自己能作出贡献

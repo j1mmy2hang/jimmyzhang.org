@@ -1,6 +1,6 @@
 ---
 created: 2025-07-01
-uid: MOr5
+uid: GVlT
 ---
 The early personal computing revolution was shaped by a 1960s counterculture ethos that viewed ==technology as a tool for individual liberation *from* what it saw as flawed, bureaucratic, and centralized systems of government and corporate power==, thus setting the stage for Silicon Valley's enduring focus on the individual consumer rather than the national project.
 

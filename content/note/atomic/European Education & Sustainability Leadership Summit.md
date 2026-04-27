@@ -1,7 +1,7 @@
 ---
 created: 2025-04-23
 type: "[[Event]]"
-uid: q045
+uid: uFqr
 ---
 ## Learning
 

@@ -2,7 +2,7 @@
 tags:
   - belief
   - success
-uid: q52f
+uid: 96zF
 ---
 keep & refresh your self-affirmation list
 

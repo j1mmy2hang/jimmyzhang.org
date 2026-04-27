@@ -2,7 +2,7 @@
 created: 2024-10-21
 tags:
   - strength
-uid: x27q
+uid: TCLI
 ---
 The effective executive makes strength productive. 
 One cannot build on weakness to achieve results; one has to use all the available strengths. 

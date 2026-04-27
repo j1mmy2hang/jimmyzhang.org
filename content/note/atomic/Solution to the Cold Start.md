@@ -1,6 +1,6 @@
 ---
 created: 2025-05-20
-uid: kTI8
+uid: I5D6
 ---
 [[The Cold Start Problem]]
 

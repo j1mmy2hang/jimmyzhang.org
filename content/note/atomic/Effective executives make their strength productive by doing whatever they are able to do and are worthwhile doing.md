@@ -5,7 +5,7 @@ tags:
   - executive
   - strength
   - productivity
-uid: KeCr
+uid: XpMo
 ---
 It is amazing how many things they find that can be done and are worthwhile doing. While the others complain about their inability to do anything, the effective executives go ahead and do.
 

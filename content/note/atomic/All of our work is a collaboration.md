@@ -2,7 +2,7 @@
 created: 2024-09-08
 tags:
   - collaboration
-uid: sZAD
+uid: VmOY
 ---
 One does not create alone
 [[Art is a circulation of energetic ideas]]

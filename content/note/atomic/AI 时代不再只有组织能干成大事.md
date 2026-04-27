@@ -1,6 +1,6 @@
 ---
 created: 2025-10-04
-uid: wbNp
+uid: cCQb
 ---
 一人公司成为可能
 [[Agency is key]]

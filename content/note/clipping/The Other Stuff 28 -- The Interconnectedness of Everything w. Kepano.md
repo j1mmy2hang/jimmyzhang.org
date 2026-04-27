@@ -5,7 +5,7 @@ source: https://www.youtube.com/watch?v=J8vec3BuOnk&t=235s
 type: "[[Clipping]]"
 rating: 6
 transcript: "[[Transcript of Kepano's interview]]"
-uid: vE4D
+uid: nBSO
 ---
 ![](https://www.youtube.com/watch?v=J8vec3BuOnk)  
 
