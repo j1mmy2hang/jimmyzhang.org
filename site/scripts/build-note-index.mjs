@@ -71,10 +71,17 @@ async function readNotes(type) {
   const out = [];
   for (const f of files) {
     if (!f.endsWith('.md') || f === 'index.md') continue;
-    const slug = f.replace(/\.md$/, '');
+    const filename = f.replace(/\.md$/, '');
     const raw = await readFile(join(dir, f), 'utf8');
     const { fm, body } = parseFrontmatter(raw);
-    out.push({ type, slug, fm, body });
+    // Every note is addressed by its `uid` frontmatter. Filenames are the
+    // human-readable titles authored in Obsidian and may change between
+    // monthly syncs; the uid is what gives URLs and the connections graph
+    // their stability across renames.
+    if (!fm.uid) {
+      throw new Error(`note missing uid frontmatter: note/${type}/${f}`);
+    }
+    out.push({ type, slug: fm.uid, file: filename, fm, body });
   }
   return out;
 }
@@ -133,9 +140,25 @@ async function main() {
     const ex = resolve[k];
     if (!ex || RANK[type] < RANK[ex[0]]) resolve[k] = [type, slug];
   };
+  // Detect duplicate uids globally across all note types. 4 chars × 62 chars
+  // = ~14M space, so a collision among ~2200 notes is almost certainly a
+  // copy-paste mistake in the Obsidian source. Fail loudly rather than
+  // silently overwrite an entry.
+  const seenUid = new Map();
+  for (const n of all) {
+    const prev = seenUid.get(n.slug);
+    if (prev) {
+      throw new Error(`duplicate uid "${n.slug}": ${prev.type}/${prev.file} and ${n.type}/${n.file}`);
+    }
+    seenUid.set(n.slug, n);
+  }
+
   for (const n of all) {
     put(n.slug, n.type, n.slug);
     if (n.fm.title) put(n.fm.title, n.type, n.slug);
+    // The filename IS the human-readable title — register it so wikilinks
+    // written as `[[Some Title]]` resolve to the uid-keyed entry.
+    put(n.file, n.type, n.slug);
   }
   // Add writing and project slugs — lower priority than notes on collision.
   // RANK for these is undefined → treated as lowest via the `!exType` guard.
@@ -154,13 +177,17 @@ async function main() {
   const book = {};
   const clipping = {};
   for (const n of all) {
-    const title = n.fm.title || n.slug;
+    // Filename is the canonical title. Frontmatter `title:` (rare, manual
+    // override) wins if present. The `file` field carries the on-disk name
+    // so the frontend can fetch /note/{type}/{file}.md given a uid.
+    const title = n.fm.title || n.file;
     if (n.type === 'book') {
       book[n.slug] = {
         title,
         date: n.fm.published || n.fm.created || '',
         author: n.fm.author || '',
         cover: stripWikilink(n.fm.cover || ''),
+        file: n.file,
       };
     } else if (n.type === 'clipping') {
       clipping[n.slug] = {
@@ -168,9 +195,14 @@ async function main() {
         date: n.fm.published || n.fm.created || '',
         source: n.fm.source || '',
         rating: n.fm.rating ? Number(n.fm.rating) : 0,
+        file: n.file,
       };
     } else {
-      atomic[n.slug] = { title, date: n.fm.published || n.fm.created || '' };
+      atomic[n.slug] = {
+        title,
+        date: n.fm.published || n.fm.created || '',
+        file: n.file,
+      };
     }
   }
 
@@ -259,6 +291,42 @@ async function main() {
     });
   }
   await writeFile(join(PUB_GEN, 'photo-index.json'), JSON.stringify(photoList));
+
+  // Note uid → on-disk-filename rewrites. We let the React route at
+  // /note/{type}/{uid} fall through to the SPA (so hard-reloads still serve
+  // the app shell), but rewrite /note/{type}/{uid}.md → the human-titled file
+  // so both NotePage's fetch and the agent router see real markdown. The
+  // block is bounded by markers and re-emitted on every build; everything
+  // outside the markers in _redirects is preserved as authored.
+  const REDIRECTS_FILE = join(CONTENT_ROOT, '_redirects');
+  const MARK_START = '# >>> auto:note-uid (build-note-index.mjs)';
+  const MARK_END = '# <<< auto:note-uid';
+  const ruleSets = [
+    ['atomic', atomic],
+    ['book', book],
+    ['clipping', clipping],
+  ];
+  const rules = [];
+  for (const [t, meta] of ruleSets) {
+    for (const [uid, m] of Object.entries(meta)) {
+      const dest = `/note/${t}/${encodeURI(m.file)}.md`;
+      rules.push(`/note/${t}/${uid}.md  ${dest}  200`);
+    }
+  }
+  let existing = '';
+  try { existing = await readFile(REDIRECTS_FILE, 'utf8'); } catch { /* first run */ }
+  // Strip every prior auto-generated block (current note-uid and the legacy
+  // book-uid marker emitted by earlier versions). The `/g` flag is essential —
+  // earlier versions of this strip lacked it, which is how 35+ stale blocks
+  // accumulated in the file. Marker strings are escaped before going into a
+  // regex because they contain literal parens.
+  const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const stripBlock = (text, start, end) =>
+    text.replace(new RegExp(`${escapeRe(start)}[\\s\\S]*?${escapeRe(end)}\\n?`, 'g'), '');
+  let stripped = stripBlock(existing, MARK_START, MARK_END);
+  stripped = stripBlock(stripped, '# >>> auto:book-uid', '# <<< auto:book-uid');
+  const block = [MARK_START, ...rules, MARK_END, ''].join('\n');
+  await writeFile(REDIRECTS_FILE, block + stripped);
 
   console.log(
     `[note-index] atomic=${Object.keys(atomic).length} book=${Object.keys(book).length} clipping=${Object.keys(clipping).length}`

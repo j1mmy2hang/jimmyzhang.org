@@ -242,6 +242,13 @@ main>article>.page-status {
   z-index: 6;
 }
 
+/* Portrait images dwarf prose at full width — cap them on desktop only. */
+@media (min-width: 450px) {
+  .prose img.img-vertical {
+    max-width: 40rem;
+  }
+}
+
 /* --- deeper links ------------------------------------------------- */
 .page-deeper {
   margin-top: 8rem;

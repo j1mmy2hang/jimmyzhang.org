@@ -1,0 +1,12 @@
+---
+created: 2024-10-21
+tags:
+  - strength
+  - effectiveness
+uid: ZSmK
+---
+Don't count of universal genius. 
+
+> Build organizations in such a manner that any man who has strength in one important area is capable of putting it to work? 
+
+[[Allocate the best people to the right position]]

@@ -100,13 +100,23 @@ export default function NotePage({ type }: { type: NoteType }) {
     );
     setError(false);
     const controller = new AbortController();
-    Promise.all([
-      loadNoteIndex(),
-      fetch(`/note/${type}/${slug}.md`, { signal: controller.signal }).then((r) => {
+    // The URL slug is a uid; the file on disk is the human title. Defer the
+    // fetch until we have the index so we can resolve uid → filename for any
+    // note type.
+    const fetchBody = (idx: NoteIndex): Promise<string> => {
+      const meta =
+        type === 'atomic' ? idx.atomic[slug]
+        : type === 'book' ? idx.book[slug]
+        : idx.clipping[slug];
+      if (!meta) throw new Error(`unknown ${type} uid: ${slug}`);
+      const path = `/note/${type}/${encodeURI(meta.file)}.md`;
+      return fetch(path, { signal: controller.signal }).then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.text();
-      }),
-    ])
+      });
+    };
+    loadNoteIndex()
+      .then((idx) => Promise.all([idx, fetchBody(idx)]))
       .then(([idx, text]) => {
         if (controller.signal.aborted) return;
         setDisplayed({ type, slug, index: idx, raw: text });
@@ -127,7 +137,14 @@ export default function NotePage({ type }: { type: NoteType }) {
     [displayed, body]
   );
 
-  const title = fm.title || displayed?.slug || '';
+  // Notes no longer carry `title:` in frontmatter — the human filename IS
+  // the title, surfaced via the index meta. Fall back through fm → index → slug.
+  const indexTitle = displayed
+    ? displayed.type === 'atomic' ? displayed.index.atomic[displayed.slug]?.title
+    : displayed.type === 'book' ? displayed.index.book[displayed.slug]?.title
+    : displayed.index.clipping[displayed.slug]?.title
+    : undefined;
+  const title = fm.title || indexTitle || displayed?.slug || '';
   const date = fm.published || fm.created || '';
   const author = fm.author || '';
   const source = fm.source || '';

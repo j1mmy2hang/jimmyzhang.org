@@ -1,9 +1,0 @@
----
-title: "Most men lead lives of quiet desperation"
-
-created: 2024-12-19
-tags:
-  - desperation
-credit: Thoreau
----
-> “The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation. From the desperate city you go into the desperate country, and have to console yourself with the bravery of minks and muskrats. A stereotyped but unconscious despair is concealed even under what are called the games and amusements of mankind. There is no play in them, for this comes after work. But it is a characteristic of wisdom not to do desperate things..”

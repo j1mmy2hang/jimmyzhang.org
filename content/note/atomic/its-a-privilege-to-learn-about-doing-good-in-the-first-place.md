@@ -1,7 +1,0 @@
----
-title: "It's a privilege to learn about \"doing good\" in the first place"
-
-tags:
-  - priviledge
----
-We are putting ourselves in a privileged position by thinking about doing good for others, because disadvantaged people with less resources will not have the ability to do good for others. 

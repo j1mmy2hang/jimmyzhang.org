@@ -9,13 +9,14 @@ export function resolvedUrl(r: Resolved): string {
   return `/note/${r.type}/${r.slug}`;
 }
 
-export type AtomicMeta = { title: string; date: string };
-export type BookMeta = { title: string; date: string; author: string; cover: string };
+export type AtomicMeta = { title: string; date: string; file: string };
+export type BookMeta = { title: string; date: string; author: string; cover: string; file: string };
 export type ClippingMeta = {
   title: string;
   date: string;
   source: string;
   rating: number;
+  file: string;
 };
 
 export type Connection = { type: NoteType; slug: string; title: string };

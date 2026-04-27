@@ -47,9 +47,16 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
     }
   );
 
-  // Drop ![[...]] entirely — including optional size tail like |350.
-  body = body.replace(/^!\[\[[^\]\n]+\]\][ \t]*\r?\n?/gm, '');
-  body = body.replace(/!\[\[[^\]\n]+\]\]/g, '');
+  // ![[filename|optional-size]] → rendered image from /asset/image/.
+  // Angle-bracket URL syntax handles filenames with spaces.
+  body = body.replace(
+    /^!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\][ \t]*\r?\n?/gm,
+    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)\n`
+  );
+  body = body.replace(
+    /!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\]/g,
+    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)`
+  );
 
   body = body.replace(
     /\[\[([^\]\n]+?)\]\]/g,

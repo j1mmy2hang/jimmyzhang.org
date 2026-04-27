@@ -1,6 +1,30 @@
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 
+// Tag portrait images inside `.prose` so CSS can cap their width on desktop —
+// a full-width vertical photo dwarfs the surrounding text. `load` doesn't
+// bubble, so we listen in the capture phase. Cached images that are already
+// `complete` at attach time skip the event entirely; we sweep those once on
+// mount. Future renders go through the listener.
+function useTagVerticalProseImages() {
+  useEffect(() => {
+    const tag = (img: HTMLImageElement) => {
+      if (!img.closest('.prose')) return;
+      if (img.naturalWidth && img.naturalHeight > img.naturalWidth) {
+        img.classList.add('img-vertical');
+      }
+    };
+    const onLoad = (e: Event) => {
+      if (e.target instanceof HTMLImageElement) tag(e.target);
+    };
+    document.addEventListener('load', onLoad, true);
+    document.querySelectorAll<HTMLImageElement>('.prose img').forEach((img) => {
+      if (img.complete) tag(img);
+    });
+    return () => document.removeEventListener('load', onLoad, true);
+  }, []);
+}
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -33,6 +57,7 @@ import ThemeToggle from './components/ThemeToggle';
 import DappledLight from './components/DappledLight';
 
 export default function App() {
+  useTagVerticalProseImages();
   return (
     <>
       <ScrollToTop />

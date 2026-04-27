@@ -1,8 +1,0 @@
----
-title: "高效学习的两个重要能力"
-
-created: 2025-07-23
-
----
-1. 能够（随时随地）迅速进入专注状态 (e.g. Bill Gates programming while hidking)
-2. 能够长期保持专注状态 (enter flow)
