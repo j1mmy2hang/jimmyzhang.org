@@ -169,6 +169,10 @@ export function markdownToHtml(md: string): string {
       if (!inParagraph) {
         result.push('<p style="margin:1em 0;">');
         inParagraph = true;
+      } else {
+        // Match the web renderer's `breaks: true` — single newlines
+        // inside a paragraph become <br>.
+        result.push('<br>');
       }
       result.push(trimmed);
     }

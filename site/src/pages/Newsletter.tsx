@@ -68,11 +68,20 @@ export default function Newsletter() {
         {archive.length > 0 && (
           <>
             <hr className="nl-divider" />
-            <ul className="nl-list">
+            <ul className="nl-grid">
               {archive.map((issue) => (
-                <li key={issue.slug}>
-                  <Link to={`/newsletter/${issue.slug}`} className="nl-row">
-                    {issue.title}
+                <li key={issue.slug} className="nl-tile">
+                  <Link
+                    to={`/newsletter/${issue.slug}`}
+                    className="nl-tile-link"
+                    aria-label={issue.title}
+                    title={issue.title}
+                  >
+                    {issue.coverUrl ? (
+                      <img src={issue.coverUrl} alt="" className="nl-tile-img" loading="lazy" />
+                    ) : (
+                      <span className="nl-tile-fallback">{issue.title}</span>
+                    )}
                   </Link>
                 </li>
               ))}

@@ -1,7 +1,7 @@
 ---
 title: Celebrating 1 year of jimmyzhang.org
 created: 2026-04-28
-cover: "[[1-year-of-jimmyzhang-org.jpg]]"
+cover: "[[1-year-of-jimmyzhang-org.webp]]"
 ---
 Dear friend, 
 
@@ -15,7 +15,7 @@ jimmyzhang.org now contains everything about me — all my notes (over 3000 and 
 
 So, my friends, at its one-year anniversary, proudly I (re-)introduce you to https://jimmyzhang.org 
 
-![[1-year-of-jimmyzhang-org.jpg]]
+![[1-year-of-jimmyzhang-org.webp]]
 
 It is more than a personal website. More importantly, it is an effort to distill myself into a file system, putting all of my life's work in a folder. The backend of the entire site is a folder of markdown notes, that is really what it is. It is also optimized for agent navigation, so any AI agent (OpenClaw, Codex, Claude Code, etc.) can freely access my folder at https://github.com/j1mmy2hang/jimmyzhang.org — to read and retrieve however they want. 
 
