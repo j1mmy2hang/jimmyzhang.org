@@ -1,6 +1,6 @@
 ---
 created: 2025-04-28
-uid: tpl6
+uid: vC3n
 ---
 We grow up with AI. 
 AI "grew up" and developed with us. 

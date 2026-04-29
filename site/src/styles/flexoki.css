@@ -69,6 +69,7 @@
   --tx: var(--black);
 
   --action: var(--blue-600);
+  --action-hover: var(--blue-400);
   --bg-hover: var(--blue-50);
   --highlight: var(--yellow-100);
   --selection: rgba(195, 213, 245, 0.3);
@@ -86,6 +87,7 @@
   --tx: var(--base-200);
 
   --action: var(--blue-400);
+  --action-hover: var(--blue-100);
   --bg-hover: var(--blue-950);
   --highlight: var(--yellow-900);
   --selection: rgba(67, 133, 190, 0.25);

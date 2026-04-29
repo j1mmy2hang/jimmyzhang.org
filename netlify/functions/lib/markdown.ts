@@ -41,11 +41,44 @@ function escapeHtml(s: string): string {
   );
 }
 
+// Email-safe callout box. Inline styles + a table wrapper so Outlook
+// renders the rounded surface correctly. Inner markdown is parsed by a
+// recursive markdownToHtml call; the result is unwrapped from any single
+// outer <p> so the callout body sits flush.
+const TLDR_TYPES = new Set(['TLDR', 'TDLR']);
+function renderCalloutsEmail(md: string): string {
+  return md.replace(
+    /^> \[!([^\]]+)\][+-]?([^\n]*)((?:\r?\n>[^\n]*)*)/gm,
+    (_m, type: string, _title: string, rest: string) => {
+      const t = type.trim().toUpperCase();
+      if (!TLDR_TYPES.has(t)) return '';
+      const inner = rest
+        .split(/\r?\n/)
+        .map((l) => l.replace(/^>\s?/, ''))
+        .join('\n')
+        .trim();
+      const bodyHtml = markdownToHtml(inner);
+      return (
+        `\n<table role="presentation" width="100%" cellpadding="0" cellspacing="0" ` +
+          `style="background-color:#F2F0E5;border:1px solid #E6E4D9;border-radius:8px;margin:24px 0;">` +
+          `<tr><td style="padding:18px 22px;">` +
+            `<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#6F6E69;margin-bottom:6px;">TLDR</div>` +
+            `<div style="color:#100F0F;font-size:18px;line-height:1.65;">${bodyHtml}</div>` +
+          `</td></tr>` +
+        `</table>\n`
+      );
+    }
+  );
+}
+
 export function markdownToHtml(md: string): string {
   let html = md;
 
   // Strip frontmatter
   html = html.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
+
+  // Callouts: render TLDR; drop other types.
+  html = renderCalloutsEmail(html);
 
   // Obsidian image wikilinks: ![[filename|optional-size]] → absolute <img>.
   // Size hint is ignored; email width is capped by max-width.

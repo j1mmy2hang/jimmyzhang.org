@@ -1,4 +1,4 @@
-import { marked, stripObsidianDecorations } from './markdown';
+import { marked, stripObsidianDecorations, renderMath, renderCallouts } from './markdown';
 import { resolvedUrl, resolveKey } from './noteIndex';
 import type { NoteIndex } from './noteIndex';
 
@@ -29,6 +29,7 @@ function ytEmbed(id: string): string {
 // rest of `marked` can consume. Unresolved links fall back to a dim inline
 // span so the reader can still see the intended target.
 export function preprocessNoteBody(body: string, index: NoteIndex): string {
+  body = renderMath(body);
   body = stripObsidianDecorations(body);
 
   // YouTube — replace `![](url)` and bare-line URL forms with an iframe embed.
@@ -76,6 +77,8 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
     }
   );
 
+  body = renderCallouts(body);
+
   return body;
 }
 
@@ -87,6 +90,7 @@ export function renderNoteMarkdown(body: string, index: NoteIndex): string {
 //   ![[filename|size]] → rendered image from /asset/image/
 //   [[target|alias]]   → resolved link via note index (falls back to plain text)
 export function preprocessPageBody(body: string, index: NoteIndex): string {
+  body = renderMath(body);
   body = stripObsidianDecorations(body);
 
   // ![[filename|optional-size]] → markdown image with correct asset path.
@@ -114,6 +118,8 @@ export function preprocessPageBody(body: string, index: NoteIndex): string {
       return `[${safe}](${resolvedUrl(r)})`;
     }
   );
+
+  body = renderCallouts(body);
 
   return body;
 }

@@ -1,7 +1,7 @@
 ---
 created: 2026-03-16
 source: https://x.com/a16z/status/2032574271462191246?s=20
-uid: UtBV
+uid: uQLd
 ---
 ![[image-MXgV.jpg]]
 

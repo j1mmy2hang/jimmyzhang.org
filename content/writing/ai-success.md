@@ -1,6 +1,8 @@
 ---
 title: AI 成功根本原因
 published: 2026-04-16
+tags:
+  - AI
 ---
 - chat / conversation 是人类本质 communicate 和合作的重要机制，此为一 hack。openai 最创新不过把模型接入聊天框，openclaw 火不过是接到了主流聊天软件中。使用电脑不再需要 terminal CLI, 不再需要 GUI, 只用说话，门槛降到零。先贤设想的人机交互脑机接口实现之前先用 chat 爽了一把。
 

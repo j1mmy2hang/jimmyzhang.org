@@ -1,6 +1,6 @@
 ---
 created: 2025-05-07
-uid: 4i8c
+uid: 9Je3
 ---
 The defining quality of "work" is value-creation -- for yourslef or for others
 

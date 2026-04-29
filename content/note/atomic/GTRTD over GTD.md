@@ -1,5 +1,6 @@
 ---
 created: 2025-10-03
+
 uid: DsYO
 ---
 GTD -- Get Things Done

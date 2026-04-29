@@ -1,7 +1,5 @@
 ---
 created: 2024-10-04
-type: MOC
-id: 01JGD1KKHGGWN98E5B7MMCWSZG
 uid: lGDc
 ---
 [[Communication = compression + decompression]]

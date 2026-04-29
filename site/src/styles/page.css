@@ -162,16 +162,16 @@ main>article>.page-status {
 }
 
 .prose a {
-  color: var(--tx);
+  color: var(--action);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  text-decoration-color: var(--tx-3);
+  text-decoration-color: var(--action);
 }
 
 .prose a:hover {
-  text-decoration-color: var(--tx);
-  color: var(--action);
+  color: var(--action-hover);
+  text-decoration-color: var(--action-hover);
 }
 
 .prose ul,
@@ -281,4 +281,38 @@ main>article>.page-status {
 .page-status {
   color: var(--tx-3);
   margin: 0;
+}
+
+/* --- callouts ----------------------------------------------------- *
+ * Obsidian-style `> [!tldr]` blocks. Light, low-chroma surface that
+ * sits inside the prose without competing with images or links.
+ * ----------------------------------------------------------------- */
+.prose .callout {
+  background-color: var(--bg-2);
+  border: 1px solid var(--ui);
+  border-radius: 8px;
+  padding: 1.6rem 2rem;
+  margin: 2.4rem 0;
+}
+
+.prose .callout-title {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: var(--font-small);
+  color: var(--tx-2);
+  margin-bottom: 0.4rem;
+}
+
+.prose .callout-body > *:first-child {
+  margin-top: 0;
+}
+
+.prose .callout-body > *:last-child {
+  margin-bottom: 0;
+}
+
+.prose .callout-body ul,
+.prose .callout-body ol {
+  margin-bottom: 0;
 }

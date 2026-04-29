@@ -62,5 +62,5 @@ circle,
 .home-nav-link,
 .page-nav-link,
 .subscribe-input {
-  transition: background-color 450ms ease, color 450ms ease, border-color 450ms ease, fill 450ms ease, stroke 450ms ease;
+  transition: background-color 450ms ease, color 450ms ease, border-color 450ms ease, fill 450ms ease, stroke 450ms ease, text-decoration-color 450ms ease;
 }
