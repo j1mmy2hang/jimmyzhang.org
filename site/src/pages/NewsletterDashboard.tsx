@@ -140,35 +140,107 @@ export default function NewsletterDashboard() {
     }
   }
 
-  function exportJson() {
-    const blob = new Blob([JSON.stringify(subscribers, null, 2)], {
-      type: 'application/json',
-    });
+  function exportCsv() {
+    const escape = (v: string) =>
+      /[",\r\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
+    const header = ['name', 'email', 'ip', 'subscribedAt'];
+    const rows = subscribers.map((s) =>
+      [s.name || '', s.email, s.ip || '', s.subscribedAt].map(escape).join(','),
+    );
+    const csv = [header.join(','), ...rows].join('\r\n') + '\r\n';
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     const stamp = new Date().toISOString().slice(0, 10);
     a.href = url;
-    a.download = `subscribers-${stamp}.json`;
+    a.download = `subscribers-${stamp}.csv`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
   }
 
-  async function importJson(file: File) {
+  function parseCsv(text: string): Subscriber[] {
+    const rows: string[][] = [];
+    let row: string[] = [];
+    let field = '';
+    let inQuotes = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i + 1] === '"') {
+            field += '"';
+            i++;
+          } else {
+            inQuotes = false;
+          }
+        } else {
+          field += c;
+        }
+      } else {
+        if (c === '"') {
+          inQuotes = true;
+        } else if (c === ',') {
+          row.push(field);
+          field = '';
+        } else if (c === '\n' || c === '\r') {
+          if (c === '\r' && text[i + 1] === '\n') i++;
+          row.push(field);
+          rows.push(row);
+          row = [];
+          field = '';
+        } else {
+          field += c;
+        }
+      }
+    }
+    if (field.length > 0 || row.length > 0) {
+      row.push(field);
+      rows.push(row);
+    }
+    if (rows.length === 0) return [];
+
+    const header = rows[0]!.map((h) => h.trim().toLowerCase());
+    const idx = (n: string) => header.indexOf(n);
+    const iName = idx('name');
+    const iEmail = idx('email');
+    const iIp = idx('ip');
+    const iDate = idx('subscribedat');
+    if (iEmail === -1) {
+      throw new Error("CSV must include an 'email' column");
+    }
+
+    const subs: Subscriber[] = [];
+    for (let r = 1; r < rows.length; r++) {
+      const cols = rows[r]!;
+      if (cols.every((c) => c.trim() === '')) continue;
+      const email = (cols[iEmail] || '').trim();
+      if (!email) continue;
+      subs.push({
+        email,
+        name: iName >= 0 ? (cols[iName] || '').trim() || undefined : undefined,
+        ip: iIp >= 0 ? (cols[iIp] || '').trim() || undefined : undefined,
+        subscribedAt:
+          iDate >= 0 && cols[iDate]?.trim()
+            ? cols[iDate]!.trim()
+            : new Date().toISOString(),
+      });
+    }
+    return subs;
+  }
+
+  async function importCsv(file: File) {
     const text = await file.text();
-    let parsed: unknown;
+    let list: Subscriber[];
     try {
-      parsed = JSON.parse(text);
-    } catch {
-      setSubStatus('Invalid JSON');
+      list = parseCsv(text);
+    } catch (e) {
+      setSubStatus(`Invalid CSV: ${e instanceof Error ? e.message : String(e)}`);
       return;
     }
-    const list = Array.isArray(parsed)
-      ? parsed
-      : (parsed as { subscribers?: unknown })?.subscribers;
-    if (!Array.isArray(list)) {
-      setSubStatus('Expected an array of subscribers');
+    if (list.length === 0) {
+      setSubStatus('No rows found in CSV');
       return;
     }
     if (
@@ -279,20 +351,20 @@ export default function NewsletterDashboard() {
           <div className="dash-section-head">
             <h2 className="dash-h2">Subscribers ({subscribers.length})</h2>
             <div className="dash-section-actions">
-              <button className="dash-btn" onClick={exportJson} disabled={subscribers.length === 0}>
-                Export JSON
+              <button className="dash-btn" onClick={exportCsv} disabled={subscribers.length === 0}>
+                Export CSV
               </button>
               <button className="dash-btn" onClick={() => fileInputRef.current?.click()}>
-                Import JSON
+                Import CSV
               </button>
               <input
                 ref={fileInputRef}
                 type="file"
-                accept="application/json,.json"
+                accept="text/csv,.csv"
                 style={{ display: 'none' }}
                 onChange={(e) => {
                   const file = e.target.files?.[0];
-                  if (file) importJson(file);
+                  if (file) importCsv(file);
                   e.target.value = '';
                 }}
               />

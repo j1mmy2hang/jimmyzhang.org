@@ -23,12 +23,42 @@ export default async function handler(req: Request, _context: Context) {
     });
   }
 
-  await removeSubscriber(payload.email);
+  const removed = await removeSubscriber(payload.email);
+
+  if (removed) {
+    const resendKey = process.env.RESEND_API_KEY || '';
+    if (resendKey) {
+      try {
+        await fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${resendKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            from: 'Newsletter <newsletter@jimmyzhang.org>',
+            to: 'contact@jimmyzhang.org',
+            subject: `Unsubscribe: ${payload.email}`,
+            html: `<p><strong>${escapeHtml(payload.email)}</strong> just unsubscribed.</p>`,
+          }),
+        });
+      } catch {}
+    }
+  }
 
   return new Response(unsubscribePage(payload.email, true), {
     status: 200,
     headers: { 'Content-Type': 'text/html' },
   });
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function unsubscribePage(detail: string, success: boolean): string {
