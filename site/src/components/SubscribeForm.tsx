@@ -8,6 +8,7 @@ interface Props {
 
 export default function SubscribeForm({ variant = 'page' }: Props) {
   const [open, setOpen] = useState(variant !== 'home');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
@@ -21,7 +22,7 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
       const res = await fetch('/.netlify/functions/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email.trim() }),
+        body: JSON.stringify({ email: email.trim(), name: name.trim() }),
       });
       if (!res.ok) {
         const text = await res.text();
@@ -39,6 +40,7 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
       setStatus('success');
       setMessage(data.message || 'Subscribed!');
       setEmail('');
+      setName('');
     } catch (err) {
       setStatus('error');
       setMessage(`Could not connect: ${err}`);
@@ -63,6 +65,15 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
         </p>
         <form className="subscribe-form" onSubmit={handleSubmit}>
           <input
+            type="text"
+            className="subscribe-input subscribe-input--name"
+            placeholder="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            disabled={status === 'loading'}
+            autoComplete="name"
+          />
+          <input
             type="email"
             className="subscribe-input"
             placeholder="your@email.com"
@@ -70,6 +81,7 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
             onChange={(e) => setEmail(e.target.value)}
             required
             disabled={status === 'loading'}
+            autoComplete="email"
           />
           <button type="submit" className="subscribe-button" disabled={status === 'loading'}>
             Subscribe
@@ -92,6 +104,15 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
         <div className="subscribe-drawer-inner">
           <form className="subscribe-form" onSubmit={handleSubmit}>
             <input
+              type="text"
+              className="subscribe-input subscribe-input--name"
+              placeholder="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              disabled={status === 'loading'}
+              autoComplete="name"
+            />
+            <input
               type="email"
               className="subscribe-input"
               placeholder="your@email.com"
@@ -99,6 +120,7 @@ export default function SubscribeForm({ variant = 'page' }: Props) {
               onChange={(e) => setEmail(e.target.value)}
               required
               disabled={status === 'loading'}
+              autoComplete="email"
             />
             <button type="submit" className="subscribe-button" disabled={status === 'loading'} aria-label="Subscribe">
               {status === 'loading' ? '...' : '→'}

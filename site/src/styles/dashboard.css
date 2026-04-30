@@ -144,3 +144,100 @@
   border-radius: var(--border-radius);
   background: #fff;
 }
+
+.dash-inner--wide {
+  max-width: 960px;
+}
+
+.dash-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.dash-section-head .dash-h2 {
+  margin: 0;
+}
+
+.dash-section-actions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.dash-input--small {
+  flex: 0 1 16rem;
+}
+
+.dash-input--cell {
+  width: 100%;
+  padding: 0.4em 0.6em;
+  font-size: var(--font-even-smaller);
+}
+
+.dash-filter {
+  margin: 0.4rem 0 1.2rem;
+  width: 100%;
+}
+
+.dash-table-wrap {
+  overflow-x: auto;
+  margin-top: 1.2rem;
+}
+
+.dash-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-small);
+}
+
+.dash-table th,
+.dash-table td {
+  padding: 0.7rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--ui);
+  vertical-align: middle;
+}
+
+.dash-table th {
+  font-weight: 400;
+  font-size: var(--font-even-smaller);
+  color: var(--tx-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--ui-2);
+}
+
+.dash-table tbody tr:hover {
+  background: var(--ui);
+}
+
+.dash-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95em;
+}
+
+.dash-muted {
+  color: var(--tx-3);
+}
+
+.dash-actions {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.dash-btn--small {
+  padding: 0.35em 0.7em;
+  font-size: var(--font-even-smaller);
+}
+
+.dash-empty {
+  text-align: center;
+  color: var(--tx-3);
+  padding: 2.4rem 0 !important;
+  font-size: var(--font-small);
+}

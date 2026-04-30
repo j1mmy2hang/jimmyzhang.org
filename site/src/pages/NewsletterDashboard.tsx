@@ -1,9 +1,11 @@
-import { useState, useEffect, type FormEvent } from 'react';
+import { useState, useEffect, useRef, type FormEvent } from 'react';
 import { loadNewsletterIndex } from '../siteIndex';
 import '../styles/dashboard.css';
 
 interface Subscriber {
   email: string;
+  name?: string;
+  ip?: string;
   subscribedAt: string;
 }
 
@@ -15,8 +17,14 @@ export default function NewsletterDashboard() {
 
   // Subscribers
   const [subscribers, setSubscribers] = useState<Subscriber[]>([]);
+  const [newName, setNewName] = useState('');
   const [newEmail, setNewEmail] = useState('');
   const [subStatus, setSubStatus] = useState('');
+  const [editingEmail, setEditingEmail] = useState<string | null>(null);
+  const [editName, setEditName] = useState('');
+  const [editEmail, setEditEmail] = useState('');
+  const [filter, setFilter] = useState('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Send
   const [issueList, setIssueList] = useState<IssueOption[]>([]);
@@ -79,15 +87,17 @@ export default function NewsletterDashboard() {
     const res = await fetch('/.netlify/functions/subscribers', {
       method: 'POST',
       headers: headers(),
-      body: JSON.stringify({ email: newEmail.trim() }),
+      body: JSON.stringify({ email: newEmail.trim(), name: newName.trim() || undefined }),
     });
     const data = await res.json();
     setSubStatus(data.added ? `Added ${newEmail}` : `Already exists`);
     setNewEmail('');
+    setNewName('');
     loadSubscribers();
   }
 
   async function removeSub(email: string) {
+    if (!window.confirm(`Remove ${email}?`)) return;
     await fetch('/.netlify/functions/subscribers', {
       method: 'DELETE',
       headers: headers(),
@@ -95,6 +105,92 @@ export default function NewsletterDashboard() {
     });
     setSubStatus(`Removed ${email}`);
     loadSubscribers();
+  }
+
+  function startEdit(s: Subscriber) {
+    setEditingEmail(s.email);
+    setEditName(s.name || '');
+    setEditEmail(s.email);
+  }
+
+  function cancelEdit() {
+    setEditingEmail(null);
+    setEditName('');
+    setEditEmail('');
+  }
+
+  async function saveEdit(originalEmail: string) {
+    const body: Record<string, string> = { email: originalEmail };
+    if (editEmail.trim() && editEmail.trim() !== originalEmail) {
+      body.newEmail = editEmail.trim();
+    }
+    body.name = editName.trim();
+    const res = await fetch('/.netlify/functions/subscribers', {
+      method: 'PATCH',
+      headers: headers(),
+      body: JSON.stringify(body),
+    });
+    if (res.ok) {
+      setSubStatus(`Updated ${originalEmail}`);
+      cancelEdit();
+      loadSubscribers();
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setSubStatus(`Error: ${data.error || res.status}`);
+    }
+  }
+
+  function exportJson() {
+    const blob = new Blob([JSON.stringify(subscribers, null, 2)], {
+      type: 'application/json',
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const stamp = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `subscribers-${stamp}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  async function importJson(file: File) {
+    const text = await file.text();
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      setSubStatus('Invalid JSON');
+      return;
+    }
+    const list = Array.isArray(parsed)
+      ? parsed
+      : (parsed as { subscribers?: unknown })?.subscribers;
+    if (!Array.isArray(list)) {
+      setSubStatus('Expected an array of subscribers');
+      return;
+    }
+    if (
+      !window.confirm(
+        `Replace current ${subscribers.length} subscriber(s) with ${list.length} from file? This cannot be undone.`,
+      )
+    ) {
+      return;
+    }
+    const res = await fetch('/.netlify/functions/subscribers', {
+      method: 'PUT',
+      headers: headers(),
+      body: JSON.stringify({ subscribers: list }),
+    });
+    if (res.ok) {
+      const data = await res.json();
+      setSubStatus(`Imported ${data.count} subscriber(s)`);
+      loadSubscribers();
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setSubStatus(`Import failed: ${data.error || res.status}`);
+    }
   }
 
   async function loadPreview() {
@@ -162,41 +258,172 @@ export default function NewsletterDashboard() {
     );
   }
 
+  const filtered = filter.trim()
+    ? subscribers.filter((s) => {
+        const q = filter.toLowerCase();
+        return (
+          s.email.toLowerCase().includes(q) ||
+          (s.name || '').toLowerCase().includes(q) ||
+          (s.ip || '').toLowerCase().includes(q)
+        );
+      })
+    : subscribers;
+
   return (
     <main className="dash">
-      <div className="dash-inner">
+      <div className="dash-inner dash-inner--wide">
         <h1 className="dash-title">Newsletter Dashboard</h1>
 
         {/* --- Subscribers --- */}
         <section className="dash-section">
-          <h2 className="dash-h2">Subscribers ({subscribers.length})</h2>
+          <div className="dash-section-head">
+            <h2 className="dash-h2">Subscribers ({subscribers.length})</h2>
+            <div className="dash-section-actions">
+              <button className="dash-btn" onClick={exportJson} disabled={subscribers.length === 0}>
+                Export JSON
+              </button>
+              <button className="dash-btn" onClick={() => fileInputRef.current?.click()}>
+                Import JSON
+              </button>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="application/json,.json"
+                style={{ display: 'none' }}
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) importJson(file);
+                  e.target.value = '';
+                }}
+              />
+            </div>
+          </div>
+
           <form onSubmit={addSub} className="dash-row">
             <input
+              type="text"
+              placeholder="Name (optional)"
+              value={newName}
+              onChange={(e) => setNewName(e.target.value)}
+              className="dash-input dash-input--small"
+            />
+            <input
               type="email"
-              placeholder="Add subscriber email"
+              placeholder="email@example.com"
               value={newEmail}
               onChange={(e) => setNewEmail(e.target.value)}
               className="dash-input"
             />
             <button type="submit" className="dash-btn">Add</button>
           </form>
+
+          <input
+            type="search"
+            placeholder="Filter by name, email, or IP..."
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            className="dash-input dash-filter"
+          />
+
           {subStatus && <p className="dash-status">{subStatus}</p>}
-          <ul className="dash-list">
-            {subscribers.map((s) => (
-              <li key={s.email} className="dash-list-item">
-                <span className="dash-email">{s.email}</span>
-                <span className="dash-date">
-                  {new Date(s.subscribedAt).toLocaleDateString()}
-                </span>
-                <button
-                  className="dash-btn dash-btn--danger"
-                  onClick={() => removeSub(s.email)}
-                >
-                  Remove
-                </button>
-              </li>
-            ))}
-          </ul>
+
+          <div className="dash-table-wrap">
+            <table className="dash-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>IP</th>
+                  <th>Signed up</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {filtered.map((s) => {
+                  const editing = editingEmail === s.email;
+                  return (
+                    <tr key={s.email}>
+                      <td>
+                        {editing ? (
+                          <input
+                            type="text"
+                            className="dash-input dash-input--cell"
+                            value={editName}
+                            onChange={(e) => setEditName(e.target.value)}
+                            placeholder="Name"
+                          />
+                        ) : (
+                          <span className={s.name ? '' : 'dash-muted'}>
+                            {s.name || '—'}
+                          </span>
+                        )}
+                      </td>
+                      <td>
+                        {editing ? (
+                          <input
+                            type="email"
+                            className="dash-input dash-input--cell"
+                            value={editEmail}
+                            onChange={(e) => setEditEmail(e.target.value)}
+                          />
+                        ) : (
+                          <span className="dash-mono">{s.email}</span>
+                        )}
+                      </td>
+                      <td className="dash-mono dash-muted">{s.ip || '—'}</td>
+                      <td className="dash-muted">
+                        {new Date(s.subscribedAt).toLocaleDateString(undefined, {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                        })}
+                      </td>
+                      <td className="dash-actions">
+                        {editing ? (
+                          <>
+                            <button
+                              className="dash-btn dash-btn--small"
+                              onClick={() => saveEdit(s.email)}
+                            >
+                              Save
+                            </button>
+                            <button
+                              className="dash-btn dash-btn--small"
+                              onClick={cancelEdit}
+                            >
+                              Cancel
+                            </button>
+                          </>
+                        ) : (
+                          <>
+                            <button
+                              className="dash-btn dash-btn--small"
+                              onClick={() => startEdit(s)}
+                            >
+                              Edit
+                            </button>
+                            <button
+                              className="dash-btn dash-btn--small dash-btn--danger"
+                              onClick={() => removeSub(s.email)}
+                            >
+                              Remove
+                            </button>
+                          </>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+                {filtered.length === 0 && (
+                  <tr>
+                    <td colSpan={5} className="dash-empty">
+                      {subscribers.length === 0 ? 'No subscribers yet.' : 'No matches.'}
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* --- Send --- */}

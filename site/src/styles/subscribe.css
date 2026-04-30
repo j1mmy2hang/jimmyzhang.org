@@ -62,18 +62,11 @@
   padding-top: 1rem;
 }
 
-.subscribe--home .subscribe-form {
-  gap: 0;
-}
-
 .subscribe--home .subscribe-input {
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
-  border-right: none;
   font-size: 1.3rem;
 }
 
 .subscribe--home .subscribe-button {
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
   padding: 0.6em 1em;
   font-size: 1.3rem;
 }
@@ -105,8 +98,24 @@
 
 .subscribe-form {
   display: flex;
-  gap: 0.8rem;
+  gap: 0;
   align-items: stretch;
+}
+
+.subscribe-form > .subscribe-input--name {
+  flex: 0 0 9rem;
+  min-width: 0;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-right: none;
+}
+
+.subscribe-form > .subscribe-input--name + .subscribe-input {
+  border-radius: 0;
+  border-right: none;
+}
+
+.subscribe-form > .subscribe-button {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
 .subscribe-input {
