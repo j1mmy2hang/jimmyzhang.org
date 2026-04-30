@@ -26,4 +26,4 @@ My entire life's work presented to you.
 Sign up for the monthly update below. 
 
 Sincerely,
-Jimmy ZHang
+Jimmy Zhang
