@@ -3,7 +3,7 @@ created: 2025-02-24 20:07
 tags:
 uid: Z17W
 ---
-[[A or B -- False dichotomy]]
+[[A or B — False dichotomy]]
 
 Some decisions might seem to come down to a choice between this or that, but there’s often another option. The best decision-makers know this, and see binary thinking as a sign that we don’t fully understand a problem—that we’re trying to reduce the problem’s dimensions before fully understanding them.
 

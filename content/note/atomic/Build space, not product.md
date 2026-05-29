@@ -15,3 +15,5 @@ Software shouldn't just work — it should feel like somewhere you want to stay
 > For Cora, the AI-enabled email assistant we’re building at Every, we wanted more of what was outside my window and less of what was glowing on my screen: Outside air, inside the app.
 
 A well-design app is a space that you don't want to leave and just want to sit there quietly and stare at, just like the nature. 
+
+[[好的工具不只关注功效，更重视用户的情感体验]]

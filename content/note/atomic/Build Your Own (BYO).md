@@ -33,7 +33,7 @@ blog: [[Make your own app]]
 [[Most apps would disappear; personalized agent as interface]]
 
 [[Personal Private Programmable by @balajis]]
-[[The decentralization revolution of the software world -- breaking free from digital feudalism and reclaiming digital sovereignty]]
+[[Private Computer — Decentralization from digital feudalism to reclaim digital sovereignty]]
 
 ## Product
 

@@ -56,7 +56,7 @@ Decision-making = the judgment that a certain option is the best one
 
 [[Confront the brutal reality while having unwavering faith]]
 
-- [[Try to anticipate all bad outcomeos]]
+- [[Try to anticipate all bad outcomes]]
 - [[Resist binary choices and false dualities]] + [[Tap into the power of integrative thinking]]
 - [[Think in terms of opportunity costs]]
 

@@ -5,6 +5,7 @@ reference:
 uid: G5FT
 ---
 north:: [[When code become cheap]]
+
 ## Agent as interface
 
 [[Personal Private Programmable by @balajis]]

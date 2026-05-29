@@ -16,4 +16,4 @@ uid: SiE8
 [[Most apps would disappear; personalized agent as interface]]
 the rise of [[Personal Private Programmable by @balajis]]
 
-[[The decentralization revolution of the software world -- breaking free from digital feudalism and reclaiming digital sovereignty]]
+[[Private Computer — Decentralization from digital feudalism to reclaim digital sovereignty]]
