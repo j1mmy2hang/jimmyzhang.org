@@ -81,7 +81,7 @@
   cursor: pointer;
 }
 
-.project-card.has-link:hover {
+.project-card:hover {
   background: var(--bg-hover);
   border-color: var(--ui-2);
 }
@@ -142,7 +142,7 @@
   z-index: 2;
 }
 
-.project-card.has-link:hover .project-card-thumb {
+.project-card:hover .project-card-thumb {
   opacity: 1;
   transform: translateY(0) scale(1);
 }
