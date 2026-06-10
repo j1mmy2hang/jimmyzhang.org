@@ -25,6 +25,39 @@ function ytEmbed(id: string): string {
   );
 }
 
+// Obsidian image wikilinks → images served from /asset/image/.
+// A numeric size hint — `![[photo.png|320]]` or `![[photo.png|320x200]]` —
+// marks the image `image-small`. CSS then imposes one uniform, flexible
+// small width; the exact pixels in the link are intentionally discarded.
+// The bare form and non-numeric pipes (e.g. captions) keep full width.
+function isWidthHint(size?: string): boolean {
+  return !!size && /^\d+(?:x\d+)?$/.test(size.trim());
+}
+
+function imageFromWikilink(filename: string, size?: string): string {
+  const path = `/asset/image/${filename.trim()}`;
+  // Always a markdown image so it tokenizes as an inline image (and gets the
+  // same paragraph wrapping as a plain image). A width hint sets the alt to
+  // the `image-small` sentinel; markdown.ts's image renderer turns that into
+  // the real class. Angle-bracket URL syntax handles filenames with spaces.
+  const alt = isWidthHint(size) ? 'image-small' : '';
+  return `![${alt}](<${path}>)`;
+}
+
+function replaceImageWikilinks(body: string): string {
+  // Block form: image alone on its line.
+  body = body.replace(
+    /^!\[\[([^\]\n|]+)(?:\|([^\]\n]*))?\]\][ \t]*\r?\n?/gm,
+    (_m, filename: string, size?: string) => imageFromWikilink(filename, size) + '\n'
+  );
+  // Inline form: image embedded in surrounding text.
+  body = body.replace(
+    /!\[\[([^\]\n|]+)(?:\|([^\]\n]*))?\]\]/g,
+    (_m, filename: string, size?: string) => imageFromWikilink(filename, size)
+  );
+  return body;
+}
+
 // Strip local image wikilinks; rewrite text wikilinks to markdown links the
 // rest of `marked` can consume. Unresolved links fall back to a dim inline
 // span so the reader can still see the intended target.
@@ -49,15 +82,7 @@ export function preprocessNoteBody(body: string, index: NoteIndex): string {
   );
 
   // ![[filename|optional-size]] → rendered image from /asset/image/.
-  // Angle-bracket URL syntax handles filenames with spaces.
-  body = body.replace(
-    /^!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\][ \t]*\r?\n?/gm,
-    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)\n`
-  );
-  body = body.replace(
-    /!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\]/g,
-    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)`
-  );
+  body = replaceImageWikilinks(body);
 
   body = body.replace(
     /\[\[([^\]\n]+?)\]\]/g,
@@ -94,15 +119,7 @@ export function preprocessPageBody(body: string, index: NoteIndex): string {
   body = stripObsidianDecorations(body);
 
   // ![[filename|optional-size]] → markdown image with correct asset path.
-  // Angle-bracket URL syntax handles filenames that contain spaces.
-  body = body.replace(
-    /^!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\][ \t]*\r?\n?/gm,
-    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)\n`
-  );
-  body = body.replace(
-    /!\[\[([^\]\n|]+)(?:\|[^\]\n]*)?\]\]/g,
-    (_m, filename: string) => `![](<\/asset\/image\/${filename.trim()}>)`
-  );
+  body = replaceImageWikilinks(body);
 
   // [[target|alias]] → note link or plain text if unresolved.
   body = body.replace(

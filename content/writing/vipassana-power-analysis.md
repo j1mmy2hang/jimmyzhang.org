@@ -2,7 +2,7 @@
 published: 2026-06-10
 title: Vipassana Meditation Course through Power Analysis
 ---
-整个中心的人分为管理者和学生，各自的生活区域被严格划分，界限分明，不许跨界。
+整个中心分为管理者和学生，各自的生活区域被严格划分，界限分明，不许跨界。
 
 唯二权力 manifest 的场所和途径：
 
@@ -18,13 +18,17 @@ title: Vipassana Meditation Course through Power Analysis
 
 粗略对应 Max Weber 的 theory of authority: 老师是 traditional authority, 事务长是 rational-legal / beauracratice authortiy. 
 
+
 ![[image-I2nR.png|336]]
+
 
 具体的权力结构如下：
 
+
 ![[image-pFyJ.png|333]]
 
-*source: https://mineglobal.substack.com/p/max-webers-theory-of-power-authority
+
+*source: https://mineglobal.substack.com/p/max-webers-theory-of-power-authority*
 
 [这篇文章](https://mineglobal.substack.com/p/max-webers-theory-of-power-authority)讲的比较透彻，感兴趣可以阅读。
 
@@ -48,7 +52,7 @@ title: Vipassana Meditation Course through Power Analysis
 
 每到下一个日程的开始，事务长会前去敲响宿舍门口的钟。这是唯一直接传递 command 的信息渠道。
 
-非常古老而简单有效 — 敲钟自然给人传递一种神圣，庄严，肃穆的感觉。若是让管理员靠嗓子大喊 "冥想时间到啦，所有人去禅堂！"，感觉是完全不同的。
+非常古老而简单有效 — 敲钟自然传递神圣庄严肃穆之感。若是让管理员靠嗓子大喊 "冥想时间到啦，所有人去禅堂！"，感觉是完全不同的。
 
 钟声是极其隐蔽的命令，尾椎昂成是自然秩序的一部分 — 你服从的不是某个人，而是某种更高的节律。这正是规训权力最精妙的地方，让人感觉不到权力的存在。
 
@@ -70,4 +74,6 @@ title: Vipassana Meditation Course through Power Analysis
 
 所宣传的理念多数是剥夺了学生对自己身体反应的解释权。身体难受是因为肉身痛苦需要被克服，心灵走神是因为心灵需要被驯服。一切因方法产生的痛苦被解释为该方法存在的目的，被容纳进了方法论本身的话语体系，而不会对方法本身形成对抗。
 
-综上所述，通过思想控制，实现了仅凭两个人 + 一个钟对 20 位成年男性形成了长达 10 天的有效控制。
+---
+
+综上所述，通过种种设计，实现了仅凭两个人 + 一个钟对 20 位成年男性形成了长达 10 天的有效控制。

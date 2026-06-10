@@ -2,21 +2,21 @@
 published: 2026-06-10
 title: My experience with Vipassana meditation
 ---
-想象20个男人挤着睡在一个不到50平的棚子里，严丝合缝塞满了高低床。
+想象20个男人挤着睡在一个严丝合缝塞满了高低床的不到50平的棚子里。
 
-想象这些人每天互相一言不发零互动，假装互相都不存在，但是根据同一个 schedule 同时起床，洗漱，出门，在外面坐着各自发呆，在餐厅每个人面对着墙自己吃饭，晚上同一时间回来关灯睡觉。
+想象这些人每天互相一言不发零互动，假装互相不存在，但是根据同一个 schedule 同时起床，洗漱，出门，在外面坐着各自发呆，在餐厅每个人面对着墙自己吃饭，晚上同一时间关灯睡觉。
 
 想象所有人坐在一个昏暗的大堂内，地上铺盘了坐垫和毯子，每个人有自己的一小块方形的垫子。所有人面向一个略微抬高的台子，上面有两个座位，做了一男一女，背后是一堵白色的墙，地下射出黄色的灯光，给两个人以神圣温暖的背光。
 
-想象这样十天。这是我在西班牙巴塞罗那 Dhamma Neru Vipassana Meditation center 三天的印象。本应该是一个十天的课程，但是我因身心疲惫三天后提前退出。
+想象这样十天。这是我在西班牙巴塞罗那 Dhamma Neru Vipassana Meditation center 的印象。本应是十天的课程，是我身心疲惫三天后提前退出。
 
-所以很遗憾，按 goenka 老师说的，我没有完全 follow，故没有资格给这个 technique 和 course 一个 "just comment"，所以 this is supposededly 一篇 "biased", "incomplete" 的 personal reflection and my own perspective. 
+所以很遗憾，按 goenka 老师说的，我没有完全 follow，故没有资格给这个 technique 和 course 一个 "just comment"; so this is supposedly 一篇 "biased", "incomplete" 的 personal reflection and soley my own perspective. 
 
 ---
 
 这里不准说话，不准和别人有肢体接触或眼神交流，不准运动和跑步。唯一允许的活动只有走路，吃饭，冥想，和睡觉。
 
-如果用一个词来描述我隐隐的不适，那就是反人性。
+用一个词来描述我隐隐的不适：反人性。
 
 ## 我不想当神，只想成为一个更好的人
 
@@ -36,7 +36,7 @@ title: My experience with Vipassana meditation
 
 录音告诉我们神性是什么？是摒弃所有对过去和未来的执念，是放弃无谓的挣扎和行动，保持最低能量的生命即可，是忽视我们自己身体给我们发出的信号，所有感受和情绪。
 
-对人性的压制让我感到极其不适。
+对人性的压制让我感到不适。
 
 ## How ya doing Jimmy?
 
@@ -66,8 +66,7 @@ instead, 感受并顺应身心的感受，更好地引导，才能将 energy dir
 
 在 May 的 letter 里写了，在自己成年之际想参加这个活动不是追求什么特殊的仪式感。但提早推出我觉得多少也呼应了我希望这几年的一个核心态度：
 
-> 我想成为一个活在世界活在人中的更好，更丰富的人，而不是活在自己世界里的神。
-
+> 我想成为一个活在世界中的更好更丰富的人，而不是活在自己世界里的神。
 
 ![[image-LZ3s.jpg]]
 

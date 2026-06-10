@@ -249,6 +249,21 @@ main>article>.page-status {
   }
 }
 
+/* Images written with an Obsidian width hint (`![[img.png|123]]`) collapse to
+   one uniform small size — the pixel value in the link is intentionally
+   ignored. Left-aligned, and dynamic: a golden-ratio fraction of the prose
+   column so it scales with the text width. The explicit width overrides the
+   `img-vertical` cap above. Desktop only — on mobile these render normally
+   like any other image (matching the 450px breakpoint used above). */
+@media (min-width: 450px) {
+  .prose img.image-small {
+    display: block;
+    width: 61.8%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
 /* --- deeper links ------------------------------------------------- */
 .page-deeper {
   margin-top: 8rem;

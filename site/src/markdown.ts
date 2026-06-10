@@ -7,7 +7,7 @@ marked.setOptions({ gfm: true, breaks: true });
 // Jimmy's content uses Obsidian-flavoured markdown, but on the web we
 // deliberately hide a few decorations so the prose stays uniform:
 //   • **bold**, __bold__          — rendered as plain text
-//   • *italic*, _italic_          — rendered as plain text
+//   • *italic*, _italic_          — rendered as <em>
 //   • ==highlight==               — rendered as plain text
 //   • > [!tldr]-style callouts    — rendered as a labelled box
 //   • > [!other]-style callouts   — removed entirely
@@ -99,15 +99,25 @@ export function renderCallouts(md: string): string {
   );
 }
 
-// Override marked's renderer to drop <strong>/<em> wrappers — the inner
-// inline content still renders normally.
+// Override marked's renderer to drop the <strong> wrapper — the inner
+// inline content still renders normally. <em> is left intact so *italic*
+// and _italic_ render as emphasis.
+//
+// The `image` override handles the Obsidian width-hint case: wikilinks with a
+// numeric size are emitted (in noteMarkdown.ts) as a markdown image whose alt
+// text is the sentinel `image-small`. Keeping it a *markdown* image — rather
+// than raw <img> HTML — means it tokenizes as an inline image just like a
+// plain image, so both get the same paragraph wrapping. Here we swap the
+// sentinel for the real class. Every other image falls through to marked's
+// default renderer.
 marked.use({
   renderer: {
     strong(this: { parser: { parseInline: (t: Tokens.Generic[]) => string } }, token: Tokens.Strong) {
       return this.parser.parseInline(token.tokens ?? []);
     },
-    em(this: { parser: { parseInline: (t: Tokens.Generic[]) => string } }, token: Tokens.Em) {
-      return this.parser.parseInline(token.tokens ?? []);
+    image(token: Tokens.Image) {
+      if (token.text !== 'image-small') return false;
+      return `<img class="image-small" src="${encodeURI(token.href)}" alt="">`;
     },
   },
 });
