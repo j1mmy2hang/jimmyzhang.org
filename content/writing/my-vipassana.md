@@ -1,6 +1,6 @@
 ---
 published: 2026-06-10
-title: My experience with Vipassana meditation
+title: My Experience with Vipassana meditation
 ---
 想象20个男人挤着睡在一个严丝合缝塞满了高低床的不到50平的棚子里。
 
@@ -40,9 +40,9 @@ title: My experience with Vipassana meditation
 
 ## How ya doing Jimmy?
 
-一起拼车来的一个西班牙叔叔，路上还在一起聊天，正式开始前还来问我，how ya doing。课程开始之后连眼神交流就都没有了，仿佛互相不存在。
+一起拼车来的一个西班牙叔叔，路上还在一起聊天，正式开始前还来问我 how ya doing Jimmy。课程开始之后连眼神交流就都没有了，仿佛互相不存在。
 
-我第三天开始出现感冒流鼻涕打喷嚏等生病症状，很遗憾只能自己扛。我找事务长提出想要休息，事务长说必须让我和老师请示。老师说，身体的感受不重要，你只需要坐着就行。This is a meditation center not a staying center, if you are here you have to participat.e 
+我第三天开始出现感冒流鼻涕打喷嚏等生病症状，很遗憾只能自己扛。我找事务长提出想要休息，事务长说必须让我和老师请示。老师说，身体的感受不重要，你只需要坐着就行。This is a meditation center not a staying center, if you are here you have to participate.  
 
 我说，那我这次还是退出吧。
 
@@ -56,7 +56,7 @@ title: My experience with Vipassana meditation
 
 我想到了 [[Clear Thinking -- Turning Ordinary Moments Into Extraordinary Results]] 里讲的, 试图用 willpower 对抗 biological instincts 终将会失败。
 
-我不知道那些试图让自己一个小时不变换姿势或者不产生任何想法的人最终都到什么境界了，但我自己觉得对抗身体对抗心灵才是最大的违反自然法则。
+我不知道那些试图让自己一个小时不变换姿势或者不产生任何想法的人最终都达到了什么境界，但我还是觉得对抗身体对抗心灵才是最大的违反自然法则。
 
 instead, 感受并顺应身心的感受，更好地引导，才能将 energy direct to the right place。
 
