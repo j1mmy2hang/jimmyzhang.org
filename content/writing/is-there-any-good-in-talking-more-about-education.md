@@ -1,5 +1,5 @@
 ---
-title: "Is There Any Good in Talking More About Education"
+title: "Is there any good in talking more about education"
 published: 2025-05-08
 image: "[[is-there-any-good-in-talking-more-about-education.jpeg]]"
 tags:

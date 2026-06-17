@@ -1,5 +1,5 @@
 ---
-title: "On Art vs Industrial Products in the Context of School Projects"
+title: Art vs industrial products in the context of school projects
 published: 2025-09-21
 image: "[[on-art-vs-industrial-products-in-the-context-of-school-projects.jpg]]"
 tags:

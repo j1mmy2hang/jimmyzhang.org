@@ -1,7 +1,5 @@
 ---
-title: "Easy answers to common questions"
-reference:
-  - "[[Not having easy answers to common questions]]"
+title: Easy answers to common questions
 published: 2026-03-04
 image: "[[easy-answers-to-common-questions.png]]"
 tags:

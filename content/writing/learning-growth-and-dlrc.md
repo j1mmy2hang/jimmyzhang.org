@@ -1,5 +1,5 @@
 ---
-title: "Learning, Growth, and DLRC"
+title: "Learning, growth, and DLRC"
 published: 2025-07-06
 image: "[[learning-growth-and-dlrc.jpeg]]"
 tags:
@@ -13,7 +13,8 @@ Introducing the concept of DLRC (Dynamic Lossless Reversible Compression)—a pr
 
 ## Compression: From Noise to Signal
 
-> Intelligence is compression. -- Sam Altman
+> Intelligence is compression. —
+>  Sam Altman
 
 Every day, you're bombarded with exponential data streams. Visual input, conversations, articles, notifications—an endless torrent of information that would paralyze you if processed linearly. Your brain doesn't try to store it all. Instead, it compresses ruthlessly.
 

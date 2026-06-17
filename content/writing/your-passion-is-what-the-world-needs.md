@@ -1,5 +1,5 @@
 ---
-title: "Your Passion is What the World Needs"
+title: "Your passion is what the world needs"
 published: 2025-07-06
 image: "[[your-passion-is-what-the-world-needs.jpeg]]"
 tags:

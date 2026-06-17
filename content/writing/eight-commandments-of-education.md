@@ -1,5 +1,5 @@
 ---
-title: "Eight Commandments of Education"
+title: "Eight commandments of education"
 published: 2025-07-06
 image: "[[eight-commandments-of-education.jpeg]]"
 tags:

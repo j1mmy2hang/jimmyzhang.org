@@ -1,5 +1,5 @@
 ---
-title: "No class unless necessary -- why class timetable is a stupid design"
+title: No class unless necessary — why class timetable is a stupid design
 published: 2025-07-07
 image: "[[no-class-unless-necessary.png]]"
 tags:

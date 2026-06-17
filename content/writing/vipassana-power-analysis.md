@@ -1,6 +1,6 @@
 ---
 published: 2026-06-10
-title: Vipassana Meditation Course through Power Analysis
+title: Vipassana meditation course through power analysis
 ---
 整个中心分为管理者和学生，各自的生活区域被严格划分，界限分明。
 

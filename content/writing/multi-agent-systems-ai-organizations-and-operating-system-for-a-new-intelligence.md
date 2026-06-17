@@ -1,5 +1,5 @@
 ---
-title: "Multi-Agent Systems, AI Organizations, and Operating System for a New Intelligence"
+title: "Multi-agent systems, AI organizations, and operating system for a new intelligence"
 published: 2025-06-17
 image: "[[the-rise-of-multi-agent-systems.jpeg]]"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Entirely New Yet Instantly Familiar"
+title: "Entirely new yet instantly familiar"
 reference: "[[Good products = entirely new yet instantly familiar]]"
 published: 2025-06-03
 image: "[[entirely-new-yet-instantly-familiar.jpeg]]"

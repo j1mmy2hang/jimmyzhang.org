@@ -1,6 +1,6 @@
 ---
 published: 2026-06-10
-title: My Experience with Vipassana meditation
+title: My experience with Vipassana meditation
 ---
 想象20个男人挤着睡在一个严丝合缝塞满了高低床的不到50平的棚子里。
 

@@ -1,15 +1,7 @@
 ---
-title: "Don't use AI for homework; use it for your creation instead"
-reference:
-  - "[[AI 时代，请停止「做作业」，去创造属于你的「作品」]]"
-  - "[[ai-challenges-education]]"
-  - "[[stop-using-ai-to-do-assignment-use-it-to-create-your-art-instead]]"
+title: Use AI for creation not homework
 published: 2026-01-01
 image: "[[dont-use-ai-for-your-homework.jpeg]]"
-tags:
-  - AI
-  - creativity
-  - education
 ---
 For decades, our education system ran on a simple premise—professional specialization. You didn't need to see the whole picture. Just master your tiny piece of the assembly line. The PhD student designs experiments. The master's student runs data. The undergrad feeds lab rats. Everyone gets their name on the paper. Everyone wins.
 

@@ -1,5 +1,5 @@
 ---
-title: "The Great Inversion"
+title: "The great inversion"
 published: 2025-06-10
 image: "[[the-great-inversion.jpeg]]"
 tags:

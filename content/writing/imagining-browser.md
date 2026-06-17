@@ -1,5 +1,5 @@
 ---
-title: "When a Browser Does More Than Google"
+title: Imagining browser
 published: 2025-07-06
 image: "[[when-a-browser-does-more-than-google.jpeg]]"
 tags:

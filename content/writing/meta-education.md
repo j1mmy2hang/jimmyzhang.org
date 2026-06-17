@@ -1,5 +1,5 @@
 ---
-title: "Meta-Education -- What is it and why is it important"
+title: On meta-education
 published: 2025-09-26
 image: "[[meta-education.jpeg]]"
 tags:

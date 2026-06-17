@@ -1,5 +1,5 @@
 ---
-title: "Author Your Own Narrative -- Why You Need a Personal 2025 Wrapped"
+title: A personal 2025 wrapped
 published: 2026-01-01
 reference:
   - "[[measure-what-you-value]]"

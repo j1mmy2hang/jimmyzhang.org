@@ -1,5 +1,5 @@
 ---
-title: "Extra-structural Growth Capacity in the Age of AI"
+title: "Extra-structural growth capacity in the age of AI"
 published: 2025-10-07
 reference:
   - "[[extra-structural-growth-capacity-is-the-ability-to-self-set-goals-and-drive-progress-outside-an-external-structure]]"

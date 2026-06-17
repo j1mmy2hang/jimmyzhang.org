@@ -1,5 +1,5 @@
 ---
-title: "How to Reclaim Your Education While Schools Are Failing the Future"
+title: "How to reclaim your education while schools are failing the future"
 published: 2025-03-19
 image: "[[how-to-reclaim-your-education-while-schools-are-failing-the-future.jpeg]]"
 tags:

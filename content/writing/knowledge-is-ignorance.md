@@ -1,5 +1,5 @@
 ---
-title: "Knowledge is Ignorance"
+title: "Knowledge is ignorance"
 published: 2025-05-31
 image: "[[knowledge-is-ignorance.jpeg]]"
 tags:

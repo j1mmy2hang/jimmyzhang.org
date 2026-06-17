@@ -1,8 +1,6 @@
 ---
-title: '"Enjoy Your Break"'
+title: '"Enjoy your break"'
 published: 2026-02-20
-reference:
-  - "[[Why I don't like it when people tell me to \"enjoy your break\"]]"
 image: "[[enjoy-your-break.jpeg]]"
 tags:
   - autonomy
