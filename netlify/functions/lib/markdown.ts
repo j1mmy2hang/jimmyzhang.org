@@ -118,10 +118,12 @@ export function markdownToHtml(md: string): string {
     }
   );
 
-  // Headings
-  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
-  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
-  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+  // Headings. Inline styles so email clients don't fall back to their own
+  // oversized defaults — a bare `<h2>` rendered nearly as large as the 28px
+  // title. Sized to sit clearly below the title but above body text.
+  html = html.replace(/^### (.+)$/gm, '<h3 style="margin:1.5em 0 0.4em;font-size:18px;font-weight:700;line-height:1.4;color:#100F0F;">$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2 style="margin:2em 0 0.5em;font-size:20px;font-weight:700;line-height:1.4;color:#100F0F;">$1</h2>');
+  html = html.replace(/^# (.+)$/gm, '<h1 style="margin:2em 0 0.5em;font-size:24px;font-weight:700;line-height:1.3;color:#100F0F;">$1</h1>');
 
   // Horizontal rules
   html = html.replace(/^---$/gm, '<hr>');
@@ -131,6 +133,9 @@ export function markdownToHtml(md: string): string {
   html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  // Underscore italics, but only at word boundaries so intra-word underscores
+  // in URLs/identifiers (e.g. foo_bar_baz) are left intact.
+  html = html.replace(/(^|[^\w])_(?=\S)([^_]+?)_(?=[^\w]|$)/g, '$1<em>$2</em>');
 
   // Links
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" style="color:#205EA6;text-decoration:underline;text-underline-offset:3px;">$1</a>');
