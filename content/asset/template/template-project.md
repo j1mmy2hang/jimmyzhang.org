@@ -1,7 +1,8 @@
 ---
-description:
-website:
-image:
-status:
-finished:
+title: 
+finished: 
+description: 
+website: 
+image: 
+status: 
 ---

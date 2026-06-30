@@ -6,4 +6,4 @@ tags:
   - methodology
 uid: Fra6
 ---
-![[image-BnLu.png]]
+![[image-hcJe.png]]

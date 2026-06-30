@@ -52,7 +52,7 @@ without fear for future acceptance into society
 
 ## Would my Obsidian / KM / Learning system be of value to anyone else?
 
-[[How I use Obsidian]]
+[[Thoughts on how I use Obsidian]]
 
 Larc Mini: Note-taking environment with AI -- do other people truly need it?
 Current trying: [[Jimmy's Tools for Reading]], & my entire ==book-reading workflow== as an ap
@@ -91,7 +91,7 @@ How I stopped being a student at school and became a self-directed learner
 
 切入点
 
-- 记笔记，信息/知识管理 -- [[How I use Obsidian]]
+- 记笔记，信息/知识管理 -- [[Thoughts on how I use Obsidian]]
 - 读书 workflow / 记笔记 -- [[Jimmy's Tools for Reading]]
 
 产生的可量化的实际效果：
