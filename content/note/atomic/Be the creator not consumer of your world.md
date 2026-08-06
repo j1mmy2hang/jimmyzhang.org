@@ -32,3 +32,5 @@ north:: [[Build Your Own (BYO)]]
 "taste" is not enough -- [["品味"是人类自我降级沦为消费者的优雅包装]]
 
 [[Maintenance is how human connect with and understand the world]]
+
+[[Create your own happiness]]

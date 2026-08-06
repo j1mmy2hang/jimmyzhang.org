@@ -16,5 +16,10 @@ We can also gauge meaning by asking the counterfactual question: "How much of an
 
 If meaning is pointing, then the meaning of one's life must reside in the arrows that point outward from it, influencing the external world. 
 
+---
 
+"interbeing is the essence of our life"
 
+"Interbeing"—a term coined by Zen master Thich Nhat Hanh—is the profound insight that nothing exists independently. Every aspect of life relies on the entire universe to manifest. You are made entirely of "non-you" elements, just as a flower is made of sunshine, rain, soil, and ancestors.
+
+https://www.buddhistdoor.net/features/thich-nhat-hanhs-teaching-of-interbeing/

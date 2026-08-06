@@ -1,12 +1,6 @@
 ---
 title: "Basics"
 ---
-## Demographics
-
-name: Jimmy Zhang
-birthday: 2008-05-28
-
-
 ## Education / Life Trajectory
 
 | School                 | Location                | Time           |
@@ -15,7 +9,6 @@ birthday: 2008-05-28
 | UWC Changshu China     | Suzhou, China           | 2023-2024      |
 | UWC Maastricht         | Maastricht, Netherlands | 2024-2026      |
 | University of Michigan | Michigan, United States | 2026 - present |
-
 
 ## Contact
 

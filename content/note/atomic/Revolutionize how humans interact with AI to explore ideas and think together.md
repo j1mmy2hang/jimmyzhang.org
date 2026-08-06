@@ -43,5 +43,4 @@ The ultimate purpose of AI is to help humans achieve particular goals.
 
 https://nessielabs.com/
 
-
 [AI-Instruments: Embodying Prompts as Instruments to Abstract &Reflect Graphical Interface Commands as General-Purpose Tools](https://dl.acm.org/doi/10.1145/3706598.3714259)

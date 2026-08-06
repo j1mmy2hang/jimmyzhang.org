@@ -23,8 +23,7 @@ Games
 - passing the ball in the shortest time (breaking hidden assumptions and reshaping rules) 
 
 Telling people to **take a sip of water & hold it** is a great way of telling people to shut up
-**Open Space** -- agenda from proposal, simultaneous discussions, "butterfly" "bee" and "bird"
 
-
+**Open Space** -- agenda from proposal, simultaneous discussions, "butterfly" "bee" and "bird" --> [[Open Space Technology — Let people self-organize around what they care about]]
 
 
