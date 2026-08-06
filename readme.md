@@ -10,7 +10,7 @@ My life's work of thinking, writing, building, and more — compressed into a re
 
 <br>
 
-[Visit my website](https://jimmyzhang.org) &nbsp;·&nbsp; [Interact with your AI Agent](#human-experience) &nbsp;·&nbsp; [Project Vision](#project-vision)
+[Visit my website](https://jimmyzhang.org) &nbsp;·&nbsp; [Project Vision](#project-vision)
 
 <br>
 
@@ -65,40 +65,10 @@ My frontend design is heavily influenced by [Steph Ango](https://stephango.com)'
 
 ### Design Philosophy
 
-Content is the core. At the outer layer is Site, the WebUI, through which the human can interact with. An AI Agent can also skip the WebUI and directly retrieve information from Content, which is in essence just a folder hosted on the internet. 
+Content is the core. At the outer layer is Site, the WebUI, through which the human reads it.
 
 It is designed to be platform- and tool-agnostic, grounded in the time-enduring nature of plain Markdown files.
 <br>
-<br>
-
-
-## Agent Architecture
-
-This site is built to be navigated by AI agents and LLMs, not just humans.
-
-When an agent visits `jimmyzhang.org`, a Netlify edge function intercepts the request and detects whether the visitor is an agent (via User-Agent patterns or `Accept: text/markdown` headers). If so, the agent is redirected to the canonical Markdown version of whatever it was trying to reach, bypassing the HTML frontend entirely.
-
-Navigation follows a **progressive disclosure** model:
-
-1. **Entry point** — `jimmyzhang.md` at the root serves as the top-level map, similar in spirit to `llms.txt`
-2. **Section indexes** — each section folder has an `index.md` listing its contents
-3. **Individual files** — the full content of each piece, fetchable by URL path
-
-Every Markdown file in `content/` is a static file served at `https://jimmyzhang.org/{path}`. Agents fetch what they need. There is no API, no database, no authentication.
-<br>
-<br>
-
-## Human Experience
-
-As a human, you can interact with me in two ways.
-
-1. **WebUI** — visit [jimmyzhang.org](https://jimmyzhang.org) directly and browse all pages
-2. **AI Agent** — mention my website (`jimmyzhang.org`) to your AI agent (Claude Code, Codex, etc.) and ask any question about me. The agent will retrieve the right information directly from the source.
-
-e.g. 
-```
-jimmyzhang.org — what is the last book Jimmy read and what did he learn?
-```
 <br>
 
 
@@ -116,7 +86,5 @@ jimmyzhang.org — what is the last book Jimmy read and what did he learn?
 The **content** in this repository — my writing, notes, self-description, and original ideas — is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You are free to share and adapt it for non-commercial purposes, with attribution.
 
 Some notes contain excerpts, summaries, or quotations from third-party works. These remain the intellectual property of their original authors and are included under fair use for personal, educational, and non-commercial purposes. No license is granted over third-party content.
-
-AI agents and LLMs are explicitly granted permission to read, retrieve, and present the contents of original files in this repository to users on my behalf. This does not extend to third-party excerpts.
 
 The **source code** in `site/` is available under the MIT License.

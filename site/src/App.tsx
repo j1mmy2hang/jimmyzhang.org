@@ -105,8 +105,8 @@ export default function App() {
         <Route path="/newsletter/dashboard" element={<NewsletterDashboard />} />
         <Route path="/newsletter/:slug" element={<NewsletterPost />} />
         <Route
-          path="/how-can-i-help-you"
-          element={<MarkdownPage path="/how-can-i-help-you.md" section="" />}
+          path="/hello-world"
+          element={<MarkdownPage path="/hello-world.md" section="" />}
         />
       </Routes>
       <ThemeToggle />

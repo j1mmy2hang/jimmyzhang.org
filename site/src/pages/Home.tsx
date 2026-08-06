@@ -1,8 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import SubscribeForm from '../components/SubscribeForm';
-import AgentInfo from '../components/AgentInfo';
-import Credits from '../components/Credits';
 
 import '../styles/home.css';
 
@@ -30,7 +28,7 @@ export default function Home() {
   return (
     <main className={`home phase-${phase}${hasPlayed.current ? ' no-intro' : ''}`}>
       <div className="home-wrap">
-        <Link to="/how-can-i-help-you" className="home-help-link">How can I help you?</Link>
+        <Link to="/hello-world" className="home-help-link">Hello world</Link>
         <div className="home-inner">
           <div className="home-main">
             <h1 className="home-name">Jimmy Zhang</h1>
@@ -48,9 +46,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-secondary">
-          <Credits />
           <SubscribeForm variant="home" />
-          <AgentInfo />
         </div>
       </div>
     </main>

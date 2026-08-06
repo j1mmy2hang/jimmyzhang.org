@@ -1,7 +1,3 @@
-/*
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET
-
 # Kill-switch SW: never cache, so existing clients pick up the unregister
 # script the moment they revalidate.
 /sw.js
@@ -16,13 +12,9 @@
 /asset/image/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
-# Markdown content: may change when I publish. Keep fresh for an hour,
-# but let repeat visitors get instant loads while the browser checks.
+# Markdown content: the site fetches these at runtime to render pages, so they
+# must stay raw text. Keep fresh for an hour, but let repeat visitors get
+# instant loads while the browser checks.
 /*.md
   Content-Type: text/plain; charset=utf-8
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-
-/jimmyzhang.md
-  X-Robots-Tag: all
-  Link: </jimmyzhang.md>; rel="canonical"
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
