@@ -1,6 +1,6 @@
 ---
 title: "From Stockholm to Helsinki"
-date: 2026-02-16
+date: 2026-02-15
 location: Silja line cruise ship, somewhere in between Stockholm and Helsinki
 description: My first time cruise ship experience
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Bus to Suzhou Center"
-date: 2024-12-22
+date: 2024-12-30
 location: Suzhou, China
 description: A bus with its terminal stop at Suzhou Center, the largest shopping mall in Suzhou
 ---

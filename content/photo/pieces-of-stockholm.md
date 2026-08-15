@@ -1,6 +1,6 @@
 ---
 title: "Pieces of Stockholm"
-date: 2026-02-14
+date: 2026-02-05
 location: Stockholm, Swden
 description:
 ---

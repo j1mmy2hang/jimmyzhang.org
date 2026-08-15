@@ -1,6 +1,6 @@
 ---
 title: "Helsinki is blue and white"
-date: 2026-02-17
+date: 2026-02-25
 location: Helsinki, FInland
 description: Clear white building against clear blue sky with clear white clouds
 ---

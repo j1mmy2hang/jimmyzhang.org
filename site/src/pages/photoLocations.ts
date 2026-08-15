@@ -1,6 +1,12 @@
 export type GeoPoint = { lat: number; lng: number; label: string };
 
 const entries: { keywords: string[]; point: GeoPoint }[] = [
+  { keywords: ['da nang'], point: { lat: 16.05, lng: 108.22, label: 'Da Nang' } },
+  { keywords: ['hong kong'], point: { lat: 22.32, lng: 114.17, label: 'Hong Kong' } },
+  { keywords: ['wuhan'], point: { lat: 30.59, lng: 114.31, label: 'Wuhan' } },
+  { keywords: ['kyoto'], point: { lat: 35.01, lng: 135.77, label: 'Kyoto' } },
+  { keywords: ['barcelona'], point: { lat: 41.39, lng: 2.17, label: 'Barcelona' } },
+  { keywords: ['ostende', 'oostende'], point: { lat: 51.23, lng: 2.92, label: 'Ostende' } },
   { keywords: ['helsinki'], point: { lat: 60.17, lng: 24.94, label: 'Helsinki' } },
   { keywords: ['silja', 'stockholm and helsinki', 'between stockholm'], point: { lat: 59.7, lng: 21.5, label: 'Baltic Sea' } },
   { keywords: ['stockholm'], point: { lat: 59.33, lng: 18.07, label: 'Stockholm' } },
