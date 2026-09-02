@@ -1,6 +1,7 @@
 ---
 created: 2026-04-29
 uid: BHWu
+type: "[[Book]]"
 cover: "[[image-N1Pc.png]]"
 ---
 ![[image-N1Pc.png]]
