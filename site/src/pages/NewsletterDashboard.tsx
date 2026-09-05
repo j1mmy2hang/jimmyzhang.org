@@ -11,6 +11,18 @@ interface Subscriber {
 
 type IssueOption = { slug: string; title: string };
 
+interface Reconciliation {
+  subject: string;
+  subscriberCount: number;
+  receivedCount: number;
+  missing: { email: string; name: string | null }[];
+  notSubscribed: string[];
+  bounced: { email: string; event: string }[];
+  logEarliest: string | null;
+  logComplete: boolean;
+  logError: string | null;
+}
+
 export default function NewsletterDashboard() {
   const [adminKey, setAdminKey] = useState('');
   const [authed, setAuthed] = useState(false);
@@ -31,7 +43,13 @@ export default function NewsletterDashboard() {
   const [selectedSlug, setSelectedSlug] = useState('');
   const [previewHtml, setPreviewHtml] = useState('');
   const [sendStatus, setSendStatus] = useState('');
+  const [sendFailures, setSendFailures] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
+
+  // Reconcile
+  const [recon, setRecon] = useState<Reconciliation | null>(null);
+  const [reconStatus, setReconStatus] = useState('');
+  const [reconciling, setReconciling] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -283,7 +301,63 @@ export default function NewsletterDashboard() {
 
   useEffect(() => {
     if (selectedSlug) loadPreview();
+    setRecon(null);
+    setReconStatus('');
+    setSendFailures([]);
   }, [selectedSlug]);
+
+  async function reconcile() {
+    if (!selectedSlug || reconciling) return;
+    setReconciling(true);
+    setRecon(null);
+    setReconStatus('Checking Resend log...');
+    try {
+      const res = await fetch('/.netlify/functions/reconcile', {
+        method: 'POST',
+        headers: headers(),
+        body: JSON.stringify({ slug: selectedSlug }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setReconStatus(data.error || `Error ${res.status}`);
+      } else {
+        setRecon(data);
+        setReconStatus('');
+      }
+    } catch {
+      setReconStatus('Could not reach the reconcile endpoint');
+    }
+    setReconciling(false);
+  }
+
+  async function sendToMissing() {
+    if (!recon || recon.missing.length === 0 || sending) return;
+    const emails = recon.missing.map((m) => m.email);
+    if (
+      !window.confirm(
+        `Send "${selectedSlug}" to the ${emails.length} subscriber(s) who never received it?`,
+      )
+    ) {
+      return;
+    }
+    setSending(true);
+    setSendFailures([]);
+    setSendStatus(`Sending to ${emails.length} missing subscriber(s)...`);
+    try {
+      const res = await fetch('/.netlify/functions/send', {
+        method: 'POST',
+        headers: headers(),
+        body: JSON.stringify({ slug: selectedSlug, only: emails }),
+      });
+      const data = await res.json();
+      setSendStatus(data.message || data.error || 'Done');
+      setSendFailures(Array.isArray(data.failedEmails) ? data.failedEmails : []);
+    } catch {
+      setSendStatus('Failed to send');
+    }
+    setSending(false);
+    reconcile();
+  }
 
   const TEST_EMAIL = 'jz9542063@gmail.com';
 
@@ -294,6 +368,7 @@ export default function NewsletterDashboard() {
       : window.confirm(`Send "${selectedSlug}" to ${subscribers.length} subscriber(s)?`);
     if (!confirmed) return;
     setSending(true);
+    setSendFailures([]);
     setSendStatus(testEmail ? 'Sending test...' : 'Sending...');
     try {
       const res = await fetch('/.netlify/functions/send', {
@@ -303,6 +378,9 @@ export default function NewsletterDashboard() {
       });
       const data = await res.json();
       setSendStatus(data.message || data.error || 'Done');
+      // Anything Resend refused. Delivery status (bounced, opened, complained)
+      // lives in the Resend log — this only reports what never got accepted.
+      setSendFailures(Array.isArray(data.failedEmails) ? data.failedEmails : []);
     } catch {
       setSendStatus('Failed to send');
     }
@@ -528,8 +606,107 @@ export default function NewsletterDashboard() {
             >
               {sending ? 'Sending...' : 'Send to all'}
             </button>
+            <button
+              className="dash-btn"
+              onClick={reconcile}
+              disabled={!selectedSlug || reconciling}
+            >
+              {reconciling ? 'Checking...' : 'Who got it?'}
+            </button>
           </div>
           {sendStatus && <p className="dash-status">{sendStatus}</p>}
+          {sendFailures.length > 0 && (
+            <div className="dash-failures">
+              <p className="dash-status">
+                Not accepted by Resend ({sendFailures.length}) — these people did
+                not receive the issue:
+              </p>
+              <ul className="dash-failure-list">
+                {sendFailures.map((email) => (
+                  <li key={email} className="dash-mono">{email}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {reconStatus && <p className="dash-status">{reconStatus}</p>}
+
+          {recon && (
+            <div
+              className={
+                recon.missing.length > 0 ? 'dash-recon dash-recon--bad' : 'dash-recon'
+              }
+            >
+              <p className="dash-recon-head">
+                {recon.receivedCount}/{recon.subscriberCount} subscribers received
+                “{recon.subject}”
+                {recon.missing.length === 0 && ' — everyone is covered.'}
+              </p>
+
+              {recon.missing.length > 0 && (
+                <>
+                  <p className="dash-status">
+                    Never received it ({recon.missing.length}):
+                  </p>
+                  <ul className="dash-failure-list">
+                    {recon.missing.map((m) => (
+                      <li key={m.email}>
+                        {m.name ? `${m.name} — ` : ''}
+                        <span className="dash-mono">{m.email}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <button
+                    className="dash-btn"
+                    onClick={sendToMissing}
+                    disabled={sending}
+                    style={{ marginTop: '1.2rem' }}
+                  >
+                    {sending
+                      ? 'Sending...'
+                      : `Send to these ${recon.missing.length}`}
+                  </button>
+                </>
+              )}
+
+              {recon.bounced.length > 0 && (
+                <p className="dash-status">
+                  Accepted but not delivered:{' '}
+                  {recon.bounced.map((b) => `${b.email} (${b.event})`).join(', ')}
+                </p>
+              )}
+
+              {recon.notSubscribed.length > 0 && (
+                <p className="dash-status dash-muted">
+                  Sent to {recon.notSubscribed.length} address(es) no longer on the
+                  list (unsubscribed since, or a test send).
+                </p>
+              )}
+
+              {(!recon.logComplete || recon.logError) && (
+                <p className="dash-status dash-muted">
+                  Warning: the Resend log could not be read in full
+                  {recon.logError ? ` (${recon.logError})` : ''}, so “missing” may
+                  be overstated.
+                </p>
+              )}
+
+              {recon.receivedCount === 0 && recon.logEarliest && (
+                <p className="dash-status dash-muted">
+                  Resend’s log only reaches back to{' '}
+                  {new Date(recon.logEarliest).toLocaleDateString()}. If this issue
+                  was sent before then, its records have aged out — that is not
+                  proof it never went out.
+                </p>
+              )}
+            </div>
+          )}
+
+          <p className="dash-status dash-muted">
+            Per-recipient delivery status (delivered, bounced, opened) lives in the{' '}
+            <a href="https://resend.com/emails" target="_blank" rel="noreferrer">
+              Resend log
+            </a>.
+          </p>
           {previewHtml && (
             <div className="dash-preview">
               <h3 className="dash-h3">Email Preview</h3>

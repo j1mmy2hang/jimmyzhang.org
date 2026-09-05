@@ -241,3 +241,48 @@
   padding: 2.4rem 0 !important;
   font-size: var(--font-small);
 }
+
+/* Addresses Resend refused at send time — these people got nothing. */
+.dash-failures {
+  margin-top: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  border: 1px solid #AF3029;
+  border-radius: 4px;
+}
+
+.dash-failures .dash-status {
+  margin-top: 0;
+  color: #AF3029;
+}
+
+.dash-failure-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+  font-size: var(--font-small);
+}
+
+.dash-failure-list li {
+  padding: 0.2rem 0;
+}
+
+/* Reconciliation: subscriber list diffed against the Resend delivery log. */
+.dash-recon {
+  margin-top: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  border: 1px solid var(--ui-2, #CECDC3);
+  border-radius: 4px;
+}
+
+.dash-recon--bad {
+  border-color: #AF3029;
+}
+
+.dash-recon-head {
+  margin: 0;
+  font-size: var(--font-small);
+}
+
+.dash-recon--bad .dash-recon-head {
+  color: #AF3029;
+}
