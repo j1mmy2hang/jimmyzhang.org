@@ -12,11 +12,11 @@ I am passionate about learning and note-taking, especially on digital note-takin
 
 I take pictures that bring out wonder in the familiar. I make documentaries through a unique participant-bystander lens. 
 
-Learn more about my [telos](jimmyzhang.org/telos) — why I do everything. 
+Learn more about my [telos](/telos) — why I do everything. 
 
 ---
 
-Follow my work through my monthly [newsletter](https://jimmyzhang.org/newsletter) and my [project](https://jimmyzhang.org/project) page. 
+Follow my work through my monthly [newsletter](/newsletter) and my [project](/project) page. 
 Connect with me through through [Instagram](https://www.instagram.com/j1mmy2hang/) or [email](mailto:contact@jimmyzhang.org). 
 
 Support my work by connecting with me. 
