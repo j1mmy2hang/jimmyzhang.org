@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - contribution
-  - specialty
-  - effectiveness
 uid: rM4T
 ---
 By itself, a specialty is fragile and sterile. Its output has to be put together with the output of other specialists before it can produce results. 

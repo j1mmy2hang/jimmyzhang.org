@@ -1,7 +1,5 @@
 ---
 created: 2025-06-03
-tags:
-  - knowledge
 uid: vhKV
 ---
 知识不是静态的真理储备，而是不断展开的理解过程。

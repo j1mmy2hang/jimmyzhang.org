@@ -1,9 +1,4 @@
 ---
-tags:
-  - knowledge
-  - information
-  - efficiency
-  - communication
 uid: ae6E
 ---
 new employee training

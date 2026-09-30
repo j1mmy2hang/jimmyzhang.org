@@ -1,9 +1,5 @@
 ---
 created: 2024-09-23
-tags:
-  - change
-  - system
-  - support
 uid: uDnX
 ---
 e.g. in schools

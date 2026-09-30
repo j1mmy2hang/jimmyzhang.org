@@ -1,7 +1,4 @@
 ---
-tags:
-  - begin
-  - ready
 uid: q3Uy
 ---
 It's never too early to begin. 

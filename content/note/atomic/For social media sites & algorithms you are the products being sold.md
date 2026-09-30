@@ -1,7 +1,5 @@
 ---
 created: 2025-04-01
-tags:
-  - manipulation
 uid: Ctvm
 ---
 > If you're not paying for the product, then you are the product. 

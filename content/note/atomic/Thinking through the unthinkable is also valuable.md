@@ -1,7 +1,4 @@
 ---
-tags:
-  - politics
-  - imagine
 uid: tNOZ
 ---
 Get insights from hypothetical scenarios to inform the real-life decision making.

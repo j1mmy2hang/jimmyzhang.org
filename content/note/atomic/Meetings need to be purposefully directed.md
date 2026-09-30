@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - meeting
-  - purpose
-  - contribution
 uid: Ynq2
 ---
 Meetings must be related to purpose and contribution

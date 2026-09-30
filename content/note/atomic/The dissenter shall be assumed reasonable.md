@@ -1,7 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - disagreement
 uid: sRD3
 ---
 unless proven otherwise, the dissenter has to be assumed to be reasonably intelligent and reasonably fair-minded.

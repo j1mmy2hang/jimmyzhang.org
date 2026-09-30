@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effectiveness
-  - executive
-  - priority
 uid: W8q3
 ---
 [[Focus over diversification]]

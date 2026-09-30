@@ -1,9 +1,5 @@
 ---
 created: 2024-10-09
-tags:
-  - uwc
-  - diploma
-  - ib
 uid: UegV
 ---
 A UWC diploma carries a greater vision and more responsibility. 

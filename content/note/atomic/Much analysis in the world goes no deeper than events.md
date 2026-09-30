@@ -1,6 +1,5 @@
 ---
 created: 2024-12-11
-tags:
 uid: rNjE
 ---
 This happened because that happened

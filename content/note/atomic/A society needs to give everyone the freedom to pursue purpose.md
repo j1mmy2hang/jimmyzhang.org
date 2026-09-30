@@ -1,8 +1,4 @@
 ---
-tags:
-  - freedom
-  - purpose
-  - society
 uid: opxj
 ---
 "the American Dream"

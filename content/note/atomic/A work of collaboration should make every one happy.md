@@ -1,7 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - collaboration
 uid: RNnE
 ---
 > We continue the process until reaching the point where we are all happy with the work. This is the ultimate goal of cooperation. If one person loves it but another does not, there's usually an underlying issue worth paying attention to. It likely means we haven't gone far enough and the work hasn't reached its full potential.

@@ -1,7 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - sharing
 uid: myKH
 ---
 > One of the greatest rewards of making art is our ability to share it. 

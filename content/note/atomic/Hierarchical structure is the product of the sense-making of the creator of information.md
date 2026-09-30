@@ -1,8 +1,4 @@
 ---
-tags:
-  - hierarchy
-  - structure
-  - sense-making
 uid: egCG
 ---
 Hierarchical structure -- chapters and sections and paragraphs -- is the way the creator of information uses to organize and make sense of their ideas.

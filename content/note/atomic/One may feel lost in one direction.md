@@ -1,7 +1,4 @@
 ---
-tags:
-  - meaning
-  - direction
 uid: TUoz
 ---
 Wanderers never get lost. -- because they don't have a direction

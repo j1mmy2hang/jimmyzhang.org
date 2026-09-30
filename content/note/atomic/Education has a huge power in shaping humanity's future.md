@@ -1,9 +1,5 @@
 ---
 created: 2025-04-13
-tags:
-  - economics
-  - future
-  - humans
 uid: xms6
 ---
 You really begin to see how destructive a bad course have -- on hundreds of millions of students be ing churned out of the machine every year

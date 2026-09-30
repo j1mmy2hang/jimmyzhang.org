@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 20:01
-tags:
 reference:
   - "[[Who Gets in and Why? A Year Inside College Admissions]]"
 uid: IHVQ

@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:09
-tags:
 uid: lmWi
 ---
 Most people think they are bad problem solvers, while in fact they are bad problem anticipators. 

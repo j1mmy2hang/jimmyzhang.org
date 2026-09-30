@@ -3,7 +3,6 @@ created: 2026-04-18
 reference:
   - "[[Living Software]]"
 uid: 9H6S
-
 ---
 Tool — static, reliable, consistent; do one or several things and do it well
 

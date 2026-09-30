@@ -1,6 +1,5 @@
 ---
 created: 2024-09-03
-tags:
 id: 01JGD1KMRYB4JJ60V52XTRQE0J
 uid: 8Y1p
 ---

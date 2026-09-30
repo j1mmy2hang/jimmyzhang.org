@@ -1,6 +1,5 @@
 ---
 created: 2025-01-25
-tags:
 uid: wIll
 ---
 - the center

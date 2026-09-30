@@ -1,8 +1,4 @@
 ---
-tags:
-  - memory
-  - continuity
-  - humans
 uid: PSpz
 ---
 As individuals -- Memory sustains our role and existence

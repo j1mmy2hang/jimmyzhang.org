@@ -1,9 +1,5 @@
 ---
 created: 2025-01-07
-tags:
-  - information
-  - technology
-  - freedom
 uid: rwoL
 ---
 Freedom -- the ability to make choices & take actions

@@ -1,7 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - collaboration
 uid: VmOY
 ---
 One does not create alone

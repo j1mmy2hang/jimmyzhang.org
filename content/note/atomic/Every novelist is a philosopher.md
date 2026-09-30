@@ -1,6 +1,4 @@
 ---
-tags:
-  - philosophy
 uid: 8YUK
 ---
 Philosophy —> Narrative —> Story

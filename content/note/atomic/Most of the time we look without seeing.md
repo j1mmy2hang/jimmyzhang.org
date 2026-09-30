@@ -1,7 +1,4 @@
 ---
-tags:
-  - vision
-  - focus
 uid: kL5y
 ---
 because of lack of attention / care / alertness / insight

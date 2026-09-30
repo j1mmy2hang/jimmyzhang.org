@@ -1,7 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - story
 uid: aELh
 ---
 The secret of Sapiens is their ability to tell & believe fictional stories which enables them to cooperate in large numbers

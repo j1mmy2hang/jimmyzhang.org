@@ -1,6 +1,4 @@
 ---
-tags:
-  - creativity
 uid: AYMd
 ---
 be open to break established thoughts, pick up new ideas, and create connections

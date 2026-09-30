@@ -1,9 +1,4 @@
 ---
-tags:
-  - future
-  - world
-  - change
-  - power
 uid: Q89B
 ---
 每一个想法都有改变人生、未来、世界的力量

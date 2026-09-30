@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 10:51
-tags:
 uid: hFCn
 ---
 cyber weapons are much more versatile than nuclear bombs.

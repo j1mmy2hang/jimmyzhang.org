@@ -1,7 +1,4 @@
 ---
-tags:
-  - sustainability
-  - science
 uid: kitG
 ---
 Things don't come out of nowhere. 

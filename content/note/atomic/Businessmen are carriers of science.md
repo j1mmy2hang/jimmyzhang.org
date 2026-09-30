@@ -1,7 +1,4 @@
 ---
-tags:
-  - business
-  - science
 uid: Tb2d
 ---
 Businessmen strive to prove that science is able to imporve people's lives.

@@ -1,8 +1,5 @@
 ---
 created: 2024-10-14
-tags:
-  - education
-  - conspiracy
 credit: 赵鼎新
 uid: 8Hax
 ---

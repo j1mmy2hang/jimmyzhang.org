@@ -1,9 +1,5 @@
 ---
 created: 2024-10-20
-tags:
-  - source
-  - existence
-  - independence
 uid: sL5G
 ---
 A source only <u>refers to / contributes to / uses</u> that idea

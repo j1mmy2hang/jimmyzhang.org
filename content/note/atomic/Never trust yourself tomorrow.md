@@ -1,7 +1,5 @@
 ---
 created: 2024-10-09
-tags:
-  - GTD
 uid: XHeQ
 ---
 The first rule of productivity and GTD

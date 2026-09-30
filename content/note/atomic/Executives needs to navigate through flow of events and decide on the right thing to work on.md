@@ -1,7 +1,4 @@
 ---
-tags:
-  - executive
-  - event
 uid: zZpC
 ---
 Decide the right thing to work on, using the limited resources (time, energy, etc.)

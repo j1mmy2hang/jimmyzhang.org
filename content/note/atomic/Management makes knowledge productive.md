@@ -1,9 +1,5 @@
 ---
 created: 2024-10-23
-tags:
-  - management
-  - knowledge
-  - productivity
 uid: JmO0
 ---
 [[Effectiveness turns resources into results]]

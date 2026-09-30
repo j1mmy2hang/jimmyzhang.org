@@ -5,12 +5,12 @@ uid: ZYER
 ### Floor 1: The Explicit (Conscious Strategy)
 *We are aware of these variables. This is the realm of Logic, Law, and War.*
 
-| State | Archetype | Definition | Strategic Nature |
-| :--- | :--- | :--- | :--- |
-| **Me: Yes / You: Yes** | **1. The Consensus** | Common Knowledge. | **Coordination.** The basis of contracts and reality. |
-| **Me: Yes / You: No** | **2. The Edge** | Asymmetric Information. | **Advantage.** Used for leverage, trading, or surprise. |
-| **Me: No / You: Yes** | **3. The Blindspot** | Your private knowledge. | **Risk.** Where I am vulnerable to your deception. |
-| **Me: No / You: No** | **4. The Frontier** | Known Unknowns. | **Discovery.** Science, R&D, the questions we are asking. |
+| State                  | Archetype            | Definition              | Strategic Nature                                          |
+| :--------------------- | :------------------- | :---------------------- | :-------------------------------------------------------- |
+| **Me: Yes / You: Yes** | **1. The Consensus** | Common Knowledge.       | **Coordination.** The basis of contracts and reality.     |
+| **Me: Yes / You: No**  | **2. The Edge**      | Asymmetric Information. | **Advantage.** Used for leverage, trading, or surprise.   |
+| **Me: No / You: Yes**  | **3. The Blindspot** | Your private knowledge. | **Risk.** Where I am vulnerable to your deception.        |
+| **Me: No / You: No**   | **4. The Frontier**  | Known Unknowns.         | **Discovery.** Science, R&D, the questions we are asking. |
 
 ### Floor 2: The Implicit (Subconscious Reality)
 *We possess or lack this knowledge without realizing it. This is the realm of Psychology, Intuition, and Fate.*
@@ -49,10 +49,10 @@ The confusion comes from mixing **individual epistemology** with **relational ep
 ### System 2: The Johari Window (Relational)
 **"Who has it between us?"**
 
-|                | **You Have It** | **You Don't Have It** |
-|----------------|----------------|----------------------|
-| **I Have It**  | Commons        | My Leverage          |
-| **I Don't Have It** | My Blindside | Shared Ignorance    |
+|                     | **You Have It** | **You Don't Have It** |
+| ------------------- | --------------- | --------------------- |
+| **I Have It**       | Commons         | My Leverage           |
+| **I Don't Have It** | My Blindside    | Shared Ignorance      |
 
 ---
 

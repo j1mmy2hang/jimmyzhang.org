@@ -1,9 +1,5 @@
 ---
 created: 2024-10-12
-tags:
-  - manipulation
-  - information
-  - lack
 uid: hrr0
 ---
 如果没有足够的多元的信息，人们就会被仅有的信息操控

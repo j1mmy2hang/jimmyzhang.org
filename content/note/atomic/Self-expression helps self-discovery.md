@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - expression
-  - discovery
-  - self
 uid: NnIJ
 ---
 > It may not be possible to know who you are without somehow expressing it.

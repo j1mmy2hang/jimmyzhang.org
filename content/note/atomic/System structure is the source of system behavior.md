@@ -1,9 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - system
-  - structure
-  - behavior
 uid: dWvd
 ---
 [[The system causes its own behavior]]

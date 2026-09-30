@@ -1,8 +1,4 @@
 ---
-tags:
-  - education
-  - world
-  - adaptation
 topic: "[[Global competency]]"
 uid: Fgqx
 ---

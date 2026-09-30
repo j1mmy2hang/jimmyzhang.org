@@ -1,8 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - rule
-  - assumption
 uid: 82RE
 ---
 > It's a healthy practice to approach our work with as few accepted rules, starting points, and limitations as possible. 

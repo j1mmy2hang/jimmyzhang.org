@@ -1,8 +1,5 @@
 ---
 created: 2024-09-10
-tags:
-  - economist
-  - effect
 credit: Frederic Bastiat
 uid: 4Tyw
 ---

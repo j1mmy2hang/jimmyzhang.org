@@ -1,12 +1,5 @@
 ---
 created: 2024-10-20
-tags:
-  - education
-  - individual
-  - difference
-  - curiosity
-  - passion
-  - creativity
 uid: dnFn
 ---
 ![[image-Eu62.png]]

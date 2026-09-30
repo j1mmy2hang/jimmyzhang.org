@@ -1,10 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - information
-  - ethics
-  - responsibility
-  - decision-making
 uid: PJoe
 ---
 Without knowing the crabon footprint / acts of exploitation of a certain company, consumers will not be able to tell which organizations are ethical and which are not. 

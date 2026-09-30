@@ -1,6 +1,4 @@
 ---
-tags:
-  - belief
 uid: BKOM
 ---
 From the moment you started believing that you're not ordinary, you are already extraordinary.

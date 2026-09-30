@@ -1,8 +1,4 @@
 ---
-tags:
-  - survival
-  - nature
-  - conquer
 uid: o9Iz
 ---
 Physically & Mentally -- [[Attila & Witch Doctor -- Rule of Force & Faith]]

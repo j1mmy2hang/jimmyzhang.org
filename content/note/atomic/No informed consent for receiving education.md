@@ -1,9 +1,5 @@
 ---
 topic: "[[教育的问题]]"
-tags:
-  - consent
-  - education
-  - school
 uid: ccid
 ---
 1. no consent -- mandatory (law / norm), no choice

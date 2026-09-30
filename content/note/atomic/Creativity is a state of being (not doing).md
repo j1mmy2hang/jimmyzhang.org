@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - creativity
-  - state
-  - being
 uid: 60Ob
 ---
 > Creativity is something you are, not only something you do. It's a way of moving through the world, every minute, every day.

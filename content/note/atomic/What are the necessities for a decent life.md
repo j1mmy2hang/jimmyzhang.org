@@ -1,6 +1,4 @@
 ---
-tags:
-  - life
 uid: 26GU
 ---
 What are those things that we have always taken for granted in the modern life, but can't live without? What is the basic requirement of an adequate “house”? What do humans need to survive in a natural environment? In a mountain?

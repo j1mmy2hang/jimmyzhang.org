@@ -1,9 +1,5 @@
 ---
 created: 2024-09-05
-tags:
-  - china
-  - scrutiny
-  - criticism
 uid: aNS5
 ---
 China calls all foreign scrutiny a form of attack.

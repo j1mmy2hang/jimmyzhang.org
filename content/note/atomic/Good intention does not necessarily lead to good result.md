@@ -1,7 +1,4 @@
 ---
-tags:
-  - field
-  - intention
 uid: 1kMA
 ---
 好心办坏事

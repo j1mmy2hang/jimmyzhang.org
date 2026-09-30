@@ -1,7 +1,4 @@
 ---
-tags:
-  - world
-  - purpose
 uid: 9vAq
 ---
 Finding your purpose isn't enough. You also have to create that sense of purpose for others. 

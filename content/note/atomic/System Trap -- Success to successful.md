@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: Q7Pd
 ---
 Trap: Success to the Successful— Competitive Exclusion

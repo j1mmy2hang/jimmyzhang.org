@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: 0UA1
 ---
 Trap: Shifting the Burden to the Intervenor — Addiction

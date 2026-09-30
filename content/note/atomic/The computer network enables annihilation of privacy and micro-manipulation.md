@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 14:16
-tags:
 uid: ez6O
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]

@@ -1,7 +1,5 @@
 ---
 created: 2025-04-13
-tags:
-  - impact
 uid: zveg
 ---
 we have to admit -- making impact is hard

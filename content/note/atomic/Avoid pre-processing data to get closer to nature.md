@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - data
-  - nature
 uid: Wh43
 ---
 > Our filter inevitably reduces Source intelligence by interpreting the data that arrives instead of letting it pass freely. 

@@ -1,9 +1,5 @@
 ---
 created: 2024-12-09
-tags:
-  - feedback
-  - stock
-  - flow
 uid: sUQ4
 ---
 ![[image-VtJq.png|335]]

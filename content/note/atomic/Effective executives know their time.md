@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - time
-  - management
-  - executive
-  - effectiveness
 uid: lXau
 ---
 [[Effectiveness executives record & manage their time]]

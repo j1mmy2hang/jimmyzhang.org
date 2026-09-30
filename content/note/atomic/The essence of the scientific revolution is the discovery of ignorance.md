@@ -1,6 +1,5 @@
 ---
 created: 2024-08-24
-tags:
 uid: qbPF
 ---
 A scientific institution, in contrast, gained authority because it had strong self-correcting mechanisms that exposed and rectified the errors of the institution itself. It was these self-correcting mechanisms, not the technology of printing, that were the engine of the scientific revolution.

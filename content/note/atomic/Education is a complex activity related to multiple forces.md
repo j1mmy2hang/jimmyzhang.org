@@ -1,7 +1,5 @@
 ---
 topic: "[[教育的问题]]"
-tags:
-  - education
 uid: YRvq
 ---
 ![[Education is complicated]]

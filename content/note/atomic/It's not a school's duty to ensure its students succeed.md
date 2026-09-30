@@ -1,8 +1,4 @@
 ---
-tags:
-  - school
-  - success
-  - responsibility
 uid: EAq6
 ---
 A school should not be obliged to make sure its students succeed just because it is paid. 

@@ -1,10 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - humans
-  - knowledge
-  - preservaiton
-  - civilization
 weight: 5
 uid: kTUo
 ---

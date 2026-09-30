@@ -1,8 +1,4 @@
 ---
-tags:
-  - future
-  - Apple
-  - VR
 uid: 4GdG
 ---
 [[Smart glasses have very promising prospects]]

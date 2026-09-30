@@ -1,8 +1,6 @@
 ---
 book: "[[Thinkertoys -- A Handbook of Creative-Thinking Techniques]]"
 credit: Precott Lecky
-tags:
-  - control
 uid: YU2M
 ---
 Tick = ==acknowledge== the negative feelings

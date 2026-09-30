@@ -1,7 +1,5 @@
 ---
 created: 2025-07-28
-tags:
-  - design
 uid: dsEq
 ---
 as if there's no other way to do it

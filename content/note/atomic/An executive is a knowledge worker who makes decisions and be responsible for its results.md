@@ -1,10 +1,4 @@
 ---
-tags:
-  - executive
-  - knowledge
-  - decision-making
-  - responsibility
-  - result
 uid: NgsR
 ---
 1. knowledge worker

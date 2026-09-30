@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - competition
-  - mindset
 uid: Mz8P
 ---
 ## In Art

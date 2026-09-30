@@ -10,3 +10,5 @@ uid: oE8l
 
 society-wise -- [[Clothes is about our relationship with others and with the society]]
 individual-wise -- [[Clothes tells the world a story about ourself]]
+
+[[Self-presentation is about choosing to be judged by others in a certain way]]

@@ -1,9 +1,5 @@
 ---
 web: https://greatergood.berkeley.edu/article/item/what_stops_people_from_standing_up_for_whats_right
-tags:
-  - anger
-  - courage
-  - ethics
 uid: VCaU
 ---
 When it comes to standing up to others’ wrongdoings, anger plays an important role.

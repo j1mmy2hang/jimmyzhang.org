@@ -1,8 +1,5 @@
 ---
 created: 2024-11-14
-tags:
-  - freedom
-  - truth
 uid: wOfk
 ---
 Freedom from truth

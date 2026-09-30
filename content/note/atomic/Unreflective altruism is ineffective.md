@@ -1,6 +1,4 @@
 ---
-tags:
-  - effectiveness
 uid: i4FI
 ---
 When it comes to helping others, being unreflective often means being ineffective.

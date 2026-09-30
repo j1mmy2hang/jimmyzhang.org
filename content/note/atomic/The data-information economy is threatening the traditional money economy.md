@@ -1,6 +1,5 @@
 ---
 created: 2024-01-28
-tags:
 uid: KT5d
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]

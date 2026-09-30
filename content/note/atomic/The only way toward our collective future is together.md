@@ -1,6 +1,4 @@
 ---
-tags:
-  - future
 uid: NaRa
 ---
 My future --> our shared future

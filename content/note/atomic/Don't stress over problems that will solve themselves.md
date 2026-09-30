@@ -1,7 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - problem
 uid: Kgia
 ---
 Don't stress, let problems solve themselves.

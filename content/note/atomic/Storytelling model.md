@@ -1,6 +1,4 @@
 ---
-tags:
-  - story
 uid: tPv4
 ---
 Once upon a time...

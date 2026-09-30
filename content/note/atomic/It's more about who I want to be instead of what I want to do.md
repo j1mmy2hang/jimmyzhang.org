@@ -1,6 +1,4 @@
 ---
-tags:
-  - myself
 credit: Marryam
 uid: x4qE
 ---

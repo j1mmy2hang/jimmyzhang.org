@@ -1,8 +1,5 @@
 ---
 created: 2024-09-16
-tags:
-  - meaning
-  - interpretation
 uid: gNsi
 ---
 Art is meant to be open and to be interpreted. 

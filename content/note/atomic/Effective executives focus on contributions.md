@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effectiveness
-  - executive
-  - contribution
-  - result
 uid: V1Dn
 ---
 He looks up from his work and outward toward goals. 

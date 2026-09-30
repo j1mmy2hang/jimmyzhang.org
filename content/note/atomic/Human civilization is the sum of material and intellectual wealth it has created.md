@@ -1,10 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - humans
-  - civilization
-  - knowledge
-  - wealth
 uid: IxKs
 ---
 - Material wealth -- The Pyramids, the Great Wall, WTC, etc.

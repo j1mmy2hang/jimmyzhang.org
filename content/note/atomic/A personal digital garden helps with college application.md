@@ -1,9 +1,5 @@
 ---
 created: 2024-09-04
-tags:
-  - college
-  - application
-  - DG
 uid: YZyM
 ---
 [[大学申请文书的目的是为了展示自我]]

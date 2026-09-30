@@ -1,9 +1,5 @@
 ---
 created: 2025-04-18
-tags:
-  - competition
-  - economics
-  - innovation
 uid: WBIj
 ---
 > In business, money is either an important thing or it is everything. Monopolists can afford to think about things other than making money; non-monopolists can’t. In perfect competition, a business is so focused on today’s margins that it can’t possibly plan for a long-term future. Only one thing can allow a business to transcend the daily brute struggle for survival: monopoly profits.

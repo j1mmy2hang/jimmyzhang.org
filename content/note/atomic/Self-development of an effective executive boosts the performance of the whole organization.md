@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - development
-  - effectiveness
-  - executive
-  - organization
 uid: vkIm
 ---
 As executives work toward becoming effective, they raise the performance level of the whole organization. 

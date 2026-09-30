@@ -1,7 +1,4 @@
 ---
-tags:
-  - tech
-  - reality
 uid: 6wAs
 ---
 [[Information creates new realities and connects]]

@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 20:19
-tags:
 uid: sMUs
 ---
 “Early decision serves the needs of colleges and universities a hell of a lot more than it serves students,”

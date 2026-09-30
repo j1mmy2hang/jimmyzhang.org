@@ -1,9 +1,5 @@
 ---
 created: 2025-04-10
-tags:
-  - UBI
-  - freedom
-  - meaning
 uid: 5Pay
 ---
 [[金钱的目的是购买自由]]

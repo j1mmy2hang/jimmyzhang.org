@@ -1,9 +1,5 @@
 ---
 created: 2025-04-13
-tags:
-  - prediction
-  - compression
-  - intelligence
 uid: gfs1
 ---
 为什么 predict next token 是最有效的学习

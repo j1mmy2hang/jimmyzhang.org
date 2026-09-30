@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:08
-tags:
 uid: kLzT
 ---
 > SAFEGUARD: Come up with Both-And options. Try to find ways of combining the binary. Think not in terms of choosing either X or Y, but rather having both X and Y.

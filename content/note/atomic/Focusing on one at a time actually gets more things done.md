@@ -1,7 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - focus
 uid: cQ0s
 ---
 The more one can concentrate time, effort, and resources, the greater the number and diversity of tasks one can actually perform. 

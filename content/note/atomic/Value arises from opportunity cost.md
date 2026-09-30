@@ -1,8 +1,5 @@
 ---
 created: 2024-09-23
-tags:
-  - value
-  - opportunity_cost
 uid: ypK8
 ---
 The value of a good / service depends on the oppotunity cost involved in the process of production. 

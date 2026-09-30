@@ -1,9 +1,5 @@
 ---
 created: 2025-04-20
-tags:
-  - AI
-  - thinking
-  - communication
 uid: 64Al
 ---
 给 AI 写 prompt

@@ -1,8 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - system
-  - behavior
 uid: OPA2
 ---
 > Nonlinearities are important not only because they confound our expectations about the relationship between action and response. They are even more important because they change the relative strengths of feedback loops. They can flip a system from one mode of behavior to another.

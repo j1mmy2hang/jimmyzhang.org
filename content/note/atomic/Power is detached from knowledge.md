@@ -1,8 +1,5 @@
 ---
 created: 2024-11-16
-tags:
-  - power
-  - knowledge
 uid: u4ua
 ---
 Knowledge, truth  <—> Power (action, change, impact)

@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 19:49
-tags:
 uid: JEbl
 ---
 What I hope to do in this book is show you that college admissions is a business—a big one—that you have very little control over. Top colleges are inundated with more well-qualified applicants than they can accommodate.

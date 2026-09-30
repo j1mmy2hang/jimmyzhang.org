@@ -1,7 +1,5 @@
 ---
 created: 2024-12-18
-tags:
-  - system
 uid: xYoJ
 ---
 Starting with the behavior of the system forces you to focus on facts, not theories. It keeps you from falling too quickly into your own beliefs or misconceptions, or those of others.

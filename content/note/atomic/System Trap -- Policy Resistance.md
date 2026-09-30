@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: svVL
 ---
 Trap: Policy Resistance

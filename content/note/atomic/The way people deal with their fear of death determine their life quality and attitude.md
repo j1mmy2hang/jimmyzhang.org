@@ -1,8 +1,5 @@
 ---
 web: https://knowledge.insead.edu/leadership-organisations/death-ultimate-motivator
-tags:
-  - death
-  - life
 uid: idtf
 ---
 ![[Escaping the fear of death|700]]

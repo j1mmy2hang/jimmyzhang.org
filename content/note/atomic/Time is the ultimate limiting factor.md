@@ -1,8 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - time
-  - limiting_factor
 uid: OxNY
 ---
 Time is the scarcest resource. 

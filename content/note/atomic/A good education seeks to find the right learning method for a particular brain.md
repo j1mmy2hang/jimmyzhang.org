@@ -1,9 +1,4 @@
 ---
-tags:
-  - education
-  - individual
-  - learning
-  - methodology
 uid: HrFZ
 ---
 Every brain is constructed differently and learns differently

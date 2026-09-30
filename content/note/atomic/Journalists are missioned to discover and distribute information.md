@@ -1,9 +1,5 @@
 ---
 created: 2024-10-20
-tags:
-  - journalism
-  - information
-  - distribution
 uid: 2Bhn
 ---
 journalists = information miner & producer & distributor all in one

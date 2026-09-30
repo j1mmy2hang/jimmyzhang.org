@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - knowledge
-  - organization
-  - diversity
-  - skill
 uid: JmXw
 ---
 Organizations multiplies the strengths of individuals

@@ -1,7 +1,4 @@
 ---
-tags:
-  - future
-  - tech
 uid: I2sH
 ---
 definition = 学习并驾驭科技的能力

@@ -1,8 +1,4 @@
 ---
-tags:
-  - effectiveness
-  - meeting
-  - goal
 topic: "[[Steps to become an effective executive]]"
 uid: Nizz
 ---

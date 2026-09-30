@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - creativity
-  - ubiquitous
 uid: wOp7
 ---
 Everyone is a creator.

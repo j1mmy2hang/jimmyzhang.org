@@ -1,8 +1,5 @@
 ---
 created: 2025-02-22 07:55
-tags:
-  - thinking
-  - action
 uid: pBex
 ---
 Do we think our way into a new way of acting or do we act our way into a new way of thinking?

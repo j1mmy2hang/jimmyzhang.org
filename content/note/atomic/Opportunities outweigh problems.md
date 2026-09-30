@@ -1,7 +1,4 @@
 ---
-tags:
-  - problem
-  - opportunity
 topic: "[[Steps to become an effective executive]]"
 uid: 8dqP
 ---

@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - artist
-  - art
-  - service
 uid: 9jOe
 ---
 > Artists create in service to arts, not for what they can get from it. 

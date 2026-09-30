@@ -1,6 +1,4 @@
 ---
-tags:
-  - effectiveness
 uid: ACIY
 ---
 Effectiveness is something separate. 

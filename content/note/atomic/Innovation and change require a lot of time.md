@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - innovation
-  - change
-  - time
 uid: 4MpM
 ---
 > All one can do in a short time is to think about what one already knows and to do as one has always done. 

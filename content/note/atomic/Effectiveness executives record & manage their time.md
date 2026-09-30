@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - management
-  - time
-  - measure
 uid: nUL4
 ---
 > The first step toward executive effectiveness is therefore to record actual time use. 

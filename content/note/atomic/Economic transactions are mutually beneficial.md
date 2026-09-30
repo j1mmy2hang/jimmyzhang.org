@@ -1,7 +1,4 @@
 ---
-tags:
-  - economics
-  - transaction
 uid: 6Jl7
 ---
 There is not a winner and a loser in a transaction -- both sides benefit (result is positive-sum rather than zero sum)

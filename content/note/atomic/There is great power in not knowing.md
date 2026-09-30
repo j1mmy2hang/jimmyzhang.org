@@ -1,9 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - ignorance
-  - creativity
-  - innovation
 uid: tcrP
 ---
 ## Why did AlphaGo beat human players

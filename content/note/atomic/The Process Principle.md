@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:32
-tags:
 uid: HXFq
 ---
 When you evaluate a decision, focus on the process you used to make the decision and not the outcome.

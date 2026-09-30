@@ -1,7 +1,4 @@
 ---
-tags:
-  - memory
-  - emotion
 uid: DPIC
 ---
 Memories create meaning. 

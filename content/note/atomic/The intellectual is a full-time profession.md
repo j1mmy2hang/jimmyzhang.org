@@ -1,7 +1,4 @@
 ---
-tags:
-  - intellectual
-  - job
 uid: m7Wt
 ---
 Intellectual integrates the power of knowledge across the whole society and serves the society with the power of knowledge and idea. 

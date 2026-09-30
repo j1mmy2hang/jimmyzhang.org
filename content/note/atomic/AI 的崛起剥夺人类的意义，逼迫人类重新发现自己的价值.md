@@ -1,9 +1,4 @@
 ---
-tags:
-  - AI
-  - humans
-  - value
-  - rediscover
 uid: AAgX
 ---
 [[AI 将人类从枯燥的工作中解放出来]]

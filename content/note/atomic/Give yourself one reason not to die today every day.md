@@ -1,8 +1,5 @@
 ---
 created: 2024-12-07
-tags:
-  - life
-  - meaning
 uid: pKtg
 ---
 When we are trying to ask ourselves what's the meaning of life, on the other side we are essentially asking why don't we die or commit suicide today. 

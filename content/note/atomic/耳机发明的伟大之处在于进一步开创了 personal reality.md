@@ -1,7 +1,5 @@
 ---
 created: 2025-01-07
-tags:
-  - reality
 uid: 8MPg
 ---
 声音私有化

@@ -1,8 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - truth
-  - reality
 uid: iqrQ
 ---
 Definition of truth = representation of reality

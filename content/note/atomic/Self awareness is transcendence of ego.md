@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - self
-  - awareness
 uid: FTL3
 ---
 > To be self-aware is to have the ability to tune in to what we think, how we feel, and how much we feel it without interference. To notice how we notice the outside world.

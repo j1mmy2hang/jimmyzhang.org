@@ -1,7 +1,4 @@
 ---
-tags:
-  - creativity
-  - learning
 uid: DzlP
 ---
 创意和灵感不是上帝偶然间赐予你的；是长年累月的思维训练的成果

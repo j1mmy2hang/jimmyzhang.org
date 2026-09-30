@@ -1,9 +1,4 @@
 ---
-tags:
-  - democratization
-  - information
-  - trend
-  - history
 uid: tGfq
 ---
 印刷术 --> 互联网 --> 搜索引擎，AI，Arc search (instant answer)，Neuralink

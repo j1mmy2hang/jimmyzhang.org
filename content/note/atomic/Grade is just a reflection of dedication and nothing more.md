@@ -1,9 +1,5 @@
 ---
 created: 2024-09-16
-tags:
-  - grade
-  - dedication
-  - measure
 uid: KDlH
 ---
 Oh you have a 7 -- so what?

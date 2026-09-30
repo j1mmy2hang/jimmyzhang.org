@@ -1,7 +1,4 @@
 ---
-tags:
-  - information
-  - management
 uid: R6bB
 ---
 > Drowning in information but craving for knowledge

@@ -4,6 +4,8 @@ reference:
   - "[[Superforecasting -- The Art and Science of Prediction]]"
 uid: BxtA
 ---
+core:: [[Bayes = prior belief x the world's evidence]]
+
 <u>Base rate</u> -- tap into the power of other historical data instead of starting from pure intuition & guessing
 
 <u>Update</u> -- your alpha, the information you get, the specific context, the unique data you have access to

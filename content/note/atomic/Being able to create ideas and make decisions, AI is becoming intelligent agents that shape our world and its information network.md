@@ -1,6 +1,5 @@
 ---
 created: 2025-01-25
-tags:
 uid: 2V9a
 ---
 [[Intelligence = interacting with the envrionment by taking in data, processing information, make decisions, and attaining goals|Intelligent]] machines can make decisions & create new ideas by itself

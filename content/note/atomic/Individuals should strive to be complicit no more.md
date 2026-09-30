@@ -1,8 +1,5 @@
 ---
 created: 2024-10-04
-tags:
-  - individual
-  - complicity
 uid: Tyfj
 ---
 [[Recognizing our role is systems is crucial for ethical decision-making]]

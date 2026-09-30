@@ -1,10 +1,4 @@
 ---
-tags:
-  - power
-  - authority
-  - faith
-  - creativity
-  - mind
 uid: tSEa
 ---
 Neither the creation of ideas nor in the creation of wealth.

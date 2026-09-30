@@ -1,7 +1,4 @@
 ---
-tags:
-  - purpose
-  - happiness
 uid: TLwu
 ---
 Happiness comes from fulfulling your purpose. 

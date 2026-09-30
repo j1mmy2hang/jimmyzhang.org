@@ -1,9 +1,4 @@
 ---
-tags:
-  - learning
-  - efficiency
-  - knowledge
-  - passing-on
 uid: rWu4
 ---
 [[学习的目的是知识的传递以达到物种文明的进化]]

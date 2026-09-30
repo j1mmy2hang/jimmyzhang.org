@@ -1,9 +1,4 @@
 ---
-tags:
-  - rationality
-  - thinking
-  - choice
-  - consciousness
 uid: PkIW
 ---
 Men are not born with the gift of the rationality and the ability to think. 

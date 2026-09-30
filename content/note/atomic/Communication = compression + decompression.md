@@ -1,9 +1,5 @@
 ---
 created: 2024-10-02
-tags:
-  - communication
-  - compression
-  - decompression
 uid: fw9n
 ---
 ### How does communication happen

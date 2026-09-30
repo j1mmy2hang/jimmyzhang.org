@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - artist
-  - purity
 uid: sRfs
 ---
 [[Art is freedom|free]] from external pressure and standards

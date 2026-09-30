@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - habit
-  - power
-  - detail
 uid: wYT1
 ---
 > Each habit might seem small, but added together, they have an exponential effect on performance. Just one habit, at the top of any field, can be enough to give an edge over the competition.

@@ -1,8 +1,5 @@
 ---
 created: 2025-01-11
-tags:
-  - story
-  - communication
 uid: Qb5n
 ---
 What's the difference between communication & storytelling?

@@ -10,3 +10,5 @@ Personal growth?
 Bounded rationality?
 
 [[The first step to help other people solve a problem is by pointing out & helping them realize the problem]]
+
+potential answer — [[Obsidian as second-brain — the goal of knowledge management is to help you do more things while having to remember less]]

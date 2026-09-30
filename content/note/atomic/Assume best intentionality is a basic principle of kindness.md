@@ -1,7 +1,4 @@
 ---
-tags:
-  - intention
-  - kindness
 uid: GhyZ
 ---
 Maybe they just didn’t realize they are being hurtful. 

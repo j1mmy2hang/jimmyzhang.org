@@ -1,6 +1,4 @@
 ---
-tags:
-  - transaction
 uid: IQYN
 ---
 ![[image-BQKt.png]]

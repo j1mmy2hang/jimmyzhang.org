@@ -1,6 +1,4 @@
 ---
-tags:
-  - visual
 web: https://www.slideshare.net/slideshow/the-doodle-revolution/3659725#18
 uid: bSD3
 ---

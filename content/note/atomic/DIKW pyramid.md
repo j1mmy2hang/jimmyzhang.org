@@ -1,10 +1,4 @@
 ---
-tags:
-  - data
-  - information
-  - knowledge
-  - wisdom
-  - pyramid
 uid: mEcT
 ---
 > [!summary]

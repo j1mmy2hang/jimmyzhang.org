@@ -1,7 +1,5 @@
 ---
 producer: John Adams
-tags:
-  - fact
 uid: SRcm
 ---
 It is what it is. 

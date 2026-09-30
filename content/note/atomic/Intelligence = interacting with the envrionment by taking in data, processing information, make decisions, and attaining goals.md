@@ -1,7 +1,5 @@
 ---
 created: 2025-01-28
-tags:
-  - intelligence
 uid: hGeX
 ---
 [[Being able to create ideas and make decisions, AI is becoming intelligent agents that shape our world and its information network]]

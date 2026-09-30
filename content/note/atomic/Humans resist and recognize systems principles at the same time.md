@@ -1,11 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - humans
-  - resistance
-  - recognition
-  - system
-  - principle
 uid: nUfQ
 ---
 <u>On one hand -- the tendency to use rationality and resort to cause and effect</u>

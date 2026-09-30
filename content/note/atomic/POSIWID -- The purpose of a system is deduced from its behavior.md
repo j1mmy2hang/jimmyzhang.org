@@ -1,9 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - purpose
-  - system
-  - behavior
 uid: tWSQ
 ---
 > A system's function or purpose is not necessarily spoken, written, or expressed explicitly, except through the operation of the system. The best way to deduce the system's purpose is to watch for a while to see how the system behaves.

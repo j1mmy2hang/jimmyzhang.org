@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: 1UNl
 ---
 [[The real system is interconnected]]

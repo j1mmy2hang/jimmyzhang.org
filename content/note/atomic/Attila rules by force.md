@@ -1,8 +1,5 @@
 ---
 parent: "[[Attila & Witch Doctor -- Rule of Force & Faith]]"
-tags:
-  - power
-  - conquer
 uid: EYiz
 ---
 - rules by brute force

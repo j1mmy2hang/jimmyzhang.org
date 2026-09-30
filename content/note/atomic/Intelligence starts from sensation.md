@@ -1,8 +1,5 @@
 ---
 created: 2025-02-19 16:06
-tags:
-  - intelligence
-  - sensation
 uid: I5nc
 ---
 sensation = collecting information from environment

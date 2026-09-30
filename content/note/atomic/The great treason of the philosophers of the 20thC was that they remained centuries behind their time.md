@@ -1,7 +1,4 @@
 ---
-tags:
-  - philosophy
-  - time
 uid: kU15
 ---
 theme & tone: a concerted attack on man’s conceptual faculty.

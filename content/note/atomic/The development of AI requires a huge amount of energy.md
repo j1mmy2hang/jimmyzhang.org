@@ -1,7 +1,4 @@
 ---
-tags:
-  - AI
-  - electricity
 uid: Zjd6
 ---
 [[能源是人类文明进步的最大瓶颈]]

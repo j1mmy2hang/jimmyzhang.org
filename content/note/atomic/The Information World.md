@@ -1,8 +1,5 @@
 ---
 created: 2024-11-27
-tags:
-  - information
-  - world
 uid: TR6X
 ---
 ## Information Elements

@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - organization
-  - past
-  - creativity
 uid: HDj4
 ---
 There's no lack of ideas in any organization I know. 

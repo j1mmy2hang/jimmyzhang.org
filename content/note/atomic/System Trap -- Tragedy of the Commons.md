@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: 8ti2
 ---
 Trap: Tragedy of the Commons

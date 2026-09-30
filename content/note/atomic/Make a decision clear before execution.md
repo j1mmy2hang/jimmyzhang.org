@@ -1,6 +1,4 @@
 ---
-tags:
-  - decision-making
 uid: iZyE
 ---
 - important aspects to cover

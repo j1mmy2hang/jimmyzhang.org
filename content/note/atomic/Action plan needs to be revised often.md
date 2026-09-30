@@ -1,8 +1,4 @@
 ---
-tags:
-  - action
-  - plan
-  - revision
 topic: "[[Steps to become an effective executive]]"
 uid: m6Gk
 ---

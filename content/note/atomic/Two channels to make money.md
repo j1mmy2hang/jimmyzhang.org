@@ -1,6 +1,4 @@
 ---
-tags:
-  - money
 uid: tpOU
 ---
 https://youtu.be/wD9hMYbijDA?si=yGm1YbzxQrEVPfpO

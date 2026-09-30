@@ -1,6 +1,5 @@
 ---
 created: 2025-02-22 07:54
-tags:
 credit: Andre Gide
 uid: uHjL
 ---

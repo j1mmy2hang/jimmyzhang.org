@@ -1,8 +1,5 @@
 ---
 created: 2025-05-04
-tags:
-  - leadership
-  - system
 uid: 9YNY
 ---
 the system on paper ≠ the real system at work

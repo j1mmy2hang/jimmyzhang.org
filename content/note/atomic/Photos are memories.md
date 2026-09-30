@@ -1,7 +1,4 @@
 ---
-tags:
-  - photo
-  - memory
 uid: 6Ip2
 ---
 Pictures and (especially POV) videos enable us to relive our memories. 

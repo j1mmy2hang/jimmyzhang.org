@@ -1,7 +1,4 @@
 ---
-tags:
-  - information
-  - organization
 credit: The Functions of the Executive by Chester Barnard
 topic: "[[Steps to become an effective executive]]"
 uid: jEfN

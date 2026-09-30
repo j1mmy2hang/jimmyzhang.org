@@ -1,7 +1,4 @@
 ---
-tags:
-  - animal
-  - perception
 uid: A9R3
 ---
 a consciousness held down to the <u>perceptual</u> method of functioning

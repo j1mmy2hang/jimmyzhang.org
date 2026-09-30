@@ -1,8 +1,5 @@
 ---
 created: 2024-10-07
-tags:
-  - media
-  - power
 uid: F9iV
 ---
 The media holds the great power of creating & distributing information.

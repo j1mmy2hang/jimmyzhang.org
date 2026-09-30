@@ -1,8 +1,5 @@
 ---
 created: 2025-06-05
-tags:
-  - knowledge
-  - belief
 uid: huIM
 ---
 Innovators often *know too much* (or think they do) about their product or domain

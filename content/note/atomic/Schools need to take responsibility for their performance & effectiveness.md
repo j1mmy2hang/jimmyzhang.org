@@ -1,11 +1,5 @@
 ---
 created: 2024-10-24
-tags:
-  - knowledge
-  - society
-  - school
-  - effectiveness
-  - responsibility
 uid: Fm0T
 ---
 我们关心这所学校的排名和声望

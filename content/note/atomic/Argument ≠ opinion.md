@@ -1,8 +1,5 @@
 ---
 created: 2024-08-31
-tags:
-  - argument
-  - opinion
 uid: CFyU
 ---
 Opinion: You can have your opinion, but this is what I think. 

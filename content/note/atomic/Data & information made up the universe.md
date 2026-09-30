@@ -1,9 +1,5 @@
 ---
 created: 2024-09-03
-tags:
-  - world
-  - data
-  - information
 uid: fBnF
 ---
 The world is made up of data and information.

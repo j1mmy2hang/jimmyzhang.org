@@ -1,7 +1,4 @@
 ---
-tags:
-  - growth
-  - discomfort
 uid: TGnZ
 ---
 ![[image-QHBG.png]] 

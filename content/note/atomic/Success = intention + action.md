@@ -1,8 +1,4 @@
 ---
-tags:
-  - success
-  - intention
-  - action
 uid: TJQZ
 ---
 Even if you are not yet what you want yourself to be, as long as there's the ==intention== (mindset) & ==actions== towards it, at least you will be closer to that destination. 

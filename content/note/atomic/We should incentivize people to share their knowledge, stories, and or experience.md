@@ -1,9 +1,5 @@
 ---
 created: 2024-12-07
-tags:
-  - knowledge
-  - story
-  - experience
 uid: QJYP
 ---
 encourage people to upload & share their thoughts, knowledge and experiences

@@ -1,7 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - universe
 uid: 8Ec5
 ---
 > "And, when you want something, all the universe conspires in helping you to achieve it.” -- Paulo Coelho

@@ -1,9 +1,5 @@
 ---
 created: 2025-04-20
-tags:
-  - monoply
-  - competition
-  - innovation
 uid: Y4Ik
 ---
 逃避竞争不是懦弱，而是创新的底层动力。

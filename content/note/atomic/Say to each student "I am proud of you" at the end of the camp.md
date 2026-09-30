@@ -1,7 +1,4 @@
 ---
-tags:
-  - education
-  - pride
 uid: 7efh
 ---
 So heart-warming. Can really bring a sense of achievement & motivationto students. 

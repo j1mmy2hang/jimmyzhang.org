@@ -1,8 +1,5 @@
 ---
 created: 2025-02-11 10:49
-tags:
-  - power
-  - information
 uid: RqQa
 ---
 ![[image-rZTr.png]]

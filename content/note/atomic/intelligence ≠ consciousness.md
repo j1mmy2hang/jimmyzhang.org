@@ -1,8 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - intelligence
-  - consciousness
 uid: ClzK
 ---
 Intelligence is the ability to attain goals

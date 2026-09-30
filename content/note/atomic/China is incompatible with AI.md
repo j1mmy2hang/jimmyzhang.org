@@ -1,8 +1,4 @@
 ---
-tags:
-  - china
-  - AI
-  - incompatible
 uid: Q6qD
 ---
 ## Unemployment

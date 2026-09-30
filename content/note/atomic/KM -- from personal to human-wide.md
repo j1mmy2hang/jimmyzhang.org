@@ -1,8 +1,4 @@
 ---
-tags:
-  - knowledge
-  - management
-  - humans
 uid: Pg9T
 ---
 personal knowledge management --> business / corporate / organization knowledge & information management --> human & intellectual knowledge management

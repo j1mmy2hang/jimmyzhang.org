@@ -1,8 +1,4 @@
 ---
-tags:
-  - change
-  - trend
-  - importance
 uid: MbBg
 ---
 Everybody sees and feels the trend. Willing or not, we are all in it. 

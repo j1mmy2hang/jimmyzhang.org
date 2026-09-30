@@ -1,6 +1,5 @@
 ---
 created: 2025-01-25
-tags:
 uid: cSKy
 ---
 Mythology -- [[Stories connect large networks and give rise to power]]

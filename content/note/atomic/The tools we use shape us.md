@@ -1,7 +1,4 @@
 ---
-tags:
-  - tech
-  - humans
 uid: StIJ
 ---
 [[Technologies are extensions of human beings]]

@@ -1,9 +1,5 @@
 ---
 created: 2024-08-31
-tags:
-  - humans
-  - sense-making
-  - world
 uid: Vl0C
 ---
 Humans are interpretation machines. 

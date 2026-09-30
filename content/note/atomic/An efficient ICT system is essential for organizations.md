@@ -1,10 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - knowledge
-  - management
-  - organization
-  - efficiency
 uid: G2lY
 ---
 [[Organizations are held together by information]]

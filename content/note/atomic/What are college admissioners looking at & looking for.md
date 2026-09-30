@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 20:16
-tags:
 uid: i68w
 ---
 ## Looking at

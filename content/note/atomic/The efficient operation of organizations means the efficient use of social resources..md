@@ -1,9 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - efficiency
-  - organization
-  - resource
 uid: BqAi
 ---
 All the social resources are being fed to large corporations for their production and output. 

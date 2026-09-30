@@ -1,7 +1,5 @@
 ---
 created: 2024-12-09
-tags:
-  - growth
 uid: Rr4B
 ---
 Limits-to-growth Archetype

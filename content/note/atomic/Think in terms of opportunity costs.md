@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:08
-tags:
 uid: HwV5
 ---
 Intelligent people make their decisions based on opportunity costs. It is your alternatives that matter. 

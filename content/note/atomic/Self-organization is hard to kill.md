@@ -1,6 +1,5 @@
 ---
 created: 2024-12-11
-tags:
 uid: W5oS
 ---
 Although [[Self-organization often threatens stability and power structures]], fortunately--

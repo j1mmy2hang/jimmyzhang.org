@@ -1,7 +1,4 @@
 ---
-tags:
-  - result
-  - organization
 uid: AOJf
 ---
 There are no results within the organization.

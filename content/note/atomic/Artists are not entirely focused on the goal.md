@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - goal
-  - discovery
 uid: 80kn
 ---
 Artists are led by the goals to an adventure of discovery

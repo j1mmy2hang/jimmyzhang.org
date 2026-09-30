@@ -1,8 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - model
-  - simplificaiton
 uid: Dn4u
 ---
 [[All knowledge about the world is a model]]

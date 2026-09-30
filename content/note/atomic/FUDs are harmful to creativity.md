@@ -1,6 +1,4 @@
 ---
-tags:
-  - creativity
 uid: 3oOB
 ---
 FUD = fears, uncertainties, and doubts

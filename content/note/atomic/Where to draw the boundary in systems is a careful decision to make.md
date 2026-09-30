@@ -1,7 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - system
 uid: 4klI
 ---
 [[The world has no boundaries]]

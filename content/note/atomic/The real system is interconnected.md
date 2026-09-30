@@ -1,8 +1,5 @@
 ---
 created: 2024-12-18
-tags:
-  - system
-  - interconnection
 uid: wxBi
 ---
 [[Thinking in Systems -- A Primer]] --

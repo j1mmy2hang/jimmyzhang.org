@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 08:14
-tags:
 uid: Y3JV
 ---
 In order to get the results we desire, we must

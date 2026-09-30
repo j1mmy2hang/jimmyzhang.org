@@ -1,8 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - action
-  - decision-making
 uid: gUCp
 ---
 A decision will not become effective unless the action commitments have been built into the decision from the start. 

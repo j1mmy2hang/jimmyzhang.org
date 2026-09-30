@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effect
-  - decision-making
-  - define
 uid: 7Zez
 ---
 What are the objectives the decision has to reach? What are the minimum goals it has to attain? What are the conditions it has to satisfy? 

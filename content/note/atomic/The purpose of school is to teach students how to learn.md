@@ -1,7 +1,4 @@
 ---
-tags:
-  - school
-  - learning
 uid: NCht
 ---
 学习 = 处理信息的能力

@@ -1,6 +1,4 @@
 ---
-tags:
-  - notes
 uid: dnGO
 ---
 How to take notes while consuming any type of content

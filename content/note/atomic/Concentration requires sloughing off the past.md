@@ -1,8 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - concentration
-  - past
 uid: oP6b
 ---
 The first rule of concentration is to slough off the past that has ceased to be productive. 

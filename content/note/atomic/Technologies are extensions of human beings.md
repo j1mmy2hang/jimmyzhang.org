@@ -1,8 +1,4 @@
 ---
-tags:
-  - tech
-  - humans
-  - tool
 uid: Rqd2
 ---
 When you are able to use a tool, that tool becomes part of you

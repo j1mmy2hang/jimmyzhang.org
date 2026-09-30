@@ -1,8 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - listen
-  - disbelief
 uid: H330
 ---
 Listening is freedom from accepted limitations

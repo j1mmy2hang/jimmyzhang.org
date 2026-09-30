@@ -1,9 +1,5 @@
 ---
 created: 2024-11-14
-tags:
-  - nurse
-  - complaint
-  - school
 uid: d0en
 ---
 CSC

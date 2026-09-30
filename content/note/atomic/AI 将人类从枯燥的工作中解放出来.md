@@ -1,9 +1,4 @@
 ---
-tags:
-  - AI
-  - humans
-  - job
-  - liberation
 uid: 64ck
 ---
 那些不用体现人之为人价值的工作都可以由AI来替代

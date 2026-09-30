@@ -1,8 +1,4 @@
 ---
-tags:
-  - action
-  - plan
-  - alignment
 topic: "[[Steps to become an effective executive]]"
 uid: nGoK
 ---

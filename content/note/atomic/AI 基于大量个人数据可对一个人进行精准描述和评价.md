@@ -1,9 +1,5 @@
 ---
 created: 2025-01-04
-tags:
-  - AI
-  - data
-  - evaluation
 uid: 8fkF
 ---
 问 ChatGPT: Describe me based on your memories of me.

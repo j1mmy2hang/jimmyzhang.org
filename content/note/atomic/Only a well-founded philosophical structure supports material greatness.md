@@ -1,8 +1,4 @@
 ---
-tags:
-  - philosophy
-  - material
-  - greatness
 uid: 5CpN
 ---
 [[For the New Intellectual]]:

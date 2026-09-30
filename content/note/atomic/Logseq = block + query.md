@@ -1,6 +1,4 @@
 ---
-tags:
-  - Logseq
 uid: tF5t
 ---
 Logseq's unique strength lies in its query superpower enabled by its block structure

@@ -1,9 +1,5 @@
 ---
 created: 2024-10-12
-tags:
-  - importance
-  - knowledge
-  - management
 uid: LvvV
 ---
 # 1. Media Literacy and Ethical Decision-making

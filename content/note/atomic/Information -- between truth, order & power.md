@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 08:22
-tags:
 uid: CdxA
 ---
 ![[image-vNjU.webp|472]]

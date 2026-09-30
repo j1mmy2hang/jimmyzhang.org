@@ -1,7 +1,4 @@
 ---
-tags:
-  - art
-  - freedom
 uid: Z5rI
 ---
 Only artists can reach a state of pure freedom.

@@ -1,7 +1,4 @@
 ---
-tags:
-  - link
-  - world
 uid: Cwjm
 ---
 Finding connections; creating meaning; spurring creativity

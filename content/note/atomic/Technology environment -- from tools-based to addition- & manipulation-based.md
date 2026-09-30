@@ -1,10 +1,5 @@
 ---
 created: 2025-03-30
-tags:
-  - tech
-  - tool
-  - manipulation
-  - addiction
 uid: Ijc6
 ---
 A bicycle is just genuiney a tool -- it's sitting there and waiting to be used. 

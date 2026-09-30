@@ -1,7 +1,5 @@
 ---
 created: 2025-04-22
-tags:
-  - education
 reference:
   - "[[Dumbing Us Down]]"
 uid: XGVu

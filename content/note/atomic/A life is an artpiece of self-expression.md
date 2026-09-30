@@ -1,10 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - life
-  - art
-  - self
-  - expression
 uid: MDgv
 ---
 > Attuned choice by attuned choice, your entire life is a form of self-expression. You exist as a creative being in a creative universe. A singular work of art.

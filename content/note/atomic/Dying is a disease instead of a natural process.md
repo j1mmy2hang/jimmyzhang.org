@@ -1,7 +1,4 @@
 ---
-tags:
-  - health
-  - death
 uid: stj3
 ---
 Getting sick is NOT natural -- NOT every one is bound to get sick and die. 

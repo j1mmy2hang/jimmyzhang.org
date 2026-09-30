@@ -1,9 +1,5 @@
 ---
 created: 2025-09-11
-tags:
-  - design
-  - product
-  - space
 uid: WMnc
 ---
 Software shouldn't just work — it should feel like somewhere you want to stay

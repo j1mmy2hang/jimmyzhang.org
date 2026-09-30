@@ -1,6 +1,5 @@
 ---
 created: 2024-12-11
-tags:
 uid: M4gN
 ---
 Real systems rarely have real boundaries.

@@ -1,6 +1,4 @@
 ---
-tags:
-  - confidence
 uid: Hwnp
 ---
 pitch

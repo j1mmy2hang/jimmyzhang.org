@@ -1,7 +1,4 @@
 ---
-tags:
-  - belief
-  - success
 uid: 96zF
 ---
 keep & refresh your self-affirmation list

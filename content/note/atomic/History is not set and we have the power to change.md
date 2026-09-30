@@ -1,9 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - history
-  - power
-  - change
 uid: 6EHZ
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]] --

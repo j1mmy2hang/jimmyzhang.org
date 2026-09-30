@@ -1,8 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - knowledge
-  - responsibility
 uid: zqrC
 ---
 学人不理解知识分子的责任与担当

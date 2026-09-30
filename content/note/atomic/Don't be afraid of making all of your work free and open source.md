@@ -1,8 +1,4 @@
 ---
-tags:
-  - myself
-  - opensource
-  - sharing
 weight: 3
 uid: tSBd
 ---

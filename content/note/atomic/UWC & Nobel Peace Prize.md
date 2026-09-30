@@ -1,7 +1,4 @@
 ---
-tags:
-  - peace
-  - uwc
 uid: ic1P
 ---
 The UWC movement has been nominated twice for the Nobel Peace Prize

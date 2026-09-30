@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - AI
-  - humans
 uid: 81gW
 ---
 that is the unfortunate truth.

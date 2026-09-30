@@ -1,9 +1,4 @@
 ---
-tags:
-  - voice
-  - thinking
-  - efficiency
-  - HCI
 uid: F3uv
 ---
 ## Physical typing and slow thinking

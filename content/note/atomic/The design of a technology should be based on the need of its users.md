@@ -1,7 +1,4 @@
 ---
-tags:
-  - tech
-  - humans
 uid: Q6NY
 ---
 [[Technology serves men]]

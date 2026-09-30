@@ -1,37 +1,21 @@
-import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import SubscribeForm from '../components/SubscribeForm';
 
 import '../styles/home.css';
 
+// Temporarily trimmed. Full set: self, telos, note, project, writing, photo.
 const rows: string[][] = [
-  ['self', 'telos', 'note'],
-  ['project', 'writing', 'photo'],
+  ['photo', 'project', 'newsletter'],
 ];
 
-const INTRO_KEY = 'home-intro-done';
-
 export default function Home() {
-  const hasPlayed = useRef(!!sessionStorage.getItem(INTRO_KEY));
-  const [phase, setPhase] = useState(hasPlayed.current ? 2 : 0);
-
-  useEffect(() => {
-    if (hasPlayed.current) return;
-    const t1 = setTimeout(() => setPhase(1), 2000);
-    const t2 = setTimeout(() => {
-      setPhase(2);
-      sessionStorage.setItem(INTRO_KEY, '1');
-    }, 4000);
-    return () => { clearTimeout(t1); clearTimeout(t2); };
-  }, []);
-
   return (
-    <main className={`home phase-${phase}${hasPlayed.current ? ' no-intro' : ''}`}>
+    <main className="home">
       <div className="home-wrap">
-        <Link to="/hello-world" className="home-help-link">Hello world</Link>
         <div className="home-inner">
           <div className="home-main">
-            <h1 className="home-name">Jimmy Zhang</h1>
+            <h1 className="home-name">
+              <Link to="/readme" className="home-nav-link">readme.md</Link>
+            </h1>
             <nav className="home-nav" aria-label="sections">
               {rows.map((row, i) => (
                 <div key={i} className="home-nav-row">
@@ -44,9 +28,6 @@ export default function Home() {
               ))}
             </nav>
           </div>
-        </div>
-        <div className="home-secondary">
-          <SubscribeForm variant="home" />
         </div>
       </div>
     </main>

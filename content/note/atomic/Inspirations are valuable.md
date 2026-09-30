@@ -1,8 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - inspiration
-  - value
 uid: hT13
 ---
 > What defines inspiration is the quality and quantity of the download.

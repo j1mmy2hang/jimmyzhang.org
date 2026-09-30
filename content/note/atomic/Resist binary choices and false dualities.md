@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:07
-tags:
 uid: Z17W
 ---
 [[A or B — False dichotomy]]

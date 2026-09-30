@@ -1,6 +1,4 @@
 ---
-tags:
-  - country
 uid: kFtF
 ---
 Highly skilled foreigners can be useful. -- The flow of brains across borders becomes an ever more important way for new ideas to spread.

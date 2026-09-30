@@ -1,6 +1,5 @@
 ---
 created: 2025-02-22 08:02
-tags:
 uid: An97
 ---
 One of the great tragedies of history is that geniuses are separated by time and cannot have a meaningful converation with each other

@@ -1,7 +1,5 @@
 ---
 created: 2024-12-09
-tags:
-  - delay
 uid: hRgA
 ---
 [[Thinking in Systems -- A Primer]]:

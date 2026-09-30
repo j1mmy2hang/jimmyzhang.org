@@ -1,9 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - art
-  - portal
-  - world
 uid: Q6u4
 ---
 Art allows us to access something greater than out life. 

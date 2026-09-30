@@ -1,7 +1,5 @@
 ---
 created: 2025-04-21
-tags:
-  - wisdom
 uid: 43Ck
 ---
 Far transfer -- The ability to apply knowledge to and know what to do in whatever context you encounter

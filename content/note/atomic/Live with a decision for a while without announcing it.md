@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:29
-tags:
 uid: wMNP
 ---
 I make major decisions and then sleep on them before telling anyone

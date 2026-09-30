@@ -1,10 +1,6 @@
 ---
 event: "[[UWC Short Course Vietnam -- Doing Good]]"
 credit: Kurt Kahn
-tags:
-  - future
-  - education
-  - adaptation
 uid: NXRO
 ---
 我们没法预知或构建未来

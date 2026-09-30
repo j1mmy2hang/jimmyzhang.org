@@ -1,7 +1,4 @@
 ---
-tags:
-  - intellectual
-  - reality
 uid: cqK6
 ---
 Scientists, philosophers, etc.

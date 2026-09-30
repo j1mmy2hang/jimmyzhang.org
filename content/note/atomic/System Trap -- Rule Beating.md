@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 uid: GUxr
 ---
 Trap: Rule Beating -- abiding by the letter but not the spirit of the law.

@@ -1,7 +1,5 @@
 ---
 type: topic
-tags:
-  - visual
 uid: XfDE
 ---
 ## Why

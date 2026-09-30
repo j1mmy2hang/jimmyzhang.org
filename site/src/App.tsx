@@ -105,9 +105,10 @@ export default function App() {
         <Route path="/newsletter/dashboard" element={<NewsletterDashboard />} />
         <Route path="/newsletter/:slug" element={<NewsletterPost />} />
         <Route
-          path="/hello-world"
-          element={<MarkdownPage path="/hello-world.md" section="" />}
+          path="/readme"
+          element={<MarkdownPage path="/readme.md" section="" />}
         />
+        <Route path="/hello-world" element={<Navigate to="/readme" replace />} />
       </Routes>
       <ThemeToggle />
       <DappledLight />

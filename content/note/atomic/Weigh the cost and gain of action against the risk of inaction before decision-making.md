@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effort
-  - decision-making
-  - risk
 uid: MuhG
 ---
 “Is a decision really necessary?”

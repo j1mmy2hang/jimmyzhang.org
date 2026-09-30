@@ -1,8 +1,5 @@
 ---
 created: 2025-03-02 10:52
-tags:
-  - information
-  - rule
 uid: gf2i
 ---
 Among humans, the precondition for cooperation isn’t similarity; it is the ability to exchange information.

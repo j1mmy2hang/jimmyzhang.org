@@ -1,7 +1,4 @@
 ---
-tags:
-  - belief
-  - you
 uid: 6AXE
 ---
 Even if you are not, you will gradually become what you **believe** yourself to be.

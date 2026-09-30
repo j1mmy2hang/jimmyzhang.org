@@ -1,7 +1,5 @@
 ---
 web: http://abtframework.com/
-tags:
-  - story
 uid: K6Rk
 ---
 Anyone can carry on and on about "this AND this AND this AND this" (AAA structure).  

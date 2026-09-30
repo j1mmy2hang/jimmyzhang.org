@@ -1,7 +1,4 @@
 ---
-tags:
-  - tech
-  - humans
 uid: sl4Q
 ---
 [[Men use tools instead off being used]]

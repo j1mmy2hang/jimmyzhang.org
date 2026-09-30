@@ -1,7 +1,4 @@
 ---
-tags:
-  - meaning
-  - you
 uid: mjkm
 ---
 你才是你人生的主宰

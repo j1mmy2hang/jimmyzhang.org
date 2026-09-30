@@ -1,9 +1,5 @@
 ---
 created: 2024-09-05
-tags:
-  - china
-  - utilitarianism
-  - majority
 uid: yv2C
 ---
 An utilitarian rule of the majority

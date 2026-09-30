@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - feedback
-  - decision-making
-  - reality
 uid: gCfc
 ---
 to provide a continuous testing against actual events of the expectations that underlie the decision. 

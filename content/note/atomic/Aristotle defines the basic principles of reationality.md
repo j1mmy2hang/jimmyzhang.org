@@ -1,8 +1,4 @@
 ---
-tags:
-  - Aristotle
-  - pinciple
-  - rationality
 uid: 9Ni8
 ---
 There is an objective reality. 

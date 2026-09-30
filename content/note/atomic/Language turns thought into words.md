@@ -1,7 +1,4 @@
 ---
-tags:
-  - language
-  - thinking
 uid: D4ZM
 ---
 ![[Language -- from thought to words|600]]

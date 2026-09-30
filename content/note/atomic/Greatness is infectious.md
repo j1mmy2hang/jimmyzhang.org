@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - greatness
-  - infectious
 uid: 1AJT
 ---
 Greatness begets greatness. 

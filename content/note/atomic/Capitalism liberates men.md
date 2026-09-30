@@ -1,9 +1,4 @@
 ---
-tags:
-  - capitalism
-  - business
-  - intellectual
-  - liberation
 uid: HOV6
 ---
 from [[Attila & Witch Doctor -- Rule of Force & Faith]]

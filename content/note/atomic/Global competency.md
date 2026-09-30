@@ -1,6 +1,4 @@
 ---
-tags:
-  - education
 web: https://asiasociety.org/education/teaching-global-competence-rapidly-changing-world
 uid: pTyr
 ---

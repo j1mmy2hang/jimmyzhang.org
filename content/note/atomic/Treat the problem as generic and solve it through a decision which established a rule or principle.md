@@ -1,11 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - problem
-  - generic
-  - decision-making
-  - rule
-  - principle
 uid: zgdW
 ---
 [[Effective decisions should be strategic & made at the highest conceptual level of understanding]]

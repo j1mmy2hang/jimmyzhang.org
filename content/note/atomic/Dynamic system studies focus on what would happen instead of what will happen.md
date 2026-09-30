@@ -1,7 +1,5 @@
 ---
 created: 2024-12-09
-tags:
-  - system
 uid: oyYL
 ---
 > Dynamic systems studies usually are not designed to predict what will happen. Rather, they’re designed to explore what would happen, if a number of driving factors unfold in a range of different ways.

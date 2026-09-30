@@ -1,6 +1,4 @@
 ---
-tags:
-  - change
 uid: 1o5q
 ---
 要勇于做出改变

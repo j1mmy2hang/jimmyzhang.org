@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - art
-  - connection
 uid: dbxK
 ---
 [[Art is a mirror for the interpreter]]

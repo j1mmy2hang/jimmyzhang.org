@@ -1,7 +1,4 @@
 ---
-tags:
-  - belief
-  - reality
 uid: qQyP
 ---
 example 1:

@@ -1,8 +1,4 @@
 ---
-tags:
-  - world
-  - genius
-  - inclusivity
 uid: wqcX
 ---
 Being neurotypical becomes being normal. 

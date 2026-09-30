@@ -1,11 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - academia
-  - project
-  - management
-  - knowledge
-  - exploration
 uid: Z7ck
 ---
 将整个学术界看作一个人类面对世界探索的系统/项目 — 系统化

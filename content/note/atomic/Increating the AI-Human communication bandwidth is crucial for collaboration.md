@@ -1,11 +1,5 @@
 ---
 created: 2024-10-02
-tags:
-  - communication
-  - AI
-  - humans
-  - collaboration
-  - bandwidth
 uid: rOz2
 ---
 In order to improve AI-Human symbiosis, we have to increase the bandwidth of communication

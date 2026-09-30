@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - art
-  - circulation
 uid: DT3x
 ---
 > What makes them appear new is that they're combining differently each time they come back. No two clouds are the same.

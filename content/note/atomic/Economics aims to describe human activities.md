@@ -1,8 +1,5 @@
 ---
 created: 2024-09-09
-tags:
-  - economics
-  - humans
 uid: PZjc
 ---
 What makes the Economics significant is its focus on all **human activities**

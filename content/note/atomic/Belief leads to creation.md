@@ -1,7 +1,4 @@
 ---
-tags:
-  - belief
-  - creativity
 uid: muel
 ---
 Even if no one else believes it. 

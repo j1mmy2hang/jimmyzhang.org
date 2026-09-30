@@ -1,10 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - artist
-  - whole
-  - self
-  - expression
 uid: 4Gr1
 ---
 Artists are made whole through self-expression. 

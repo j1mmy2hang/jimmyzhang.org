@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effectiveness
-  - executive
-  - decision-making
 uid: vUai
 ---
 [[Effective decisions should be strategic & made at the highest conceptual level of understanding]] 

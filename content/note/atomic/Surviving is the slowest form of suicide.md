@@ -1,6 +1,4 @@
 ---
-tags:
-  - death
 uid: vLtC
 ---
 底层逻辑：向死而生

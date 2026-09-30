@@ -1,9 +1,5 @@
 ---
 created: 2024-11-16
-tags:
-  - education
-  - society
-  - school
 uid: RWWx
 ---
 [[人文通识教育的危机在于与世界割裂]]

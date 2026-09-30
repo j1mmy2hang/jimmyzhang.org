@@ -1,9 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - bureaucracy
-  - order
-  - reality
 uid: jaAd
 ---
 e.g. Ownership is still an intersubjective reality created by exchanging information, but the information now takes the form of a written document (or a computer file) rather than of people talking and gesturing to each other.

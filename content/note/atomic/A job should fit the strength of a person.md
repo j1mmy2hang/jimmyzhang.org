@@ -1,8 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - job
-  - strength
 uid: I4yJ
 ---
 Not a personal should fit the requirement of a job

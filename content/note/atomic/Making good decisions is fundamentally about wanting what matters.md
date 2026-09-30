@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:34
-tags:
 uid: zYTN
 ---
 Good decision-making comes down to two things:

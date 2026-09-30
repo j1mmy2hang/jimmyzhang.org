@@ -1,6 +1,4 @@
 ---
-tags:
-  - impact
 uid: bpln
 ---
 The impact that one can make themself is always limited. 

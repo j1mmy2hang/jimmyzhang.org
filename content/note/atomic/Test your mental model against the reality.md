@@ -1,6 +1,5 @@
 ---
 created: 2024-12-18
-tags:
 reference:
   - "[[Thinking in Systems -- A Primer]]"
 uid: 57D1

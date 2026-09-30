@@ -1,9 +1,4 @@
 ---
-tags:
-  - action
-  - plan
-  - management
-  - time
 topic: "[[Steps to become an effective executive]]"
 uid: kg0E
 ---

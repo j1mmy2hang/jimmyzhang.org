@@ -10,69 +10,15 @@
 }
 
 .home-wrap {
-  width: min-content;
+  width: max-content;
+  max-width: 100%;
 }
 
-/* --- home-help-link: quiet annotation above home-inner --- */
-
-.home-help-link {
-  display: block;
-  margin-bottom: 14rem;
-  font-size: var(--font-even-smaller);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
-  color: var(--tx-3);
-  opacity: 0;
-  transition: opacity 2s ease, color 150ms ease;
-}
-
-.home.phase-1 .home-help-link,
-.home.phase-2 .home-help-link {
-  opacity: 1;
-}
-
-.home-help-link:hover {
-  color: var(--tx-2);
-}
-
-/* --- home-inner: fade in at center --- */
+/* --- home-inner --- */
 
 .home-inner {
   display: flex;
   flex-direction: column;
-  opacity: 0;
-  transition: opacity 2s ease;
-}
-
-.home.phase-1 .home-inner,
-.home.phase-2 .home-inner {
-  opacity: 1;
-}
-
-/* --- home-secondary: slide up from bottom --- */
-
-.home-secondary {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 100%;
-  max-height: 0;
-  margin-top: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(50vh);
-  transition: max-height 2.2s cubic-bezier(0.16, 1, 0.3, 1),
-    margin-top 2.2s cubic-bezier(0.16, 1, 0.3, 1),
-    opacity 1.6s ease,
-    transform 2.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.home.phase-2 .home-secondary {
-  max-height: 40rem;
-  margin-top: 14rem;
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .home-main {
@@ -83,12 +29,11 @@
   gap: 4rem;
 }
 
+/* Heading styled like a nav link; links to /hello-world */
 .home-name {
-  font-family: 'Libre Bodoni', Georgia, 'Times New Roman', serif;
-  font-weight: 400;
+  font-weight: inherit;
   font-size: inherit;
   margin: 0;
-  letter-spacing: 0.005em;
 }
 
 .home-nav {
@@ -97,10 +42,12 @@
   gap: 0.64rem;
 }
 
+/* Wraps on narrow screens, so trailing entries drop to the next line */
 .home-nav-row {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(6ch, auto));
+  display: flex;
+  flex-wrap: wrap;
   column-gap: 4rem;
+  row-gap: 0.64rem;
 }
 
 .home-nav-link {
@@ -113,25 +60,8 @@
 }
 
 
-/* --- skip intro on return navigation --- */
-
-.home.no-intro .home-inner,
-.home.no-intro .home-secondary {
-  transition: none;
-}
-
 @media (max-width: 560px) {
   .home-nav-row {
     column-gap: 2.4rem;
-  }
-}
-
-@media (max-height: 800px) {
-  .home-help-link {
-    margin-bottom: 10rem;
-  }
-
-  .home.phase-2 .home-secondary {
-    margin-top: 10rem;
   }
 }

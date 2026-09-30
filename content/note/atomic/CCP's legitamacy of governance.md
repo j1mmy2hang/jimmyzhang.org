@@ -1,9 +1,5 @@
 ---
 created: 2024-09-05
-tags:
-  - legitimacy
-  - CCP
-  - governance
 uid: itEl
 ---
 1. Economic growth

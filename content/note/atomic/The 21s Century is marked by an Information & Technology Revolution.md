@@ -1,10 +1,5 @@
 ---
 created: 2024-10-20
-tags:
-  - era
-  - information
-  - tech
-  - revolution
 weight: 4
 uid: dWcq
 ---

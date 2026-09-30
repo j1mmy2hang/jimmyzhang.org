@@ -1,7 +1,4 @@
 ---
-tags:
-  - AI
-  - brain
 uid: Y9Tt
 ---
 As better AI models are created, light might be shed on how the brain's neural networks do the same.

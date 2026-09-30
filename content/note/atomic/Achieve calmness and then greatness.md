@@ -1,8 +1,4 @@
 ---
-tags:
-  - greatness
-  - calmness
-  - myself
 uid: JoWl
 ---
 闷声干大事？

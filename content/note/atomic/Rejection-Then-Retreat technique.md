@@ -1,8 +1,4 @@
 ---
-tags:
-  - rejection
-  - retreat
-  - technique
 uid: b0oU
 ---
 A person might make an extreme request, know you'll reject it, and then fall back to a smaller request. You think they're doing you a favor by conceding, so you feel compelled to accept the new offer.

@@ -1,8 +1,4 @@
 ---
-tags:
-  - enlightenment
-  - empowerment
-  - liberation
 uid: QOPB
 ---
 1. [[You have more choices than you realize]]

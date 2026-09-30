@@ -1,9 +1,4 @@
 ---
-tags:
-  - truth
-  - fact
-  - fallacy
-  - repetition
 uid: gBVq
 ---
 ![[Facts & fallacies.svg]]

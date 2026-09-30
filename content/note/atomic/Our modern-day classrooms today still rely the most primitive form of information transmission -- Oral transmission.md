@@ -1,9 +1,5 @@
 ---
 created: 2024-11-11
-tags:
-  - education
-  - information
-  - communication
 uid: pVjM
 ---
 看看现在人类的课堂 -- 人类传递知识的方式

@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - commitment
-  - contribution
-  - responsibility
-  - effectiveness
 uid: AaFh
 ---
 To focus on contribution is to focus on effectiveness 

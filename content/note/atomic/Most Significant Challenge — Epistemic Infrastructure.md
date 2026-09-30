@@ -1,10 +1,5 @@
 ---
 created: 2025-09-25
-tags:
-  - challenge
-  - contrarian
-  - epistemic
-  - CKM
 uid: Cm4E
 ---
 

@@ -1,7 +1,5 @@
 ---
 created: 2024-12-19
-tags:
-  - desperation
 credit: Thoreau
 uid: MFYz
 ---

@@ -1,9 +1,4 @@
 ---
-tags:
-  - mind
-  - wakeup
-  - body
-  - control
 uid: VfxH
 ---
 Don't do anything yet before you are fully in control. Otherwise you may do some stupid shit and set your day on the wrong path. 

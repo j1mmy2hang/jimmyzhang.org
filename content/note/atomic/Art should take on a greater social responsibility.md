@@ -1,9 +1,5 @@
 ---
 created: 2024-09-16
-tags:
-  - art
-  - social
-  - responsibility
 parent: "[[关于娱乐文化和高级艺术的讨论]]"
 uid: shtv
 ---

@@ -1,8 +1,5 @@
 ---
 parent: "[[Attila & Witch Doctor -- Rule of Force & Faith]]"
-tags:
-  - faith
-  - conquer
 uid: k8sI
 ---
 - dreads physical reality & the necessity of practical action

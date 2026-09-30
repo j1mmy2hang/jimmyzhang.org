@@ -1,10 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - artist
-  - rule
-  - convention
-  - greatness
 uid: qn1a
 ---
 Great artists transcend traditional conventions and rules

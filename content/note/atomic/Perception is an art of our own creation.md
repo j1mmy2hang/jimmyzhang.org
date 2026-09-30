@@ -1,9 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - perception
-  - art
-  - creativity
 uid: j3N4
 ---
 We recreate an inner perceptive world based on the outer ohyscial world. 

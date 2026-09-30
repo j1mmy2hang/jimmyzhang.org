@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 08:51
-tags:
 uid: xnB3
 ---
 The first step to building any of your strengths is raising the standards to which you hold yourself -- commit to high standards

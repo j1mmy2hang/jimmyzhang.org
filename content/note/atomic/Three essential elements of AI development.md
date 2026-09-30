@@ -1,7 +1,5 @@
 ---
 created: 2025-02-19 11:09
-tags:
-  - AI
 uid: 0mkd
 ---
 1. **ALGORITHM**: the study of perceptual algorithm -- how living creatures make "sense" of the world around us

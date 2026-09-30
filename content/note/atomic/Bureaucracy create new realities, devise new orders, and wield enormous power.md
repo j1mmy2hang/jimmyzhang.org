@@ -1,10 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - bureaucracy
-  - reality
-  - order
-  - power
 uid: oJET
 ---
 

@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - art
-  - division
-  - audience
 uid: VhDv
 ---
 不可能让所有人都喜欢。

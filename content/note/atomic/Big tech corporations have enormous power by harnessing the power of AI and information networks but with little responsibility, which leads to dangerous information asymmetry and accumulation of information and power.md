@@ -1,10 +1,5 @@
 ---
 created: 2025-01-25
-tags:
-  - tech
-  - power
-  - information
-  - responsibility
 uid: kZ2V
 ---
 Tech giants like Facebook, Amazon, Baidu, and Alibaba aren’t just the obedient servants of customer whims and government regulations. They increasingly shape these whims and regulations. The tech giants have a direct line to the world’s most powerful governments

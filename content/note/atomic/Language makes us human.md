@@ -1,7 +1,4 @@
 ---
-tags:
-  - language
-  - humans
 uid: 3S82
 ---
 ![[Language & human|600]]

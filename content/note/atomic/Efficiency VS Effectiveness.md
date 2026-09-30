@@ -1,7 +1,4 @@
 ---
-tags:
-  - effectiveness
-  - efficiency
 uid: ljqI
 ---
 

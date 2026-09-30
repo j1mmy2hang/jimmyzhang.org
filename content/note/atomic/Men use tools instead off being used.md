@@ -1,9 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - humans
-  - tool
-  - usage
 uid: t7pM
 ---
 ## Most knowledge / service jobs

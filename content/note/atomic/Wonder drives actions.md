@@ -1,8 +1,5 @@
 ---
 created: 2024-10-20
-tags:
-  - action
-  - knowledge
 web: https://www.susted.com/wordpress/content/shelburne-farms-sustainable-schools-project-education-for-sustainability-efs_2014_06/
 uid: 51pc
 ---

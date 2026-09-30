@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - creativity
-  - source
 uid: j0CS
 ---
 > This content does not come from inside us. The Source is out there. A wisdom surrounding us, an inexhaustible offering that is always available.

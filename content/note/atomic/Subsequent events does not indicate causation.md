@@ -1,6 +1,4 @@
 ---
-tags:
-  - causation
 uid: 1qRk
 ---
 The post hoc fallacy: *post hoc, ergo propter hoc* -- after this, therefore because of this

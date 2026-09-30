@@ -1,11 +1,5 @@
 ---
 created: 2024-09-05
-tags:
-  - china
-  - us
-  - power
-  - ambition
-  - incompatible
 uid: Pref
 ---
 China & American are two giant powers with mutually incompatible ambitions

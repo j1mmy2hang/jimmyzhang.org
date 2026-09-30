@@ -1,7 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - strength
 uid: TCLI
 ---
 The effective executive makes strength productive. 

@@ -1,7 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - problem
 uid: qKlE
 ---
 > Managers are not confronted with problems that are independent of each other, but with dynamic situations that consist of complex systems of changing problems that interact with each other. I call such situations messes. ... Managers do not solve problems, they manage messes.

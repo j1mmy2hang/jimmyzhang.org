@@ -1,8 +1,4 @@
 ---
-tags:
-  - success
-  - freedom
-  - failure
 uid: 5mqK
 ---
 [[自由是创造的土壤]]

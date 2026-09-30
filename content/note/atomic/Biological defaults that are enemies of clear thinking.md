@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 08:16
-tags:
 uid: dPU6
 ---
 1. The emotion default: we tend to respond to feelings rather than reasons and facts.

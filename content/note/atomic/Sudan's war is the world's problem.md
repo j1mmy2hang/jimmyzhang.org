@@ -1,9 +1,5 @@
 ---
 created: 2024-09-01
-tags:
-  - war
-  - world
-  - Sudan
 uid: Z8Tc
 ---
 ## Cause

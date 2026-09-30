@@ -1,7 +1,4 @@
 ---
-tags:
-  - wisdom
-  - ingorance
 uid: dip4
 ---
 以旁观者的视角俯瞰复杂的局面，观察他人的行为和意图

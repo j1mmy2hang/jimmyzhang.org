@@ -1,7 +1,4 @@
 ---
-tags:
-  - decision-making
-  - organization
 topic: "[[Steps to become an effective executive]]"
 uid: O92K
 ---

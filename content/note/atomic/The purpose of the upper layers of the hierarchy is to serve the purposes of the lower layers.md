@@ -1,6 +1,5 @@
 ---
 created: 2024-12-11
-tags:
 uid: ZweL
 ---
 [[Hierarchical systems evolve from the bottom up]]

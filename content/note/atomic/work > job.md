@@ -1,7 +1,4 @@
 ---
-tags:
-  - job
-  - work
 uid: e1Mb
 ---
 Work is broader than and included job in the sense that job is any kind of sustained or purposeful activity meant to fulfill wants & needs, create value, or align with goals. 

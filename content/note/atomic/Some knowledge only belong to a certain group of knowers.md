@@ -1,8 +1,5 @@
 ---
 created: 2024-09-25
-tags:
-  - knowledge
-  - group
 uid: dCT3
 ---
 "专业知识" vs public knowledge

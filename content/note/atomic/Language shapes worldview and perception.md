@@ -1,9 +1,5 @@
 ---
 created: 2024-12-18
-tags:
-  - language
-  - narrative
-  - reality
 uid: tGU0
 ---
 by creating meaning, understanding, and reality

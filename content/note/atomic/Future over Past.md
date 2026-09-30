@@ -1,8 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - future
-  - past
 uid: caUS
 ---
 Today's resources should always be committed to the future 

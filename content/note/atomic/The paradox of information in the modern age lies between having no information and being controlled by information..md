@@ -1,8 +1,4 @@
 ---
-tags:
-  - paradox
-  - information
-  - manipulation
 uid: nCC6
 ---
 [[Information is manipulation]]

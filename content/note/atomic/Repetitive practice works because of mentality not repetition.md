@@ -1,8 +1,4 @@
 ---
-tags:
-  - repetition
-  - mentality
-  - improvement
 uid: BVoN
 ---
 During practice, you remember your successes, your good qualities and characteristics, and forget your failures.

@@ -1,9 +1,5 @@
 ---
 created: 2025-02-19 16:16
-tags:
-  - AI
-  - intelligence
-  - humans
 uid: cZfq
 ---
 ![[image-oTp1.jpg|497]]

@@ -1,6 +1,4 @@
 ---
-tags:
-  - purpose
 uid: KAH5
 ---
 从小到大我们一直在为万事万物寻找道理、寻找意义寻找一个存在的目的 (sense-making)

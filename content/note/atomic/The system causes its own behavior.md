@@ -1,8 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - system
-  - behavior
 uid: xprn
 ---
 [[System structure is the source of system behavior]]

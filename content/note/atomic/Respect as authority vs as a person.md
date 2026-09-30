@@ -1,8 +1,4 @@
 ---
-tags:
-  - respect
-  - authority
-  - individual
 uid: zYt0
 ---
 respect =

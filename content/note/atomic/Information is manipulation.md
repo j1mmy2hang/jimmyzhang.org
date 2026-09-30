@@ -1,7 +1,4 @@
 ---
-tags:
-  - information
-  - manipulation
 uid: 2YzU
 ---
 Where there is information, there is manipulation --> is this inevitable at all?

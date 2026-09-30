@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - success
-  - self
-  - define
 uid: uMHp
 ---
 Success occurs in the privacy of the soul.

@@ -1,8 +1,5 @@
 ---
 created: 2024-09-08
-tags:
-  - distraction
-  - creativity
 uid: aGYM
 ---
 Holding a problem to be solved **lightly in the back of our consciousness** instead of the front of our mind. 

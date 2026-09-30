@@ -1,8 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - zettelkasten
-  - unit
 uid: vjHI
 ---
 Atomic notes -- undividable

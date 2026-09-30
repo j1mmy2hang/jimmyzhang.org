@@ -1,9 +1,4 @@
 ---
-tags:
-  - time
-  - object
-  - measure
-  - value
 uid: rltf
 ---
 不仅仅是几年之后这个物品能否保持现在的==物理形态==

@@ -1,6 +1,4 @@
 ---
-tags:
-  - education
 uid: p7ri
 ---
 physical & mental poorness

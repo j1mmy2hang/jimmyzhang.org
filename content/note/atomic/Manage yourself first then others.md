@@ -1,6 +1,4 @@
 ---
-tags:
-  - management
 uid: TNwu
 ---
 “先管好自己”

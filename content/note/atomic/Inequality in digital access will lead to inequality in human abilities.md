@@ -1,9 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - inequality
-  - access
-  - ability
 uid: 44id
 ---
 [[Those humans who encorporate the ability of technologies into their abilities will gain advantage over those who don't]]

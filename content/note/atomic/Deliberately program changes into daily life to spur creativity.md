@@ -1,7 +1,4 @@
 ---
-tags:
-  - change
-  - creativity
 uid: DPHD
 ---
 list routines & habits --> replace by changes & new tries

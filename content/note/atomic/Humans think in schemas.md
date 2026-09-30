@@ -1,7 +1,4 @@
 ---
-tags:
-  - humans
-  - thinking
 uid: heN5
 ---
 - schema = cognitive framework

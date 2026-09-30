@@ -1,8 +1,5 @@
 ---
 created: 2024-12-18
-tags:
-  - responsibility
-  - system
 uid: DyH0
 ---
 For individuals: [[Recognizing our role is systems is crucial for ethical decision-making]]

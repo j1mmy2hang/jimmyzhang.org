@@ -1,6 +1,4 @@
 ---
-tags:
-  - allocation
 topic: "[[Steps to become an effective executive]]"
 uid: ioHu
 ---

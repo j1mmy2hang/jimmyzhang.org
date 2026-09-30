@@ -1,8 +1,5 @@
 ---
 created: 2024-10-23
-tags:
-  - knowledge
-  - change
 uid: mMcu
 ---
 知识变化得如此之快，今天还是确定无疑的事，明天就变得荒谬无比

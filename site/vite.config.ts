@@ -33,12 +33,14 @@ function noteIndexPlugin(): Plugin {
     },
     configureServer(server) {
       for (const d of watchedSections) server.watcher.add(d);
-      server.watcher.on('change', async (p) => {
+      const onMdEvent = async (p: string) => {
         if (!p.endsWith('.md')) return;
         if (!watchedSections.some((d) => p.startsWith(d))) return;
         await run();
         server.ws.send({ type: 'full-reload' });
-      });
+      };
+      // New and deleted notes must regenerate indexes too, not just edits.
+      for (const ev of ['change', 'add', 'unlink'] as const) server.watcher.on(ev, onMdEvent);
     },
   };
 }

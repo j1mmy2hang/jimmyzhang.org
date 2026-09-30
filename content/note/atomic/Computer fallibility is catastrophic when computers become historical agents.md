@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 10:25
-tags:
 reference:
   - "[[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]"
 uid: VdR5

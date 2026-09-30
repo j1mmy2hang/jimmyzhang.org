@@ -1,7 +1,4 @@
 ---
-tags:
-  - hierarchy
-  - structure
 uid: eLZ9
 ---
 The structure of the author doesn't matter much to the reader

@@ -1,10 +1,5 @@
 ---
 created: 2024-09-05
-tags:
-  - china
-  - world
-  - rise
-  - division
 uid: fO7r
 ---
 Should the world admire or fear China's model of governance?

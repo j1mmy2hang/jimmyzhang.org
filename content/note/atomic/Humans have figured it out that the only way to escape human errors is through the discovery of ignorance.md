@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 08:56
-tags:
 uid: P9qP
 ---
 How to escape human error?

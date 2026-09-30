@@ -1,7 +1,4 @@
 ---
-tags:
-  - manipulation
-  - humans
 uid: 8Sez
 ---
 The Chess-Pieces Fallacy: 

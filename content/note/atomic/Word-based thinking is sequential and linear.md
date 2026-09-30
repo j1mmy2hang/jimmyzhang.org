@@ -1,8 +1,4 @@
 ---
-tags:
-  - world
-  - linear
-  - thinking
 uid: yyjW
 ---
 Words make senences; sentences makes paragraphs; paragraphs make sections; sections make a chapter; chatpers make a book. 

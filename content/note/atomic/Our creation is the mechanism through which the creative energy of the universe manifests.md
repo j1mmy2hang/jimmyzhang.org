@@ -1,10 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - universe
-  - energy
-  - mechanism
-  - creativity
 uid: fwE7
 ---
 We are all translators for messages the universe is broadcasting.

@@ -1,8 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - universe
-  - creativity
 uid: 7N12
 ---
 To pick up the signals & transmissions of the universe

@@ -1,7 +1,4 @@
 ---
-tags:
-  - education
-  - world
 topic: "[[Global competency]]"
 uid: D8lE
 ---

@@ -1,6 +1,5 @@
 ---
 created: 2024-12-07
-tags:
 uid: txBH
 ---
 What makes the idea of UWCTV, i.e. MIN and KCN, so successful and popular?

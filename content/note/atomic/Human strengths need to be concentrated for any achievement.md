@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - humans
-  - strength
-  - focus
-  - achievement
 uid: IH0Z
 ---
 Mankind is indeed capable of doing an amazingly wide diversity of things. 

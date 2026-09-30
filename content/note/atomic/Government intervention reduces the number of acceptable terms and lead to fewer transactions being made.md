@@ -1,9 +1,5 @@
 ---
 type: literature note
-tags:
-  - government
-  - intervention
-  - transaction
 uid: kMkD
 ---
 ![[Transactions & government intervention.svg]]

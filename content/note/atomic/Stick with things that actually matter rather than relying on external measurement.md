@@ -1,8 +1,5 @@
 ---
 created: 2024-09-16
-tags:
-  - external
-  - measure
 uid: HfUs
 ---
 College application

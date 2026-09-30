@@ -1,10 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - effectiveness
-  - organization
-  - society
-  - development
 uid: 3t2f
 ---
 Modern society depends for its functioning, if not for its survival, on the effectiveness of large-scale organizations, on their performance and results, on their values, standards, and self-demands.

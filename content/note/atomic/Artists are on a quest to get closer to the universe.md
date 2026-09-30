@@ -1,8 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - artist
-  - universe
 uid: BwLu
 ---
 [[Art is a portal to the unseen world]]

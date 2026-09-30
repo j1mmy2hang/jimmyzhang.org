@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 09:03
-tags:
 uid: 5mm5
 ---
 [[AI -- from tool to agent]]

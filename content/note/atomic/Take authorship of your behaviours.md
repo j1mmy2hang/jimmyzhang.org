@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 08:49
-tags:
 uid: ip8i
 ---
 means believing in 

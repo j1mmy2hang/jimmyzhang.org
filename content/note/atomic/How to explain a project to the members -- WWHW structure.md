@@ -1,9 +1,5 @@
 ---
 created: 2024-09-23
-tags:
-  - group
-  - project
-  - management
 uid: SXIk
 ---
 ## What -- Why -- How -- What

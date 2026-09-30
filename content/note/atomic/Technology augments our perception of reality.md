@@ -1,7 +1,4 @@
 ---
-tags:
-  - tech
-  - reality
 uid: UBCe
 ---
 By presenting us with more and more informaiton that we would not noramlly ahve access to

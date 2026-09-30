@@ -1,8 +1,5 @@
 ---
 created: 2024-11-16
-tags:
-  - power
-  - time
 uid: MNig
 ---
 [[思想塑造世界]]

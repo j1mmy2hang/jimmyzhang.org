@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 19:48
-tags:
 uid: 9HAC
 ---
 College Admissions is less about an assessment of you than about fitting into a colelge's agenda. 

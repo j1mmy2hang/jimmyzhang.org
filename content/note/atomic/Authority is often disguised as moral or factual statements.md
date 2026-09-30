@@ -1,10 +1,5 @@
 ---
 created: 2024-09-23
-tags:
-  - authority
-  - moral
-  - fact
-  - disguise
 uid: kJKT
 ---
 Rather than being acknowledged as a use of power.

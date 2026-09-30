@@ -1,9 +1,5 @@
 ---
 created: 2024-10-21
-tags:
-  - knowledge
-  - social
-  - question
 uid: KK5s
 ---
 The knowledge worker, as has been said again and again in this book, is rapidly becoming the major resource of the developed countries.

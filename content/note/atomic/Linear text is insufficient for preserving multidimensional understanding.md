@@ -1,7 +1,4 @@
 ---
-tags:
-  - linear
-  - efficiency
 uid: FxML
 ---
 ![[Linear Coding and Decoding|1500]]

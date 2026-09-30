@@ -1,9 +1,5 @@
 ---
-tags:
-  - system
-  - reason
 uid: ZI2f
-
 ---
 万事万物必有它的成因
 

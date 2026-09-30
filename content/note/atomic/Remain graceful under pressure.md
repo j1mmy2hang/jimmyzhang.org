@@ -1,8 +1,5 @@
 ---
 created: 2024-08-31
-tags:
-  - gracefulness
-  - reaction
 uid: lCfn
 ---
 任何情况下保持优雅与淡定

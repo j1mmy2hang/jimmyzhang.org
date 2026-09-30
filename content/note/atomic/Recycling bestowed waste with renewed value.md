@@ -1,7 +1,4 @@
 ---
-tags:
-  - recycle
-  - value
 uid: sVuV
 ---
 回收能够重新赋予废物独特的价值

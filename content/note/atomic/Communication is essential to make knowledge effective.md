@@ -1,9 +1,5 @@
 ---
 created: 2024-10-11
-tags:
-  - communication
-  - knowledge
-  - effectiveness
 uid: enI2
 ---
 自己有知识没用 --> 要让别人知道并一起实践才能让知识发挥效用

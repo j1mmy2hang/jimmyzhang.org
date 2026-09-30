@@ -1,6 +1,5 @@
 ---
 created: 2025-01-25
-tags:
 uid: pSMr
 ---
 [[Nexus -- A Brief History of Information Networks From the Stone Age to AI]]

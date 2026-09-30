@@ -1,10 +1,4 @@
 ---
-tags:
-  - measure
-  - meaning
-  - people
-  - role
-  - development
 uid: wHEw
 ---
 “升级版 employment rate“ -- *meaningful / true* employment rate

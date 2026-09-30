@@ -1,9 +1,5 @@
 ---
 created: 2024-11-16
-tags:
-  - mindset
-  - attention
-  - reality
 uid: 4arq
 ---
 We see (reality) what we see (our mindset and attention)

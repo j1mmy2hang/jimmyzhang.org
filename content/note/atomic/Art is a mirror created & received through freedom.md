@@ -1,9 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - art
-  - mirror
-  - freedom
 uid: EmDL
 ---
 [[Art is self-expression]]

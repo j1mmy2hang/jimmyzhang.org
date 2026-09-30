@@ -1,10 +1,5 @@
 ---
 created: 2024-10-25
-tags:
-  - intellectual
-  - knowledge
-  - united
-  - vision
 uid: J9RD
 ---
 [[Intellectuals don't understand the responsibility they bear]]

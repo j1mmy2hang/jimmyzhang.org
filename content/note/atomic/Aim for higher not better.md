@@ -1,9 +1,5 @@
 ---
 created: 2024-09-23
-tags:
-  - aim
-  - high
-  - efficiency
 uid: kw1E
 ---
 not better, not faster -- but higher

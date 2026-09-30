@@ -1,8 +1,4 @@
 ---
-tags:
-  - growth
-  - information
-  - learning
 uid: f5nO
 ---
 ![[From information to growth -- Learning Model A.svg]]

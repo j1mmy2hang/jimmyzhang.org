@@ -1,7 +1,4 @@
 ---
-tags:
-  - responsibility
-  - myself
 credit: Ms Nga
 uid: zMSR
 ---

@@ -1,8 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - system
-  - element
 uid: 3kxU
 ---
 A system must consist of three kinds of things:

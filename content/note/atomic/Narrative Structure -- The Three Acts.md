@@ -1,6 +1,5 @@
 ---
 created: 2025-01-11
-tags:
 uid: Y92E
 ---
 Hook --> Inciting event --> First Plot Point (No turning back) --> First pinch point --> Midpoint (moment of truth; change in perspective) --> Second pinch point --> Third Plot Point (death rebirth; false victory) --> Climax --> Resolution

@@ -1,9 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - humans
-  - universe
-  - connection
 uid: 91XK
 ---
 > The closer we can get to the natural world, the sooner we start to realize we are not separate. And that when we create, we are not just expressing our unique individuality, but our seamless connection to an infinite oneness."

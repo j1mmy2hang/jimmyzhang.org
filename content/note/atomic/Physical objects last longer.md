@@ -1,6 +1,4 @@
 ---
-tags:
-  - object
 uid: FAsQ
 ---
 physical objects may seem fragile compared to digital ones.

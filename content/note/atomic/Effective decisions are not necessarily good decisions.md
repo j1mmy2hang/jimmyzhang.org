@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 20:40
-tags:
 uid: HwA5
 ---
 Effective decisions get you the first outcome, while good ones get you the ultimate outcome.

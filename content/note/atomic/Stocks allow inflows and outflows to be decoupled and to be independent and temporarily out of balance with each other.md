@@ -1,9 +1,5 @@
 ---
 created: 2024-11-30
-tags:
-  - stock
-  - flow
-  - independence
 uid: zgHZ
 ---
 Stocks act as delays, buffers, or shock absorbers in systems

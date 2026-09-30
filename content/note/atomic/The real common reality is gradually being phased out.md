@@ -1,6 +1,4 @@
 ---
-tags:
-  - reality
 created: 2025-01-07
 uid: byM1
 ---

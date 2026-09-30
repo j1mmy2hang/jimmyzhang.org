@@ -1,8 +1,5 @@
 ---
 created: 2024-10-09
-tags:
-  - peace
-  - conflict
 uid: Q6BG
 ---
 How can we create peace without talking about conflicts?

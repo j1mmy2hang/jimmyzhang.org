@@ -1,8 +1,5 @@
 ---
 created: 2025-01-08
-tags:
-  - story
-  - conflict
 uid: iJN4
 ---
 from "not getting something" to "getting something"

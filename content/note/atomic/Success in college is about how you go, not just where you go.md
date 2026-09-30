@@ -1,6 +1,5 @@
 ---
 created: 2025-03-05 20:23
-tags:
 uid: xu4B
 ---
 Northeastern—like any college for any student—would only turn out to be as good as she made it.

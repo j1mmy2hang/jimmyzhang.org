@@ -1,10 +1,5 @@
 ---
 created: 2025-02-19 16:09
-tags:
-  - AI
-  - intelligence
-  - language
-  - agency
 credit: 李飞飞
 uid: XE2w
 ---

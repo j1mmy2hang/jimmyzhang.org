@@ -1,8 +1,4 @@
 ---
-tags:
-  - tech
-  - school
-  - education
 uid: M7iM
 ---
 Our classroom hasn't changed for centuries -- physically looking. 

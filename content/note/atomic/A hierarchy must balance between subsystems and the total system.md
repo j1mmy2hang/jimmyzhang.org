@@ -1,9 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - hierarchy
-  - balance
-  - system
 uid: C2qk
 ---
 Challenges faced by hierarchies

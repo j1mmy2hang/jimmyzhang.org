@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 08:44
-tags:
 uid: EDKq
 ---
 [[A story can be way more powerful than the entity itself]]

@@ -1,7 +1,4 @@
 ---
-tags:
-  - change
-  - local
 uid: bNxZ
 ---
 真正的变革只能是自下而上的

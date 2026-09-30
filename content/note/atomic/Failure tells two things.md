@@ -1,6 +1,5 @@
 ---
 created: 2025-02-24 12:18
-tags:
 uid: 7mo0
 ---
 failing to achieve desire result means two things:

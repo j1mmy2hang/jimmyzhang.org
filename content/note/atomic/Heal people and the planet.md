@@ -1,7 +1,4 @@
 ---
-tags:
-  - world
-  - healing
 uid: UKSe
 ---
 Will Shan's personal mission statement: 

@@ -1,7 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - principle
 uid: PzT1
 ---
 Out of simple rules of self-organization can grow enormous, diversifying crystals of technology, physical structures, organizations, and cultures.

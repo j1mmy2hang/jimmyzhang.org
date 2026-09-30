@@ -1,7 +1,4 @@
 ---
-tags:
-  - learning
-  - people
 uid: wFtp
 ---
 No mentor / role model is perfect. 

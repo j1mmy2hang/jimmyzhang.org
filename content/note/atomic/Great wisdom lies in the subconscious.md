@@ -1,9 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - sleep
-  - wisdom
-  - transition
 uid: T9ot
 ---
 Great wisdom lies in transitional realms between wakfulness and sleep

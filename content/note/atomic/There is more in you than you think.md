@@ -1,8 +1,5 @@
 ---
 credit: Kurt Kahn
-tags:
-  - potential
-  - you
 weight: 4
 uid: Ciyw
 ---

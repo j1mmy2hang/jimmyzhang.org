@@ -1,9 +1,5 @@
 ---
 created: 2024-12-11
-tags:
-  - system
-  - flow
-  - information
 uid: Mao1
 ---
 [[Thinking in Systems -- A Primer]] --

@@ -1,6 +1,5 @@
 ---
 created: 2025-01-06
-tags:
 uid: EEKt
 ---
 -- **Steve Wozniak**

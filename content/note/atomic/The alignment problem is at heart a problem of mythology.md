@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 10:29
-tags:
 uid: bSi6
 ---
 inter-computer realities can influence realitites outside computers

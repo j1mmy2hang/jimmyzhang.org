@@ -1,7 +1,4 @@
 ---
-tags:
-  - government
-  - intervention
 uid: WJn9
 ---
 ![[image-sLKM.png]]

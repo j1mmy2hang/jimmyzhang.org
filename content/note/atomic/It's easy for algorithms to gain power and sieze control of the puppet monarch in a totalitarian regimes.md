@@ -1,6 +1,5 @@
 ---
 created: 2025-03-02 10:45
-tags:
 uid: gQ36
 ---
 In the long term, totalitarian regimes are likely to face an even bigger danger: instead of criticizing them, an algorithm might gain control of them.

@@ -1,7 +1,5 @@
 ---
 created: 2024-08-24
-tags:
-  - open
 uid: cpKE
 ---
 Sometimes disengaging is the best way to engage.

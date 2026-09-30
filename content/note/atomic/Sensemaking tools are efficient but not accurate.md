@@ -1,10 +1,5 @@
 ---
 created: 2024-09-22
-tags:
-  - sense-making
-  - tool
-  - efficiency
-  - accuracy
 uid: sOCe
 ---
 [[Humans try to make sense of this world]]

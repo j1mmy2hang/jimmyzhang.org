@@ -1,9 +1,5 @@
 ---
 created: 2024-10-13
-tags:
-  - responsibility
-  - ethics
-  - decision-making
 uid: Dg34
 ---
 [[Ethical and responsible decisions must be informed decisions]]
