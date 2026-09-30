@@ -1,5 +1,5 @@
 ---
-title: readme.md
+title: jimmyzhang.md
 ---
 Hi. I am Jimmy Zhang. 
 I am currently a student at University of Michigan, Ann Arbor. 
