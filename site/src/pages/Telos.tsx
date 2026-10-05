@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
 import SubscribeForm from '../components/SubscribeForm';
 import { useMarkdown } from '../hooks/useMarkdown';
@@ -24,17 +23,6 @@ export default function Telos() {
         </div>
       </article>
 
-      <nav className="page-deeper" aria-label="deeper">
-        <Link to="/telos/key-beliefs" className="page-deeper-link">
-          /telos/key-beliefs
-        </Link>
-        <Link to="/telos/measure-of-vitality" className="page-deeper-link">
-          /telos/measure-of-vitality
-        </Link>
-        <Link to="/telos/academic-inquiry" className="page-deeper-link">
-          /telos/academic-inquiry
-        </Link>
-      </nav>
       <SubscribeForm />
     </main>
   );
