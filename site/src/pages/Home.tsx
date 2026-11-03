@@ -12,7 +12,7 @@ export default function Home() {
         <div className="home-inner">
           <div className="home-main">
             <h1 className="home-name">
-              <Link to="/jimmyzhang-md" className="home-nav-link">jimmyzhang.md</Link>
+              <Link to="/jimmyzhang" className="home-nav-link">jimmyzhang.md</Link>
             </h1>
             <nav className="home-nav" aria-label="sections">
               {sections.map((name) => (
