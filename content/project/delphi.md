@@ -1,8 +1,8 @@
 ---
 title: Delphi
 finished: Apr 2026
-description: A better chatbot that helps you think deeper, clearer, better
+description: AI to help you think deeper, clearer, better
 website: https://delphi-web.netlify.app
 image: "[[delphi.jpg]]"
-status: finished
+status: active
 ---

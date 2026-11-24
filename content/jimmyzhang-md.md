@@ -4,9 +4,9 @@ title: jimmyzhang.md
 Hi. I am Jimmy Zhang. 
 I am currently a student at University of Michigan, Ann Arbor. 
 
-I come from a [UWC](https://uwc.org/) education background in China and the Netherlands. I felt strongly about the issue of education. 
+I grew up in China’s public school system and later received [UWC](https://uwc.org/) education in China and the Netherlands. I felt strongly about the issue of education at both individual and societal level. 
 
-My academic interest lies in complexity science, especially network science and its potential in capturing semantic relationships between atomic notes. 
+My academic interest lies in complexity science, especially network science and its potential in capturing semantic relationships between atomic notes and modeling social networks. 
 
 I am passionate about learning and note-taking, especially on digital note-taking software like [Obsidian](https://obsidian.md). I am also engaged in software, tech, and AI in general. 
 
